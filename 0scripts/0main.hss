@@ -2,6 +2,7 @@ include, array.hss
 include, battle.hss
 include, util.hss
 include, events.hss
+include, texts.hss
 include, message.hss
 include, thirdparty.hss
 
@@ -39,6 +40,11 @@ global variable, begin
 	17, menu:lastmain 
 
 	18, var:volume
+
+	#increments during game play
+	19, game:tick
+
+	20, stat:battle
 end
 
 plotscript, defnewgame, begin
@@ -46,10 +52,12 @@ plotscript, defnewgame, begin
 	suspendcontrol
 	resetcontrols()
 	resumecontrol
+	mainloop
 end
 
 plotscript, defloadgame, begin
 	resumecontrol
+	mainloop
 end
 
 plotscript, defautorun, begin
@@ -59,45 +67,49 @@ plotscript, defautorun, begin
 			loadmirrorperson
 		)
 	)
-	three frame walking eachtick
-	mapeverytick(currentmap)
+	
 	exit script
 end
 
 plotscript, defmenu, begin
 end
 
-script, mapeverytick, map, begin
-	variable (i, sli, var)
+script, mainloop, begin
+	while (true) do (
+		keypresshandler
+		mapeverytick
+		wait
+		game:tick += 1
+	)
+end
 
-	if (currentmap <> map) then (exit script)
+
+script, mapeverytick, begin
+	variable (i, sli, var)
 	for (i, 0, 3) do (
 		if (hero by slot (i)<>-1) then (
 			if (heroiswalking(i)==false) then (set hero frame (i, 0))
 		)
 	)
 	
-	switch (map) do (
+	switch (currentmap) do (
 		case (2) do (
 			updatemirrorperson
 			sli := lookupslice(sl:mapLayer0)
-			var := getslice extra (sli, 0)
-			if (var == 0||var == 2) then (set slice y (sli, slice y(sli)--1))
-
-			if (var>=2) then (set slice x (sli, slice x(sli)--1),var :=0) else (var += 1)
-			set slice extra (sli, 0, var)
+			if (game:tick,mod,2) then (set slice y (sli, slice y(sli)--1))
+			if (game:tick,mod,2) then (set slice x (sli, slice x(sli)--1),var :=0)
 		)
 	)
 	three frame walking eachtick
-	set timer (timer:mapeverytick, 1, 1, @mapeverytick)
-	set timer args (timer:mapeverytick, map)
 end
 
 plotscript, defkeypress, begin
 	if (keyispressed(key:leftshift)&&keyispressed(key:r)) then (reset game)
 	if (newkeypress (key:1)) then (wildpal(10))
 	if (newkeypress (key:2)) then (resetpalette(), updatepalette())
+end
 
+script, keypresshandler, begin
 	if (controlissuspended) then (exit script)
 	if (topmenu) then (menu keypress, exit script)
 	variable (x,y, who, cur map, var)

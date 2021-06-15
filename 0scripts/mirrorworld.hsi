@@ -8,6 +8,9 @@ define constant, begin
 1,song:attic
 2,song:prehistoric beats
 3,song:why dont you save now
+0,sfx:talk1
+1,sfx:talk2
+2,sfx:talk3
 0,stat:HP
 1,stat:MP
 2,stat:Atk
