@@ -1,13 +1,13 @@
 plotscript, battle, formation, begin
 	variable (i, sli, battlecheck)
-	wait (10)
+	specwait (10)
 	#start battle
 	innitbattle(formation)
 
 	while (true) do (
 		battlecheck :=battleturn()
 		battlecheck :=battleaction()
-		battlewait(6)
+		specwait(6)
 		if (battlecheck <> true) then (break)
 	)
 
@@ -16,16 +16,17 @@ plotscript, battle, formation, begin
 	suspendcontrol
 	free slice (lookupslice(sli:battleCol))
 	resumecontrol
+	stat:battle := false
 	
 	subscript, battleturn, begin
 		while (true) do (
 			while (true) do (
 				if (new key press(anykey)) then (break)
-				battlewait()
+				specwait()
 			)
-			if (newkeypress(key:esc)) then (battlewait(8), exitReturning(false))
+			if (newkeypress(key:esc)) then (specwait(8), exitReturning(false))
 			
-			battlewait()
+			specwait()
 		)
 	end
 
@@ -37,15 +38,16 @@ end
 script, innitbattle, formation, begin
 	variable (i, sli)
 	suspendcontrol
+	stat:battle := true
 	loadslicecollection(0)
 	loadbattleback(formation)
-	battlewait(8)
+	specwait(8)
 end
 
-script, battlewait, time=1, begin
+script, battleupdate, time=1, begin
 	variable (i, sli)
 	for (i, 1, time) do(
-		wait
+		specwait
 		sinedist()
 	)
 end
