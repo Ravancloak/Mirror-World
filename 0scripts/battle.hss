@@ -1,0 +1,207 @@
+plotscript, battle, formation, begin
+	variable (i, sli, battlecheck)
+	wait (10)
+	#start battle
+	innitbattle(formation)
+
+	while (true) do (
+		battlecheck :=battleturn()
+		battlecheck :=battleaction()
+		battlewait(6)
+		if (battlecheck <> true) then (break)
+	)
+
+	#clean up slices and exit script
+	freebattleback
+	suspendcontrol
+	free slice (lookupslice(sli:battleCol))
+	resumecontrol
+	
+	subscript, battleturn, begin
+		while (true) do (
+			while (true) do (
+				if (new key press(anykey)) then (break)
+				battlewait()
+			)
+			if (newkeypress(key:esc)) then (battlewait(8), exitReturning(false))
+			
+			battlewait()
+		)
+	end
+
+	subscript, battleaction, begin
+		exitReturning(false)
+	end
+end
+
+script, innitbattle, formation, begin
+	variable (i, sli)
+	suspendcontrol
+	loadslicecollection(0)
+	loadbattleback(formation)
+	battlewait(8)
+end
+
+script, battlewait, time=1, begin
+	variable (i, sli)
+	for (i, 1, time) do(
+		wait
+		sinedist()
+	)
+end
+
+script, loadbattleback, formation, begin
+	variable (height, sli, sli2, i, j, set1, set2, blend1, blend2, opacity1, opacity2)
+	sli := load backdrop sprite (0)
+	height := slice height (sli)
+	dissolve sprite (sli , dissolve:fade, 40, 0, true)
+	put slice (sli, -20, 20)
+	set slice clipping (sli, true)
+	set slice lookup(sli, sli:battleback)
+	set parent(sli, lookupslice(sli:battleCol))
+	slice to back (sli)
+
+	switch (formation)do(
+		case (0) do (
+			set1 := 1, set2 := 1
+			blend1 := blend:add
+			blend2 := blend:normal
+			opacity1 := 50
+			opacity2 := 30
+		)
+		case (1) do (
+			set1 := 1, set2 := 1
+			blend1 := blend:add
+			blend2 := blend:multiply
+			opacity1 := 100
+			opacity2 := 50
+		) else (
+			set1 := 0, set2 := 0
+			blend1 := blend:normal
+			blend2 := blend:normal
+			opacity1 := 100
+			opacity2 := 100
+		)
+	)
+
+	for (j, 0, 1) do (
+		sli := create container ()
+		set parent(sli, lookupslice(sli:battleback))
+		put slice (sli, -30, -30)
+
+		for (i, 0, height--1) do (
+			sli := create container(500, 1)
+			put slice (sli, 0, i) 
+			set parent (sli, last child (lookupslice(sli:battleback)))
+			set slice clipping (sli, true)
+
+			if (j == 0) then (
+				sli2 := load backdrop sprite (set1)
+				set blend mode (sli2, blend1)
+				set opacity (sli2, opacity1)
+
+			) else (
+				sli2 := load backdrop sprite (set2)
+				set blend mode (sli2, blend2)
+				set opacity (sli2, opacity2)
+			)
+			dissolve sprite (sli2, dissolve:fade, 40, 0, true)
+
+			set parent (sli2, sli)
+			put slice (sli2, 0, i * -1)	
+		)
+	)
+end
+
+script, sinedist, begin
+	variable (i, j, sli, offset, newX, x, y, t,  formation, height)
+	variable (amplitude, frequency, timeScaling, mode, compression)
+
+	#formation := getElement(get array(array:battleinfo), battle:formation)
+
+	sli := slice child (first child (first child (lookupslice(sli:battleback))))
+
+	height := slice height (sli)
+
+	for (j, 0, 1) do (
+
+		if (j == 0) then (
+			switch (formation) do (
+				case (0) do (
+					amplitude := 10, frequency := 5, compression := 1
+					timeScaling := 20, mode := 1
+				)
+				case (1) do (
+					amplitude := 2, frequency := 8, compression := 3
+					timeScaling := 30, mode := 1
+				) else (
+					amplitude := 4, frequency := 20, compression := 1
+					timeScaling := 20, mode := 3
+				)
+			)
+		) else (
+			switch (formation) do (
+
+				case (1) do (
+					amplitude := -8, frequency := 8, compression := 3
+					timeScaling := 30, mode := 3
+				)
+				case (2) do (
+					amplitude := 4, frequency := 20, compression := 1
+					timeScaling := 20, mode := 3
+				) else (
+					amplitude := 4, frequency := 20, compression := 1
+					timeScaling := 20, mode := 3
+				)
+			)
+		)
+
+		t := get slice extra (first child (lookupslice(sli:battleback)), 0)
+		if (timeScaling == 0) then (timeScaling := 1)
+		t := (t * 80)/timeScaling
+
+		for (i, 0, height--1) do (
+			x := 0
+			sli := first child (slice child (slice child (lookupslice(sli:battleback), j), i))
+			
+			offset := sine ((frequency*i)/2 + t) * amplitude/6000
+			
+			if (mode == 1) then(
+				x := offset
+				put slice (sli, x, i * -1)
+			) else if (mode == 2) then (
+				if (i, mod, 2) then (offset := offset * -1) else ()
+				x := offset
+				put slice (sli, x, i * -1)
+			) else if (mode == 3) then (
+				y := i * compression + offset
+
+				y := (y + height), mod, height
+
+				put slice (sli, x, y * -1) 
+			)
+		)
+		
+	)
+	
+	
+	t := get slice extra (first child (lookupslice(sli:battleback)), 0)
+	t += 1
+	set slice extra (first child (lookupslice(sli:battleback)), 0, t)
+end
+
+script, freebattleback, begin
+	variable (i, j, height, sli)
+
+	dissolve sprite (lookupslice(sli:battleback), dissolve:fade, 45)
+
+	sli := slice child (first child (first child (lookupslice(sli:battleback))))
+	height := slice height (sli)
+
+	for (j, 0, 1) do (
+		for (i, 0, height--1) do (
+			sli := first child (slice child (slice child (lookupslice(sli:battleback), j), i))
+			dissolve sprite (sli, dissolve:fade, 45)		
+		)
+	)
+end

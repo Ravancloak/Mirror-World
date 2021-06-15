@@ -1,0 +1,317 @@
+#======================================================================================================
+#ANIMATING
+#======================================================================================================
+script, wildpal, rand, begin
+	variable (r, g, b, i)
+	if (rand > 63) then (rand := 63)
+	if (rand < -63) then (rand := -63)
+	reset palette
+	r := random (rand*-1, rand)
+	g := random (rand*-1, rand)
+	b := random (rand*-1, rand)
+	for (i, 1, wildpal:palsize) do (
+		tweak palette (r, g, b, i, i)
+		update palette
+	)
+end
+
+script, loadmirrorperson, begin
+	variable (i, sli, sli2, sli3)
+	sli2 :=  loadSmallEnemySprite(2)
+	set parent (sli2, lookupslice(sl:maplayer1))
+	put slice (sli2, 11*20, 7*20)
+	set slice clipping (sli2, true)
+	set slice lookup(sli2, sli:mirrorheroes)
+	
+	for (i, 0, 3) do (
+		if (hero by slot (i)<>0) then (
+			sli := load walkabout sprite (getHeroSprite(i))
+			put slice (sli, -11*20, -7*20)
+			set parent (sli, sli2)
+			sli3 :=  loadSmallEnemySprite(2)
+			set parent (sli3, sli)
+			set opacity (sli3, 40)
+		)
+	)
+end
+
+script, updatemirrorperson, begin
+	variable (i, sli, sli2, sli3, var)
+	sli2 := lookupslice (sli:mirrorheroes)
+	for (i, 0, 4) do (
+		if (hero by slot (i)<>-1) then (
+			#find slice
+			sli := slice child (sli2, i)
+			put slice (sli, heroPixelX(i)--11*20, heropixelY(i)--20--7*20)
+
+			#update frame
+			var := getSpriteFrame (getHeroSprite(i))
+			if (var==0||var==1||var==4||var==5) then (
+				set sprite frame(sli, (var+4),mod,8)
+			)else (
+				set sprite frame(sli, var)
+			)
+		)
+	)
+end
+
+# threeframe.hss
+# Three-frame walking animation script
+#
+# To use this script, draw your walkabout sprites
+# to use two consecutive walkabout spritesets.
+# In the first spriteset each direction should contain:
+#   UP neutral frame, UP walking frame 1, RIGHT neutral frame, RIGHT walking frame 1, ...
+# The second spriteset should be:
+#   UP neutral frame, UP walking frame 2, RIGHT neutral frame, RIGHT walking frame 2, ...
+# If some of your walkabouts have two frames and others have 3
+# frames, then you can add an if condition to the "three frame walking update"
+# script to skip over some graphics. See that script for an example.
+#
+# Next, import this script file into your game, and set
+# "start three frame walking" as the newgame and loadgame special script
+# triggers in the General Game Data menu.
+#
+# This script is fully compatible with the walktall scripts or most other scripts
+# that modify either hero or npc walkabout set numbers, or hero or npc
+# sprite slices directly. Just call "embiggen heroes" and "embiggen npcs" from the
+# map autorun script as normal.
+
+
+# ID of the timer to use
+define constant(15, timer:three frame walking)
+# Slice extradata slot to use for metadata
+define constant(2, extradata:three frame walking)
+
+# Set this script as the newgame and loadgame scripts, or call it from those scripts
+plotscript, start three frame walking, begin
+  three frame walking eachtick
+end
+
+
+script, three frame walking eachtick, begin
+  # Update hero sprites
+  variable (hero, slice)
+  for (hero, 0, 3) do (
+    # Check this caterpillar party slot isn't empty
+    if (hero by rank(hero) < 0) then (continue)
+    slice := lookup slice(sl:walkabout sprite component, get hero slice(hero))
+    three frame walking update(slice)
+  )
+
+  # Update npc sprites
+  variable (npcid, i, npcref)
+  for (npcid, 0, 199) do (
+    for (i, 0, npc copy count(npcid) -- 1) do (
+      npcref := npc reference(npcid, i)
+      slice := lookup slice(sl:walkabout sprite component, get npc slice(npcref))
+      three frame walking update(slice)
+    )
+  )
+
+  # This schedules the script to run again next tick, continuing forever
+end
+
+# Update a hero's or NPC's walkabout sprite slice 
+script, three frame walking update, slice, begin
+  variable (current spriteset)
+  current spriteset := get spriteset number(slice)
+
+  # If you want to exclude some walkabouts from three-frame animations, you can
+  # add a check like the following here:
+  if (current spriteset ==4) then (exit script)
+
+  variable (extradata, previous frame, current frame, previous spriteset, base spriteset)
+  current frame := get sprite frame(slice), and, 1
+
+  # Load metadata
+  extradata := get slice extra(slice, extradata:three frame walking)
+  previous frame := extradata, mod, 10
+  previous spriteset := (extradata / 10), mod, 10 000
+  base spriteset := (extradata / 100 000)
+
+  if (previous spriteset <> current spriteset) then (
+    # If the spriteset changes for some external reason, such as a change in party
+    # order or a call to setheropicture, then we need to reset base spriteset
+    base spriteset := current spriteset
+  ) else (
+
+    if (current frame <> previous frame) then (
+      if (current frame == 0) then (
+        # Change to the other spriteset.
+        # (if you want more frames, change this part, and use N - 1 spritesets
+        # for N frames)
+        if (current spriteset == base spriteset) then (
+          current spriteset := base spriteset + 1
+        ) else (
+          current spriteset := base spriteset
+        )
+        set spriteset number(slice, current spriteset)
+      )
+    )
+  )
+  # Store metadata
+  extradata := current frame + current spriteset * 10 + base spriteset * 100 000
+  set slice extra(slice, extradata:three frame walking, extradata)
+end
+
+script, animateframe, sli, timer, first, last, ticks, begin
+    variable (var)
+    var := get sprite frame (sli)
+    if (var < last) then (set sprite frame (sli, var+1)) else (set sprite frame (sli, first))
+    set slice extra (sli, 0, 0)
+    set timer (timer, ticks, 1, @animate)
+    set timer args (timer, sli, timer, first, last, ticks)
+end
+
+script, animate, sli, timer, first, last, ticks, begin
+    variable (var)
+    var := get sprite set number (sli)
+    if (var < last) then (set sprite set number (sli, var+1)) else (set sprite set number (sli, first))
+    set slice extra (sli, 0, 0)
+    set timer (timer, ticks, 1, @animate)
+    set timer args (timer, sli, timer, first, last, ticks)
+end
+#------------------------------------------------------------------------------------------------------
+
+
+#======================================================================================================
+#VARIOUS
+#======================================================================================================
+script, musicpercent, begin
+	variable(var)
+	var := (getmusicvolume*160/408)
+	return (var)
+end
+
+
+script, dirX, dir, begin
+    switch (dir) do (
+    case (up, down) do (return (0))
+    case (right) do (return (1))
+    case (left) do (return (-1))
+    )
+end
+
+script, dirY, dir, begin
+    switch (dir) do (
+    case (left, right) do (return (0))
+    case (down) do (return (1))
+    case (up) do (return (-1))
+    )
+end
+
+script,fademusicout,time,begin
+	variable(i, volume)
+	volume := get music volume
+	for(i,1,time,1) do(
+		set music volume(volume --(volume/time)*i)
+		wait
+	)
+	stop song
+	set music volume(volume)
+end
+
+script, activatableNPC, who, begin
+	if (read NPC (who,NPCstat:activation) == NPCactivation:use) then (return (true))
+end
+
+plotscript, totitle, begin
+	reset game
+end
+
+plotscript, doors, which, begin
+	usedoor(which)
+end
+#------------------------------------------------------------------------------------------------------
+
+
+#======================================================================================================
+#CONTROLS
+#======================================================================================================
+script, waitmode, ticks=1, begin
+	variable (i)
+	suspendcontrol()
+	for (i, 0, ticks) do (wait())
+	resumecontrol()
+end
+
+script, resumecontrol, begin
+	suspend player
+	state:control := true
+end
+
+script, suspendcontrol, begin
+	suspend player
+	state:control := false
+end
+
+script, controlissuspended, begin
+	if (state:control == false) then (return (true)) else (return (false))
+end
+
+script, resetControls, begin
+	cont:A	:= joy:A
+	cont:B	:= joy:B
+	cont:X	:= joy:Y
+	cont:Y	:= joy:X
+	
+	board:A	:= key:z
+	board:B	:= key:X
+	board:X	:= key:Enter
+	board:Y	:= key:rightShift
+	#test
+end
+
+script, waitForAnyKey, begin
+	while (true) do (wait, if (anyKeyCheck<>false) then (break))
+end
+script, waitForNewKey, begin
+	while (true) do (wait, if (newKeyCheck<>false) then (break))
+end
+script, anyKeyCheck, begin
+	if (keypressA ||keypressB||keypressX||keypressY) then (return (true))
+end
+script, newKeyCheck, begin
+	if (newkeypressA||newkeypressB||newkeypressX||newkeypressY) then (return (true))
+end
+
+script, keypressA, begin
+	if (keypress(cont:A) || keypress(board:A)) then (return (true)) else (return (false))
+end
+script, keypressB, begin
+	if (keypress(cont:B) || keypress(board:B)) then (return(true)) else (return (false))
+end
+script, keypressX, begin
+	if (keypress(cont:X) || keypress(board:X)) then (return(true)) else (return (false))
+end
+script, keypressY, begin
+	if (keypress(cont:Y) || keypress(board:Y)) then (return(true)) else (return (false))
+end
+
+script, newkeypressA, begin
+	if (newkeypress(cont:A) || newkeypress(board:A)) then (return (true)) else (return (false))
+end
+script, newkeypressB, begin
+	if (newkeypress(cont:B) || newkeypress(board:B)) then (return(true)) else (return (false))
+end
+script, newkeypressX, begin
+	if (newkeypress(cont:X) || newkeypress(board:X)) then (return(true)) else (return (false))
+end
+script, newkeypressY, begin
+	if (newkeypress(cont:Y) || newkeypress(board:Y)) then (return(true)) else (return (false))
+end
+
+script, keyIsPressedA, begin
+	if (keyIsPressed(cont:A) || keyIsPressed(board:A)) then (return (true)) else (return (false))
+end
+script, keyIsPressedB, begin
+	if (keyIsPressed(cont:B) || keyIsPressed(board:B)) then (return(true)) else (return (false))
+end
+script, keyIsPressedX, begin
+	if (keyIsPressed(cont:X) || keyIsPressed(board:X)) then (return(true)) else (return (false))
+end
+script, keyIsPressedY, begin
+	if (keyIsPressed(cont:Y) || keyIsPressed(board:Y)) then (return(true)) else (return (false))
+end
+#------------------------------------------------------------------------------------------------------

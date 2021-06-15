@@ -1,0 +1,70 @@
+plotscript, events, which, begin
+	suspendcontrol
+	switch (currentmap) do (
+		case (2) do (eventsattic(which))
+	)
+	resumecontrol
+end
+
+script, eventsattic, which, begin
+	variable (i, var, who, sli, sli2, sli3)
+	switch (which) do (
+		case (0) do (
+			who := NPC reference (0)
+			set NPC frame(who, 1), wait(5)
+			set NPC frame(who, 0)
+			for (i, 1, 3) do (
+				set npc direction(who,i)
+				wait(5)
+			)
+			wait(60)
+			sli := load attack sprite(0)
+			center slice (sli)
+			put slice (sli, 0, -20)
+			for (i,0,2) do (
+				setSpriteFrame (sli, i)
+				wait(3)
+			)
+			free slice (sli)
+			wait (80)
+			
+			sli := load attack sprite(1)
+			sli2 := load attack sprite(2)
+			set parent(sli, parent slice (getherosprite(me)))
+			slice to back (sli)
+			set parent(sli2,parent slice (getherosprite(me)))
+			set slice visible (getherosprite(me), false)
+			sli3 := loadWalkaboutSprite(get hero picture(me))
+			set parent (sli3, sli)
+			center slice (sli3)
+			realign slice (sli, edge:center, edge:bottom, edge:center, edge:bottom)
+			realign slice (sli2, edge:center, edge:bottom, edge:center, edge:bottom)
+			set slice clipping (sli, true)
+			for (i, 0,10) do (
+				for (var, 0,5) do (
+					panCamera (right,3,2)
+					wait (3)
+					panCamera (left,3,2)
+					wait (3)
+					wildpal(4)
+				)
+				setSlicey (sli3, i*2)
+				if (get sprite frame (sli)<2) then (
+					set sprite frame (sli,0)
+					set sprite frame (sli2,0)
+				) else (
+					set sprite frame (sli,get sprite frame (sli)+1)
+					set sprite frame (sli2,get sprite frame (sli)+1)
+				)
+				cameraFollowsHero
+				
+			)
+			free slice (sli)
+			free slice (sli2)
+			reset palette
+			update palette
+			wait (30)
+			set slice visible (getherosprite(me), true)
+		)
+	)
+end

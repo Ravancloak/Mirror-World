@@ -1,0 +1,271 @@
+include, array.hss
+include, battle.hss
+include, util.hss
+include, events.hss
+include, message.hss
+include, thirdparty.hss
+
+define constant, begin
+	63, wildpal:palsize
+
+	200, sli:battleback
+	201, sli:mirrorheroes
+
+	1, timer:mapeverytick
+end
+
+global variable, begin
+	#remap variables
+	0, board:a
+	1, board:b
+	2, board:X
+	3, board:Y
+	4, board:up
+	5, board:down
+	6, board:left
+	7, board:right
+	8, cont:a
+	9, cont:b
+	10, cont:X
+	11, cont:Y
+	12, cont:up
+	13, cont:down
+	14, cont:left
+	15, cont:right
+
+	#suspends controls
+	16, state:control
+
+	17, menu:lastmain 
+
+	18, var:volume
+end
+
+plotscript, defnewgame, begin
+	var:volume := set music volume (255/50*41)
+	suspendcontrol
+	resetcontrols()
+	resumecontrol
+end
+
+plotscript, defloadgame, begin
+	resumecontrol
+end
+
+plotscript, defautorun, begin
+	variable (sli)
+	switch (currentmap) do (
+		case (2) do (
+			loadmirrorperson
+		)
+	)
+	three frame walking eachtick
+	mapeverytick(currentmap)
+	exit script
+end
+
+plotscript, defmenu, begin
+end
+
+script, mapeverytick, map, begin
+	variable (i, sli, var)
+
+	if (currentmap <> map) then (exit script)
+	for (i, 0, 3) do (
+		if (hero by slot (i)<>-1) then (
+			if (heroiswalking(i)==false) then (set hero frame (i, 0))
+		)
+	)
+	
+	switch (map) do (
+		case (2) do (
+			updatemirrorperson
+			sli := lookupslice(sl:mapLayer0)
+			var := getslice extra (sli, 0)
+			if (var == 0||var == 2) then (set slice y (sli, slice y(sli)--1))
+
+			if (var>=2) then (set slice x (sli, slice x(sli)--1),var :=0) else (var += 1)
+			set slice extra (sli, 0, var)
+		)
+	)
+	three frame walking eachtick
+	set timer (timer:mapeverytick, 1, 1, @mapeverytick)
+	set timer args (timer:mapeverytick, map)
+end
+
+plotscript, defkeypress, begin
+	if (keyispressed(key:leftshift)&&keyispressed(key:r)) then (reset game)
+	if (newkeypress (key:1)) then (wildpal(10))
+	if (newkeypress (key:2)) then (resetpalette(), updatepalette())
+
+	if (controlissuspended) then (exit script)
+	if (topmenu) then (menu keypress, exit script)
+	variable (x,y, who, cur map, var)
+	#checks to see if player should stop for npc event
+	cur map := current map
+	if (npc at spot (hero x, hero y)) then (exit script)
+
+	if(hero is walking(0)==false && hero is walking(1)==false && hero is walking(2)==false && hero is walking(3)==false) then (
+		set hero speed(me, 1)
+		#b button, dashing
+		if (keyIsPressedB) then (
+			set hero speed(me, 2)
+		)
+	)
+
+	#a button,  use stuff
+	if (newkeypressA && hero is walking(me) == false) then (
+		x := hero X + dirX(hero direction)
+		y := hero Y + dirY(hero direction)
+		if (NPC at spot (x,y)) then (
+			if (activatableNPC(NPC at spot (x,y))) then (
+				usenpcatspot
+				exit script
+			)
+		)	
+	)
+	
+	if (newkeypressX) then (
+		open menu (0)
+		select menu item(menu item by true slot(top menu, menu:lastmain))
+		$1="Music "
+		append number (1, musicpercent)
+		$1+"%"
+		set menu item caption(menu item by true slot(top menu, 2), 1)
+		exitscript
+	)
+	#arrow keys, move character
+
+	if (hero is walking(me) == false) then (
+	if (keypress(up key)) then (
+		x := heroX(me)
+		y := heroY(me)--1
+		if (NPC at spot (x,y)) then (
+			if (activatableNPC(NPC at spot (x,y))) then (
+				set hero direction (me, up)
+				usenpcatspot
+				exit script
+			)
+		)
+	)
+	if (keypress(down key)) then (
+		x := heroX(me)
+		y := heroY(me)+1
+		if (NPC at spot (x,y)) then (
+			if (activatableNPC(NPC at spot (x,y))) then (
+				set hero direction (me, down)
+				usenpcatspot
+				exit script
+			)
+		)
+	)
+	if (keypress(left key)) then (
+		x := heroX(me)--1
+		y := heroY(me)
+		if (NPC at spot (x,y)) then (
+			if (activatableNPC(NPC at spot (x,y))) then (
+				set hero direction (me, left)
+				usenpcatspot
+				exit script
+			)
+		)
+	)
+	if (keypress(right key)) then (
+		x := heroX(me)+1
+		y := heroY(me)
+		if (NPC at spot (x,y)) then (
+			if (activatableNPC(NPC at spot (x,y))) then (
+				set hero direction (me, right)
+				usenpcatspot
+				exit script
+			)
+		)
+	)
+	)
+
+	if (hero is walking(me) == false) then (
+		if (key is pressed(up key)) then (walk hero(me, up, 1), exit script)
+		if (key is pressed(left key)) then (walk hero(me, left, 1), exit script)
+		if (key is pressed(down key)) then (walk hero(me, down, 1), exit script)
+		if (key is pressed(right key)) then (walk hero(me, right, 1), exit script)
+	)
+
+	subscript, usenpcatspot, begin
+		who := (NPC at spot(x,y))
+		if (NPC is walking (who) == false) then (
+			suspendcontrol
+			if (read NPC (who,NPCstat:when activated) <> NPCwhenactivated:donotfaceplayer) then (
+				switch(hero direction(me)) do, (
+					case (up) do (set NPC direction (who, down))
+					case (down) do (set NPC direction (who, up))
+					case (left) do (set NPC direction (who, right))
+					case (right) do (set NPC direction (who, left))
+				)
+			)
+		)
+		use npc (who)
+		waitmode(1)
+	end
+end
+
+script, menu keypress, begin
+	variable (var)
+	if (keypressA) then (if (topmenu) then (use menu item(selected menu item)) exit script)
+
+	if (get menu bit(topmenu, menubit:no close) <> true) then (
+		if (keypressX && get menu ID(topmenu)==0) then (
+			if (get menu ID(topmenu)==0) then (menu:lastmain := menu item true slot(selected menu item(topmenu)))
+			close menu(top menu)
+			exit script
+		)
+
+		if (keypressB) then (
+			var := topmenu
+			if (get menu cancel button menu(topmenu)<>-1) then (open menu (get menu cancel button menu(topmenu)))
+			if (get menu ID(topmenu)==0) then (menu:lastmain := menu item true slot(selected menu item(topmenu)))
+			close menu(var)
+			exit script
+		)
+	)
+	if (keypress(right key)) then (
+		if (find menu ID(0)) then(
+			if (selected menu item(top menu)==menu item by true slot(top menu, 2)) then (
+				var:volume := set music volume (getmusicvolume+255/50)
+			)
+
+			$1="Music "
+			append number (1, musicpercent)
+			$1+"%"
+			set menu item caption(menu item by true slot(top menu, 2), 1)
+		)
+	)
+
+	if (keypress(left key)) then (
+		if (find menu ID(0)) then(
+
+			if (selected menu item(top menu)==menu item by true slot(top menu, 2)) then (
+				var:volume := set music volume (getmusicvolume--255/50)
+			)
+			$1="Music "
+			append number (1, musicpercent)
+			$1+"%"
+			set menu item caption(menu item by true slot(top menu, 2), 1)
+		)
+	)
+
+	if (keypress(up key)) then (
+		if (selected menu item(top menu) <> first menu item(top menu)) then (
+			select menu item(previous menu item(selected menu item(topmenu)))
+		) else if (selected menu item(top menu) == first menu item(top menu)) then (
+			select menu item(last menu item(top menu))
+		)
+	)
+
+	if (keypress(down key)) then (
+		if (selected menu item(top menu) <> last menu item(top menu)) then (
+			select menu item(next menu item(selected menu item(topmenu)))
+		) else if (selected menu item(top menu) == last menu item(top menu)) then (
+			select menu item(first menu item(top menu))
+		)
+	)
+end
