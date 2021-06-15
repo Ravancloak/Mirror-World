@@ -11,6 +11,9 @@ define constant, begin
 0,sfx:talk1
 1,sfx:talk2
 2,sfx:talk3
+3,sfx:breath1
+4,sfx:breath2
+5,sfx:breath3
 0,stat:HP
 1,stat:MP
 2,stat:Atk
@@ -47,5 +50,7 @@ define constant, begin
 0,map:Blank
 1,map:Title
 2,map:Attic
+0,menu:Main Menu
+1,menu:Settings
 1,sli:BattleCol
 end

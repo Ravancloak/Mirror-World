@@ -2,7 +2,7 @@ include, array.hss
 include, battle.hss
 include, util.hss
 include, events.hss
-include, texts.hss
+include, menus.hss
 include, message.hss
 include, thirdparty.hss
 
@@ -11,6 +11,7 @@ define constant, begin
 
 	200, sli:battleback
 	201, sli:mirrorheroes
+	202, sli:fade
 
 	1, timer:mapeverytick
 end
@@ -105,7 +106,7 @@ end
 
 plotscript, defkeypress, begin
 	if (keyispressed(key:leftshift)&&keyispressed(key:r)) then (reset game)
-	if (newkeypress (key:1)) then (wildpal(10))
+	if (newkeypress (key:1)) then (resetcontrols)
 	if (newkeypress (key:2)) then (resetpalette(), updatepalette())
 end
 
@@ -140,10 +141,6 @@ script, keypresshandler, begin
 	if (newkeypressX) then (
 		open menu (0)
 		select menu item(menu item by true slot(top menu, menu:lastmain))
-		$1="Music "
-		append number (1, musicpercent)
-		$1+"%"
-		set menu item caption(menu item by true slot(top menu, 2), 1)
 		exitscript
 	)
 	#arrow keys, move character
@@ -240,7 +237,7 @@ script, menu keypress, begin
 		)
 	)
 	if (keypress(right key)) then (
-		if (find menu ID(0)) then(
+		if (find menu ID(1)) then(
 			if (selected menu item(top menu)==menu item by true slot(top menu, 2)) then (
 				var:volume := set music volume (getmusicvolume+255/50)
 			)
@@ -253,7 +250,7 @@ script, menu keypress, begin
 	)
 
 	if (keypress(left key)) then (
-		if (find menu ID(0)) then(
+		if (find menu ID(1)) then(
 
 			if (selected menu item(top menu)==menu item by true slot(top menu, 2)) then (
 				var:volume := set music volume (getmusicvolume--255/50)
@@ -281,3 +278,4 @@ script, menu keypress, begin
 		)
 	)
 end
+

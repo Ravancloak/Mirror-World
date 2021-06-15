@@ -1,0 +1,7 @@
+plotscript, opensettingsmenu, begin
+	open menu(1)
+	$1="Music "
+	append number (1, musicpercent)
+	$1+"%"
+	set menu item caption(menu item by true slot(top menu, 2), 1)
+end

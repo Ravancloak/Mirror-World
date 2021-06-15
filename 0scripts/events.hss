@@ -1,3 +1,27 @@
+defineconstant,begin
+	0, emote:shrug
+end
+
+script, emote, who, which, begin
+	variable (sli, i)
+	suspendControl
+	specwait (10)
+	switch (which) do (
+	case (emote:shrug) do (
+		setHeroPicture (who,3)
+		for (i, 0, 6) do (
+			set hero direction (who,i,mod,2)
+			specwait(10)
+		)
+		specwait (6)
+		setHeroPicture (who,1)
+		set hero direction (who,down)
+	)
+	)
+	resumeControl
+	specwait (10)
+end
+
 plotscript, events, which, begin
 	suspendcontrol
 	switch (currentmap) do (
@@ -12,6 +36,7 @@ script, eventsattic, which, begin
 		case (0) do (
 			if (check tag (tag:MirrorCheck)==on) then (
 				write (2)
+				specwait(60)
 				sli := load attack sprite(0)
 				center slice (sli)
 				put slice (sli, 0, -20)
@@ -20,7 +45,7 @@ script, eventsattic, which, begin
 					specwait(8)
 				)
 				free slice (sli)
-				specwait (80)
+				specwait (30)
 				sli := load attack sprite(1)
 				sli2 := load attack sprite(2)
 				set parent(sli, parent slice (getherosprite(me)))
@@ -49,7 +74,8 @@ script, eventsattic, which, begin
 
 					if (game:tick,mod,4==1) then (wildpal(4))
 					specwait (2)
-					setSlicey (sli3, i * -1)
+					set sprite frame (sli3,4)
+					setSlicey (sli3, i * -2)
 					set sprite frame (sli, (i/2),mod,2)
 					set sprite frame (sli2, (i/2),mod,2)
 				)
@@ -65,21 +91,34 @@ script, eventsattic, which, begin
 				)
 				free slice (sli)
 				free slice (sli2)
+				for (i,0,30) do (
+					if (game:tick,mod,4==1) then (wildpal(4))
+					specwait
+				)
 				reset palette
 				update palette
 				specwait (30)
+				screenfadeout
 				set slice visible (getherosprite(me), true)
+				specwait (80)
+				screen fade in
 			)else (
 				who := NPC reference (0)
 				set NPC frame(who, 1), specwait(5)
 				set NPC frame(who, 0)
 				for (i, 1, 3) do (
 					set npc direction(who,i)
-					specwait(10)
+					specwait(15)
 				)
+				specwait(60)
+				write (6)
 				set tag (tag:MirrorCheck, on)
 			)
-			
+		)
+		case (1) do (
+			emote(me, emote:shrug)
+			specwait(10)
+			write(3)
 		)
 	)
 end

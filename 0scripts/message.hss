@@ -4,7 +4,7 @@ define constant, begin
 	0, font:interval
 	16, font:rows
 	14, font:columns
-	12, font:grid x
+	10, font:grid x
 	12, font:grid y
 	18, font:spacing
 end
@@ -53,11 +53,6 @@ plotscript, write, text,blank=0,choice=0,pausenpc=0(
 	charX := 8
 	charY := 8
 
-
-	if (checktag (15)==true) then (wt:=1) else (
-		wt:=2
-	)
-
 	int:= font:interval
 	msg:= create container(get screen width, get screen height)
 	put slice (msg, 8, 20)
@@ -84,9 +79,9 @@ plotscript, write, text,blank=0,choice=0,pausenpc=0(
 		  		if (skip==0) then (specwait)
 		  		if (anyKeyCheck) then (
 			  		skip:=1
-			  		play sound (random(0,3),false,true)		  		
+			  		play sound (random(0,2),false,true)		  		
 		  		)
-		  		play sound (random(0,3),false,true)	
+		  		play sound (random(0,2),false,true)	
 		  	)
 		)
 	refresh()
@@ -380,22 +375,32 @@ subscript, refresh, (
 		waitForNewKey
 		if (choice<>0) then (open menu(choice))
 		while (top menu) do (specwait)
-
+		skip :=0
 		variable(spr)
 		letter:=first container child(msg)		
-	
 		for(pos, 1, string length(string)) do(
 			spr:=first child(letter)
-           dissolve sprite(spr, dissolve:phase out, string length(string)*2, 1, 0)
+         dissolve sprite(spr, dissolve:phase out, string length(string)*2, 1, 0)
 		   letter:=next sibling(letter)
-		   specwait
-        )
+		   if (skip==0) then (specwait)
+		  	if (anyKeyCheck) then (
+			  	skip:=1
+			  	if (game:tick,mod,2==1) then (play sound (random(3,5),false,true))	  		
+		  	)
+
+		  	play sound (random(3,5),false,true)
+      )
 		letter:=first container child(msg)
 		for(pos, 1, string length(string)--string length(string)*2/3) do(
 			spr:=first child(letter)
           free slice(spr), spr:=0
 		   letter:=next sibling(letter)
-		   specwait
+		   if (skip==0) then (specwait)
+		  		if (anyKeyCheck) then (
+			  		skip:=1
+			  		play sound (random(3,5),false,true)		  		
+		  		)
+		  		if (game:tick,mod,2==1) then (play sound (random(3,5),false,true))	
         )
 		
 
