@@ -1,2 +1,2 @@
 # Mirror-World
-OHRRPGCE Scripting files for Mirror-World
+OHRRPGCE files for Mirror-World
