@@ -45,7 +45,10 @@ global variable, begin
 	#increments during game play. check via mod for animating
 	19, game:tick
 
-	20, stat:battle
+	20, state:battle
+	21, state:textbox
+	
+	22, battle:selected
 end
 
 plotscript, defnewgame, begin
@@ -106,8 +109,9 @@ end
 
 plotscript, defkeypress, begin
 	if (keyispressed(key:leftshift)&&keyispressed(key:r)) then (reset game)
-	if (newkeypress (key:1)) then (resetcontrols)
-	if (newkeypress (key:2)) then (resetpalette(), updatepalette())
+	if (state:textbox) then (exit script)
+	if (newkeypress (key:9)) then (resetcontrols)
+	if (newkeypress (key:0)) then (resetpalette(), updatepalette())
 end
 
 script, keypresshandler, begin
