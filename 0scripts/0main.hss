@@ -42,7 +42,7 @@ global variable, begin
 
 	18, var:volume
 
-	#increments during game play
+	#increments during game play. check via mod for animating
 	19, game:tick
 
 	20, stat:battle
@@ -51,7 +51,7 @@ end
 plotscript, defnewgame, begin
 	var:volume := set music volume (255/50*41)
 	suspendcontrol
-	resetcontrols()
+	resetcontrols(false)
 	resumecontrol
 	mainloop
 end
