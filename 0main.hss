@@ -1,0 +1,312 @@
+include, array.hss
+include, battle.hss
+include, util.hss
+include, events.hss
+include, menus.hss
+include, message.hss
+include, thirdparty.hss
+
+define constant, begin
+	63, wildpal:palsize
+
+	200, sli:battleback
+	201, sli:mirrorheroes
+	202, sli:fade
+
+	1, timer:mapeverytick
+
+	0, state:suspend
+	1, state:resume
+	2, state:battle
+end
+
+global variable, begin
+	#remap variables
+	0, board:a
+	1, board:b
+	2, board:X
+	3, board:Y
+	4, board:up
+	5, board:down
+	6, board:left
+	7, board:right
+	8, cont:a
+	9, cont:b
+	10, cont:X
+	11, cont:Y
+	12, cont:up
+	13, cont:down
+	14, cont:left
+	15, cont:right
+
+	#suspends controls
+	16, state:control
+
+	17, menu:lastmain 
+
+	18, var:volume
+
+	#increments during game play. check via mod for animating
+	19, game:tick
+
+	20, state:battleturn
+	21, state:textbox
+	
+	22, battle:selected
+	24, battle:turn
+end
+
+plotscript, defnewgame, begin
+	var:volume := set music volume (255/50*41)
+	suspendcontrol
+	resetcontrols(false)
+	resumecontrol
+	mainloop
+end
+
+plotscript, defloadgame, begin
+	resumecontrol
+	mainloop
+end
+
+plotscript, defautorun, begin
+	variable (sli)
+	switch (currentmap) do (
+		case (2) do (
+			loadmirrorperson
+		)
+	)
+	
+	exit script
+end
+
+plotscript, defmenu, begin
+end
+
+script, mainloop, begin
+	while (true) do (
+		mapeverytick
+		wait
+		game:tick += 1
+	)
+end
+
+
+script, mapeverytick, begin
+	variable (i, sli, var)
+	for (i, 0, 3) do (
+		if (hero by slot (i)<>-1) then (
+			if (heroiswalking(i)==false) then (set hero frame (i, 0))
+		)
+	)
+	
+	switch (currentmap) do (
+		case (2) do (
+			updatemirrorperson
+			sli := lookupslice(sl:mapLayer0)
+			if (game:tick,mod,4==0) then (set slice y (sli, slice y(sli)--1))
+			if (game:tick,mod,7==0) then (set slice x (sli, slice x(sli)--1),var :=0)
+		)
+	)
+	three frame walking eachtick
+end
+
+plotscript, defkeypress, begin
+	if (keyispressed(key:leftshift)&&keyispressed(key:r)) then (reset game)
+	if (state:textbox) then (exit script)
+	if (newkeypress (key:9)) then (resetcontrols)
+	if (newkeypress (key:0)) then (resetpalette(), updatepalette())
+
+	if (topmenu) then (menu keypress, exit script)
+	switch (state:control) do (
+		case (state:suspend)	do ()
+		case (state:resume)		do (keypressmain)
+	)
+	if (battle:turn) then (battlekeypress)
+end
+
+script, keypressmain, begin
+	variable (x,y, who, cur map, var)
+	#checks to see if player should stop for npc event
+	cur map := current map
+	if (npc at spot (hero x, hero y)) then (exit script)
+
+	if(hero is walking(0)==false && hero is walking(1)==false && hero is walking(2)==false && hero is walking(3)==false) then (
+		set hero speed(me, 1)
+		#b button, dashing
+		if (keyIsPressedB) then (
+			set hero speed(me, 2)
+		)
+	)
+
+	#a button,  use stuff
+	if (newkeypressA && hero is walking(me) == false) then (
+		x := hero X + dirX(hero direction)
+		y := hero Y + dirY(hero direction)
+		if (NPC at spot (x,y)) then (
+			if (activatableNPC(NPC at spot (x,y))) then (
+				usenpcatspot
+				exit script
+			)
+		)	
+	)
+	
+	if (newkeypressX) then (
+		open menu (0)
+		select menu item(menu item by true slot(top menu, menu:lastmain))
+		exitscript
+	)
+	#arrow keys, move character
+
+	if (hero is walking(me) == false) then (
+	if (keypress(up key)) then (
+		x := heroX(me)
+		y := heroY(me)--1
+		if (NPC at spot (x,y)) then (
+			if (activatableNPC(NPC at spot (x,y))) then (
+				set hero direction (me, up)
+				usenpcatspot
+				exit script
+			)
+		)
+	)
+	if (keypress(down key)) then (
+		x := heroX(me)
+		y := heroY(me)+1
+		if (NPC at spot (x,y)) then (
+			if (activatableNPC(NPC at spot (x,y))) then (
+				set hero direction (me, down)
+				usenpcatspot
+				exit script
+			)
+		)
+	)
+	if (keypress(left key)) then (
+		x := heroX(me)--1
+		y := heroY(me)
+		if (NPC at spot (x,y)) then (
+			if (activatableNPC(NPC at spot (x,y))) then (
+				set hero direction (me, left)
+				usenpcatspot
+				exit script
+			)
+		)
+	)
+	if (keypress(right key)) then (
+		x := heroX(me)+1
+		y := heroY(me)
+		if (NPC at spot (x,y)) then (
+			if (activatableNPC(NPC at spot (x,y))) then (
+				set hero direction (me, right)
+				usenpcatspot
+				exit script
+			)
+		)
+	)
+	)
+
+	if (hero is walking(me) == false) then (
+		if (key is pressed(up key)) then (walk hero(me, up, 1), exit script)
+		if (key is pressed(left key)) then (walk hero(me, left, 1), exit script)
+		if (key is pressed(down key)) then (walk hero(me, down, 1), exit script)
+		if (key is pressed(right key)) then (walk hero(me, right, 1), exit script)
+	)
+
+	subscript, usenpcatspot, begin
+		who := (NPC at spot(x,y))
+		if (NPC is walking (who) == false) then (
+			suspendcontrol
+			if (read NPC (who,NPCstat:when activated) <> NPCwhenactivated:donotfaceplayer) then (
+				switch(hero direction(me)) do, (
+					case (up) do (set NPC direction (who, down))
+					case (down) do (set NPC direction (who, up))
+					case (left) do (set NPC direction (who, right))
+					case (right) do (set NPC direction (who, left))
+				)
+			)
+		)
+		use npc (who)
+		waitmode(1)
+	end
+end
+
+script, battlekeypress, begin
+	variable (sli)
+
+	sli := lookupslice (sli:battlemenu)
+
+	if (keypress(key:esc)) then (battleEnd())
+
+	if (keypress(key:up)&&battle:selected>0) then (battle:selected -= 1)
+	if (keypress(key:down)&&battle:selected<4) then (battle:selected += 1)
+	if (keypress(key:1)) then (battle:selected := 0, battle:turn := false)
+	if (keypress(key:2)) then (battle:selected := 1, battle:turn := false)
+	if (keypress(key:3)) then (battle:selected := 2, battle:turn := false)
+	if (keypress(key:4)) then (battle:selected := 3, battle:turn := false)
+	if (keypress(key:5)) then (battle:selected := 4, battle:turn := false)
+	if (keypressA) then (battle:turn := false)
+	show value (battle:selected)
+end
+
+script, menukeypress, begin
+	variable (var)
+	if (keypressA) then (if (topmenu) then (use menu item(selected menu item)) exit script)
+
+	if (get menu bit(topmenu, menubit:no close) <> true) then (
+		if (keypressX && get menu ID(topmenu)==0) then (
+			if (get menu ID(topmenu)==0) then (menu:lastmain := menu item true slot(selected menu item(topmenu)))
+			close menu(top menu)
+			exit script
+		)
+
+		if (keypressB) then (
+			var := topmenu
+			if (get menu cancel button menu(topmenu)<>-1) then (open menu (get menu cancel button menu(topmenu)))
+			if (get menu ID(topmenu)==0) then (menu:lastmain := menu item true slot(selected menu item(topmenu)))
+			close menu(var)
+			exit script
+		)
+	)
+	if (keypress(right key)) then (
+		if (find menu ID(1)) then(
+			if (selected menu item(top menu)==menu item by true slot(top menu, 2)) then (
+				var:volume := set music volume (getmusicvolume+255/50)
+			)
+
+			$1="Music "
+			append number (1, musicpercent)
+			$1+"%"
+			set menu item caption(menu item by true slot(top menu, 2), 1)
+		)
+	)
+
+	if (keypress(left key)) then (
+		if (find menu ID(1)) then(
+
+			if (selected menu item(top menu)==menu item by true slot(top menu, 2)) then (
+				var:volume := set music volume (getmusicvolume--255/50)
+			)
+			$1="Music "
+			append number (1, musicpercent)
+			$1+"%"
+			set menu item caption(menu item by true slot(top menu, 2), 1)
+		)
+	)
+
+	if (keypress(up key)) then (
+		if (selected menu item(top menu) <> first menu item(top menu)) then (
+			select menu item(previous menu item(selected menu item(topmenu)))
+		) else if (selected menu item(top menu) == first menu item(top menu)) then (
+			select menu item(last menu item(top menu))
+		)
+	)
+
+	if (keypress(down key)) then (
+		if (selected menu item(top menu) <> last menu item(top menu)) then (
+			select menu item(next menu item(selected menu item(topmenu)))
+		) else if (selected menu item(top menu) == last menu item(top menu)) then (
+			select menu item(first menu item(top menu))
+		)
+	)
+end
+

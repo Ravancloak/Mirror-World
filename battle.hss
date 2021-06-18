@@ -1,0 +1,205 @@
+plotscript, battle, formation, begin
+	variable (i, sli)
+	specwait (10)
+	#start battle
+	innitbattle(formation)
+	specwait(20)
+	while (state:control==state:battle) do (
+		battleturn()
+		battleaction()
+		specwait(6)
+	)
+
+	#clean up slices and exit script
+	
+
+	subscript, battleturn, begin
+		set slice visible (lookupslice (sli:battlemenu), true)
+		
+		battle:turn := true
+		while (battle:turn) do (
+			specWait()
+		)
+		set slice visible (lookupslice (sli:battlemenu), false)
+	end
+
+	subscript, battleaction, begin
+		exitReturning(false)
+	end
+end
+
+
+script, innitBattle, formation, begin
+	variable (i, sli)
+	suspendControl()
+	screenFadeOut()
+	fadeMusicOut(10)
+	#play song (5)
+	loadSliceCollection(0)
+	loadBattleback(formation)
+	sliceToFront(lookupslice(sli:fade))
+	specWait(20)
+	screenFadeIn()
+	battle:selected := 0
+	state:control  := state:battle
+end
+
+script, battleend, begin
+	screenfadeout()
+	fademusicout(40)
+	playsong (getAmbientMusic)
+	show no value
+	freeSlice (lookupslice(sli:battleCol))
+	suspendcontrol()
+	screenfadein()
+	resumecontrol()
+end
+
+script, battleupdate, time=1, begin
+	variable (i, sli)
+	sinedist()
+	sli := lookupslice(sli:enemySprite)
+	if (game:tick,mod,10==0) then (
+		if (get sprite frame (sli)==sprite frame count(sli)--1) then (set sprite frame (sli, 0)) else(
+			set sprite frame (sli, get sprite frame(sli)+1)
+		)
+	)
+	if (game:tick,mod,4) then (
+		for (i,0,4) do (
+			if (i<>battle:selected) then (
+				sli := slice child (first child (lookupslice(sli:battlemenu)), i)
+				setSliceVisible(sli,true)
+			)
+		)
+		sli := slice child (first child (lookupslice(sli:battlemenu)), battle:selected)
+		if (getSliceVisible (sli)==false) then (setSliceVisible(sli,true)) else (setSliceVisible(sli, false))
+	)
+end
+
+script, loadbattleback, formation, begin
+	variable (height, sli, sli2, i, j, set1, set2, blend1, blend2, opacity1, opacity2)
+	sli := load backdrop sprite (0)
+	height := slice height (sli)
+
+	set slice clipping (sli, true)
+	set slice lookup(sli, sli:battleback)
+	set parent(sli, lookupslice(sli:battleCol))
+	slice to back (sli)
+
+	switch (formation)do(
+		case (0) do (
+			set1 := 4, set2 := 4
+		)
+		case (1) do (
+			set1 := 1, set2 := 1
+		) else (
+			set1 := 1, set2 := 1
+		)
+	)
+		blend1 := blend:normal
+		blend2 := blend:normal
+		opacity1 := 100
+		opacity2 := 100
+	for (j, 0, 1) do (
+		sli := create container ()
+		set parent(sli, lookupslice(sli:battleback))
+
+		for (i, 0, height--1) do (
+			sli := create container(500, 1)
+			put slice (sli, 0, i) 
+			set parent (sli, last child (lookupslice(sli:battleback)))
+			set slice clipping (sli, true)
+
+			if (j == 0) then (
+				sli2 := load backdrop sprite (set1)
+				set blend mode (sli2, blend1)
+				set opacity (sli2, opacity1)
+
+			) else (
+				sli2 := load backdrop sprite (set2)
+				set blend mode (sli2, blend2)
+				set opacity (sli2, opacity2)
+			)
+
+			set parent (sli2, sli)
+			put slice (sli2, 0, i * -1)	
+		)
+	)
+end
+
+script, sinedist, begin
+	variable (i, j, sli, offset, newX, x, y, t,  formation, height)
+	variable (amplitude, frequency, timeScaling, mode, compression)
+
+	#formation := getElement(get array(array:battleinfo), battle:formation)
+
+	sli := slice child (first child (first child (lookupslice(sli:battleback))))
+
+	height := slice height (sli)
+
+	for (j, 0, 1) do (
+
+		if (j == 0) then (
+			switch (formation) do (
+				case (0) do (
+					amplitude := 38, frequency := 10, compression := 2
+					timeScaling := 200, mode := 3
+				)
+				case (1) do (
+					amplitude := 2, frequency := 8, compression := 3
+					timeScaling := 30, mode := 1
+				) else (
+					amplitude := 4, frequency := 20, compression := 1
+					timeScaling := 20, mode := 3
+				)
+			)
+		) else (
+			switch (formation) do (
+
+				case (0) do (
+					amplitude := -30, frequency := 10, compression := 1
+					timeScaling := 100, mode := 2
+				)
+				case (1) do (
+					amplitude := 4, frequency := 20, compression := 1
+					timeScaling := 20, mode := 3
+				) else (
+					amplitude := 4, frequency := 20, compression := 1
+					timeScaling := 20, mode := 3
+				)
+			)
+		)
+
+		t := get slice extra (first child (lookupslice(sli:battleback)), 0)
+		if (timeScaling == 0) then (timeScaling := 1)
+		t := (t * 80)/timeScaling
+
+		for (i, 0, height--1) do (
+			x := 0
+			sli := first child (slice child (slice child (lookupslice(sli:battleback), j), i))
+			
+			offset := sine ((frequency*i)/2 + t) * amplitude/6000
+			
+			if (mode == 1) then(
+				x := offset
+				put slice (sli, x, i * -1)
+			) else if (mode == 2) then (
+				if (i, mod, 2) then (offset := offset * -1) else ()
+				x := offset
+				put slice (sli, x, i * -1)
+			) else if (mode == 3) then (
+				y := i * compression + offset
+
+				y := (y + height), mod, height
+
+				put slice (sli, x, y * -1) 
+			)
+		)
+		
+	)
+	
+	
+	t := get slice extra (first child (lookupslice(sli:battleback)), 0)
+	t += 1
+	set slice extra (first child (lookupslice(sli:battleback)), 0, t)
+end
