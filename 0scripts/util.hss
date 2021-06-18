@@ -15,19 +15,25 @@ script, wildpal, rand, begin
 	)
 end
 
-script, screenfadeout, begin
-	variable (sli)
+script, screenfadeout, ticks=30, begin
+	variable (sli,i)
 	sli := load backdrop sprite (0)
 	setSliceLookup (sli, sli:fade)
 	dissolveSprite (sli, dissolve:fade, 60, 0, true)
-	specwait(60)
+	for (i,0,ticks) do (
+		specwait
+	)
 end 
 
-script, screenfadein, begin
-	variable (sli)
+script, screenfadein, ticks=30, begin
+	variable (sli,i)
 	sli := Lookupslice(sli:fade)
 	dissolveSprite (sli, dissolve:fade, 60, 0)
-	specwait(50)
+	if (ticks<10) then (ticks:=10)
+	for (i,0,ticks--10) do (
+		specwait
+	)
+	wait (10)
 	free slice (sli)
 end
 
@@ -245,7 +251,7 @@ script, specwait, ticks=1, begin
 	variable (i)
 	for (i, 0,ticks) do (
 		wait, mapeverytick, game:tick += 1
-		if (stat:battle) then (battleupdate)
+		if (state:control==state:battle) then (battleupdate)
 	)
 end
 #------------------------------------------------------------------------------------------------------
@@ -275,7 +281,7 @@ script, controlissuspended, begin
 	if (state:control == false) then (return (true)) else (return (false))
 end
 
-plotscript, resetControls, begin
+plotscript, resetControls, check=true, begin
 	cont:A	:= joy:A
 	cont:B	:= joy:B
 	cont:X	:= joy:Y
@@ -286,7 +292,8 @@ plotscript, resetControls, begin
 	board:X	:= key:Enter
 	board:Y	:= key:rightShift
 	#test
-	write (7)
+	if (check) then (write (7))
+	
 end
 
 script, waitForAnyKey, begin

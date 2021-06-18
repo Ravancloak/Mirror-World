@@ -14,6 +14,10 @@ define constant, begin
 	202, sli:fade
 
 	1, timer:mapeverytick
+
+	0, state:suspend
+	1, state:resume
+	2, state:battle
 end
 
 global variable, begin
@@ -45,10 +49,11 @@ global variable, begin
 	#increments during game play. check via mod for animating
 	19, game:tick
 
-	20, state:battle
+	20, state:battleturn
 	21, state:textbox
 	
 	22, battle:selected
+	24, battle:turn
 end
 
 plotscript, defnewgame, begin
@@ -80,7 +85,6 @@ end
 
 script, mainloop, begin
 	while (true) do (
-		keypresshandler
 		mapeverytick
 		wait
 		game:tick += 1
@@ -100,8 +104,8 @@ script, mapeverytick, begin
 		case (2) do (
 			updatemirrorperson
 			sli := lookupslice(sl:mapLayer0)
-			if (game:tick,mod,2) then (set slice y (sli, slice y(sli)--1))
-			if (game:tick,mod,2) then (set slice x (sli, slice x(sli)--1),var :=0)
+			if (game:tick,mod,4==0) then (set slice y (sli, slice y(sli)--1))
+			if (game:tick,mod,7==0) then (set slice x (sli, slice x(sli)--1),var :=0)
 		)
 	)
 	three frame walking eachtick
@@ -112,11 +116,16 @@ plotscript, defkeypress, begin
 	if (state:textbox) then (exit script)
 	if (newkeypress (key:9)) then (resetcontrols)
 	if (newkeypress (key:0)) then (resetpalette(), updatepalette())
+
+	if (topmenu) then (menu keypress, exit script)
+	switch (state:control) do (
+		case (state:suspend)	do ()
+		case (state:resume)		do (keypressmain)
+	)
+	if (battle:turn) then (battlekeypress)
 end
 
-script, keypresshandler, begin
-	if (controlissuspended) then (exit script)
-	if (topmenu) then (menu keypress, exit script)
+script, keypressmain, begin
 	variable (x,y, who, cur map, var)
 	#checks to see if player should stop for npc event
 	cur map := current map
@@ -221,7 +230,25 @@ script, keypresshandler, begin
 	end
 end
 
-script, menu keypress, begin
+script, battlekeypress, begin
+	variable (sli)
+
+	sli := lookupslice (sli:battlemenu)
+
+	if (keypress(key:esc)) then (battleEnd())
+
+	if (keypress(key:up)&&battle:selected>0) then (battle:selected -= 1)
+	if (keypress(key:down)&&battle:selected<4) then (battle:selected += 1)
+	if (keypress(key:1)) then (battle:selected := 0, battle:turn := false)
+	if (keypress(key:2)) then (battle:selected := 1, battle:turn := false)
+	if (keypress(key:3)) then (battle:selected := 2, battle:turn := false)
+	if (keypress(key:4)) then (battle:selected := 3, battle:turn := false)
+	if (keypress(key:5)) then (battle:selected := 4, battle:turn := false)
+	if (keypressA) then (battle:turn := false)
+	show value (battle:selected)
+end
+
+script, menukeypress, begin
 	variable (var)
 	if (keypressA) then (if (topmenu) then (use menu item(selected menu item)) exit script)
 

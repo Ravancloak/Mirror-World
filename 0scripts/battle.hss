@@ -1,48 +1,24 @@
 plotscript, battle, formation, begin
-	variable (i, sli, battlecheck, keycheck)
+	variable (i, sli)
 	specwait (10)
 	#start battle
 	innitbattle(formation)
 	specwait(20)
-	while (true) do (
-		battlecheck := battleturn()
-		battlecheck := battleaction()
+	while (state:control==state:battle) do (
+		battleturn()
+		battleaction()
 		specwait(6)
-		if (battlecheck == -1) then (break)
 	)
 
 	#clean up slices and exit script
-	screenfadeout()
-	fademusicout(60)
-	playsong (getAmbientMusic)
-	suspendcontrol
-	free slice (lookupslice(sli:battleCol))
-	state:battle := false
-	specwait(20)
-	screenfadein()
-	resumecontrol
 	
-	
+
 	subscript, battleturn, begin
 		set slice visible (lookupslice (sli:battlemenu), true)
-		while (true) do (
-			while (true) do (
-				if (keypress(anykey)) then (break) else (specwait())
-			)
-			sli := lookupslice (sli:battlemenu)
-			if (keypress(key:esc)) then (keycheck := -1)
-			if (keypress(key:up)&&battle:selected>1) then (keycheck -= 1)
-			if (keypress(key:down)&&battle:selected<5) then (keycheck += 1)
-			if (keypress(key:1)) then (keycheck := 1)
-			if (keypress(key:2)) then (keycheck := 2)
-			if (keypress(key:3)) then (keycheck := 3)
-			if (keypress(key:4)) then (keycheck := 4)
-			if (keypress(key:5)) then (keycheck := 5)
-			if (keypressA) then (keycheck := battle:selected)
-			if (keycheck <> 0) then (exitReturning(keycheck))
-			battle:selected := keycheck 
-			show value (keycheck)
-			specwait()
+		
+		battle:turn := true
+		while (battle:turn) do (
+			specWait()
 		)
 		set slice visible (lookupslice (sli:battlemenu), false)
 	end
@@ -52,18 +28,31 @@ plotscript, battle, formation, begin
 	end
 end
 
+
 script, innitBattle, formation, begin
 	variable (i, sli)
-	suspendControl
+	suspendControl()
 	screenFadeOut()
 	fadeMusicOut(10)
 	#play song (5)
 	loadSliceCollection(0)
 	loadBattleback(formation)
 	sliceToFront(lookupslice(sli:fade))
-	state:battle := true
 	specWait(20)
 	screenFadeIn()
+	battle:selected := 0
+	state:control  := state:battle
+end
+
+script, battleend, begin
+	screenfadeout()
+	fademusicout(40)
+	playsong (getAmbientMusic)
+	show no value
+	freeSlice (lookupslice(sli:battleCol))
+	suspendcontrol()
+	screenfadein()
+	resumecontrol()
 end
 
 script, battleupdate, time=1, begin
@@ -76,7 +65,13 @@ script, battleupdate, time=1, begin
 		)
 	)
 	if (game:tick,mod,4) then (
-		sli := first child (slice child (lookupslice(sli:battlemenu), battle:selected))
+		for (i,0,4) do (
+			if (i<>battle:selected) then (
+				sli := slice child (first child (lookupslice(sli:battlemenu)), i)
+				setSliceVisible(sli,true)
+			)
+		)
+		sli := slice child (first child (lookupslice(sli:battlemenu)), battle:selected)
 		if (getSliceVisible (sli)==false) then (setSliceVisible(sli,true)) else (setSliceVisible(sli, false))
 	)
 end
