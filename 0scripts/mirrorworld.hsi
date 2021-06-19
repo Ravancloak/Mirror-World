@@ -62,4 +62,5 @@ define constant, begin
 1,sli:BattleCol
 2,sli:Enemy Sprite
 3,sli:BattleMenu
+4,sli:slot
 end

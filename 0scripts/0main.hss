@@ -5,6 +5,7 @@ include, events.hss
 include, menus.hss
 include, message.hss
 include, thirdparty.hss
+include, slotmachine.hss
 
 define constant, begin
 	63, wildpal:palsize
@@ -18,6 +19,7 @@ define constant, begin
 	0, state:suspend
 	1, state:resume
 	2, state:battle
+	3, state:slots
 end
 
 global variable, begin
@@ -54,6 +56,8 @@ global variable, begin
 	
 	22, battle:selected
 	24, battle:turn
+	
+	25, slots:bit
 end
 
 plotscript, defnewgame, begin
@@ -121,6 +125,7 @@ plotscript, defkeypress, begin
 	switch (state:control) do (
 		case (state:suspend)	do ()
 		case (state:resume)		do (keypressmain)
+		case (state:slots)		do (keypressSlots)
 	)
 	if (battle:turn) then (battlekeypress)
 end

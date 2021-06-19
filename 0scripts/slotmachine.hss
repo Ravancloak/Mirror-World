@@ -1,0 +1,59 @@
+plotscript, slotmachine, begin
+# variables
+	variable (i, sli, check)
+	
+# init
+	screenfadeout()
+	loadSliceCollection(1)
+	sli := lookupslice(sli:slot)
+	screenfadein()
+	
+	state:control := state:slots
+	for (i,0,3) do (
+		sli := firstchild (slicechild (firstchild (lookupslice (sli:slot)), i))
+		set slice y (sli, -10)
+		set slice extra(sli, 0, 1)
+	)
+	
+# main
+	while (true) do (
+        check := 0
+        check := spin
+        if (check == 0) then (break)
+        specwait
+    )
+	
+# finish
+	screenfadeout()
+	freeSlice (lookup slice(sli:slot))
+	show no value
+	screenfadein()
+	
+	
+# subscript to spin slots
+	subscript, spin, begin
+        for (i, 0, 2) do (
+            sli := firstChild(sliceChild (firstChild(lookupslice(sli:slot)), i))
+            if (get slice extra (sli, 0)==1) then (
+                set slice y (sli, slicey(sli)--30)
+                if (slice y(sli)<-790) then (set slice y (sli, -10))
+                return  (1)
+            )
+        )
+	end
+
+end
+
+# input
+script, keypressSlots, begin
+	variable (i, sli)
+	if (newkeypressA) then (
+		for (i,0,2) do (
+			sli := firstchild (slicechild (firstchild (lookupslice (sli:slot)), i))
+			if (get slice extra (sli,0)==1) then (
+				set slice extra (sli, 0, 0)
+				break
+			)
+		)
+	)
+end
