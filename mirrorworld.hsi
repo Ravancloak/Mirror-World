@@ -1,0 +1,65 @@
+# HamsterSpeak constant definitions for mirrorworld.rpg
+
+define constant, begin
+2,tag:Always Run
+3,tag:Menu Pos
+4,tag:MirrorCheck
+0,song:mirror world title
+1,song:attic
+2,song:prehistoric beats
+3,song:why dont you save now
+4,song:hot digs
+5,song:fight it out
+6,song:forest of wonders
+0,sfx:talk1
+1,sfx:talk2
+2,sfx:talk3
+3,sfx:breath1
+4,sfx:breath2
+5,sfx:breath3
+0,stat:HP
+1,stat:MP
+2,stat:Atk
+3,stat:Aim
+4,stat:Def
+5,stat:Dodge
+6,stat:Magic
+7,stat:Will
+8,stat:Speed
+9,stat:Ctr
+10,stat:MP~
+11,stat:Hits
+0,element:Fire
+1,element:Ice
+2,element:Lit
+3,element:Earth
+4,element:Other
+5,element:Other 2
+6,element:Other 3
+7,element:Other 4
+8,element:Other 5
+9,element:Other 6
+10,element:Other 7
+11,element:Other 8
+12,element:Other 9
+13,element:Other 10
+14,element:Other 11
+15,element:Other 12
+1,slot:Weapon
+2,slot:Head
+3,slot:Body
+4,slot:Arms
+5,slot:Legs
+0,map:Blank
+1,map:Title
+2,map:Attic
+3,map:Forest
+0,menu:Main Menu
+1,menu:Settings
+0,enemy:Birda
+1,enemy:Ufoian
+2,enemy:Danca
+1,sli:BattleCol
+2,sli:Enemy Sprite
+3,sli:BattleMenu
+end
