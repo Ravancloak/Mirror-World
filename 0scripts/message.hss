@@ -44,6 +44,7 @@ plotscript, write, text,blank=0,choice=0,pausenpc=0(
 	)
 
 	suspendcontrol
+	state:textbox := true
 
 	skip:=0
 	sfx:=0
@@ -86,6 +87,7 @@ plotscript, write, text,blank=0,choice=0,pausenpc=0(
 		)
 	refresh()
 	resumecontrol()
+	state:textbox := false
 
 subscript, def letter, char (
 	

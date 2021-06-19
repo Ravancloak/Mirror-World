@@ -8,6 +8,9 @@ define constant, begin
 1,song:attic
 2,song:prehistoric beats
 3,song:why dont you save now
+4,song:hot digs
+5,song:fight it out
+6,song:forest of wonders
 0,sfx:talk1
 1,sfx:talk2
 2,sfx:talk3
@@ -50,7 +53,13 @@ define constant, begin
 0,map:Blank
 1,map:Title
 2,map:Attic
+3,map:Forest
 0,menu:Main Menu
 1,menu:Settings
+0,enemy:Birda
+1,enemy:Ufoian
+2,enemy:Danca
 1,sli:BattleCol
+2,sli:Enemy Sprite
+3,sli:BattleMenu
 end
