@@ -1,0 +1,44 @@
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Custom----
+ 0.1  06-19-2021 06:23:14
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\custom.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  curdir: C:\OHRRPGCE
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  documents_dir: C:\Users\Dell\Documents
+ 0.1  prefer_gfx_backend: gfx backend sdl isn't available
+ 0.1  Initialising gfx_sdl2...
+ 0.1  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  unlock_resolution(320,200)
+ 0.2  music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.2  Working in C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+ 0.2  check_ok_to_open...
+ 0.2  pid_current_exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe
+ 0.2  prev_session.workingdir = C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+ 0.2  prev_session.info_file_exists = YES
+ 0.2  prev_session.pid = 8704 (exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe)
+ 0.2  prev_session.running = YES
+ 0.2  prev_session.partial_rpg = NO
+ 0.2  prev_session.fresh_danger_tmp = NO
+ 0.2  prev_session.sourcerpg = 
+ 0.2  prev_session.sourcerpg_old_mtime = 0
+ 0.2  prev_session.sourcerpg_current_mtime = 0
+ 0.2  prev_session.session_start_time = 2021 Jun 19 06:23:14
+ 0.2  prev_session.last_lump_mtime = 0
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.2   ----Loading a game----
+ 0.2  06-19-2021 06:23:14
+ 0.2  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.2  tmpdir: C:\Users\Dell\AppData\Roaming\OHRRPGCE\
+ 0.2  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.2  Editing game C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg ( )
+ 0.3  Full game data upgrade...
+ 0.3  Last edited by: [[OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell  -g -gen gcc Win32 32-bit]] branch_rev 12220
+ 0.3  archinym creation info: OHRRPGCE wip 20210417
+ 5.9  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_76569
+ 6.0  Channel connection received (after 112ms)
