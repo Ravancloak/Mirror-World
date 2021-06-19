@@ -36,6 +36,7 @@ script, eventsattic, which, begin
 		case (0) do (
 			if (check tag (tag:MirrorCheck)==on) then (
 				write (2)
+				suspendcontrol
 				specwait(60)
 				sli := load attack sprite(0)
 				center slice (sli)
@@ -97,11 +98,14 @@ script, eventsattic, which, begin
 				)
 				reset palette
 				update palette
-				specwait (30)
-				screenfadeout
-				set slice visible (getherosprite(me), true)
 				specwait (80)
-				screen fade in
+				#note: evil reflection here
+				screenfadeout
+				fade music out(20)
+				set slice visible (getherosprite(me), true)
+				teleporttomap(3, 24, 42)
+				specwait(40)
+				screenfadein
 			)else (
 				who := NPC reference (0)
 				set NPC frame(who, 1), specwait(5)

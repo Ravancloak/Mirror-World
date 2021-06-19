@@ -127,6 +127,7 @@ end
 
 script, keypressmain, begin
 	variable (x,y, who, cur map, var)
+	if (state:control==false) then (exitScript)
 	#checks to see if player should stop for npc event
 	cur map := current map
 	if (npc at spot (hero x, hero y)) then (exit script)

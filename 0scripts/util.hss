@@ -303,10 +303,10 @@ script, waitForNewKey, begin
 	while (true) do (specwait, if (newKeyCheck<>false) then (break))
 end
 script, anyKeyCheck, begin
-	if (keypressA ||keypressB||keypressX||keypressY) then (return (true))
+	if (keypressA ||keypressB||keypressX||keypressY|| keypress(key:up)|| keypress(key:down)|| keypress(key:left)|| keypress(key:right)) then (return (true))
 end
 script, newKeyCheck, begin
-	if (newkeypressA||newkeypressB||newkeypressX||newkeypressY) then (return (true))
+	if (newkeypressA||newkeypressB||newkeypressX||newkeypressY|| newkeypress(key:up)|| newkeypress(key:down)|| newkeypress(key:left)|| newkeypress(key:right)) then (return (true))
 end
 
 script, keypressA, begin

@@ -29,21 +29,6 @@ plotscript, battle, formation, begin
 end
 
 
-script, innitBattle, formation, begin
-	variable (i, sli)
-	suspendControl()
-	screenFadeOut()
-	fadeMusicOut(10)
-	#play song (5)
-	loadSliceCollection(0)
-	loadBattleback(formation)
-	sliceToFront(lookupslice(sli:fade))
-	specWait(20)
-	screenFadeIn()
-	battle:selected := 0
-	state:control  := state:battle
-end
-
 script, battleend, begin
 	screenfadeout()
 	fademusicout(40)
@@ -202,4 +187,23 @@ script, sinedist, begin
 	t := get slice extra (first child (lookupslice(sli:battleback)), 0)
 	t += 1
 	set slice extra (first child (lookupslice(sli:battleback)), 0, t)
+end
+
+script, innitBattle, formation, begin
+	variable (i, sli)
+	suspendControl()
+	screenFadeOut()
+	fadeMusicOut(10)
+	playSong (5)
+	loadSliceCollection(0)
+	loadBattleback(formation)
+	sliceToFront(lookupslice(sli:fade))
+	specWait(20)
+	screenFadeIn()
+	battle:selected := 0
+	state:control  := state:battle
+end
+
+script, setText, begin
+
 end
