@@ -142,7 +142,7 @@ script, three frame walking update, slice, begin
 
   # If you want to exclude some walkabouts from three-frame animations, you can
   # add a check like the following here:
-  if (current spriteset ==4) then (exit script)
+  if (current spriteset ==4|| current spriteset ==5) then (exit script)
 
   variable (extradata, previous frame, current frame, previous spriteset, base spriteset)
   current frame := get sprite frame(slice), and, 1

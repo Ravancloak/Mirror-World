@@ -1,0 +1,693 @@
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  06-19-2021 14:46:52
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_84274'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210619144652.725.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
+ 0.3  Name: 
+ 0.4  plotscr.hsd version: 3U 
+ 0.9  lock_resolution()
+ 0.9  set_resolution 426*240
+ 0.9  recenter_window_hint()
+ 0.9  get_screen_size: true screen size 1600x900
+ 0.9  Desktop resolution: 1600*860
+ 0.9  automatic_scale_factor(0.5), screen size: 1600*860
+ 0.9  Setting graphics scaling to x2 change_windowsize=-1
+ 0.9  Preserving fullscreen/windowed state
+ 0.9  genRungameFullscreenIndependent: 0
+33.9  msg: M ohrrpgce.gen
+33.9  msg: M general.reld
+38.4  msg: M defpal4.bin
+38.4  did not reload defpal4.bin
+38.4  msg: M walkabouts.rgfx
+38.4  msg: M ohrrpgce.pal
+38.5  msg: PAL 13
+41.2  msg: M defpal4.bin
+41.2  msg: M walkabouts.rgfx
+41.2  msg: M ohrrpgce.pal
+41.2  did not reload defpal4.bin
+41.2  msg: PAL 13
+42.1  msg: M ohrrpgce.gen
+51.7  msg: M ohrrpgce.gen
+51.7  msg: M general.reld
+62.3  msg: M browse.txt
+62.3  msg: M browse.txt
+62.3  msg: M general.reld
+62.3  msg: M ohrrpgce.gen
+62.3  msg: M general.reld
+77.1  ! Scripterr(5): slotmachine: firstchild: invalid slice handle 0
+77.1  unlock_resolution(426,240)
+78.3  set_resolution 426*240
+78.3  lock_resolution()
+78.3  ! Scripterr(5): slotmachine: setslicey: invalid slice handle 0
+78.3  unlock_resolution(426,240)
+78.8  set_resolution 426*240
+78.8  lock_resolution()
+78.8  ! Scripterr(5): slotmachine: setsliceextra: invalid slice handle 0
+78.8  unlock_resolution(426,240)
+79.4  set_resolution 426*240
+79.4  lock_resolution()
+83.2  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+83.2  unlock_resolution(426,240)
+88.5  set_resolution 426*240
+88.5  lock_resolution()
+88.5  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+88.5  unlock_resolution(426,240)
+89.0  set_resolution 426*240
+89.0  lock_resolution()
+89.0  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+89.0  unlock_resolution(426,240)
+89.4  set_resolution 426*240
+89.4  lock_resolution()
+89.4  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+89.4  unlock_resolution(426,240)
+89.9  set_resolution 426*240
+89.9  lock_resolution()
+89.9  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+89.9  unlock_resolution(426,240)
+90.2  set_resolution 426*240
+90.2  lock_resolution()
+90.2  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+90.2  unlock_resolution(426,240)
+90.7  set_resolution 426*240
+90.7  lock_resolution()
+90.7  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+90.7  unlock_resolution(426,240)
+91.1  set_resolution 426*240
+91.1  lock_resolution()
+91.1  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+91.1  unlock_resolution(426,240)
+91.5  set_resolution 426*240
+91.5  lock_resolution()
+91.5  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+91.5  unlock_resolution(426,240)
+91.9  set_resolution 426*240
+91.9  lock_resolution()
+91.9  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+91.9  unlock_resolution(426,240)
+92.2  set_resolution 426*240
+92.3  lock_resolution()
+92.3  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+92.3  unlock_resolution(426,240)
+92.6  set_resolution 426*240
+92.6  lock_resolution()
+92.6  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+92.6  unlock_resolution(426,240)
+93.1  set_resolution 426*240
+93.1  lock_resolution()
+96.1  ! Scripterr(5): slotmachine: firstchild: invalid slice handle 0
+96.1  unlock_resolution(426,240)
+103.1  set_resolution 426*240
+103.1  lock_resolution()
+103.1  ! Scripterr(5): slotmachine: setslicey: invalid slice handle 0
+103.1  unlock_resolution(426,240)
+103.7  set_resolution 426*240
+103.7  lock_resolution()
+103.7  ! Scripterr(5): slotmachine: setsliceextra: invalid slice handle 0
+103.7  unlock_resolution(426,240)
+103.8  set_resolution 426*240
+103.8  lock_resolution()
+112.7  ! Scripterr(5): slotmachine: firstchild: invalid slice handle 0
+112.7  unlock_resolution(426,240)
+113.6  set_resolution 426*240
+113.6  lock_resolution()
+113.6  ! Scripterr(5): slotmachine: setslicey: invalid slice handle 0
+113.6  unlock_resolution(426,240)
+114.0  set_resolution 426*240
+114.0  lock_resolution()
+114.0  ! Scripterr(5): slotmachine: setsliceextra: invalid slice handle 0
+114.0  unlock_resolution(426,240)
+114.4  set_resolution 426*240
+114.4  lock_resolution()
+119.9  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+119.9  unlock_resolution(426,240)
+120.9  set_resolution 426*240
+120.9  lock_resolution()
+120.9  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+120.9  unlock_resolution(426,240)
+121.6  set_resolution 426*240
+121.6  lock_resolution()
+121.6  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+121.6  unlock_resolution(426,240)
+121.9  set_resolution 426*240
+121.9  lock_resolution()
+121.9  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+121.9  unlock_resolution(426,240)
+122.3  set_resolution 426*240
+122.3  lock_resolution()
+122.3  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+122.3  unlock_resolution(426,240)
+122.6  set_resolution 426*240
+122.6  lock_resolution()
+122.6  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+122.6  unlock_resolution(426,240)
+123.1  set_resolution 426*240
+123.1  lock_resolution()
+123.1  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+123.1  unlock_resolution(426,240)
+123.9  set_resolution 426*240
+123.9  lock_resolution()
+123.9  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+123.9  unlock_resolution(426,240)
+124.2  set_resolution 426*240
+124.2  lock_resolution()
+124.2  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+124.2  unlock_resolution(426,240)
+124.5  set_resolution 426*240
+124.5  lock_resolution()
+124.5  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+124.5  unlock_resolution(426,240)
+124.7  set_resolution 426*240
+124.8  lock_resolution()
+124.8  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+124.8  unlock_resolution(426,240)
+125.1  set_resolution 426*240
+125.1  lock_resolution()
+125.1  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+125.1  unlock_resolution(426,240)
+125.3  set_resolution 426*240
+125.3  lock_resolution()
+127.8  ! Scripterr(5): slotmachine: firstchild: invalid slice handle 0
+127.8  unlock_resolution(426,240)
+128.8  set_resolution 426*240
+128.8  lock_resolution()
+128.8  ! Scripterr(5): slotmachine: setslicey: invalid slice handle 0
+128.8  unlock_resolution(426,240)
+129.2  set_resolution 426*240
+129.2  lock_resolution()
+129.2  ! Scripterr(5): slotmachine: setsliceextra: invalid slice handle 0
+129.2  unlock_resolution(426,240)
+129.7  set_resolution 426*240
+129.7  lock_resolution()
+135.3  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+135.3  unlock_resolution(426,240)
+136.0  set_resolution 426*240
+136.0  lock_resolution()
+136.0  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+136.0  unlock_resolution(426,240)
+136.4  set_resolution 426*240
+136.4  lock_resolution()
+136.4  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+136.4  unlock_resolution(426,240)
+136.8  set_resolution 426*240
+136.8  lock_resolution()
+136.8  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+136.8  unlock_resolution(426,240)
+137.2  set_resolution 426*240
+137.2  lock_resolution()
+137.2  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+137.2  unlock_resolution(426,240)
+137.6  set_resolution 426*240
+137.6  lock_resolution()
+137.6  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+137.6  unlock_resolution(426,240)
+138.0  set_resolution 426*240
+138.0  lock_resolution()
+138.0  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+138.0  unlock_resolution(426,240)
+138.5  set_resolution 426*240
+138.5  lock_resolution()
+138.5  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+138.5  unlock_resolution(426,240)
+138.8  set_resolution 426*240
+138.8  lock_resolution()
+138.8  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+138.8  unlock_resolution(426,240)
+139.2  set_resolution 426*240
+139.2  lock_resolution()
+139.2  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+139.2  unlock_resolution(426,240)
+139.4  set_resolution 426*240
+139.4  lock_resolution()
+139.4  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+139.4  unlock_resolution(426,240)
+139.7  set_resolution 426*240
+139.7  lock_resolution()
+139.7  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+139.7  unlock_resolution(426,240)
+139.9  set_resolution 426*240
+139.9  lock_resolution()
+142.8  ! Scripterr(5): slotmachine: firstchild: invalid slice handle 0
+142.8  unlock_resolution(426,240)
+144.9  set_resolution 426*240
+144.9  lock_resolution()
+144.9  ! Scripterr(5): slotmachine: setslicey: invalid slice handle 0
+144.9  unlock_resolution(426,240)
+145.3  set_resolution 426*240
+145.3  lock_resolution()
+145.3  ! Scripterr(5): slotmachine: setsliceextra: invalid slice handle 0
+145.3  unlock_resolution(426,240)
+145.7  set_resolution 426*240
+145.7  lock_resolution()
+159.9  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+159.9  unlock_resolution(426,240)
+160.8  set_resolution 426*240
+160.8  lock_resolution()
+160.8  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+160.8  unlock_resolution(426,240)
+161.4  set_resolution 426*240
+161.4  lock_resolution()
+161.4  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+161.4  unlock_resolution(426,240)
+161.7  set_resolution 426*240
+161.7  lock_resolution()
+161.8  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+161.8  unlock_resolution(426,240)
+162.2  set_resolution 426*240
+162.2  lock_resolution()
+162.2  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+162.2  unlock_resolution(426,240)
+162.5  set_resolution 426*240
+162.5  lock_resolution()
+162.5  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+162.5  unlock_resolution(426,240)
+162.9  set_resolution 426*240
+162.9  lock_resolution()
+162.9  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+162.9  unlock_resolution(426,240)
+163.2  set_resolution 426*240
+163.2  lock_resolution()
+163.2  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+163.2  unlock_resolution(426,240)
+163.5  set_resolution 426*240
+163.5  lock_resolution()
+163.5  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+163.5  unlock_resolution(426,240)
+164.0  set_resolution 426*240
+164.0  lock_resolution()
+164.0  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+164.1  unlock_resolution(426,240)
+164.1  set_resolution 426*240
+164.1  lock_resolution()
+164.1  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+164.1  unlock_resolution(426,240)
+164.2  set_resolution 426*240
+164.2  lock_resolution()
+164.2  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+164.2  unlock_resolution(426,240)
+164.3  set_resolution 426*240
+164.3  lock_resolution()
+169.1  ! Scripterr(5): slotmachine: firstchild: invalid slice handle 0
+169.1  unlock_resolution(426,240)
+169.8  set_resolution 426*240
+169.8  lock_resolution()
+169.8  ! Scripterr(5): slotmachine: setslicey: invalid slice handle 0
+169.8  unlock_resolution(426,240)
+170.3  set_resolution 426*240
+170.3  lock_resolution()
+170.3  ! Scripterr(5): slotmachine: setsliceextra: invalid slice handle 0
+170.3  unlock_resolution(426,240)
+170.4  set_resolution 426*240
+170.4  lock_resolution()
+179.8  ! Scripterr(5): slotmachine: firstchild: invalid slice handle 0
+179.8  unlock_resolution(426,240)
+180.9  set_resolution 426*240
+180.9  lock_resolution()
+180.9  ! Scripterr(5): slotmachine: setslicey: invalid slice handle 0
+180.9  unlock_resolution(426,240)
+181.4  set_resolution 426*240
+181.4  lock_resolution()
+181.4  ! Scripterr(5): slotmachine: setsliceextra: invalid slice handle 0
+181.4  unlock_resolution(426,240)
+181.6  set_resolution 426*240
+181.6  lock_resolution()
+187.4  msg: M ohrrpgce.gen
+187.4  msg: M general.reld
+258.1  msg: M ohrrpgce.map
+258.1  msg: M ohrrpgce.t02
+258.1  msg: M ohrrpgce.p02
+258.1  msg: M ohrrpgce.e02
+258.1  msg: M ohrrpgce.z02
+258.1  msg: M ohrrpgce.l02
+258.1  msg: M ohrrpgce.n02
+258.1  msg: M ohrrpgce.dox
+258.1  msg: M ohrrpgce.d02
+258.1  msg: M ohrrpgce.mn
+258.1  did not reload ohrrpgce.d02
+258.8  msg: M ohrrpgce.gen
+258.8  msg: M general.reld
+264.9  msg: M ohrrpgce.hsp
+264.9  msg: M plotscr.lst
+264.9  msg: M plotscr.lst
+264.9  msg: M lookup1.bin
+265.0  plotscr.hsd version: 3U 
+268.7  ! Scripterr(5): slotmachine: firstchild: invalid slice handle 0
+268.7  unlock_resolution(426,240)
+269.5  set_resolution 426*240
+269.5  lock_resolution()
+269.5  ! Scripterr(5): slotmachine: setslicey: invalid slice handle 0
+269.5  unlock_resolution(426,240)
+270.0  set_resolution 426*240
+270.0  lock_resolution()
+270.0  ! Scripterr(5): slotmachine: setsliceextra: invalid slice handle 0
+270.0  unlock_resolution(426,240)
+270.0  set_resolution 426*240
+270.0  lock_resolution()
+286.6  msg: M ohrrpgce.hsp
+286.6  msg: M plotscr.lst
+286.6  msg: M plotscr.lst
+286.6  msg: M lookup1.bin
+286.7  plotscr.hsd version: 3U 
+289.7  ! Scripterr(5): slotmachine: firstchild: invalid slice handle 0
+289.7  unlock_resolution(426,240)
+290.7  set_resolution 426*240
+290.8  lock_resolution()
+290.8  ! Scripterr(5): slotmachine: setslicey: invalid slice handle 0
+290.8  unlock_resolution(426,240)
+291.2  set_resolution 426*240
+291.2  lock_resolution()
+291.2  ! Scripterr(5): slotmachine: setsliceextra: invalid slice handle 0
+291.2  unlock_resolution(426,240)
+291.7  set_resolution 426*240
+291.7  lock_resolution()
+315.0  ! Scripterr(5): slotmachine: firstchild: invalid slice handle 0
+315.0  unlock_resolution(426,240)
+319.4  set_resolution 426*240
+319.4  lock_resolution()
+319.4  ! Scripterr(5): slotmachine: setslicey: invalid slice handle 0
+319.4  unlock_resolution(426,240)
+319.9  set_resolution 426*240
+319.9  lock_resolution()
+319.9  ! Scripterr(5): slotmachine: setsliceextra: invalid slice handle 0
+319.9  unlock_resolution(426,240)
+320.1  set_resolution 426*240
+320.1  lock_resolution()
+343.9  msg: M ohrrpgce.hsp
+343.9  msg: M plotscr.lst
+343.9  msg: M plotscr.lst
+343.9  msg: M lookup1.bin
+344.1  plotscr.hsd version: 3U 
+347.1  ! Scripterr(5): slotmachine: firstchild: invalid slice handle 0
+347.1  unlock_resolution(426,240)
+347.8  set_resolution 426*240
+347.8  lock_resolution()
+347.8  ! Scripterr(5): slotmachine: setslicey: invalid slice handle 0
+347.8  unlock_resolution(426,240)
+348.2  set_resolution 426*240
+348.2  lock_resolution()
+348.2  ! Scripterr(5): slotmachine: setsliceextra: invalid slice handle 0
+348.2  unlock_resolution(426,240)
+348.4  set_resolution 426*240
+348.4  lock_resolution()
+348.4  ! Scripterr(5): slotmachine -> spin: getsliceextra: invalid slice handle 0
+348.4  unlock_resolution(426,240)
+348.8  set_resolution 426*240
+348.8  lock_resolution()
+348.8  ! Scripterr(5): slotmachine -> spin: getsliceextra: invalid slice handle 0
+348.8  unlock_resolution(426,240)
+349.2  set_resolution 426*240
+349.2  lock_resolution()
+349.2  ! Scripterr(5): slotmachine -> spin: getsliceextra: invalid slice handle 0
+349.2  unlock_resolution(426,240)
+349.5  set_resolution 426*240
+349.5  lock_resolution()
+354.8  ! Scripterr(5): slotmachine: firstchild: invalid slice handle 0
+354.8  unlock_resolution(426,240)
+355.8  set_resolution 426*240
+355.8  lock_resolution()
+355.8  ! Scripterr(5): slotmachine: setslicey: invalid slice handle 0
+355.8  unlock_resolution(426,240)
+356.7  set_resolution 426*240
+356.7  lock_resolution()
+356.7  ! Scripterr(5): slotmachine: setsliceextra: invalid slice handle 0
+356.7  unlock_resolution(426,240)
+357.3  set_resolution 426*240
+357.3  lock_resolution()
+357.3  ! Scripterr(5): slotmachine -> spin: getsliceextra: invalid slice handle 0
+357.3  unlock_resolution(426,240)
+357.7  set_resolution 426*240
+357.7  lock_resolution()
+357.7  ! Scripterr(5): slotmachine -> spin: getsliceextra: invalid slice handle 0
+357.7  unlock_resolution(426,240)
+358.1  set_resolution 426*240
+358.1  lock_resolution()
+358.1  ! Scripterr(5): slotmachine -> spin: getsliceextra: invalid slice handle 0
+358.1  unlock_resolution(426,240)
+358.6  set_resolution 426*240
+358.6  lock_resolution()
+396.4  msg: M ohrrpgce.hsp
+396.4  msg: M plotscr.lst
+396.4  msg: M plotscr.lst
+396.4  msg: M lookup1.bin
+396.5  plotscr.hsd version: 3U 
+399.1  ! Scripterr(5): slotmachine: firstchild: invalid slice handle 0
+399.1  unlock_resolution(426,240)
+399.8  set_resolution 426*240
+399.8  lock_resolution()
+399.8  ! Scripterr(5): slotmachine: setslicey: invalid slice handle 0
+399.8  unlock_resolution(426,240)
+400.2  set_resolution 426*240
+400.2  lock_resolution()
+400.2  ! Scripterr(5): slotmachine: setsliceextra: invalid slice handle 0
+400.2  unlock_resolution(426,240)
+400.4  set_resolution 426*240
+400.4  lock_resolution()
+403.5  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+403.5  unlock_resolution(426,240)
+404.3  set_resolution 426*240
+404.3  lock_resolution()
+404.3  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+404.3  unlock_resolution(426,240)
+404.6  set_resolution 426*240
+404.6  lock_resolution()
+404.6  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+404.6  unlock_resolution(426,240)
+404.9  set_resolution 426*240
+404.9  lock_resolution()
+404.9  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+404.9  unlock_resolution(426,240)
+405.1  set_resolution 426*240
+405.1  lock_resolution()
+405.1  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+405.2  unlock_resolution(426,240)
+405.4  set_resolution 426*240
+405.4  lock_resolution()
+405.4  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+405.4  unlock_resolution(426,240)
+405.6  set_resolution 426*240
+405.6  lock_resolution()
+405.6  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+405.6  unlock_resolution(426,240)
+405.8  set_resolution 426*240
+405.8  lock_resolution()
+405.8  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+405.8  unlock_resolution(426,240)
+406.0  set_resolution 426*240
+406.0  lock_resolution()
+406.0  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+406.0  unlock_resolution(426,240)
+406.2  set_resolution 426*240
+406.2  lock_resolution()
+406.2  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+406.2  unlock_resolution(426,240)
+406.4  set_resolution 426*240
+406.4  lock_resolution()
+406.4  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+406.4  unlock_resolution(426,240)
+406.6  set_resolution 426*240
+406.6  lock_resolution()
+406.6  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+406.6  unlock_resolution(426,240)
+406.8  set_resolution 426*240
+406.8  lock_resolution()
+407.4  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+407.4  unlock_resolution(426,240)
+408.1  set_resolution 426*240
+408.1  lock_resolution()
+408.1  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+408.1  unlock_resolution(426,240)
+408.4  set_resolution 426*240
+408.4  lock_resolution()
+408.4  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+408.4  unlock_resolution(426,240)
+408.5  set_resolution 426*240
+408.5  lock_resolution()
+408.5  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+408.5  unlock_resolution(426,240)
+408.7  set_resolution 426*240
+408.7  lock_resolution()
+408.7  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+408.7  unlock_resolution(426,240)
+408.9  set_resolution 426*240
+408.9  lock_resolution()
+408.9  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+408.9  unlock_resolution(426,240)
+409.1  set_resolution 426*240
+409.1  lock_resolution()
+409.1  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+409.1  unlock_resolution(426,240)
+409.2  set_resolution 426*240
+409.2  lock_resolution()
+409.2  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+409.2  unlock_resolution(426,240)
+409.4  set_resolution 426*240
+409.4  lock_resolution()
+409.4  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+409.4  unlock_resolution(426,240)
+409.6  set_resolution 426*240
+409.6  lock_resolution()
+409.6  ! Scripterr(5): defkeypress -> keypressslots: slicechild: invalid slice handle 0
+409.6  unlock_resolution(426,240)
+409.8  set_resolution 426*240
+409.8  lock_resolution()
+409.8  ! Scripterr(5): defkeypress -> keypressslots: firstchild: invalid slice handle 0
+409.8  unlock_resolution(426,240)
+410.2  set_resolution 426*240
+410.2  lock_resolution()
+410.3  ! Scripterr(5): defkeypress -> keypressslots: getsliceextra: invalid slice handle 0
+410.3  unlock_resolution(426,240)
+410.7  set_resolution 426*240
+410.7  lock_resolution()
+434.9  msg: M ohrrpgce.hsp
+434.9  msg: M plotscr.lst
+434.9  msg: M plotscr.lst
+434.9  msg: M lookup1.bin
+435.0  plotscr.hsd version: 3U 
+437.1  ! Scripterr(5): slotmachine: firstchild: invalid slice handle 0
+437.1  unlock_resolution(426,240)
+437.8  set_resolution 426*240
+437.8  lock_resolution()
+437.8  ! Scripterr(5): slotmachine: setslicey: invalid slice handle 0
+437.8  unlock_resolution(426,240)
+438.5  set_resolution 426*240
+438.5  lock_resolution()
+438.6  ! Scripterr(5): slotmachine: setsliceextra: invalid slice handle 0
+438.6  unlock_resolution(426,240)
+438.9  set_resolution 426*240
+438.9  lock_resolution()
+451.2  msg: M ohrrpgce.hsp
+451.2  msg: M plotscr.lst
+451.2  msg: M plotscr.lst
+451.2  msg: M lookup1.bin
+451.4  plotscr.hsd version: 3U 
+487.9  msg: M ohrrpgce.hsp
+487.9  msg: M plotscr.lst
+487.9  msg: M plotscr.lst
+487.9  msg: M lookup1.bin
+488.0  plotscr.hsd version: 3U 
+525.0  msg: M ohrrpgce.hsp
+525.0  msg: M plotscr.lst
+525.0  msg: M plotscr.lst
+525.0  msg: M lookup1.bin
+525.1  plotscr.hsd version: 3U 
+551.4  msg: M ohrrpgce.hsp
+551.4  msg: M plotscr.lst
+551.4  msg: M plotscr.lst
+551.4  msg: M lookup1.bin
+551.5  plotscr.hsd version: 3U 
+582.6  msg: M ohrrpgce.hsp
+582.6  msg: M plotscr.lst
+582.6  msg: M plotscr.lst
+582.6  msg: M lookup1.bin
+582.7  plotscr.hsd version: 3U 
+678.3  msg: M ohrrpgce.hsp
+678.3  msg: M plotscr.lst
+678.3  msg: M plotscr.lst
+678.3  msg: M lookup1.bin
+678.4  plotscr.hsd version: 3U 
+703.0  msg: M ohrrpgce.hsp
+703.0  msg: M plotscr.lst
+703.0  msg: M plotscr.lst
+703.0  msg: M lookup1.bin
+703.1  plotscr.hsd version: 3U 
+703.1  not reloading script slotmachine because it's in use: refcount=1
+703.1  unlock_resolution(426,240)
+703.9  set_resolution 426*240
+703.9  lock_resolution()
+960.7  msg: M ohrrpgce.hsp
+960.7  msg: M plotscr.lst
+960.7  msg: M plotscr.lst
+960.7  msg: M lookup1.bin
+960.8  plotscr.hsd version: 3U 
+960.9  not reloading script slotmachine because it's in use: refcount=1
+960.9  unlock_resolution(426,240)
+962.4  set_resolution 426*240
+962.4  lock_resolution()
+962.4  msg: M ohrrpgce.gen
+962.4  msg: M general.reld
+963.4  plotscr.hsd version: 3U 
+1013.0  msg: M ohrrpgce.hsp
+1013.0  msg: M plotscr.lst
+1013.0  msg: M plotscr.lst
+1013.0  msg: M lookup1.bin
+1013.1  plotscr.hsd version: 3U 
+1102.5  msg: M ohrrpgce.hsp
+1102.5  msg: M plotscr.lst
+1102.5  msg: M plotscr.lst
+1102.5  msg: M lookup1.bin
+1102.6  plotscr.hsd version: 3U 
+1195.6  msg: M ohrrpgce.hsp
+1195.6  msg: M plotscr.lst
+1195.6  msg: M plotscr.lst
+1195.6  msg: M lookup1.bin
+1195.7  plotscr.hsd version: 3U 
+1198.6  ! Scripterr(5): defkeypress -> keypressslots: setslicey: invalid slice handle -720
+1198.6  unlock_resolution(426,240)
+1210.6  msg: M ohrrpgce.hsp
+1210.6  msg: M plotscr.lst
+1210.6  msg: M plotscr.lst
+1210.6  msg: M lookup1.bin
+1210.7  plotscr.hsd version: 3U 
+1210.7  not reloading script keypressslots because it's in use: refcount=1
+1210.7  unlock_resolution(426,240)
+1212.5  set_resolution 426*240
+1212.5  lock_resolution()
+1246.1  msg: M ohrrpgce.hsp
+1246.1  msg: M plotscr.lst
+1246.1  msg: M plotscr.lst
+1246.1  msg: M lookup1.bin
+1246.2  plotscr.hsd version: 3U 
+1388.2  msg: M ohrrpgce.gen
+1388.2  msg: M general.reld
+1390.5  msg: M ohrrpgce.gen
+1390.5  msg: M general.reld
+1396.8  msg: M ohrrpgce.dt0
+1396.8  msg: M heroes.reld
+1397.7  msg: M ohrrpgce.dt0
+1397.7  msg: M heroes.reld
+1398.1  msg: M ohrrpgce.gen
+1398.1  msg: M general.reld
+1406.9  msg: M ohrrpgce.n02
+1410.4  msg: M ohrrpgce.map
+1410.4  msg: M ohrrpgce.t02
+1410.4  msg: M ohrrpgce.p02
+1410.4  msg: M ohrrpgce.e02
+1410.4  msg: M ohrrpgce.z02
+1410.4  msg: M ohrrpgce.l02
+1410.4  msg: M ohrrpgce.n02
+1410.4  msg: M ohrrpgce.dox
+1410.4  msg: M ohrrpgce.d02
+1410.4  msg: M ohrrpgce.mn
+1410.4  did not reload ohrrpgce.d02
+1487.2  Cleaning up and terminating 0
+1487.2  Closing music backend...
+1487.2  ...done
+1487.2  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210619144652.725.tmp\
+1487.4  Closing gfx backend & allmodex...
+1487.4  ...done
+1487.4  End.
