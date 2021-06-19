@@ -1,3 +1,10 @@
+define constant, begin		#formations
+	0, formation:tentaeye
+	1, formation:birda
+	2, formation:danca
+	3, formation:ufoian
+end
+
 plotscript, battle, formation, begin
 	variable (i, sli)
 	specwait (10)
@@ -72,19 +79,36 @@ script, loadbattleback, formation, begin
 	slice to back (sli)
 
 	switch (formation)do(
-		case (0) do (
-			set1 := 4, set2 := 4
+		case (formation:tentaeye) do (
+			set1 := 5, set2 := 4
+			opacity1 := 80
+			opacity2 := 70
+			blend1 := blend:normal
+			blend2 := blend:normal
 		)
-		case (1) do (
+		case (formation:birda) do (
 			set1 := 1, set2 := 1
+			opacity1 := 60
+			opacity2 := 60
+			blend1 := blend:normal
+			blend2 := blend:normal
+		)
+		case (formation:birda) do (
+			set1 := 1, set2 := 1
+			opacity1 := 60
+			opacity2 := 60
+			blend1 := blend:normal
+			blend2 := blend:normal
 		) else (
 			set1 := 1, set2 := 1
+			opacity1 := 100
+			opacity2 := 100
+			blend1 := blend:normal
+			blend2 := blend:normal
 		)
 	)
-		blend1 := blend:normal
-		blend2 := blend:normal
 		opacity1 := 100
-		opacity2 := 100
+			opacity2 := 100
 	for (j, 0, 1) do (
 		sli := create container ()
 		set parent(sli, lookupslice(sli:battleback))
@@ -127,8 +151,8 @@ script, sinedist, begin
 		if (j == 0) then (
 			switch (formation) do (
 				case (0) do (
-					amplitude := 38, frequency := 10, compression := 2
-					timeScaling := 200, mode := 3
+					amplitude := 38, frequency := 20, compression := 2
+					timeScaling := 50, mode := 1
 				)
 				case (1) do (
 					amplitude := 2, frequency := 8, compression := 3
@@ -142,8 +166,8 @@ script, sinedist, begin
 			switch (formation) do (
 
 				case (0) do (
-					amplitude := -30, frequency := 10, compression := 1
-					timeScaling := 100, mode := 2
+					amplitude := -30, frequency := 30, compression := 1
+					timeScaling := 100, mode := 1
 				)
 				case (1) do (
 					amplitude := 4, frequency := 20, compression := 1
@@ -197,13 +221,21 @@ script, innitBattle, formation, begin
 	playSong (5)
 	loadSliceCollection(0)
 	loadBattleback(formation)
+	state:control  := state:battle
 	sliceToFront(lookupslice(sli:fade))
 	specWait(20)
 	screenFadeIn()
 	battle:selected := 0
-	state:control  := state:battle
+	
+
 end
 
-script, setText, begin
-
+script, setText, formation, begin
+	switch (formation)do(
+		case (0) do (
+			)
+		case (1) do (
+			) else (
+		)
+	)
 end

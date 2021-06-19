@@ -1,6 +1,6 @@
 Loading C:\OHRRPGCE\support\CrashRpt1403.dll
  0.1   ----Starting OHRRPGCE Custom----
- 0.1  06-19-2021 06:36:24
+ 0.1  06-19-2021 07:01:12
  0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
  0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\custom.exe
  0.1  orig_dir: C:\OHRRPGCE
@@ -9,34 +9,43 @@ Loading C:\OHRRPGCE\support\CrashRpt1403.dll
  0.1  documents_dir: C:\Users\Dell\Documents
  0.1  prefer_gfx_backend: gfx backend sdl isn't available
  0.1  Initialising gfx_sdl2...
- 0.1  setvideomode zoom=2 w*h = 640,400
+ 0.2  setvideomode zoom=2 w*h = 640,400
  0.2  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
  0.2  disable_native_text_input=0
  0.2  unlock_resolution(320,200)
  0.2  music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5
  0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
  0.2  Working in C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
- 5.7  check_ok_to_open...
- 5.7  pid_current_exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe
- 5.7  prev_session.workingdir = C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
- 5.7  prev_session.info_file_exists = YES
- 5.7  prev_session.pid = 7040 (exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe)
- 5.7  prev_session.running = YES
- 5.7  prev_session.partial_rpg = NO
- 5.7  prev_session.fresh_danger_tmp = NO
- 5.7  prev_session.sourcerpg = 
- 5.7  prev_session.sourcerpg_old_mtime = 0
- 5.7  prev_session.sourcerpg_current_mtime = 0
- 5.7  prev_session.session_start_time = 2021 Jun 19 06:36:24
- 5.7  prev_session.last_lump_mtime = 0
+ 8.9  check_ok_to_open...
+ 8.9  pid_current_exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe
+ 8.9  prev_session.workingdir = C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+ 8.9  prev_session.info_file_exists = YES
+ 8.9  prev_session.pid = 4304 (exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe)
+ 8.9  prev_session.running = YES
+ 8.9  prev_session.partial_rpg = NO
+ 8.9  prev_session.fresh_danger_tmp = NO
+ 8.9  prev_session.sourcerpg = 
+ 8.9  prev_session.sourcerpg_old_mtime = 0
+ 8.9  prev_session.sourcerpg_current_mtime = 0
+ 8.9  prev_session.session_start_time = 2021 Jun 19 07:01:12
+ 8.9  prev_session.last_lump_mtime = 0
 end_debug: no debug/error messages during startup (skipping rest of startup)
 
- 5.7   ----Loading a game----
- 5.7  06-19-2021 06:36:30
- 5.7  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 5.7  tmpdir: C:\Users\Dell\AppData\Roaming\OHRRPGCE\
- 5.7  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
- 5.7  Editing game C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg ( )
- 5.8  Full game data upgrade...
- 5.8  Last edited by: [[OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell  -g -gen gcc Win32 32-bit]] branch_rev 12220
- 5.8  archinym creation info: OHRRPGCE wip 20210417
+ 8.9   ----Loading a game----
+ 8.9  06-19-2021 07:01:21
+ 8.9  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 8.9  tmpdir: C:\Users\Dell\AppData\Roaming\OHRRPGCE\
+ 8.9  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 8.9  Editing game C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg ( )
+ 9.0  Full game data upgrade...
+ 9.0  Last edited by: [[OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell  -g -gen gcc Win32 32-bit]] branch_rev 12220
+ 9.0  archinym creation info: OHRRPGCE wip 20210417
+12.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.393672.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.317423.tmp"
+12.5  hspeak version '3Uf'
+12.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+40.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.31266.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.16889.tmp"
+41.0  hspeak version '3Uf'
+41.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+50.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.62338.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.698952.tmp"
+50.7  hspeak version '3Uf'
+50.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
