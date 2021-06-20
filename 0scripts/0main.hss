@@ -43,6 +43,8 @@ global variable, begin
 
 	#suspends controls
 	16, state:control
+	20, state:battleturn
+	21, state:textbox
 
 	17, menu:lastmain 
 
@@ -51,13 +53,8 @@ global variable, begin
 	#increments during game play. check via mod for animating
 	19, game:tick
 
-	20, state:battleturn
-	21, state:textbox
-	
 	22, battle:selected
-	24, battle:turn
-	
-	25, slots:bit
+	23, battle:turn
 end
 
 plotscript, defnewgame, begin

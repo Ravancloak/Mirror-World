@@ -17,6 +17,7 @@ define constant, begin
 3,sfx:breath1
 4,sfx:breath2
 5,sfx:breath3
+0,hero:Mary Hill
 0,stat:HP
 1,stat:MP
 2,stat:Atk
@@ -56,11 +57,13 @@ define constant, begin
 3,map:Forest
 0,menu:Main Menu
 1,menu:Settings
-0,enemy:Birda
-1,enemy:Ufoian
-2,enemy:Danca
+1,enemy:Birda
+2,enemy:Ufoian
+3,enemy:Danca
+4,enemy:Tentaeye
 1,sli:BattleCol
 2,sli:Enemy Sprite
 3,sli:BattleMenu
 4,sli:slot
+5,sli:playerhearts
 end

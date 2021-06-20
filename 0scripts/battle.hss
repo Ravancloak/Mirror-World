@@ -1,10 +1,3 @@
-define constant, begin		#formations
-	0, formation:tentaeye
-	1, formation:birda
-	2, formation:danca
-	3, formation:ufoian
-end
-
 plotscript, battle, formation, begin
 	variable (i, sli)
 	specwait (10)
@@ -79,22 +72,22 @@ script, loadbattleback, formation, begin
 	slice to back (sli)
 
 	switch (formation)do(
-		case (formation:tentaeye) do (
+		case (enemy:Birda) do (
 			set1 := 5, set2 := 4
 			opacity1 := 80
 			opacity2 := 70
 			blend1 := blend:normal
 			blend2 := blend:normal
 		)
-		case (formation:birda) do (
-			set1 := 1, set2 := 1
+		case (enemy:Ufoian) do (
+			set1 := 5, set2 := 4
 			opacity1 := 60
 			opacity2 := 60
 			blend1 := blend:normal
 			blend2 := blend:normal
 		)
-		case (formation:birda) do (
-			set1 := 1, set2 := 1
+		case (enemy:Danca) do (
+			set1 := 5, set2 := 4
 			opacity1 := 60
 			opacity2 := 60
 			blend1 := blend:normal
@@ -150,11 +143,11 @@ script, sinedist, begin
 
 		if (j == 0) then (
 			switch (formation) do (
-				case (0) do (
+				case (enemy:Birda) do (
 					amplitude := 38, frequency := 20, compression := 2
 					timeScaling := 50, mode := 1
 				)
-				case (1) do (
+				case (enemy:Ufoian) do (
 					amplitude := 2, frequency := 8, compression := 3
 					timeScaling := 30, mode := 1
 				) else (
@@ -165,11 +158,11 @@ script, sinedist, begin
 		) else (
 			switch (formation) do (
 
-				case (0) do (
+				case (enemy:Birda) do (
 					amplitude := -30, frequency := 30, compression := 1
 					timeScaling := 100, mode := 1
 				)
-				case (1) do (
+				case (enemy:Ufoian) do (
 					amplitude := 4, frequency := 20, compression := 1
 					timeScaling := 20, mode := 3
 				) else (
@@ -221,21 +214,59 @@ script, innitBattle, formation, begin
 	playSong (5)
 	loadSliceCollection(0)
 	loadBattleback(formation)
+	setupslices(formation)
 	state:control  := state:battle
 	sliceToFront(lookupslice(sli:fade))
 	specWait(20)
 	screenFadeIn()
 	battle:selected := 0
-	
-
 end
 
-script, setText, formation, begin
-	switch (formation)do(
-		case (0) do (
-			)
-		case (1) do (
-			) else (
+
+script, setupslices, formation, begin
+	variable (sli, sli2, i)
+
+	#replace enemy sprite
+	set sprite set number (sli := lookupslice(sli:enemySprite), formation)
+
+	#set hearts
+	update hearts
+
+	#set text
+	switch (formation) do (
+		case (enemy:Birda) do (
+			$3="Punch her in the tits, hard"
+			$4="Grope her boobs. Obviously"
+			$5="Attempt to befriend"
 		)
+		case (enemy:Danca) do (
+			$3="Slap her until she no dance"
+			$4="Insult her moves"
+			$5="Dance with her"
+		)
+		case (enemy:Tentaeye) do (
+			$3="Punch it in the fucking eye"
+			$4="Tickle the... *slimy* tentacles"
+			$5="Try to shake hands with it"
+		)
+	)
+	$6="Defend, of course"
+	$7="Run for it"
+
+	#update text slices
+	for (i, 0, 4) do (
+		sli := slice child(first child (lookup slice (sli:battleMenu)), i)
+		setSliceText (sli, i+3)
+	)
+end
+
+script, update hearts, begin
+	variable (sli, sli2, i, var)
+	var := get hero stat (me, stat:HP)
+	sli := lookupslice (sli:player hearts)
+	for (i,0,7) do (
+		sli2 := slice child (sli, i)
+
+		if (i+1>var) then (set slice visible (sli2, false))
 	)
 end
