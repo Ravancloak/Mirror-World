@@ -39,8 +39,8 @@ plotscript, slotmain, begin
         for (i, 0, 2) do (
         	sli := firstchild (slicechild (firstchild (lookupslice (sli:slot)), i))
             if (get slice extra (sli, 0)==1 && lookupslice (sli:slot)) then (
-                set slice y (sli, slicey(sli)--20)
-                if (slice y(sli)<-970) then (set slice y (sli, -10))
+                set slice y (sli, slicey(sli)+20)
+                if (slice y(sli)>-10) then (set slice y (sli, -970))
                 return  (1)
             )
         )
@@ -72,10 +72,8 @@ script, keypressSlots, begin
 			sli := firstchild (slicechild (firstchild (lookupslice (sli:slot)), i))
 			if (get slice extra (sli,0)==1) then (
 				set slice extra (sli, 0, 0)
-				#I added a snap to next 60 here. Dividing will round down so I just added 50.
-				(set slice y(sli, slice y(sli)--50))
-				if (slice y(sli)<-970) then (set slice y (sli, -10))
-				set slice y (sli, slice y(sli)/60*60--10)
+				# snap to nearest multiple of 60
+				set slice y (sli, (slice y(sli)/60)*60--10)
 				break
 			)
 		)

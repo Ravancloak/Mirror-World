@@ -1,0 +1,150 @@
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.0   ----Starting OHRRPGCE Game----
+ 0.0  06-20-2021 14:22:41
+ 0.0  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.0  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.0  orig_dir: C:\Users\takui\Documents\GitHub\Mirror-World
+ 0.0  curdir: C:\Users\takui\Documents\GitHub\Mirror-World
+ 0.0  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.0  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_92699'
+ 0.0  Spawned from Custom
+ 0.0  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\Users\takui\Documents\GitHub\Mirror-World\mirrorworld.rpg
+ 0.3  Received message from Custom: W C:\Users\takui\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\Users\takui\Documents\GitHub\Mirror-World\mirrorworld.rpg----
+ 0.3  curdir: C:\Users\takui\Documents\GitHub\Mirror-World
+ 0.3  tmpdir: C:\Users\takui\AppData\Local\Temp\ohrrpgce20210620142241.583.tmp\
+ 0.3  settings_dir: C:\Users\takui\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\Users\takui\Documents\GitHub\Mirror-World\mirrorworld.saves
+ 0.3  Name: 
+ 0.4  plotscr.hsd version: 3U 
+ 0.9  lock_resolution()
+ 0.9  set_resolution 426*240
+ 0.9  recenter_window_hint()
+ 0.9  get_screen_size: true screen size 1920x1080
+ 0.9  Desktop resolution: 1920*1080
+ 0.9  automatic_scale_factor(0.5), screen size: 1920*1080
+ 0.9  Setting graphics scaling to x2 change_windowsize=-1
+ 0.9  Preserving fullscreen/windowed state
+ 0.9  genRungameFullscreenIndependent: 0
+70.3  ! Scripterr(5): battle -> battleturn: setslicevisible: invalid slice handle 0
+70.3  unlock_resolution(426,240)
+76.9  Killing script fibre; last script = battleturn
+76.9  set_resolution 426*240
+76.9  lock_resolution()
+150.8  msg: M ohrrpgce.gen
+150.8  msg: M general.reld
+185.3  msg: M ohrrpgce.n02
+231.3  msg: M ohrrpgce.map
+231.3  msg: M ohrrpgce.t02
+231.3  msg: M ohrrpgce.p02
+231.3  msg: M ohrrpgce.e02
+231.3  msg: M ohrrpgce.z02
+231.3  msg: M ohrrpgce.l02
+231.3  msg: M ohrrpgce.n02
+231.3  msg: M ohrrpgce.dox
+231.3  msg: M ohrrpgce.d02
+231.3  msg: M ohrrpgce.mn
+231.3  did not reload ohrrpgce.d02
+233.2  msg: M ohrrpgce.map
+233.2  msg: M ohrrpgce.t02
+233.2  msg: M ohrrpgce.p02
+233.2  msg: M ohrrpgce.e02
+233.2  msg: M ohrrpgce.z02
+233.2  msg: M ohrrpgce.l02
+233.2  msg: M ohrrpgce.n02
+233.2  msg: M ohrrpgce.dox
+233.2  msg: M ohrrpgce.d02
+233.2  msg: M ohrrpgce.mn
+233.2  did not reload ohrrpgce.d02
+234.0  msg: M ohrrpgce.gen
+234.0  msg: M general.reld
+359.6  msg: M ohrrpgce.hsp
+359.6  msg: M plotscr.lst
+359.6  msg: M plotscr.lst
+359.6  msg: M lookup1.bin
+359.6  plotscr.hsd version: 3U 
+407.1  msg: M ohrrpgce.hsp
+407.1  msg: M plotscr.lst
+407.1  msg: M plotscr.lst
+407.1  msg: M lookup1.bin
+407.2  plotscr.hsd version: 3U 
+502.5  msg: M ohrrpgce.hsp
+502.5  msg: M plotscr.lst
+502.5  msg: M plotscr.lst
+502.5  msg: M lookup1.bin
+502.6  plotscr.hsd version: 3U 
+763.0  msg: M ohrrpgce.hsp
+763.0  msg: M plotscr.lst
+763.0  msg: M plotscr.lst
+763.0  msg: M lookup1.bin
+763.0  plotscr.hsd version: 3U 
+794.3  msg: M ohrrpgce.hsp
+794.3  msg: M plotscr.lst
+794.3  msg: M plotscr.lst
+794.3  msg: M lookup1.bin
+794.4  plotscr.hsd version: 3U 
+876.2  msg: M ohrrpgce.hsp
+876.2  msg: M plotscr.lst
+876.2  msg: M plotscr.lst
+876.2  msg: M lookup1.bin
+876.3  plotscr.hsd version: 3U 
+1096.5  msg: M ohrrpgce.hsp
+1096.5  msg: M plotscr.lst
+1096.5  msg: M plotscr.lst
+1096.5  msg: M lookup1.bin
+1096.6  plotscr.hsd version: 3U 
+1182.5  msg: M ohrrpgce.hsp
+1182.5  msg: M plotscr.lst
+1182.5  msg: M plotscr.lst
+1182.5  msg: M lookup1.bin
+1182.6  plotscr.hsd version: 3U 
+1184.7  msg: M ohrrpgce.gen
+1184.7  msg: M general.reld
+1185.9  msg: M ohrrpgce.gen
+1187.1  msg: M ohrrpgce.gen
+1187.1  msg: M general.reld
+1187.1  msg: M ohrrpgce.gen
+1187.1  msg: M general.reld
+1222.7  msg: M ohrrpgce.hsp
+1222.7  msg: M plotscr.lst
+1222.7  msg: M plotscr.lst
+1222.7  msg: M lookup1.bin
+1222.8  plotscr.hsd version: 3U 
+1271.4  msg: M ohrrpgce.hsp
+1271.4  msg: M plotscr.lst
+1271.4  msg: M plotscr.lst
+1271.4  msg: M lookup1.bin
+1271.5  plotscr.hsd version: 3U 
+1322.4  msg: M ohrrpgce.hsp
+1322.4  msg: M plotscr.lst
+1322.4  msg: M plotscr.lst
+1322.4  msg: M lookup1.bin
+1322.4  plotscr.hsd version: 3U 
+1370.5  msg: M ohrrpgce.hsp
+1370.5  msg: M plotscr.lst
+1370.5  msg: M plotscr.lst
+1370.5  msg: M lookup1.bin
+1370.5  plotscr.hsd version: 3U 
+1386.1  msg: M ohrrpgce.hsp
+1386.1  msg: M plotscr.lst
+1386.1  msg: M plotscr.lst
+1386.1  msg: M lookup1.bin
+1386.2  plotscr.hsd version: 3U 
+1452.5  Cleaning up and terminating 0
+1452.5  Closing music backend...
+1452.5  ...done
+1452.5  Deleting tmpdir C:\Users\takui\AppData\Local\Temp\ohrrpgce20210620142241.583.tmp\
+1452.6  Closing gfx backend & allmodex...
+1452.6  ...done
+1452.6  End.
