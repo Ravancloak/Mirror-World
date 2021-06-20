@@ -5,16 +5,14 @@ plotscript, slotmachine, begin
 	# init
 	screenfadeout()
 	loadSliceCollection(1)
-	sli := lookupslice(sli:slot)
-	screenfadein()
-	suspendcontrol
-
 	for (i,0,2) do (
 		sli := firstchild (slicechild (firstchild (lookupslice (sli:slot)), i))
 		set slice y (sli, -10)
 		set slice extra(sli, 0, 1)
 	)
-
+	screenfadein()
+	suspendcontrol
+	
 	state:control := state:slots
 
 	#main part of spinny
@@ -25,7 +23,6 @@ end
 plotscript, slotmain, begin
 # variables
 	variable (i, sli, check)
-
 # main
 	while (true) do (
 		check := 0
@@ -33,40 +30,52 @@ plotscript, slotmain, begin
 		if (check == 0) then (break)
 		specwait
 	)
-
+	slotwincheck
+	slotend
+	
 # subscript to spin slots
 	subscript, spin, begin
         for (i, 0, 2) do (
         	sli := firstchild (slicechild (firstchild (lookupslice (sli:slot)), i))
             if (get slice extra (sli, 0)==1 && lookupslice (sli:slot)) then (
-                set slice y (sli, slicey(sli)+20)
+                set slice y (sli, slicey(sli)+6)
                 if (slice y(sli)>-10) then (set slice y (sli, -970))
                 return  (1)
             )
         )
 	end
+end
 
-	#todo:caculate victory
-
-	#todo: open a menu/script a menu for to redo/exit
-	slotend
+# calculate victory
+script, slotwincheck, begin
+	variable (i, sli, sli2, temp)
+	
+	sli2 := initArray(9)
+	
+	for (i, 0, 2) do (
+		sli := slicechild (firstchild (lookupslice (sli:slot)), i)
+		temp := get sprite frame(slice at pixel(sli,(i+1)*100,120))
+		setElement(sli2,i+1,temp)
+	)
+	
+	if (getElement(sli2,1) == getElement(sli2,2) == getElement(sli2,3)) then (
+		get item name(3,temp)
+	)
 end
 
 script, slotend, begin
 # variables
 	variable (i, sli, check)
 	# finish
-
 	screenfadeout()
 	freeSlice (lookup slice(sli:slot))
-	show no value
 	screenfadein()
+	write(8)
 end
 
 # input
 script, keypressSlots, begin
 	variable (i, sli)
-
 	if (newkeypressA && lookup slice(sli:slot)) then (
 		for (i,0,2) do (
 			sli := firstchild (slicechild (firstchild (lookupslice (sli:slot)), i))

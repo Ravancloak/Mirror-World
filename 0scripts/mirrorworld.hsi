@@ -9,7 +9,7 @@ define constant, begin
 2,song:prehistoric beats
 3,song:why dont you save now
 4,song:hot digs
-5,song:fight it out
+5,song:Battle
 6,song:forest of wonders
 0,sfx:talk1
 1,sfx:talk2
@@ -18,6 +18,7 @@ define constant, begin
 4,sfx:breath2
 5,sfx:breath3
 0,hero:Mary Hill
+1,item:Cherries
 0,stat:HP
 1,stat:MP
 2,stat:Atk

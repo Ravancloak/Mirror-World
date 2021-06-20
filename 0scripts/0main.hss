@@ -55,6 +55,8 @@ global variable, begin
 
 	22, battle:selected
 	23, battle:turn
+	
+	24, state:slotswitch
 end
 
 plotscript, defnewgame, begin
@@ -120,9 +122,10 @@ plotscript, defkeypress, begin
 
 	if (topmenu) then (menu keypress, exit script)
 	switch (state:control) do (
+		case (state:slots)		do (keypressSlots)
 		case (state:suspend)	do ()
 		case (state:resume)		do (keypressmain)
-		case (state:slots)		do (keypressSlots)
+		
 	)
 	if (battle:turn) then (battlekeypress)
 end
