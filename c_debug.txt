@@ -1,0 +1,117 @@
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 3.5   ----Starting OHRRPGCE Custom----
+ 3.5  06-21-2021 16:05:52
+ 3.5  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 3.5  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\custom.exe
+ 3.5  orig_dir: C:\OHRRPGCE
+ 3.5  curdir: C:\OHRRPGCE
+ 3.5  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 3.5  documents_dir: C:\Users\Dell\Documents
+ 3.5  prefer_gfx_backend: gfx backend sdl isn't available
+ 3.5  Initialising gfx_sdl2...
+ 3.7  setvideomode zoom=2 w*h = 640,400
+ 3.9  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 3.9  disable_native_text_input=0
+ 3.9  unlock_resolution(320,200)
+ 3.9  music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5
+ 4.0  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 4.0  Working in C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+171.4  check_ok_to_open...
+171.4  pid_current_exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe
+171.4  prev_session.workingdir = C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+171.4  prev_session.info_file_exists = YES
+171.4  prev_session.pid = 10720 (exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe)
+171.4  prev_session.running = YES
+171.4  prev_session.partial_rpg = NO
+171.4  prev_session.fresh_danger_tmp = NO
+171.4  prev_session.sourcerpg = 
+171.4  prev_session.sourcerpg_old_mtime = 0
+171.4  prev_session.sourcerpg_current_mtime = 0
+171.4  prev_session.session_start_time = 2021 Jun 21 16:05:52
+171.4  prev_session.last_lump_mtime = 0
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+171.5   ----Loading a game----
+171.5  06-21-2021 16:08:40
+171.5  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+171.5  tmpdir: C:\Users\Dell\AppData\Roaming\OHRRPGCE\
+171.5  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+171.5  Editing game C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg ( )
+173.6  Full game data upgrade...
+173.6  Last edited by: [[OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell  -g -gen gcc Win32 32-bit]] branch_rev 12220
+173.6  archinym creation info: OHRRPGCE wip 20210417
+1029.8  spriteedit_import16: palette is identical
+1033.5  spriteedit_import16: palette is identical
+1092.4  spriteedit_import16: palette is identical
+1409.8  spriteedit_import16: palette is identical
+1416.8  spriteedit_import16: palette is identical
+1425.6  spriteedit_import16: palette is identical
+1438.3  Saving - been editing for 4m46s
+2545.5  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_55816
+2546.4  Channel connection received (after 491ms)
+2691.0  channel_write error (closing) (wrote 0 of 15): The pipe is being closed.
+2704.8  Saving - been editing for 1m14s
+2713.5  getinputtext: not enabled
+2713.5  getinputtext: not enabled
+2713.6  getinputtext: not enabled
+2713.6  getinputtext: not enabled
+3148.5  getinputtext: not enabled
+3148.6  getinputtext: not enabled
+3148.6  getinputtext: not enabled
+3149.0  getinputtext: not enabled
+3149.1  getinputtext: not enabled
+3149.1  getinputtext: not enabled
+3149.2  getinputtext: not enabled
+3149.2  getinputtext: not enabled
+3149.3  getinputtext: not enabled
+3149.4  getinputtext: not enabled
+3149.4  getinputtext: not enabled
+3149.5  getinputtext: not enabled
+3149.5  getinputtext: not enabled
+3149.6  getinputtext: not enabled
+3149.6  getinputtext: not enabled
+3149.7  getinputtext: not enabled
+3149.7  getinputtext: not enabled
+3149.8  getinputtext: not enabled
+3149.9  getinputtext: not enabled
+3230.0  getinputtext: not enabled
+3230.0  getinputtext: not enabled
+3230.8  getinputtext: not enabled
+3230.9  getinputtext: not enabled
+3230.9  getinputtext: not enabled
+3231.7  getinputtext: not enabled
+3231.7  getinputtext: not enabled
+3231.8  getinputtext: not enabled
+3231.9  getinputtext: not enabled
+3252.7  getinputtext: not enabled
+3252.8  getinputtext: not enabled
+3278.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\enemies\panicbear.bmp twice! Probably a mistake
+3278.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\enemies\panicbear.bmp twice! Probably a mistake
+3278.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\enemies\hunnagunna.bmp twice! Probably a mistake
+3278.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\enemies\hunnagunna.bmp twice! Probably a mistake
+3279.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\enemies\danca.bmp twice! Probably a mistake
+3279.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\enemies\danca.bmp twice! Probably a mistake
+3279.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\enemies\birda.bmp twice! Probably a mistake
+3279.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\enemies\birda.bmp twice! Probably a mistake
+3280.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\masterpal.bmp twice! Probably a mistake
+3280.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\masterpal.bmp twice! Probably a mistake
+3281.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\masterpal.bmp twice! Probably a mistake
+3281.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\masterpal.bmp twice! Probably a mistake
+3281.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\various\battle_heart.bmp twice! Probably a mistake
+3281.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\various\battle_heart.bmp twice! Probably a mistake
+3282.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\various\font-sheet.bmp twice! Probably a mistake
+3282.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\various\font-sheet.bmp twice! Probably a mistake
+3282.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\various\menu ui.bmp twice! Probably a mistake
+3282.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\various\menu ui.bmp twice! Probably a mistake
+3283.7  C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\various\menu ui.bmp contains 5 colors
+3315.1  getinputtext: not enabled
+3315.1  getinputtext: not enabled
+3315.2  getinputtext: not enabled
+3315.2  getinputtext: not enabled
+4540.1  Saving - been editing for 8m25s
+4540.3  Cleaning up and terminating 0
+4540.3  Closing music backend...
+4540.3  ...done
+4541.0  Closing gfx backend & allmodex...
+4541.1  ...done
+4541.1  End.
