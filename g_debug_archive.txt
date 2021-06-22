@@ -1,6 +1,3 @@
- 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
- 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.1  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
  0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
  0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_84274'
  0.1  Spawned from Custom
@@ -2431,3 +2428,316 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 4141.4  Closing gfx backend & allmodex...
 4141.4  ...done
 4141.4  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.3   ----Starting OHRRPGCE Game----
+ 0.3  06-21-2021 16:48:15
+ 0.3  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.3  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.3  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.3  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.3  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_55816'
+ 0.3  Spawned from Custom
+ 0.3  Initialising gfx_sdl2...
+ 0.3  setvideomode zoom=2 w*h = 640,400
+ 0.4  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.4  disable_native_text_input=0
+ 0.5  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.5  Setting default window settings...
+ 0.5  set_resolution 320*200
+ 0.5  Setting graphics scaling to x2 change_windowsize=-1
+ 0.5  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.5  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
+ 0.5  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.5   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
+ 0.5  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.5  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210621164815.648.tmp\
+ 0.5  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.5  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
+ 0.5  Name: 
+ 0.9  plotscr.hsd version: 3U 
+ 2.1  lock_resolution()
+ 2.1  set_resolution 426*240
+ 2.1  recenter_window_hint()
+ 2.1  get_screen_size: true screen size 1600x900
+ 2.1  Desktop resolution: 1600*860
+ 2.1  automatic_scale_factor(0.5), screen size: 1600*860
+ 2.1  Setting graphics scaling to x2 change_windowsize=-1
+ 2.1  Preserving fullscreen/windowed state
+ 2.1  genRungameFullscreenIndependent: 0
+ 6.8  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+ 6.8  unlock_resolution(426,240)
+ 7.8  set_resolution 426*240
+ 7.8  lock_resolution()
+ 7.8  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+ 7.8  unlock_resolution(426,240)
+ 8.3  set_resolution 426*240
+ 8.3  lock_resolution()
+ 8.3  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+ 8.3  unlock_resolution(426,240)
+ 9.2  set_resolution 426*240
+ 9.2  lock_resolution()
+ 9.2  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+ 9.2  unlock_resolution(426,240)
+10.6  set_resolution 426*240
+10.6  lock_resolution()
+10.6  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+10.6  unlock_resolution(426,240)
+11.3  set_resolution 426*240
+11.3  lock_resolution()
+11.3  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+11.3  unlock_resolution(426,240)
+11.5  set_resolution 426*240
+11.5  lock_resolution()
+11.5  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+11.5  unlock_resolution(426,240)
+11.7  set_resolution 426*240
+11.7  lock_resolution()
+11.7  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+11.7  unlock_resolution(426,240)
+11.9  set_resolution 426*240
+11.9  lock_resolution()
+11.9  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+11.9  unlock_resolution(426,240)
+12.1  set_resolution 426*240
+12.1  lock_resolution()
+12.1  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+12.1  unlock_resolution(426,240)
+12.2  set_resolution 426*240
+12.2  lock_resolution()
+13.8  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: firstchild: invalid slice handle 0
+13.8  unlock_resolution(426,240)
+14.4  set_resolution 426*240
+14.4  lock_resolution()
+14.4  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: slicechild: invalid slice handle 0
+14.4  unlock_resolution(426,240)
+14.6  set_resolution 426*240
+14.6  lock_resolution()
+14.6  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: firstchild: invalid slice handle 0
+14.6  unlock_resolution(426,240)
+14.8  set_resolution 426*240
+14.8  lock_resolution()
+14.8  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: getsliceextra: invalid slice handle 0
+14.8  unlock_resolution(426,240)
+15.0  set_resolution 426*240
+15.0  lock_resolution()
+15.0  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: firstchild: invalid slice handle 0
+15.0  unlock_resolution(426,240)
+15.7  set_resolution 426*240
+15.7  lock_resolution()
+23.7  Cleaning up and terminating 0
+23.7  Closing music backend...
+23.8  ...done
+23.8  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210621164815.648.tmp\
+24.0  Closing gfx backend & allmodex...
+24.1  ...done
+24.1  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.4   ----Starting OHRRPGCE Game----
+ 0.4  06-22-2021 17:34:16
+ 0.4  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.4  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.4  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.4  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.4  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.4  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_90231'
+ 0.4  Spawned from Custom
+ 0.4  Initialising gfx_sdl2...
+ 0.5  setvideomode zoom=2 w*h = 640,400
+ 0.5  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.5  disable_native_text_input=0
+ 0.5  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.5  Setting default window settings...
+ 0.5  set_resolution 320*200
+ 0.6  Setting graphics scaling to x2 change_windowsize=-1
+ 0.6  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.6  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
+ 0.6  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.6   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
+ 0.6  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.6  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210622173416.47.tmp\
+ 0.6  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.6  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
+ 0.6  Name: 
+ 1.1  plotscr.hsd version: 3U 
+ 1.5  lock_resolution()
+ 1.5  set_resolution 426*240
+ 1.6  recenter_window_hint()
+ 1.6  get_screen_size: true screen size 1600x900
+ 1.6  Desktop resolution: 1600*860
+ 1.6  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.6  Setting graphics scaling to x2 change_windowsize=-1
+ 1.6  Preserving fullscreen/windowed state
+ 1.6  genRungameFullscreenIndependent: 0
+ 2.1  Joystick 0 GUID 03000000c82d000006500000000000 instance_id 0
+ 2.1   Opened as gamecontroller 8BitDo M30 Gamepad
+ 2.1  Opened joystick 0 8BitDo M30 gamepad (id 0) -- 15 buttons 6 axes 1 hats 0 balls
+ 2.1  JOYSTICKSTATE.UPDATE_KEYBITS(0) took 21ms
+ 7.0  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+ 7.0  unlock_resolution(426,240)
+ 9.2  set_resolution 426*240
+ 9.2  lock_resolution()
+ 9.2  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+ 9.2  unlock_resolution(426,240)
+ 9.7  set_resolution 426*240
+ 9.7  lock_resolution()
+ 9.7  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+ 9.7  unlock_resolution(426,240)
+10.2  set_resolution 426*240
+10.2  lock_resolution()
+10.2  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+10.2  unlock_resolution(426,240)
+10.5  set_resolution 426*240
+10.5  lock_resolution()
+10.5  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+10.5  unlock_resolution(426,240)
+10.9  set_resolution 426*240
+10.9  lock_resolution()
+10.9  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+10.9  unlock_resolution(426,240)
+11.2  set_resolution 426*240
+11.2  lock_resolution()
+11.2  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+11.2  unlock_resolution(426,240)
+11.4  set_resolution 426*240
+11.4  lock_resolution()
+11.4  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+11.4  unlock_resolution(426,240)
+11.7  set_resolution 426*240
+11.7  lock_resolution()
+11.7  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+11.7  unlock_resolution(426,240)
+12.0  set_resolution 426*240
+12.0  lock_resolution()
+12.0  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+12.0  unlock_resolution(426,240)
+12.4  set_resolution 426*240
+12.4  lock_resolution()
+14.0  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: firstchild: invalid slice handle 0
+14.0  unlock_resolution(426,240)
+16.1  Killing script fibre; last script = spin
+16.1  set_resolution 426*240
+16.1  lock_resolution()
+30.9  Cleaning up and terminating 0
+30.9  Closing music backend...
+30.9  ...done
+30.9  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210622173416.47.tmp\
+31.1  Closing gfx backend & allmodex...
+31.1  ...done
+31.1  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  06-22-2021 18:23:32
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_77853'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.3  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.3  disable_native_text_input=0
+ 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210622182332.353.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
+ 0.4  Name: 
+ 0.6  plotscr.hsd version: 3U 
+ 1.0  lock_resolution()
+ 1.0  set_resolution 426*240
+ 1.1  recenter_window_hint()
+ 1.1  get_screen_size: true screen size 1600x900
+ 1.1  Desktop resolution: 1600*860
+ 1.1  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.1  Setting graphics scaling to x2 change_windowsize=-1
+ 1.1  Preserving fullscreen/windowed state
+ 1.1  genRungameFullscreenIndependent: 0
+ 1.6  Joystick 0 GUID 03000000c82d000006500000000000 instance_id 0
+ 1.6   Opened as gamecontroller 8BitDo M30 Gamepad
+ 1.6  Opened joystick 0 8BitDo M30 gamepad (id 0) -- 15 buttons 6 axes 1 hats 0 balls
+ 7.1  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+ 7.1  unlock_resolution(426,240)
+ 7.9  set_resolution 426*240
+ 7.9  lock_resolution()
+ 7.9  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+ 7.9  unlock_resolution(426,240)
+ 8.2  set_resolution 426*240
+ 8.2  lock_resolution()
+ 8.2  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+ 8.2  unlock_resolution(426,240)
+ 9.8  set_resolution 426*240
+ 9.8  lock_resolution()
+ 9.8  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+ 9.8  unlock_resolution(426,240)
+10.2  set_resolution 426*240
+10.2  lock_resolution()
+10.2  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+10.2  unlock_resolution(426,240)
+10.4  set_resolution 426*240
+10.4  lock_resolution()
+10.4  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+10.4  unlock_resolution(426,240)
+10.6  set_resolution 426*240
+10.6  lock_resolution()
+10.6  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+10.6  unlock_resolution(426,240)
+10.8  set_resolution 426*240
+10.8  lock_resolution()
+10.8  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+10.8  unlock_resolution(426,240)
+11.0  set_resolution 426*240
+11.0  lock_resolution()
+11.0  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+11.0  unlock_resolution(426,240)
+11.4  set_resolution 426*240
+11.4  lock_resolution()
+11.4  ! Scripterr(5): slotmachine -> slotwincheck -> slotatspot: getspriteframe: invalid slice handle 0
+11.4  unlock_resolution(426,240)
+11.6  set_resolution 426*240
+11.6  lock_resolution()
+13.2  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: firstchild: invalid slice handle 0
+13.2  unlock_resolution(426,240)
+18.5  set_resolution 426*240
+18.5  lock_resolution()
+29.3  msg: M ohrrpgce.gen
+29.3  msg: M general.reld
+35.0  msg: P 
+35.6  msg: M ohrrpgce.gen
+35.6  msg: M general.reld
+71.4  msg: M ohrrpgce.hsp
+71.4  msg: M plotscr.lst
+71.4  msg: M plotscr.lst
+71.4  msg: M lookup1.bin
+71.5  plotscr.hsd version: 3U 
+621.4  Cleaning up and terminating 0
+621.4  Closing music backend...
+621.4  ...done
+621.4  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210622182332.353.tmp\
+621.6  Closing gfx backend & allmodex...
+621.6  ...done
+621.6  End.

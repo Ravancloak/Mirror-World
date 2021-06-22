@@ -236,7 +236,7 @@ script,fademusicout,time,begin
 end
 
 script, activatableNPC, who, begin
-	if (read NPC (who,NPCstat:activation) == NPCactivation:use) then (return (true))
+	if (read NPC (who,NPCstat:activation) == NPCactivation:use||read NPC (who, NPCstat:activation)==NPCactivation:touch) then (return (true))
 end
 
 plotscript, totitle, begin

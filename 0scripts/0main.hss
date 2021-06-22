@@ -154,7 +154,7 @@ script, keypressmain, begin
 				usenpcatspot
 				exit script
 			)
-		)	
+		)
 	)
 	
 	if (newkeypressX) then (
@@ -169,7 +169,8 @@ script, keypressmain, begin
 		x := heroX(me)
 		y := heroY(me)--1
 		if (NPC at spot (x,y)) then (
-			if (activatableNPC(NPC at spot (x,y))) then (
+			who := npc at spot (x,y)
+			if (activatableNPC(who) && read NPC (who, NPCstat:activation)==NPCactivation:touch) then (
 				set hero direction (me, up)
 				usenpcatspot
 				exit script
@@ -180,7 +181,8 @@ script, keypressmain, begin
 		x := heroX(me)
 		y := heroY(me)+1
 		if (NPC at spot (x,y)) then (
-			if (activatableNPC(NPC at spot (x,y))) then (
+			who := npc at spot (x,y)
+			if (activatableNPC(who) && read NPC (who, NPCstat:activation)==NPCactivation:touch) then (
 				set hero direction (me, down)
 				usenpcatspot
 				exit script
@@ -191,7 +193,8 @@ script, keypressmain, begin
 		x := heroX(me)--1
 		y := heroY(me)
 		if (NPC at spot (x,y)) then (
-			if (activatableNPC(NPC at spot (x,y))) then (
+			who := npc at spot (x,y)
+			if (activatableNPC(who) && read NPC (who, NPCstat:activation)==NPCactivation:touch) then (
 				set hero direction (me, left)
 				usenpcatspot
 				exit script
@@ -202,8 +205,9 @@ script, keypressmain, begin
 		x := heroX(me)+1
 		y := heroY(me)
 		if (NPC at spot (x,y)) then (
-			if (activatableNPC(NPC at spot (x,y))) then (
-				set hero direction (me, right)
+			who := npc at spot (x,y)
+			if (activatableNPC(who) && read NPC (who, NPCstat:activation)==NPCactivation:touch) then (
+				set hero direction (me, left)
 				usenpcatspot
 				exit script
 			)

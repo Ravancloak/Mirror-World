@@ -67,4 +67,5 @@ define constant, begin
 3,sli:BattleMenu
 4,sli:slot
 5,sli:playerhearts
+6,sli:MainMenu
 end
