@@ -16,43 +16,57 @@ plotscript, slotmachine, begin
 		sli := firstchild (slicechild (firstchild (lookupslice (sli:slot)), i))
 		set slice y (sli, random (1,17)*-60 + slotcenter)
 		set slice extra(sli, 0, 1)
-		state:slotspin := false
+		state:slotspin := slots:spin
 	)
+	$3=""
 	screenfadein()
 	suspendcontrol
 	
 	state:control := state:slots
-	while (state:slotspin==false) do (
-		specwait
-	)
 # main
-	while (state:slotspin) do (
+	while (state:slotspin == slots:spin) do (
 		specwait
 	)
 	suspendcontrol
 	specwait (50)
 	slotwincheck
 	specwait (50)
+	if (string length(3) == 0) then (specwait(90))
 # finish
 	screenfadeout()
 	freeSlice (lookup slice(sli:slot))
 	show no value
 	screenfadein()
 	if (string length(3) == 0) then (write(9)) else (write(10),write(8))
+
 end
 
 #script to spin slots
 script, spin, begin
 	variable (i, sli, check)
 	for (i, 0, 2) do (
-		state:slotspin := false
+		state:slotspin := slots:null
 		sli := firstchild (slicechild (firstchild (lookupslice (sli:slot)), i))
-		if (get slice extra (sli, 0)==1 && lookupslice (sli:slot)) then (
+		if (get slice extra (sli, 0)==1) then (
 			set slice y (sli, slicey(sli)+spinrate)
 			if (slice y(sli)>slottop) then (set slice y (sli, slotbottom))
-			state:slotspin := true
+			state:slotspin := slots:spin
 		)
 	)
+	sli := firstChild(lookupSlice(sli:slot))
+	
+	if (game:tick,mod,8==0) then (
+		if (string length(3) <> 0) then (
+			if (get sprite set number(sli)==6) then (
+				set sprite set number (sli, 8)
+			) else (set sprite set number (sli, 6))
+		) else (
+			if (get sprite set number(sli)==6) then (
+				set sprite set number (sli, 7)
+			) else (set sprite set number(sli, 6))
+		)
+	)
+	
 end
 
 # calculate victory

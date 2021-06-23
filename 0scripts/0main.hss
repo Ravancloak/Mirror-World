@@ -20,6 +20,10 @@ define constant, begin
 	1, state:resume
 	2, state:battle
 	3, state:slots
+
+	0, slots:null
+	1, slots:spin
+	2, slots:win
 end
 
 global variable, begin

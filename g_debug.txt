@@ -1,0 +1,264 @@
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  06-23-2021 17:25:57
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_82704'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210623172557.475.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
+ 0.3  Name: 
+ 0.4  plotscr.hsd version: 3U 
+ 0.9  lock_resolution()
+ 0.9  set_resolution 426*240
+ 0.9  recenter_window_hint()
+ 0.9  get_screen_size: true screen size 1600x900
+ 0.9  Desktop resolution: 1600*860
+ 0.9  automatic_scale_factor(0.5), screen size: 1600*860
+ 0.9  Setting graphics scaling to x2 change_windowsize=-1
+ 0.9  Preserving fullscreen/windowed state
+ 0.9  genRungameFullscreenIndependent: 0
+ 1.5  Joystick 0 GUID 03000000c82d000006500000000000 instance_id 0
+ 1.5   Opened as gamecontroller 8BitDo M30 Gamepad
+ 1.5  Opened joystick 0 8BitDo M30 gamepad (id 0) -- 15 buttons 6 axes 1 hats 0 balls
+24.0  msg: M ohrrpgce.gen
+24.0  msg: M general.reld
+31.0  msg: M ohrrpgce.gen
+31.0  msg: M general.reld
+257.9  msg: M ohrrpgce.gen
+258.5  msg: M ohrrpgce.gen
+258.5  msg: M general.reld
+306.5  msg: M ohrrpgce.hsp
+306.5  msg: M plotscr.lst
+306.5  msg: M plotscr.lst
+306.5  msg: M lookup1.bin
+306.6  plotscr.hsd version: 3U 
+404.4  msg: M ohrrpgce.hsp
+404.4  msg: M plotscr.lst
+404.4  msg: M plotscr.lst
+404.4  msg: M lookup1.bin
+404.6  plotscr.hsd version: 3U 
+404.6  not reloading script slotmachine because it's in use: refcount=1
+404.6  unlock_resolution(426,240)
+405.3  set_resolution 426*240
+405.3  lock_resolution()
+405.7  plotscr.hsd version: 3U 
+434.2  msg: M ohrrpgce.hsp
+434.2  msg: M plotscr.lst
+434.2  msg: M plotscr.lst
+434.2  msg: M lookup1.bin
+434.3  plotscr.hsd version: 3U 
+611.5  msg: M ohrrpgce.gen
+611.5  msg: M general.reld
+695.6  msg: M ohrrpgce.gen
+696.3  msg: M ohrrpgce.gen
+696.3  msg: M general.reld
+750.9  msg: M ohrrpgce.hsp
+750.9  msg: M plotscr.lst
+750.9  msg: M plotscr.lst
+750.9  msg: M lookup1.bin
+751.1  plotscr.hsd version: 3U 
+781.9  msg: M ohrrpgce.hsp
+781.9  msg: M plotscr.lst
+781.9  msg: M plotscr.lst
+781.9  msg: M lookup1.bin
+782.0  plotscr.hsd version: 3U 
+894.6  msg: M ohrrpgce.hsp
+894.6  msg: M plotscr.lst
+894.6  msg: M plotscr.lst
+894.6  msg: M lookup1.bin
+894.7  plotscr.hsd version: 3U 
+931.0  msg: M ohrrpgce.hsp
+931.0  msg: M plotscr.lst
+931.0  msg: M plotscr.lst
+931.0  msg: M lookup1.bin
+931.2  plotscr.hsd version: 3U 
+931.2  not reloading script slotmachine because it's in use: refcount=1
+931.2  unlock_resolution(426,240)
+932.6  set_resolution 426*240
+932.6  lock_resolution()
+933.5  plotscr.hsd version: 3U 
+943.0  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: firstchild: invalid slice handle 0
+943.0  unlock_resolution(426,240)
+944.5  set_resolution 426*240
+944.5  lock_resolution()
+944.5  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: slicechild: invalid slice handle 0
+944.5  unlock_resolution(426,240)
+945.0  set_resolution 426*240
+945.0  lock_resolution()
+945.0  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: firstchild: invalid slice handle 0
+945.0  unlock_resolution(426,240)
+945.4  set_resolution 426*240
+945.4  lock_resolution()
+945.4  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: getsliceextra: invalid slice handle 0
+945.4  unlock_resolution(426,240)
+945.8  set_resolution 426*240
+945.8  lock_resolution()
+945.8  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: firstchild: invalid slice handle 0
+945.8  unlock_resolution(426,240)
+946.2  set_resolution 426*240
+946.2  lock_resolution()
+946.2  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: slicechild: invalid slice handle 0
+946.2  unlock_resolution(426,240)
+946.6  set_resolution 426*240
+946.6  lock_resolution()
+946.6  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: firstchild: invalid slice handle 0
+946.6  unlock_resolution(426,240)
+946.9  set_resolution 426*240
+946.9  lock_resolution()
+947.0  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: getsliceextra: invalid slice handle 0
+947.0  unlock_resolution(426,240)
+947.2  set_resolution 426*240
+947.2  lock_resolution()
+947.2  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: firstchild: invalid slice handle 0
+947.2  unlock_resolution(426,240)
+947.5  set_resolution 426*240
+947.5  lock_resolution()
+947.5  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: slicechild: invalid slice handle 0
+947.5  unlock_resolution(426,240)
+947.7  set_resolution 426*240
+947.7  lock_resolution()
+947.7  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: firstchild: invalid slice handle 0
+947.7  unlock_resolution(426,240)
+948.0  set_resolution 426*240
+948.0  lock_resolution()
+948.0  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: getsliceextra: invalid slice handle 0
+948.0  unlock_resolution(426,240)
+948.2  set_resolution 426*240
+948.2  lock_resolution()
+948.2  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: firstchild: invalid slice handle 0
+948.2  unlock_resolution(426,240)
+948.4  set_resolution 426*240
+948.4  lock_resolution()
+948.5  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: firstchild: invalid slice handle 0
+948.5  unlock_resolution(426,240)
+948.6  set_resolution 426*240
+948.6  lock_resolution()
+948.6  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: slicechild: invalid slice handle 0
+948.6  unlock_resolution(426,240)
+949.2  set_resolution 426*240
+949.2  lock_resolution()
+949.2  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: firstchild: invalid slice handle 0
+949.2  unlock_resolution(426,240)
+949.4  set_resolution 426*240
+949.4  lock_resolution()
+949.4  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: getsliceextra: invalid slice handle 0
+949.4  unlock_resolution(426,240)
+949.9  set_resolution 426*240
+949.9  lock_resolution()
+949.9  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: firstchild: invalid slice handle 0
+949.9  unlock_resolution(426,240)
+1009.6  msg: M ohrrpgce.hsp
+1009.6  msg: M plotscr.lst
+1009.6  msg: M plotscr.lst
+1009.6  msg: M lookup1.bin
+1009.8  plotscr.hsd version: 3U 
+1009.8  not reloading script spin because it's in use: refcount=1
+1009.8  unlock_resolution(426,240)
+1011.3  Killing script fibre; last script = spin
+1011.3  set_resolution 426*240
+1011.3  lock_resolution()
+1011.7  plotscr.hsd version: 3U 
+1020.4  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: firstchild: invalid slice handle 0
+1020.4  unlock_resolution(426,240)
+1038.2  set_resolution 426*240
+1038.2  lock_resolution()
+1038.2  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: getspritesetnumber: invalid slice handle 0
+1038.2  unlock_resolution(426,240)
+1038.7  set_resolution 426*240
+1038.7  lock_resolution()
+1038.7  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: setspritesetnumber: invalid slice handle 0
+1038.7  unlock_resolution(426,240)
+1039.0  set_resolution 426*240
+1039.0  lock_resolution()
+1039.0  ! Scripterr(5): slotmachine -> screenfadein -> specwait -> spin: firstchild: invalid slice handle 0
+1039.0  unlock_resolution(426,240)
+1039.9  Killing script fibre; last script = spin
+1039.9  set_resolution 426*240
+1039.9  lock_resolution()
+1051.2  msg: M ohrrpgce.hsp
+1051.2  msg: M plotscr.lst
+1051.2  msg: M plotscr.lst
+1051.2  msg: M lookup1.bin
+1051.3  plotscr.hsd version: 3U 
+1081.2  msg: M ohrrpgce.hsp
+1081.2  msg: M plotscr.lst
+1081.2  msg: M plotscr.lst
+1081.2  msg: M lookup1.bin
+1081.4  plotscr.hsd version: 3U 
+1103.9  msg: M ohrrpgce.hsp
+1103.9  msg: M plotscr.lst
+1103.9  msg: M plotscr.lst
+1103.9  msg: M lookup1.bin
+1104.1  plotscr.hsd version: 3U 
+1178.5  msg: M ohrrpgce.gen
+1178.5  msg: M general.reld
+1208.3  msg: M defpal7.bin
+1208.3  msg: M boxborders.rgfx
+1208.3  msg: M ohrrpgce.pal
+1208.3  msg: PAL 12
+1208.3  did not reload defpal7.bin
+1229.5  msg: M defpal7.bin
+1229.5  did not reload defpal7.bin
+1229.5  msg: M boxborders.rgfx
+1229.5  msg: M ohrrpgce.pal
+1229.5  msg: PAL 12
+1230.4  msg: M ohrrpgce.gen
+1283.0  msg: M ohrrpgce.gen
+1283.7  msg: M ohrrpgce.gen
+1283.7  msg: M general.reld
+1285.7  msg: M ohrrpgce.gen
+1285.7  msg: M general.reld
+1288.0  msg: M ohrrpgce.hsp
+1288.0  msg: M plotscr.lst
+1288.0  msg: M plotscr.lst
+1288.0  msg: M lookup1.bin
+1288.1  plotscr.hsd version: 3U 
+1319.2  msg: M ohrrpgce.hsp
+1319.2  msg: M plotscr.lst
+1319.2  msg: M plotscr.lst
+1319.2  msg: M lookup1.bin
+1319.3  plotscr.hsd version: 3U 
+1319.4  not reloading script slotmachine because it's in use: refcount=1
+1319.4  unlock_resolution(426,240)
+1320.6  set_resolution 426*240
+1320.6  lock_resolution()
+1321.5  plotscr.hsd version: 3U 
+1338.8  msg: M ohrrpgce.hsp
+1338.8  msg: M plotscr.lst
+1338.8  msg: M plotscr.lst
+1338.8  msg: M lookup1.bin
+1338.9  plotscr.hsd version: 3U 
+1517.3  msg: M ohrrpgce.hsp
+1517.3  msg: M plotscr.lst
+1517.3  msg: M plotscr.lst
+1517.3  msg: M lookup1.bin
+1517.4  plotscr.hsd version: 3U 
+1517.5  not reloading script slotmachine because it's in use: refcount=1
+1517.5  unlock_resolution(426,240)
+1521.9  set_resolution 426*240
+1521.9  lock_resolution()
+1521.9  msg: M ohrrpgce.gen
+1521.9  msg: M general.reld
+1521.9  msg: M ohrrpgce.gen
+1521.9  msg: M ohrrpgce.gen
+1521.9  msg: M general.reld
