@@ -1,4 +1,3 @@
- 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
  0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_84274'
  0.1  Spawned from Custom
  0.1  Initialising gfx_sdl2...
@@ -2741,3 +2740,177 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 621.6  Closing gfx backend & allmodex...
 621.6  ...done
 621.6  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.0   ----Starting OHRRPGCE Game----
+ 0.0  06-23-2021 23:38:52
+ 0.0  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.0  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.0  orig_dir: C:\Users\takui\Documents\GitHub\Mirror-World
+ 0.0  curdir: C:\Users\takui\Documents\GitHub\Mirror-World
+ 0.0  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.0  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_69606'
+ 0.0  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.3  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.3  disable_native_text_input=0
+ 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\Users\takui\Documents\GitHub\Mirror-World\mirrorworld.rpg
+ 0.3  Received message from Custom: W C:\Users\takui\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\Users\takui\Documents\GitHub\Mirror-World\mirrorworld.rpg----
+ 0.3  curdir: C:\Users\takui\Documents\GitHub\Mirror-World
+ 0.3  tmpdir: C:\Users\takui\AppData\Local\Temp\ohrrpgce20210623233852.198.tmp\
+ 0.3  settings_dir: C:\Users\takui\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\Users\takui\Documents\GitHub\Mirror-World\mirrorworld.saves
+ 0.3  Name: 
+ 0.5  plotscr.hsd version: 3U 
+ 1.0  lock_resolution()
+ 1.0  set_resolution 426*240
+ 1.0  recenter_window_hint()
+ 1.0  get_screen_size: true screen size 1920x1080
+ 1.0  Desktop resolution: 1920*1080
+ 1.0  automatic_scale_factor(0.5), screen size: 1920*1080
+ 1.0  Setting graphics scaling to x2 change_windowsize=-1
+ 1.0  Preserving fullscreen/windowed state
+ 1.0  genRungameFullscreenIndependent: 0
+ 2.0  Joystick 0 GUID 030000007e05000009200000100268 instance_id 0
+ 2.0   Opened as gamecontroller Nintendo Switch Pro Controller
+ 2.0  Opened joystick 0 Nintendo Switch Pro Controller (id 0) -- 16 buttons 6 axes 0 hats 0 balls
+ 2.0  JOYSTICKSTATE.UPDATE_KEYBITS(0) took 504ms
+28.7  msg: M ohrrpgce.gen
+28.7  msg: M general.reld
+32.9  msg: M slicetree_0_0.reld
+32.9  did not reload slicetree_0_0.reld
+86.0  msg: M slicetree_0_1.reld
+86.0  did not reload slicetree_0_1.reld
+86.0  msg: M ohrrpgce.gen
+86.0  msg: M general.reld
+684.6  msg: M ohrrpgce.gen
+684.6  msg: M general.reld
+688.5  msg: M slicetree_0_0.reld
+688.5  did not reload slicetree_0_0.reld
+759.2  msg: M slicetree_0_1.reld
+759.2  msg: M ohrrpgce.gen
+759.2  msg: M general.reld
+759.2  did not reload slicetree_0_1.reld
+772.5  msg: M slicetree_0_0.reld
+772.5  did not reload slicetree_0_0.reld
+814.3  msg: M slicetree_0_1.reld
+814.3  msg: M ohrrpgce.gen
+814.3  msg: M general.reld
+814.3  did not reload slicetree_0_1.reld
+885.4  msg: M ohrrpgce.gen
+885.4  msg: M general.reld
+888.8  msg: M ohrrpgce.hsp
+888.8  msg: M plotscr.lst
+888.8  msg: M plotscr.lst
+888.8  msg: M lookup1.bin
+888.8  plotscr.hsd version: 3U 
+984.3  msg: M ohrrpgce.hsp
+984.3  msg: M plotscr.lst
+984.3  msg: M plotscr.lst
+984.3  msg: M lookup1.bin
+984.3  plotscr.hsd version: 3U 
+1028.3  msg: M ohrrpgce.hsp
+1028.3  msg: M plotscr.lst
+1028.3  msg: M plotscr.lst
+1028.3  msg: M lookup1.bin
+1028.4  plotscr.hsd version: 3U 
+1088.3  msg: M ohrrpgce.gen
+1088.4  msg: M general.reld
+1092.4  msg: M slicetree_0_0.reld
+1092.4  did not reload slicetree_0_0.reld
+1165.1  msg: M slicetree_0_1.reld
+1165.1  did not reload slicetree_0_1.reld
+1165.1  msg: M ohrrpgce.gen
+1165.1  msg: M general.reld
+1174.1  msg: M ohrrpgce.hsp
+1174.1  msg: M plotscr.lst
+1174.1  msg: M plotscr.lst
+1174.1  msg: M lookup1.bin
+1174.2  plotscr.hsd version: 3U 
+1274.9  msg: M ohrrpgce.hsp
+1274.9  msg: M plotscr.lst
+1274.9  msg: M plotscr.lst
+1274.9  msg: M lookup1.bin
+1275.0  plotscr.hsd version: 3U 
+1285.2  ! Scripterr(5): slotmachine -> slotmain -> slotwincheck -> setelement: setslicex: invalid slice handle 0
+1285.2  unlock_resolution(426,240)
+1301.3  Killing script fibre; last script = setelement
+1301.3  set_resolution 426*240
+1301.3  lock_resolution()
+1307.3  msg: M ohrrpgce.hsp
+1307.3  msg: M plotscr.lst
+1307.3  msg: M plotscr.lst
+1307.3  msg: M lookup1.bin
+1307.4  plotscr.hsd version: 3U 
+1315.1  ! Scripterr(5): slotmachine -> slotmain -> slotwincheck -> getelement: slicex: invalid slice handle 0
+1315.1  unlock_resolution(426,240)
+1330.3  Killing script fibre; last script = getelement
+1330.3  set_resolution 426*240
+1330.3  lock_resolution()
+1335.7  msg: M ohrrpgce.hsp
+1335.7  msg: M plotscr.lst
+1335.7  msg: M plotscr.lst
+1335.7  msg: M lookup1.bin
+1335.8  plotscr.hsd version: 3U 
+1539.8  msg: M ohrrpgce.hsp
+1539.8  msg: M plotscr.lst
+1539.8  msg: M plotscr.lst
+1539.8  msg: M lookup1.bin
+1539.9  plotscr.hsd version: 3U 
+1602.2  msg: M ohrrpgce.hsp
+1602.2  msg: M plotscr.lst
+1602.2  msg: M plotscr.lst
+1602.2  msg: M lookup1.bin
+1602.3  plotscr.hsd version: 3U 
+1610.8  ! Scripterr(4): slotmachine -> slotmain -> slotwincheck: getitemname: invalid item ID 4
+1610.8  unlock_resolution(426,240)
+1648.6  Killing script fibre; last script = slotwincheck
+1648.6  set_resolution 426*240
+1648.6  lock_resolution()
+1716.3  ! Scripterr(4): slotmachine -> slotmain -> slotwincheck: getitemname: invalid item ID 3
+1716.3  unlock_resolution(426,240)
+1723.0  set_resolution 426*240
+1723.0  lock_resolution()
+1851.8  msg: M ohrrpgce.hsp
+1851.8  msg: M plotscr.lst
+1851.8  msg: M plotscr.lst
+1851.8  msg: M lookup1.bin
+1851.9  plotscr.hsd version: 3U 
+1889.4  msg: M ohrrpgce.hsp
+1889.4  msg: M plotscr.lst
+1889.4  msg: M plotscr.lst
+1889.4  msg: M lookup1.bin
+1889.5  plotscr.hsd version: 3U 
+2010.6  msg: M ohrrpgce.hsp
+2010.6  msg: M plotscr.lst
+2010.6  msg: M plotscr.lst
+2010.6  msg: M lookup1.bin
+2010.7  plotscr.hsd version: 3U 
+2047.7  msg: M ohrrpgce.hsp
+2047.7  msg: M plotscr.lst
+2047.7  msg: M plotscr.lst
+2047.7  msg: M lookup1.bin
+2047.8  plotscr.hsd version: 3U 
+2047.8  not reloading script slotmachine because it's in use: refcount=1
+2047.8  unlock_resolution(426,240)
+2052.2  set_resolution 426*240
+2052.2  lock_resolution()
+2054.6  plotscr.hsd version: 3U 
+2076.6  Cleaning up and terminating 0
+2076.6  Closing music backend...
+2076.6  ...done
+2076.6  Deleting tmpdir C:\Users\takui\AppData\Local\Temp\ohrrpgce20210623233852.198.tmp\
+2076.7  Closing gfx backend & allmodex...
+2076.7  ...done
+2076.7  End.

@@ -1,3 +1,11 @@
+define constant, begin
+	0, slottop
+	-35, slotcenter
+	-1040, slotbottom
+	12, spinrate
+	60, slotsize
+end
+
 plotscript, slotmachine, begin
 # variables
 	variable (i, sli, check)
@@ -7,7 +15,7 @@ plotscript, slotmachine, begin
 	loadSliceCollection(1)
 	for (i,0,2) do (
 		sli := firstchild (slicechild (firstchild (lookupslice (sli:slot)), i))
-		set slice y (sli, -10)
+		set slice y (sli, slotcenter)
 		set slice extra(sli, 0, 1)
 	)
 	screenfadein()
@@ -38,8 +46,8 @@ plotscript, slotmain, begin
         for (i, 0, 2) do (
         	sli := firstchild (slicechild (firstchild (lookupslice (sli:slot)), i))
             if (get slice extra (sli, 0)==1 && lookupslice (sli:slot)) then (
-                set slice y (sli, slicey(sli)+6)
-                if (slice y(sli)>-10) then (set slice y (sli, -970))
+                set slice y (sli, slicey(sli)+spinrate)
+                if (slice y(sli)>slottop) then (set slice y (sli, slotbottom))
                 return  (1)
             )
         )
@@ -50,15 +58,18 @@ end
 script, slotwincheck, begin
 	variable (i, sli, sli2, temp)
 	
-	sli2 := initArray(9)
+	sli2 := initArray(3)
 	
 	for (i, 0, 2) do (
 		sli := slicechild (firstchild (lookupslice (sli:slot)), i)
 		temp := get sprite frame(slice at pixel(sli,(i+1)*100,120))
-		setElement(sli2,i+1,temp)
+		setElement(sli2,i,temp)
 	)
-	
-	if (getElement(sli2,1) == getElement(sli2,2) == getElement(sli2,3)) then (
+	$3 = ""
+	if (getElement(sli2,0) == getElement(sli2,1) && getElement(sli2,1) == getElement(sli2,2)) then (
+		# item ID is derived from sprite frame no.
+		# make sure there are enough valid items
+		# ID range: 0~15
 		get item name(3,temp)
 	)
 end
@@ -70,7 +81,8 @@ script, slotend, begin
 	screenfadeout()
 	freeSlice (lookup slice(sli:slot))
 	screenfadein()
-	write(8)
+	if (string length(3) <> 0) then (write(8))
+	else (write(9))
 end
 
 # input
@@ -81,8 +93,8 @@ script, keypressSlots, begin
 			sli := firstchild (slicechild (firstchild (lookupslice (sli:slot)), i))
 			if (get slice extra (sli,0)==1) then (
 				set slice extra (sli, 0, 0)
-				# snap to nearest multiple of 60
-				set slice y (sli, (slice y(sli)/60)*60--10)
+				# snap to nearest multiple of slotsize
+				set slice y (sli, (slice y(sli)/slotsize)*slotsize+slotcenter)
 				break
 			)
 		)
