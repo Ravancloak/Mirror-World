@@ -262,3 +262,494 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 1521.9  msg: M ohrrpgce.gen
 1521.9  msg: M ohrrpgce.gen
 1521.9  msg: M general.reld
+1580.0  unlock_resolution(426,240)
+1581.1  set_resolution 426*240
+1581.1  lock_resolution()
+1581.1  savegame: 0 is special non-normal slot, skipping update of lastsaveslot
+1581.1  Saving in slot quick0
+1582.0  unlock_resolution(426,240)
+1582.8  set_resolution 426*240
+1582.8  lock_resolution()
+1582.8    Loadgame requested; resetgame
+1582.9  plotscr.hsd version: 3U 
+1582.9  Loading save slot quick0
+1582.9  loadgame: 0 is special non-normal slot, skipping update of lastsaveslot
+1591.8  unlock_resolution(426,240)
+1592.9  set_resolution 426*240
+1592.9  lock_resolution()
+1592.9  savegame: 0 is special non-normal slot, skipping update of lastsaveslot
+1592.9  Saving in slot quick0
+1599.2  unlock_resolution(426,240)
+1599.2  ! Can't find a SliceCollectionContext
+1600.0  set_resolution 426*240
+1600.0  lock_resolution()
+1601.1  unlock_resolution(426,240)
+1602.6  set_resolution 426*240
+1602.6  lock_resolution()
+1607.7  unlock_resolution(426,240)
+1608.8  set_resolution 426*240
+1608.8  lock_resolution()
+1608.8  savegame: 0 is special non-normal slot, skipping update of lastsaveslot
+1608.9  Saving in slot quick0
+1687.4  msg: M ohrrpgce.n02
+1705.3  msg: M ohrrpgce.tmn
+1705.6  msg: M ohrrpgce.tmn
+1706.2  msg: M ohrrpgce.tmn
+1706.4  msg: M ohrrpgce.tmn
+1706.5  msg: M ohrrpgce.tmn
+1706.9  msg: M ohrrpgce.tmn
+1707.1  msg: M ohrrpgce.tmn
+1707.2  msg: M ohrrpgce.tmn
+1707.9  msg: M ohrrpgce.tmn
+1708.5  msg: M ohrrpgce.tmn
+1708.5  msg: M ohrrpgce.tmn
+1708.6  msg: M ohrrpgce.tmn
+1708.6  msg: M ohrrpgce.tmn
+1708.7  msg: M ohrrpgce.tmn
+1708.7  msg: M ohrrpgce.tmn
+1708.8  msg: M ohrrpgce.tmn
+1709.4  msg: M ohrrpgce.tmn
+1709.6  msg: M ohrrpgce.tmn
+1709.8  msg: M ohrrpgce.tmn
+1710.0  msg: M ohrrpgce.tmn
+1710.1  msg: M ohrrpgce.tmn
+1710.3  msg: M ohrrpgce.tmn
+1710.4  msg: M ohrrpgce.tmn
+1710.8  msg: M ohrrpgce.tmn
+1711.3  msg: M ohrrpgce.tmn
+1711.5  msg: M ohrrpgce.tmn
+1711.6  msg: M ohrrpgce.tmn
+1711.8  msg: M ohrrpgce.tmn
+1711.9  msg: M ohrrpgce.tmn
+1712.0  msg: M ohrrpgce.tmn
+1735.4  msg: M ohrrpgce.hsp
+1735.4  msg: M plotscr.lst
+1735.4  msg: M plotscr.lst
+1735.4  msg: M lookup1.bin
+1735.5  plotscr.hsd version: 3U 
+1735.7  msg: M ohrrpgce.n02
+1837.3  msg: M ohrrpgce.n02
+1927.6  msg: M ohrrpgce.map
+1927.6  msg: M ohrrpgce.t02
+1927.6  msg: M ohrrpgce.p02
+1927.6  msg: M ohrrpgce.e02
+1927.6  msg: M ohrrpgce.z02
+1927.6  msg: M ohrrpgce.l02
+1927.6  msg: M ohrrpgce.n02
+1927.6  msg: M ohrrpgce.dox
+1927.6  msg: M ohrrpgce.d02
+1927.6  msg: M ohrrpgce.mn
+1927.6  did not reload ohrrpgce.d02
+1950.1  msg: M ohrrpgce.map
+1950.1  msg: M ohrrpgce.t02
+1950.1  msg: M ohrrpgce.p02
+1950.1  msg: M ohrrpgce.e02
+1950.1  msg: M ohrrpgce.z02
+1950.1  msg: M ohrrpgce.l02
+1950.1  msg: M ohrrpgce.n02
+1950.1  msg: M ohrrpgce.dox
+1950.1  msg: M ohrrpgce.d02
+1950.1  did not reload ohrrpgce.d02
+1950.1  msg: M ohrrpgce.mn
+2068.8  msg: M ohrrpgce.map
+2068.8  msg: M ohrrpgce.t02
+2068.8  msg: M ohrrpgce.p02
+2068.8  msg: M ohrrpgce.e02
+2068.8  msg: M ohrrpgce.z02
+2068.8  msg: M ohrrpgce.l02
+2068.8  msg: M ohrrpgce.n02
+2068.8  msg: M ohrrpgce.dox
+2068.8  msg: M ohrrpgce.d02
+2068.8  msg: M ohrrpgce.mn
+2068.8  did not reload ohrrpgce.d02
+2069.4  msg: M ohrrpgce.gen
+2069.4  msg: M general.reld
+2106.3  msg: P 
+2119.9  msg: M ohrrpgce.hsp
+2119.9  msg: M plotscr.lst
+2119.9  msg: M plotscr.lst
+2119.9  msg: M lookup1.bin
+2120.1  plotscr.hsd version: 3U 
+2132.8  ! Scripterr(5): events -> eventsattic: dissolvesprite: slice handle 407 is not a sprite
+2134.3  ! Scripterr(5): events -> eventsattic: slicechild: slice handle 404 has already been deleted
+2134.3  ! Scripterr(5): events -> eventsattic: setslicevisible: invalid slice handle 0
+2223.2  msg: M ohrrpgce.hsp
+2223.2  msg: M plotscr.lst
+2223.2  msg: M plotscr.lst
+2223.2  msg: M lookup1.bin
+2223.3  plotscr.hsd version: 3U 
+2223.8  msg: M ohrrpgce.gen
+2223.8  msg: M general.reld
+2226.6  msg: M ohrrpgce.map
+2226.6  msg: M ohrrpgce.t03
+2226.6  msg: M ohrrpgce.p03
+2226.6  msg: M ohrrpgce.e03
+2226.6  msg: M ohrrpgce.z03
+2226.6  msg: M ohrrpgce.l03
+2226.6  msg: M ohrrpgce.n03
+2226.6  msg: M ohrrpgce.dox
+2226.6  msg: M ohrrpgce.d03
+2226.6  msg: M ohrrpgce.mn
+2226.6  did not reload ohrrpgce.d03
+2231.6  msg: M ohrrpgce.map
+2231.6  msg: M ohrrpgce.t02
+2231.6  msg: M ohrrpgce.p02
+2231.6  msg: M ohrrpgce.e02
+2231.6  msg: M ohrrpgce.z02
+2231.6  msg: M ohrrpgce.l02
+2231.6  msg: M ohrrpgce.n02
+2231.6  msg: M ohrrpgce.dox
+2231.6  msg: M ohrrpgce.d02
+2231.6  msg: M ohrrpgce.mn
+2231.6  did not reload ohrrpgce.d02
+2280.9  msg: M ohrrpgce.map
+2280.9  msg: M ohrrpgce.t02
+2280.9  msg: M ohrrpgce.p02
+2280.9  msg: M ohrrpgce.e02
+2280.9  msg: M ohrrpgce.z02
+2280.9  msg: M ohrrpgce.l02
+2280.9  msg: M ohrrpgce.n02
+2280.9  msg: M ohrrpgce.dox
+2280.9  msg: M ohrrpgce.d02
+2280.9  msg: M ohrrpgce.mn
+2280.9  did not reload ohrrpgce.d02
+2283.5  msg: M ohrrpgce.map
+2283.5  msg: M ohrrpgce.t02
+2283.5  msg: M ohrrpgce.p02
+2283.5  msg: M ohrrpgce.e02
+2283.5  msg: M ohrrpgce.z02
+2283.5  msg: M ohrrpgce.l02
+2283.5  msg: M ohrrpgce.n02
+2283.5  msg: M ohrrpgce.dox
+2283.5  msg: M ohrrpgce.d02
+2283.5  msg: M ohrrpgce.mn
+2283.5  did not reload ohrrpgce.d02
+2285.9  msg: M ohrrpgce.map
+2285.9  msg: M ohrrpgce.t02
+2285.9  msg: M ohrrpgce.p02
+2285.9  msg: M ohrrpgce.e02
+2285.9  msg: M ohrrpgce.z02
+2285.9  msg: M ohrrpgce.l02
+2285.9  msg: M ohrrpgce.n02
+2285.9  msg: M ohrrpgce.dox
+2285.9  msg: M ohrrpgce.d02
+2285.9  msg: M ohrrpgce.mn
+2285.9  did not reload ohrrpgce.d02
+2286.4  msg: M ohrrpgce.gen
+2286.4  msg: M general.reld
+2289.1  msg: M ohrrpgce.hsp
+2289.1  msg: M plotscr.lst
+2289.1  msg: M plotscr.lst
+2289.1  msg: M lookup1.bin
+2289.2  plotscr.hsd version: 3U 
+2306.1  ! Scripterr(5): events -> eventsattic: dissolvesprite: slice handle 175 is not a sprite
+2307.6  ! Scripterr(5): events -> eventsattic: slicechild: slice handle 172 has already been deleted
+2307.6  ! Scripterr(5): events -> eventsattic: setslicevisible: invalid slice handle 0
+2320.2  msg: M ohrrpgce.gen
+2320.2  msg: M general.reld
+2323.0  msg: M ohrrpgce.gen
+2323.0  msg: M general.reld
+2329.9  msg: M globalnpcs1.n
+2329.9  did not reload globalnpcs1.n
+2331.6  msg: M globalnpcs1.n
+2331.6  msg: M ohrrpgce.map
+2331.6  msg: M ohrrpgce.t02
+2331.6  msg: M ohrrpgce.p02
+2331.6  msg: M ohrrpgce.e02
+2331.6  msg: M ohrrpgce.z02
+2331.6  msg: M ohrrpgce.l02
+2331.6  msg: M ohrrpgce.n02
+2331.6  msg: M ohrrpgce.dox
+2331.6  msg: M ohrrpgce.d02
+2331.6  msg: M ohrrpgce.mn
+2331.6  did not reload globalnpcs1.n
+2331.6  did not reload ohrrpgce.d02
+2332.1  msg: M ohrrpgce.map
+2332.1  msg: M ohrrpgce.t02
+2332.1  msg: M ohrrpgce.p02
+2332.1  msg: M ohrrpgce.e02
+2332.1  msg: M ohrrpgce.z02
+2332.1  msg: M ohrrpgce.l02
+2332.1  msg: M ohrrpgce.n02
+2332.1  msg: M ohrrpgce.dox
+2332.1  msg: M ohrrpgce.d02
+2332.1  msg: M ohrrpgce.mn
+2332.1  did not reload ohrrpgce.d02
+2335.6  msg: M ohrrpgce.n02
+2365.7  msg: M ohrrpgce.map
+2365.7  msg: M ohrrpgce.t02
+2365.7  msg: M ohrrpgce.p02
+2365.7  msg: M ohrrpgce.e02
+2365.7  msg: M ohrrpgce.z02
+2365.7  msg: M ohrrpgce.l02
+2365.7  msg: M ohrrpgce.n02
+2365.7  msg: M ohrrpgce.dox
+2365.7  msg: M ohrrpgce.d02
+2365.7  msg: M ohrrpgce.mn
+2365.7  did not reload ohrrpgce.d02
+2366.4  msg: M ohrrpgce.map
+2366.4  msg: M ohrrpgce.t02
+2366.4  msg: M ohrrpgce.p02
+2366.4  msg: M ohrrpgce.e02
+2366.4  msg: M ohrrpgce.z02
+2366.4  msg: M ohrrpgce.l02
+2366.4  msg: M ohrrpgce.n02
+2366.4  msg: M ohrrpgce.dox
+2366.4  msg: M ohrrpgce.d02
+2366.4  msg: M ohrrpgce.mn
+2366.4  did not reload ohrrpgce.d02
+2366.9  msg: M ohrrpgce.gen
+2366.9  msg: M general.reld
+2369.9  msg: M ohrrpgce.hsp
+2369.9  msg: M plotscr.lst
+2369.9  msg: M plotscr.lst
+2369.9  msg: M lookup1.bin
+2370.1  plotscr.hsd version: 3U 
+2375.4  unlock_resolution(426,240)
+2376.4  set_resolution 426*240
+2376.4  lock_resolution()
+2379.4  unlock_resolution(426,240)
+2380.3  set_resolution 426*240
+2380.3  lock_resolution()
+2380.3  savegame: 0 is special non-normal slot, skipping update of lastsaveslot
+2380.3  Saving in slot quick0
+2394.2  ! Scripterr(5): events -> eventsattic: dissolvesprite: slice handle 175 is not a sprite
+2395.7  ! Scripterr(5): events -> eventsattic: slicechild: slice handle 172 has already been deleted
+2395.7  ! Scripterr(5): events -> eventsattic: setslicevisible: invalid slice handle 0
+2451.8  msg: M ohrrpgce.hsp
+2451.8  msg: M plotscr.lst
+2451.8  msg: M plotscr.lst
+2451.8  msg: M lookup1.bin
+2452.0  plotscr.hsd version: 3U 
+2456.2  unlock_resolution(426,240)
+2456.9  set_resolution 426*240
+2456.9  lock_resolution()
+2456.9    Loadgame requested; resetgame
+2456.9  Loading save slot quick0
+2456.9  loadgame: 0 is special non-normal slot, skipping update of lastsaveslot
+2470.5  ! Scripterr(5): events -> eventsattic: dissolvesprite: slice handle 175 is not a sprite
+2472.0  ! Scripterr(5): events -> eventsattic: slicechild: slice handle 172 has already been deleted
+2472.0  ! Scripterr(5): events -> eventsattic: setslicevisible: invalid slice handle 0
+2494.8  msg: M ohrrpgce.hsp
+2494.8  msg: M plotscr.lst
+2494.8  msg: M plotscr.lst
+2494.8  msg: M lookup1.bin
+2494.9  plotscr.hsd version: 3U 
+2510.7  ! Scripterr(5): events -> eventsattic: dissolvesprite: slice handle 175 is not a sprite
+2512.3  ! Scripterr(5): events -> eventsattic: slicechild: slice handle 172 has already been deleted
+2512.3  ! Scripterr(5): events -> eventsattic: setslicevisible: invalid slice handle 0
+2618.6  msg: M ohrrpgce.hsp
+2618.6  msg: M plotscr.lst
+2618.6  msg: M plotscr.lst
+2618.6  msg: M lookup1.bin
+2618.8  plotscr.hsd version: 3U 
+2643.5  ! Scripterr(5): events -> eventsattic: dissolvesprite: slice handle 246 is not a sprite
+2645.0  ! Scripterr(5): events -> eventsattic: slicechild: slice handle 243 has already been deleted
+2645.0  ! Scripterr(5): events -> eventsattic: setslicevisible: invalid slice handle 0
+2675.4  ! Scripterr(5): events -> eventsattic: dissolvesprite: slice handle 175 is not a sprite
+2676.9  ! Scripterr(5): events -> eventsattic: slicechild: slice handle 172 has already been deleted
+2676.9  ! Scripterr(5): events -> eventsattic: setslicevisible: invalid slice handle 0
+2702.9  msg: M ohrrpgce.hsp
+2702.9  msg: M plotscr.lst
+2702.9  msg: M plotscr.lst
+2702.9  msg: M lookup1.bin
+2703.1  plotscr.hsd version: 3U 
+2719.5  ! Scripterr(5): events -> eventsattic: dissolvesprite: slice handle 175 is not a sprite
+2721.0  ! Scripterr(5): events -> eventsattic: slicechild: slice handle 172 has already been deleted
+2721.0  ! Scripterr(5): events -> eventsattic: setslicevisible: invalid slice handle 0
+2725.8  msg: M ohrrpgce.gen
+2725.8  msg: M general.reld
+2734.8  msg: M ohrrpgce.n02
+2747.3  msg: M ohrrpgce.map
+2747.3  msg: M ohrrpgce.t02
+2747.3  msg: M ohrrpgce.p02
+2747.3  msg: M ohrrpgce.e02
+2747.3  msg: M ohrrpgce.z02
+2747.3  msg: M ohrrpgce.l02
+2747.3  msg: M ohrrpgce.n02
+2747.3  msg: M ohrrpgce.dox
+2747.3  msg: M ohrrpgce.d02
+2747.3  msg: M ohrrpgce.mn
+2747.3  did not reload ohrrpgce.d02
+2748.0  msg: M ohrrpgce.map
+2748.0  msg: M ohrrpgce.t02
+2748.0  msg: M ohrrpgce.p02
+2748.0  msg: M ohrrpgce.e02
+2748.0  msg: M ohrrpgce.z02
+2748.0  msg: M ohrrpgce.l02
+2748.0  msg: M ohrrpgce.n02
+2748.0  msg: M ohrrpgce.dox
+2748.0  msg: M ohrrpgce.d02
+2748.0  msg: M ohrrpgce.mn
+2748.0  did not reload ohrrpgce.d02
+2750.5  msg: M ohrrpgce.gen
+2750.5  msg: M general.reld
+2754.7  ! Scripterr(5): events -> eventsattic: dissolvesprite: slice handle 175 is not a sprite
+2756.3  ! Scripterr(5): events -> eventsattic: slicechild: slice handle 172 has already been deleted
+2756.3  ! Scripterr(5): events -> eventsattic: setslicevisible: invalid slice handle 0
+2783.1  msg: M ohrrpgce.gen
+2783.1  msg: M general.reld
+2783.9  msg: M ohrrpgce.gen
+2783.9  msg: M general.reld
+2787.2  msg: M ohrrpgce.hsp
+2787.2  msg: M plotscr.lst
+2787.2  msg: M plotscr.lst
+2787.2  msg: M lookup1.bin
+2787.4  plotscr.hsd version: 3U 
+2805.0  ! Scripterr(5): events -> eventsattic: dissolvesprite: slice handle 175 is not a sprite
+2806.5  ! Scripterr(5): events -> eventsattic: slicechild: slice handle 172 has already been deleted
+2806.5  ! Scripterr(5): events -> eventsattic: setslicevisible: invalid slice handle 0
+2814.8  msg: M ohrrpgce.gen
+2814.8  msg: M general.reld
+2821.4  msg: M ohrrpgce.map
+2821.4  msg: M ohrrpgce.t02
+2821.4  msg: M ohrrpgce.p02
+2821.4  msg: M ohrrpgce.e02
+2821.4  msg: M ohrrpgce.z02
+2821.4  msg: M ohrrpgce.l02
+2821.4  msg: M ohrrpgce.n02
+2821.4  msg: M ohrrpgce.dox
+2821.4  msg: M ohrrpgce.d02
+2821.4  msg: M ohrrpgce.mn
+2821.4  did not reload ohrrpgce.d02
+2828.3  msg: M ohrrpgce.map
+2828.3  msg: M ohrrpgce.t02
+2828.3  msg: M ohrrpgce.p02
+2828.3  msg: M ohrrpgce.e02
+2828.3  msg: M ohrrpgce.z02
+2828.3  msg: M ohrrpgce.l02
+2828.3  msg: M ohrrpgce.n02
+2828.3  msg: M ohrrpgce.dox
+2828.3  msg: M ohrrpgce.d02
+2828.3  msg: M ohrrpgce.mn
+2828.3  did not reload ohrrpgce.d02
+2828.7  msg: M ohrrpgce.gen
+2828.7  msg: M general.reld
+2831.5  msg: M ohrrpgce.hsp
+2831.5  msg: M plotscr.lst
+2831.5  msg: M plotscr.lst
+2831.5  msg: M lookup1.bin
+2831.6  plotscr.hsd version: 3U 
+2876.7  msg: M ohrrpgce.hsp
+2876.7  msg: M plotscr.lst
+2876.7  msg: M plotscr.lst
+2876.7  msg: M lookup1.bin
+2876.8  plotscr.hsd version: 3U 
+2901.2  ! Scripterr(5): events -> eventsattic: dissolvesprite: slice handle 175 is not a sprite
+2902.8  ! Scripterr(5): events -> eventsattic: slicechild: slice handle 172 has already been deleted
+2902.8  ! Scripterr(5): events -> eventsattic: setslicevisible: invalid slice handle 0
+2931.5  msg: M ohrrpgce.hsp
+2931.5  msg: M plotscr.lst
+2931.5  msg: M plotscr.lst
+2931.5  msg: M lookup1.bin
+2931.6  plotscr.hsd version: 3U 
+2949.6  ! Scripterr(5): events -> eventsattic: dissolvesprite: slice handle 175 is not a sprite
+2951.2  ! Scripterr(5): events -> eventsattic: slicechild: slice handle 172 has already been deleted
+2951.2  ! Scripterr(5): events -> eventsattic: setslicevisible: invalid slice handle 0
+2951.5  ! Scripterr(5): events -> eventsattic: setspriteframe: Attempt to treat slice Container slice (/Special(root)[0]/Container(maproot)[4]/Container(walkabout layer)[3]/Container) 39757472 as a Sprite
+2974.5  msg: M ohrrpgce.hsp
+2974.5  msg: M plotscr.lst
+2974.5  msg: M plotscr.lst
+2974.5  msg: M lookup1.bin
+2974.7  plotscr.hsd version: 3U 
+2993.2  ! Scripterr(5): events -> eventsattic: dissolvesprite: slice handle 215 is not a sprite
+2994.7  ! Scripterr(5): events -> eventsattic: slicechild: slice handle 212 has already been deleted
+2994.7  ! Scripterr(5): events -> eventsattic: setslicevisible: invalid slice handle 0
+2995.1  ! Scripterr(5): events -> eventsattic: setspriteframe: Attempt to treat slice Container slice (/Special(root)[0]/Container(maproot)[4]/Container(walkabout layer)[3]/Container) 139116528 as a Sprite
+3091.2  msg: M ohrrpgce.hsp
+3091.3  plotscr.hsd version: 3U 
+3091.3  not reloading script eventsattic because it's in use: refcount=1
+3091.3  unlock_resolution(426,240)
+3092.0  set_resolution 426*240
+3092.0  lock_resolution()
+3092.1  msg: M plotscr.lst
+3092.1  msg: M plotscr.lst
+3092.1  msg: M lookup1.bin
+3092.6  plotscr.hsd version: 3U 
+3108.1  ! Scripterr(5): events -> eventsattic: dissolvesprite: slice handle 175 is not a sprite
+3110.0  ! Scripterr(5): events -> eventsattic: setspriteframe: Attempt to treat slice Container slice (/Special(root)[0]/Container(maproot)[4]/Container(walkabout layer)[3]/Container) 139116528 as a Sprite
+3145.5  msg: M ohrrpgce.hsp
+3145.5  msg: M plotscr.lst
+3145.5  msg: M plotscr.lst
+3145.5  msg: M lookup1.bin
+3145.7  plotscr.hsd version: 3U 
+3165.0  ! Scripterr(5): events -> eventsattic: dissolvesprite: slice handle 215 is not a sprite
+3202.8  ! Scripterr(5): events -> eventsattic: dissolvesprite: slice handle 175 is not a sprite
+3232.8  msg: M ohrrpgce.hsp
+3232.8  msg: M plotscr.lst
+3232.8  msg: M plotscr.lst
+3232.8  msg: M lookup1.bin
+3232.9  plotscr.hsd version: 3U 
+3254.2  ! Scripterr(5): events -> eventsattic: dissolvesprite: slice handle 215 is not a sprite
+3319.3  msg: M ohrrpgce.hsp
+3319.3  msg: M plotscr.lst
+3319.3  msg: M plotscr.lst
+3319.3  msg: M lookup1.bin
+3319.5  plotscr.hsd version: 3U 
+3371.3  msg: M ohrrpgce.hsp
+3371.3  msg: M plotscr.lst
+3371.3  msg: M plotscr.lst
+3371.3  msg: M lookup1.bin
+3371.4  plotscr.hsd version: 3U 
+3398.5  msg: M ohrrpgce.hsp
+3398.5  msg: M plotscr.lst
+3398.5  msg: M plotscr.lst
+3398.5  msg: M lookup1.bin
+3398.6  plotscr.hsd version: 3U 
+3398.6  not reloading script eventsattic because it's in use: refcount=1
+3398.6  unlock_resolution(426,240)
+3399.4  set_resolution 426*240
+3399.4  lock_resolution()
+3399.9  plotscr.hsd version: 3U 
+3461.5  msg: M ohrrpgce.hsp
+3461.5  msg: M plotscr.lst
+3461.5  msg: M plotscr.lst
+3461.5  msg: M lookup1.bin
+3461.7  plotscr.hsd version: 3U 
+3505.2  msg: M ohrrpgce.hsp
+3505.2  msg: M plotscr.lst
+3505.2  msg: M plotscr.lst
+3505.2  msg: M lookup1.bin
+3505.3  plotscr.hsd version: 3U 
+3543.9  msg: M ohrrpgce.hsp
+3543.9  msg: M plotscr.lst
+3543.9  msg: M plotscr.lst
+3543.9  msg: M lookup1.bin
+3544.1  plotscr.hsd version: 3U 
+3632.9  msg: M ohrrpgce.hsp
+3632.9  msg: M plotscr.lst
+3632.9  msg: M plotscr.lst
+3632.9  msg: M lookup1.bin
+3633.0  plotscr.hsd version: 3U 
+3692.8  msg: M ohrrpgce.hsp
+3692.8  msg: M plotscr.lst
+3692.8  msg: M plotscr.lst
+3692.8  msg: M lookup1.bin
+3693.0  plotscr.hsd version: 3U 
+3726.9  msg: M ohrrpgce.hsp
+3726.9  msg: M plotscr.lst
+3726.9  msg: M plotscr.lst
+3726.9  msg: M lookup1.bin
+3727.0  plotscr.hsd version: 3U 
+3727.0  not reloading script eventsattic because it's in use: refcount=1
+3727.1  unlock_resolution(426,240)
+3727.9  set_resolution 426*240
+3727.9  lock_resolution()
+3728.3  plotscr.hsd version: 3U 
+3769.2  msg: M ohrrpgce.hsp
+3769.2  msg: M plotscr.lst
+3769.2  msg: M plotscr.lst
+3769.2  msg: M lookup1.bin
+3769.3  plotscr.hsd version: 3U 
+3845.9  msg: M ohrrpgce.hsp
+3845.9  msg: M plotscr.lst
+3845.9  msg: M plotscr.lst
+3845.9  msg: M lookup1.bin
+3846.0  plotscr.hsd version: 3U 
+3908.3  Cleaning up and terminating 0
+3908.3  Closing music backend...
+3908.4  ...done
+3908.4  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210623172557.475.tmp\
+3908.5  Closing gfx backend & allmodex...
+3908.5  ...done
+3908.5  End.

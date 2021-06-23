@@ -46,7 +46,8 @@ script, eventsattic, which, begin
 					specwait(8)
 				)
 				free slice (sli)
-				specwait (30)
+				fadeMusicOut()
+				specwait (240)
 				sli := load attack sprite(1)
 				sli2 := load attack sprite(2)
 				set parent(sli, parent slice (getherosprite(me)))
@@ -62,8 +63,8 @@ script, eventsattic, which, begin
 				realign slice (sli, edge:center, edge:bottom, edge:center, edge:bottom)
 				realign slice (sli2, edge:center, edge:bottom, edge:center, edge:bottom)
 				set slice clipping (sli4, true)
-				dissolve sprite (sli, dissolve:shrink to center, 30, 10, true)
-				dissolve sprite (sli2, dissolve:shrink to center, 30, 10, true)
+				dissolve sprite (sli, dissolve:shrink to center, 100, 10, true)
+				dissolve sprite (sli2, dissolve:shrink to center, 100, 10, true)
 
 				for (i, 1, 40) do (
 					if (game:tick,mod,4==1) then (wildpal(4))
@@ -98,8 +99,37 @@ script, eventsattic, which, begin
 				)
 				reset palette
 				update palette
-				specwait (80)
+				
+
 				#note: evil reflection here
+				set tag (tag:Mirror Person, on)
+				who := npcReference(5)
+				sli := getNpcSprite(who)
+				set slice visible (sli, false)
+				specwait(100)
+				set slice visible (sli, true)
+				dissolveSprite (sli, dissolve:ghostly fade, 140, 0, true)
+				specwait(130)
+				set slice visible (slice child (lookupslice(sli:mirrorheroes), 0), false)
+				set NPC ignores walls (who, true)
+				set NPC obstructs (who, false)
+				pathfind NPC to (who,11,8)
+				while(NPC is walking (who)) do (specwait)
+				set NPC frame(who, 0)
+				set NPCDirection(who, right)
+				specwait(40)
+				set NPCDirection(who, down)
+				specwait(40)
+				set NPCDirection(who, left)
+				specwait(40)
+				set NPCDirection(who, down)
+				specwait(90)
+				set NPC ignores walls (who, false)
+				set NPC obstructs (who, true)
+				pathfind NPC to (who,15,15)
+
+				while(NPC is walking (who)) do (specwait)
+
 				screenfadeout
 				fade music out(20)
 				set slice visible (getherosprite(me), true)

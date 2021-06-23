@@ -224,7 +224,7 @@ script, dirY, dir, begin
     )
 end
 
-script,fademusicout,time,begin
+script,fademusicout,time=20,begin
 	variable(i, volume)
 	volume := get music volume
 	for(i,1,time,1) do(

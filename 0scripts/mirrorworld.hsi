@@ -4,6 +4,7 @@ define constant, begin
 2,tag:Always Run
 3,tag:Menu Pos
 4,tag:MirrorCheck
+5,tag:Mirror Person
 0,song:mirror world title
 1,song:attic
 2,song:prehistoric beats
