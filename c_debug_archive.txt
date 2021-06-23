@@ -1,5 +1,3 @@
-Loading C:\OHRRPGCE\support\CrashRpt1403.dll
- 0.1   ----Starting OHRRPGCE Custom----
  0.1  06-19-2021 23:14:26
  0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
  0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\custom.exe
@@ -824,3 +822,365 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 4541.0  Closing gfx backend & allmodex...
 4541.1  ...done
 4541.1  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.2   ----Starting OHRRPGCE Custom----
+ 0.2  06-23-2021 23:38:37
+ 0.2  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.2  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\custom.exe
+ 0.2  orig_dir: C:\WINDOWS\system32
+ 0.2  curdir: C:\OHRRPGCE
+ 0.2  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.2  documents_dir: C:\Users\takui\Documents
+ 0.2  prefer_gfx_backend: gfx backend sdl isn't available
+ 0.2  Initialising gfx_sdl2...
+ 0.3  setvideomode zoom=2 w*h = 640,400
+ 0.4  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.4  disable_native_text_input=0
+ 0.4  unlock_resolution(320,200)
+ 0.4  music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5
+ 0.4  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.4  Working in C:\Users\takui\AppData\Roaming\OHRRPGCE\working0.tmp
+ 0.4  check_ok_to_open...
+ 0.4  pid_current_exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe
+ 0.4  prev_session.workingdir = C:\Users\takui\AppData\Roaming\OHRRPGCE\working0.tmp
+ 0.4  prev_session.info_file_exists = YES
+ 0.4  prev_session.pid = 4712 (exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe)
+ 0.4  prev_session.running = YES
+ 0.4  prev_session.partial_rpg = NO
+ 0.4  prev_session.fresh_danger_tmp = NO
+ 0.4  prev_session.sourcerpg = 
+ 0.4  prev_session.sourcerpg_old_mtime = 0
+ 0.4  prev_session.sourcerpg_current_mtime = 0
+ 0.4  prev_session.session_start_time = 2021 Jun 23 23:38:37
+ 0.4  prev_session.last_lump_mtime = 0
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.4   ----Loading a game----
+ 0.4  06-23-2021 23:38:37
+ 0.4  curdir: C:\Users\takui\Documents\GitHub\Mirror-World
+ 0.4  tmpdir: C:\Users\takui\AppData\Roaming\OHRRPGCE\
+ 0.4  settings_dir: C:\Users\takui\AppData\Roaming\OHRRPGCE
+ 0.4  Editing game C:\Users\takui\Documents\GitHub\Mirror-World\mirrorworld.rpg ( )
+ 0.5  Full game data upgrade...
+ 0.5  Last edited by: [[OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell  -g -gen gcc Win32 32-bit]] branch_rev 12220
+ 0.5  archinym creation info: OHRRPGCE wip 20210417
+ 1.2  Joystick 0 GUID 030000007e05000009200000100268 instance_id 0
+ 1.2   Opened as gamecontroller Nintendo Switch Pro Controller
+ 1.2  Opened joystick 0 Nintendo Switch Pro Controller (id 0) -- 16 buttons 6 axes 0 hats 0 balls
+ 1.2  JOYSTICKSTATE.UPDATE_KEYBITS(0) took 698ms
+11.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.257171.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.598974.tmp"
+11.6  hspeak version '3Uf'
+11.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+15.5  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_69606
+15.7  Channel connection received (after 70ms)
+59.8  getinputtext: not enabled
+59.8  getinputtext: not enabled
+59.9  getinputtext: not enabled
+706.3  getinputtext: not enabled
+706.3  getinputtext: not enabled
+763.7  getinputtext: not enabled
+787.0  getinputtext: not enabled
+787.0  getinputtext: not enabled
+787.7  getinputtext: not enabled
+787.8  getinputtext: not enabled
+787.8  getinputtext: not enabled
+788.6  getinputtext: not enabled
+788.6  getinputtext: not enabled
+788.7  getinputtext: not enabled
+788.7  getinputtext: not enabled
+836.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.813340.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.606969.tmp"
+836.2  hspeak version '3Uf'
+836.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+903.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.436560.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.204050.tmp"
+903.3  hspeak version '3Uf'
+903.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+998.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.294509.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.71828.tmp"
+998.8  hspeak version '3Uf'
+998.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+1042.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.973973.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.224827.tmp"
+1042.4  hspeak version '3Uf'
+1042.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+1108.6  getinputtext: not enabled
+1108.6  getinputtext: not enabled
+1188.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.815529.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.615385.tmp"
+1188.7  hspeak version '3Uf'
+1188.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+1289.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.560956.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.682975.tmp"
+1289.0  hspeak version '3Uf'
+1289.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+1321.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.545318.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.818539.tmp"
+1321.8  hspeak version '3Uf'
+1321.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+1350.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.940583.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.675841.tmp"
+1350.2  hspeak version '3Uf'
+1350.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+1554.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.377256.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.440498.tmp"
+1554.4  hspeak version '3Uf'
+1554.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+1616.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.135614.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.855647.tmp"
+1616.7  hspeak version '3Uf'
+1616.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+1866.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.597630.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.880088.tmp"
+1866.7  hspeak version '3Uf'
+1866.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+1903.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.141502.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.894915.tmp"
+1903.9  hspeak version '3Uf'
+1903.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+2025.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.281991.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.681603.tmp"
+2025.1  hspeak version '3Uf'
+2025.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+2062.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.133251.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.710479.tmp"
+2062.2  hspeak version '3Uf'
+2062.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+2101.5  channel_write error (closing) (wrote 0 of 15): The pipe is being closed.
+2166.6  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\masterpal.bmp twice! Probably a mistake
+2166.6  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\masterpal.bmp twice! Probably a mistake
+2169.0  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2169.0  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2169.6  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2169.7  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2170.0  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback3.bmp twice! Probably a mistake
+2170.0  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback3.bmp twice! Probably a mistake
+2170.2  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slots1.bmp twice! Probably a mistake
+2170.2  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slots1.bmp twice! Probably a mistake
+2170.8  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotsback1.bmp twice! Probably a mistake
+2170.8  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotsback1.bmp twice! Probably a mistake
+2171.6  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slots1.bmp twice! Probably a mistake
+2171.6  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slots1.bmp twice! Probably a mistake
+2172.1  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotsback1.bmp twice! Probably a mistake
+2172.1  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotsback1.bmp twice! Probably a mistake
+2172.7  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slots1.bmp twice! Probably a mistake
+2172.7  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slots1.bmp twice! Probably a mistake
+2172.9  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback3.bmp twice! Probably a mistake
+2173.0  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback3.bmp twice! Probably a mistake
+2173.4  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2173.4  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2173.9  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2173.9  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2174.4  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2174.4  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2174.8  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback3.bmp twice! Probably a mistake
+2174.8  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback3.bmp twice! Probably a mistake
+2175.5  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2175.5  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2175.7  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2175.7  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2177.6  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2177.6  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2178.6  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback3.bmp twice! Probably a mistake
+2178.6  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback3.bmp twice! Probably a mistake
+2179.4  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2179.4  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2179.7  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2179.7  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2181.8  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2181.8  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2182.7  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2182.7  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2183.3  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2183.3  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2184.8  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback3.bmp twice! Probably a mistake
+2184.8  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback3.bmp twice! Probably a mistake
+2185.8  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2185.8  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2186.0  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2186.0  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2190.5  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2190.5  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2191.1  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2191.1  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2191.3  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback3.bmp twice! Probably a mistake
+2191.3  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback3.bmp twice! Probably a mistake
+2192.3  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2192.3  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2192.7  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2192.7  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2193.1  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2193.1  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2193.5  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2193.6  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback.bmp twice! Probably a mistake
+2194.1  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2194.1  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2196.5  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2196.5  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback2.bmp twice! Probably a mistake
+2197.2  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback3.bmp twice! Probably a mistake
+2197.2  ! (BUG) Opening C:\Users\takui\Documents\GitHub\Mirror-World\Art\slots\slotback3.bmp twice! Probably a mistake
+2229.6  Saving - been editing for 16m00s
+2298.8  getinputtext: not enabled
+2298.8  getinputtext: not enabled
+2827.2  Saving - been editing for 6m04s
+2981.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.645523.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.338277.tmp"
+2981.0  hspeak version '3Uf'
+2981.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+2988.4  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_42830
+2988.5  Channel connection received (after 63ms)
+3036.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.514937.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.750114.tmp"
+3036.5  hspeak version '3Uf'
+3036.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+3103.6  getinputtext: not enabled
+3103.6  getinputtext: not enabled
+3178.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.18886.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.231240.tmp"
+3178.8  hspeak version '3Uf'
+3178.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+3180.3  channel_write error (closing) (wrote 0 of 15): The pipe is being closed.
+3405.3  getinputtext: not enabled
+3405.4  getinputtext: not enabled
+3444.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stdout.280384.tmp" 2> "C:\Users\takui\AppData\Roaming\OHRRPGCE\temp_stderr.402213.tmp"
+3444.3  hspeak version '3Uf'
+3444.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\takui\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+3448.5  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_10345
+3448.6  Channel connection received (after 54ms)
+3476.7  channel_write error (closing) (wrote 0 of 15): The pipe is being closed.
+3479.7  Saving - been editing for 4m52s
+3479.8  Cleaning up and terminating 0
+3479.8  Closing music backend...
+3479.8  ...done
+3481.1  Closing gfx backend & allmodex...
+3481.2  ...done
+3481.2  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Custom----
+ 0.1  06-23-2021 15:46:54
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\custom.exe
+ 0.1  orig_dir: C:\OHRRPGCE
+ 0.1  curdir: C:\OHRRPGCE
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  documents_dir: C:\Users\Dell\Documents
+ 0.1  prefer_gfx_backend: gfx backend sdl isn't available
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  unlock_resolution(320,200)
+ 0.2  music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.2  Working in C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+ 0.3  Joystick 0 GUID 03000000c82d000006500000000000 instance_id 0
+ 0.3   Opened as gamecontroller 8BitDo M30 Gamepad
+ 0.3  Opened joystick 0 8BitDo M30 gamepad (id 0) -- 15 buttons 6 axes 1 hats 0 balls
+ 2.3  check_ok_to_open...
+ 2.3  pid_current_exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe
+ 2.3  prev_session.workingdir = C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+ 2.3  prev_session.info_file_exists = YES
+ 2.3  prev_session.pid = 2480 (exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe)
+ 2.3  prev_session.running = YES
+ 2.3  prev_session.partial_rpg = NO
+ 2.3  prev_session.fresh_danger_tmp = NO
+ 2.3  prev_session.sourcerpg = 
+ 2.3  prev_session.sourcerpg_old_mtime = 0
+ 2.3  prev_session.sourcerpg_current_mtime = 0
+ 2.3  prev_session.session_start_time = 2021 Jun 23 15:46:54
+ 2.3  prev_session.last_lump_mtime = 0
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 2.3   ----Loading a game----
+ 2.3  06-23-2021 15:46:56
+ 2.3  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 2.3  tmpdir: C:\Users\Dell\AppData\Roaming\OHRRPGCE\
+ 2.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 2.3  Editing game C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg ( )
+ 2.4  Full game data upgrade...
+ 2.4  Last edited by: [[OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell  -g -gen gcc Win32 32-bit]] branch_rev 12220
+ 2.4  archinym creation info: OHRRPGCE wip 20210417
+ 5.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.943872.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.325401.tmp"
+ 5.2  hspeak version '3Uf'
+ 5.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+ 9.4  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_51478
+ 9.6  Channel connection received (after 116ms)
+143.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.161884.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.137427.tmp"
+143.7  hspeak version '3Uf'
+143.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+153.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.319811.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.923689.tmp"
+153.7  hspeak version '3Uf'
+153.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+252.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.383859.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.791375.tmp"
+252.8  hspeak version '3Uf'
+252.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+259.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.457847.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.647002.tmp"
+259.3  hspeak version '3Uf'
+259.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+278.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.267232.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.816980.tmp"
+278.4  hspeak version '3Uf'
+278.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+420.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.237818.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.629642.tmp"
+420.3  hspeak version '3Uf'
+420.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+448.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.187082.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.851663.tmp"
+448.2  hspeak version '3Uf'
+448.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+491.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.225042.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.917015.tmp"
+491.7  hspeak version '3Uf'
+491.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+695.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.264504.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.967477.tmp"
+695.5  hspeak version '3Uf'
+695.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+814.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.534285.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.545889.tmp"
+814.4  hspeak version '3Uf'
+814.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+850.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.439595.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.200399.tmp"
+850.8  hspeak version '3Uf'
+850.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+860.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.353240.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.27453.tmp"
+861.0  hspeak version '3Uf'
+861.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+885.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.902785.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.7710.tmp"
+885.9  hspeak version '3Uf'
+885.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+907.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.205706.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.192490.tmp"
+907.4  hspeak version '3Uf'
+907.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+1009.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.286587.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.450594.tmp"
+1009.9  hspeak version '3Uf'
+1009.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+1467.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.129733.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.309547.tmp"
+1467.2  hspeak version '3Uf'
+1467.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+1493.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.748653.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.556909.tmp"
+1493.8  hspeak version '3Uf'
+1493.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+2375.6  getinputtext: not enabled
+2375.6  getinputtext: not enabled
+2375.7  getinputtext: not enabled
+2425.4  getinputtext: not enabled
+2425.7  getinputtext: not enabled
+2425.8  getinputtext: not enabled
+2425.8  getinputtext: not enabled
+2461.6  getinputtext: not enabled
+2461.9  getinputtext: not enabled
+2462.0  getinputtext: not enabled
+2462.0  getinputtext: not enabled
+2590.1  getinputtext: not enabled
+2590.2  getinputtext: not enabled
+2590.2  getinputtext: not enabled
+2591.7  getinputtext: not enabled
+2591.8  getinputtext: not enabled
+2591.8  getinputtext: not enabled
+2591.9  getinputtext: not enabled
+2592.8  getinputtext: not enabled
+2592.9  getinputtext: not enabled
+2592.9  getinputtext: not enabled
+2593.0  getinputtext: not enabled
+2675.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\slots\slots.bmp twice! Probably a mistake
+2675.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\slots\slots.bmp twice! Probably a mistake
+2696.3  getinputtext: not enabled
+2696.4  getinputtext: not enabled
+2696.4  getinputtext: not enabled
+3315.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.994343.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.323641.tmp"
+3315.3  hspeak version '3Uf'
+3315.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+3463.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.723398.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.256299.tmp"
+3463.7  hspeak version '3Uf'
+3463.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
+3503.9  Cleaning up and terminating 0
+3503.9  Closing music backend...
+3503.9  ...done
+3504.8  Closing gfx backend & allmodex...
+3504.9  ...done
+3504.9  End.

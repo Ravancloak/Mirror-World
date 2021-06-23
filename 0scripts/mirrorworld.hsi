@@ -18,7 +18,9 @@ define constant, begin
 4,sfx:breath2
 5,sfx:breath3
 0,hero:Mary Hill
-1,item:Cherries
+0,item:Cherries
+1,item:Wtrmelon
+2,item:Banana
 0,stat:HP
 1,stat:MP
 2,stat:Atk

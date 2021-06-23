@@ -252,6 +252,7 @@ script, specwait, ticks=1, begin
 	for (i, 0,ticks) do (
 		wait, mapeverytick, game:tick += 1
 		if (state:control==state:battle) then (battleupdate)
+		if (state:control==state:slots) then (spin)
 	)
 end
 #------------------------------------------------------------------------------------------------------

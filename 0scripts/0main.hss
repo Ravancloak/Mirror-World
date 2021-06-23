@@ -56,7 +56,7 @@ global variable, begin
 	22, battle:selected
 	23, battle:turn
 	
-	24, state:slotswitch
+	24, state:slotspin
 end
 
 plotscript, defnewgame, begin
