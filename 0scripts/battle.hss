@@ -1,3 +1,11 @@
+define constant, begin
+	0, battle:attack
+	1, battle:insult
+	2, battle:nice
+	3, battle:def
+	4, battle:run
+end
+
 plotscript, battle, formation, begin
 	variable (i, sli)
 	specwait (10)
@@ -24,10 +32,43 @@ plotscript, battle, formation, begin
 	end
 
 	subscript, battleaction, begin
+		sli := lookupslice(sli:enemySprite)
+		switch(battle:selected) do (
+			case (battle:attack) do(battleAttack(formation))
+			case (battle:insult) do(battleinsult(formation))
+			case (battle:nice) do($4="nice!", write(11))
+			case (battle:def) do($4="def!", write(11))
+			case (battle:run) do($4="ran!", write(11))
+		)
+		specwait(40)
+		sli := lookupslice(sli:battleCol)
+		$4="she stepped on your toes really hard", write(11), write(12)
+		shakeslice(sli,30)
+		show no value
 		exitReturning(false)
 	end
 end
 
+script, battleAttack, formation,  begin
+	variable(sli)
+	sli := lookupslice(sli:enemySprite)
+	$4="attacked!", write(11), shakeslice(sli,30), write(12)
+end
+
+script, battleinsult, formation, begin
+variable(sli)
+	sli := lookupslice(sli:enemySprite)
+	$4="insulted!", write(11), shakeslice(sli,30), write(12)
+end
+
+script, shakeslice, sli,  time, intensity=20, begin
+	variable(i, var)
+	for (i,1,time+1) do (
+		if (i,mod,2) then (var := -1) else (var := 1)
+		set slice x (sli, intensity*var/i)
+		specwait(5)
+	)	
+end
 
 script, battleend, begin
 	screenfadeout()
@@ -222,6 +263,16 @@ script, innitBattle, formation, begin
 	battle:selected := 0
 end
 
+script, updateHearts, begin
+	variable (i, sli)
+	sli := first child (first child(lookupslice(sli:playerhearts)))
+	for (i,1,get hero stat(me, stat:hp, currentStat)) do (
+		set slice visible (sli, true)
+		sli := slice parent (sli)
+		sli := next sibling (sli)
+		if (sli) then (sli := first child (sli))
+	)
+end
 
 script, setupslices, formation, begin
 	variable (sli, sli2, i)
@@ -229,8 +280,11 @@ script, setupslices, formation, begin
 	#replace enemy sprite
 	set sprite set number (sli := lookupslice(sli:enemySprite), formation)
 
-	#set hearts
-	update hearts
+	sli := lookupslice(sli:playerhearts)
+	for (i,2,get hero stat(me, stat:hp, maximumStat)) do (
+		clone slice (first child (sli))
+	)
+	updateHearts
 
 	#set text
 	switch (formation) do (
@@ -257,16 +311,5 @@ script, setupslices, formation, begin
 	for (i, 0, 4) do (
 		sli := slice child(first child (lookup slice (sli:battleMenu)), i)
 		setSliceText (sli, i+3)
-	)
-end
-
-script, update hearts, begin
-	variable (sli, sli2, i, var)
-	var := get hero stat (me, stat:HP)
-	sli := lookupslice (sli:player hearts)
-	for (i,0,7) do (
-		sli2 := slice child (sli, i)
-
-		if (i+1>var) then (set slice visible (sli2, false))
 	)
 end

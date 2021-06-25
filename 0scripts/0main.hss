@@ -61,6 +61,8 @@ global variable, begin
 	23, battle:turn
 	
 	24, state:slotspin
+
+	25, battle:damage
 end
 
 plotscript, defnewgame, begin
@@ -259,7 +261,6 @@ script, battlekeypress, begin
 	if (keypress(key:4)) then (battle:selected := 3, battle:turn := false)
 	if (keypress(key:5)) then (battle:selected := 4, battle:turn := false)
 	if (keypressA) then (battle:turn := false)
-	show value (battle:selected)
 end
 
 script, menukeypress, begin

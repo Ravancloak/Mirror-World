@@ -35,6 +35,7 @@ plotscript, write, text,blank=0,choice=0,pausenpc=0(
 
 	skip
 	sfx
+	state
 
 	#this is how wide/high a font is
 	w
@@ -43,6 +44,7 @@ plotscript, write, text,blank=0,choice=0,pausenpc=0(
 	i
 	)
 
+	state := state:control
 	suspendcontrol
 	state:textbox := true
 
@@ -86,7 +88,7 @@ plotscript, write, text,blank=0,choice=0,pausenpc=0(
 		  	)
 		)
 	refresh()
-	resumecontrol()
+	state:control := state
 	state:textbox := false
 
 subscript, def letter, char (
