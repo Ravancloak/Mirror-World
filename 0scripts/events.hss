@@ -36,6 +36,10 @@ script, eventsattic, which, begin
 		case (0) do (
 			if (check tag (tag:MirrorCheck)==on) then (
 				write (2)
+				write (13, 0, 2)
+				if (checktag(tag:YesNo)==off) then (
+					exit script
+				)
 				suspendcontrol
 				specwait(60)
 				sli := load attack sprite(0)
@@ -133,7 +137,7 @@ script, eventsattic, which, begin
 				screenfadeout
 				fade music out(20)
 				set slice visible (getherosprite(me), true)
-				teleporttomap(3, 24, 42)
+				teleporttomap(3, 20, 75)
 				specwait(40)
 				screenfadein
 			)else (

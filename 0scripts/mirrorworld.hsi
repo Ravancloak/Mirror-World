@@ -5,6 +5,7 @@ define constant, begin
 3,tag:Menu Pos
 4,tag:MirrorCheck
 5,tag:Mirror Person
+6,tag:yes no
 0,song:mirror world title
 1,song:attic
 2,song:prehistoric beats
@@ -12,6 +13,8 @@ define constant, begin
 4,song:hot digs
 5,song:Battle
 6,song:forest of wonders
+7,song:fight it out
+8,song:you done did it
 0,sfx:talk1
 1,sfx:talk2
 2,sfx:talk3
@@ -59,6 +62,7 @@ define constant, begin
 1,map:Title
 2,map:Attic
 3,map:Forest
+4,map:Village
 0,menu:Main Menu
 1,menu:Settings
 1,enemy:Birda

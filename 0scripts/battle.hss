@@ -37,13 +37,14 @@ plotscript, battle, formation, begin
 			case (battle:attack) do(battleAttack(formation))
 			case (battle:insult) do(battleinsult(formation))
 			case (battle:nice) do($4="nice!", write(11))
-			case (battle:def) do($4="def!", write(11))
+			case (battle:def) do(battledefend)
 			case (battle:run) do($4="ran!", write(11))
 		)
-		specwait(40)
-		sli := lookupslice(sli:battleCol)
-		$4="she stepped on your toes really hard", write(11), write(12)
-		shakeslice(sli,30)
+		switch (random(0,5)) do (
+			case (0,2) do (enemyattack(formation))
+			case (3,4) do (enemyinsult(formation))
+			else (enemynice(formation))
+		)
 		show no value
 		exitReturning(false)
 	end
@@ -52,13 +53,90 @@ end
 script, battleAttack, formation,  begin
 	variable(sli)
 	sli := lookupslice(sli:enemySprite)
-	$4="attacked!", write(11), shakeslice(sli,30), write(12)
+	switch (formation) do (
+		case (enemy:Birda) do ($4="You punch her in the tits.")
+		case (enemy:Ufoian) do ($4="ERROR")
+		case (enemy:Danca) do ($4="You slap her.")
+		case (enemy:Tentaeye) do ($4="You attack Tentaeye.")
+	)
+	battle:damage := getHeroStat(me, stat:Atk) -- getEnemyStat(formation, stat:Def)
+	write(11), shakeslice(sli,30),write(12)
 end
 
 script, battleinsult, formation, begin
 variable(sli)
 	sli := lookupslice(sli:enemySprite)
-	$4="insulted!", write(11), shakeslice(sli,30), write(12)
+	switch (formation) do (
+		case (enemy:Birda) do ($4="You begin to grope her boobs.")
+		case (enemy:Ufoian) do ($4="ERROR")
+		case (enemy:Danca) do ($4="You tell her she dances terribly.")
+		case (enemy:Tentaeye) do ($4="You tickle the tentacles")
+	)
+	write(11), shakeslice(sli,30,4)
+end
+
+script, battledefend, begin
+	$4="You ready yourself."
+	write(11)
+	battle:defend := true
+end
+
+script, setupslices, formation, begin
+	variable (sli, sli2, i)
+
+	#replace enemy sprite
+	set sprite set number (sli := lookupslice(sli:enemySprite), formation)
+
+	sli := lookupslice(sli:playerhearts)
+	for (i,2,get hero stat(me, stat:hp, maximumStat)) do (
+		clone slice (first child (sli))
+	)
+	updateHearts
+
+	#set text
+	switch (formation) do (
+		case (enemy:Birda) do (
+			$3="Punch her in the tits, hard"
+			$4="Grope her boobs. Obviously"
+			$5="Attempt to befriend"
+		)
+		case (enemy:Danca) do (
+			$3="Slap her until she no dance"
+			$4="Insult her moves"
+			$5="Dance with her"
+		)
+		case (enemy:Tentaeye) do (
+			$3="Punch it in the fucking eye"
+			$4="Tickle the... *slimy* tentacles"
+			$5="Try to shake hands with it"
+		)
+	)
+	$6="Defend, of course"
+	$7="Run for it"
+
+	#update text slices
+	for (i, 0, 4) do (
+		sli := slice child(first child (lookup slice (sli:battleMenu)), i)
+		setSliceText (sli, i+3)
+	)
+end
+
+script, enemyattack, formation, begin
+	variable(sli)
+	sli := lookupslice(sli:battleCol)
+	$4="She stepped on your toes really hard.", write(11), shakeslice(sli,30), write(12)
+end
+
+script, enemyinsult, formation, begin
+	variable(sli)
+	sli := lookupslice(sli:battleCol)
+	$4="She said your mother cannot dance!", write(11), shakeslice(sli,30)
+end
+
+script, enemynice, formation, begin
+	variable(sli)
+	sli := lookupslice(sli:battleCol)
+	$4="She kisses you and you recovererd 1 HP", write(11)
 end
 
 script, shakeslice, sli,  time, intensity=20, begin
@@ -68,6 +146,22 @@ script, shakeslice, sli,  time, intensity=20, begin
 		set slice x (sli, intensity*var/i)
 		specwait(5)
 	)	
+end
+
+script, innitBattle, formation, begin
+	variable (i, sli)
+	suspendControl()
+	screenFadeOut()
+	fadeMusicOut(10)
+	playSong (7)
+	loadSliceCollection(0)
+	loadBattleback(formation)
+	setupslices(formation)
+	state:control  := state:battle
+	sliceToFront(lookupslice(sli:fade))
+	specWait(20)
+	screenFadeIn()
+	battle:selected := 0
 end
 
 script, battleend, begin
@@ -99,6 +193,17 @@ script, battleupdate, time=1, begin
 		)
 		sli := slice child (first child (lookupslice(sli:battlemenu)), battle:selected)
 		if (getSliceVisible (sli)==false) then (setSliceVisible(sli,true)) else (setSliceVisible(sli, false))
+	)
+end
+
+script, updateHearts, begin
+	variable (i, sli)
+	sli := first child (first child(lookupslice(sli:playerhearts)))
+	for (i,1,get hero stat(me, stat:hp, currentStat)) do (
+		set slice visible (sli, true)
+		sli := slice parent (sli)
+		sli := next sibling (sli)
+		if (sli) then (sli := first child (sli))
 	)
 end
 
@@ -245,71 +350,4 @@ script, sinedist, begin
 	t := get slice extra (first child (lookupslice(sli:battleback)), 0)
 	t += 1
 	set slice extra (first child (lookupslice(sli:battleback)), 0, t)
-end
-
-script, innitBattle, formation, begin
-	variable (i, sli)
-	suspendControl()
-	screenFadeOut()
-	fadeMusicOut(10)
-	playSong (5)
-	loadSliceCollection(0)
-	loadBattleback(formation)
-	setupslices(formation)
-	state:control  := state:battle
-	sliceToFront(lookupslice(sli:fade))
-	specWait(20)
-	screenFadeIn()
-	battle:selected := 0
-end
-
-script, updateHearts, begin
-	variable (i, sli)
-	sli := first child (first child(lookupslice(sli:playerhearts)))
-	for (i,1,get hero stat(me, stat:hp, currentStat)) do (
-		set slice visible (sli, true)
-		sli := slice parent (sli)
-		sli := next sibling (sli)
-		if (sli) then (sli := first child (sli))
-	)
-end
-
-script, setupslices, formation, begin
-	variable (sli, sli2, i)
-
-	#replace enemy sprite
-	set sprite set number (sli := lookupslice(sli:enemySprite), formation)
-
-	sli := lookupslice(sli:playerhearts)
-	for (i,2,get hero stat(me, stat:hp, maximumStat)) do (
-		clone slice (first child (sli))
-	)
-	updateHearts
-
-	#set text
-	switch (formation) do (
-		case (enemy:Birda) do (
-			$3="Punch her in the tits, hard"
-			$4="Grope her boobs. Obviously"
-			$5="Attempt to befriend"
-		)
-		case (enemy:Danca) do (
-			$3="Slap her until she no dance"
-			$4="Insult her moves"
-			$5="Dance with her"
-		)
-		case (enemy:Tentaeye) do (
-			$3="Punch it in the fucking eye"
-			$4="Tickle the... *slimy* tentacles"
-			$5="Try to shake hands with it"
-		)
-	)
-	$6="Defend, of course"
-	$7="Run for it"
-
-	#update text slices
-	for (i, 0, 4) do (
-		sli := slice child(first child (lookup slice (sli:battleMenu)), i)
-		setSliceText (sli, i+3)
-	)
 end

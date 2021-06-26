@@ -63,6 +63,7 @@ global variable, begin
 	24, state:slotspin
 
 	25, battle:damage
+	26, battle:defend
 end
 
 plotscript, defnewgame, begin
@@ -122,11 +123,10 @@ end
 
 plotscript, defkeypress, begin
 	if (keyispressed(key:leftshift)&&keyispressed(key:r)) then (reset game)
+	if (topmenu) then (menu keypress, exit script)
 	if (state:textbox) then (exit script)
 	if (newkeypress (key:9)) then (resetcontrols)
 	if (newkeypress (key:0)) then (resetpalette(), updatepalette())
-
-	if (topmenu) then (menu keypress, exit script)
 	switch (state:control) do (
 		case (state:slots)		do (keypressSlots)
 		case (state:suspend)	do ()
