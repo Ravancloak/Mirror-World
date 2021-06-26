@@ -1,0 +1,124 @@
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.2   ----Starting OHRRPGCE Game----
+ 0.2  06-26-2021 19:36:44
+ 0.2  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.2  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.2  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.2  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.2  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.2  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_60442'
+ 0.2  Spawned from Custom
+ 0.2  Initialising gfx_sdl2...
+ 0.3  setvideomode zoom=2 w*h = 640,400
+ 0.3  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.3  disable_native_text_input=0
+ 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.4  Setting graphics scaling to x2 change_windowsize=-1
+ 0.4  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.4  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
+ 0.4  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.4   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
+ 0.4  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.4  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210626193644.641.tmp\
+ 0.4  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.4  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
+ 0.4  Name: 
+ 0.6  plotscr.hsd version: 3U 
+ 1.1  lock_resolution()
+ 1.1  set_resolution 426*240
+ 1.1  recenter_window_hint()
+ 1.1  get_screen_size: true screen size 1600x900
+ 1.1  Desktop resolution: 1600*860
+ 1.1  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.1  Setting graphics scaling to x2 change_windowsize=-1
+ 1.1  Preserving fullscreen/windowed state
+ 1.1  genRungameFullscreenIndependent: 0
+ 2.0  Joystick 0 GUID 03000000c82d000006500000000000 instance_id 0
+ 2.0   Opened as gamecontroller 8BitDo M30 Gamepad
+ 2.0  Opened joystick 0 8BitDo M30 gamepad (id 0) -- 15 buttons 6 axes 1 hats 0 balls
+ 2.0  JOYSTICKSTATE.UPDATE_KEYBITS(0) took 17ms
+ 2.9  msg: M ohrrpgce.gen
+ 2.9  msg: M general.reld
+13.6  msg: M browse.txt
+13.6  msg: M browse.txt
+13.6  msg: M general.reld
+13.6  msg: M ohrrpgce.gen
+13.6  fileisreadable: Error 2 reading C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\\general.reld
+13.6  general.reld not present, creating
+13.6  msg: M general.reld
+21.7  msg: M ohrrpgce.map
+21.7  msg: M ohrrpgce.t03
+21.7  msg: M ohrrpgce.p03
+21.7  msg: M ohrrpgce.e03
+21.7  msg: M ohrrpgce.z03
+21.7  msg: M ohrrpgce.l03
+21.7  msg: M ohrrpgce.n03
+21.7  msg: M ohrrpgce.dox
+21.7  msg: M ohrrpgce.d03
+21.7  msg: M ohrrpgce.mn
+21.7  did not reload ohrrpgce.d03
+48.0  msg: M ohrrpgce.map
+48.0  msg: M ohrrpgce.t03
+48.0  msg: M ohrrpgce.p03
+48.0  msg: M ohrrpgce.e03
+48.0  msg: M ohrrpgce.z03
+48.0  msg: M ohrrpgce.l03
+48.0  msg: M ohrrpgce.n03
+48.0  msg: M ohrrpgce.dox
+48.0  msg: M ohrrpgce.d03
+48.0  did not reload ohrrpgce.d03
+48.0  msg: M ohrrpgce.mn
+53.6  msg: M ohrrpgce.map
+53.6  msg: M ohrrpgce.t03
+53.6  msg: M ohrrpgce.p03
+53.6  msg: M ohrrpgce.e03
+53.6  msg: M ohrrpgce.z03
+53.6  msg: M ohrrpgce.l03
+53.6  msg: M ohrrpgce.n03
+53.6  msg: M ohrrpgce.dox
+53.6  msg: M ohrrpgce.d03
+53.6  msg: M ohrrpgce.mn
+53.6  did not reload ohrrpgce.d03
+54.3  msg: M ohrrpgce.gen
+54.3  msg: M general.reld
+67.1  msg: M ohrrpgce.for
+67.8  msg: M ohrrpgce.for
+69.3  msg: M ohrrpgce.for
+70.0  msg: M ohrrpgce.for
+71.2  msg: M ohrrpgce.for
+71.5  msg: M ohrrpgce.for
+72.6  msg: M ohrrpgce.for
+73.1  msg: M ohrrpgce.for
+74.3  msg: M ohrrpgce.for
+74.6  msg: M ohrrpgce.for
+75.7  msg: M ohrrpgce.for
+76.0  msg: M ohrrpgce.for
+77.1  msg: M ohrrpgce.for
+77.4  msg: M ohrrpgce.for
+79.5  msg: M ohrrpgce.for
+80.5  msg: M ohrrpgce.for
+80.8  msg: M ohrrpgce.for
+81.9  msg: M ohrrpgce.for
+82.2  msg: M ohrrpgce.for
+83.5  msg: M ohrrpgce.for
+84.0  msg: M ohrrpgce.for
+103.7  msg: M ohrrpgce.efs
+112.6  ! Scripterr(5): battle -> battleturn: setslicevisible: invalid slice handle 0
+112.6  unlock_resolution(426,240)
+113.5  set_resolution 426*240
+113.5  lock_resolution()
+216.5  ! Scripterr(2): defkeypress -> battlekeypress -> battleend: freeslice: invalid slice handle 0
+216.5  unlock_resolution(426,240)
+217.2  set_resolution 426*240
+217.2  lock_resolution()
+244.8  Cleaning up and terminating 0
+244.8  Closing music backend...
+244.9  ...done
+244.9  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210626193644.641.tmp\
+245.0  Closing gfx backend & allmodex...
+245.0  ...done
+245.0  End.
