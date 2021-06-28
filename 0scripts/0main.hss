@@ -67,7 +67,9 @@ global variable, begin
 end
 
 script, defgameover, begin
-	load backdrop sprite (9)
+	suspendcontrol
+	dissolve sprite (load backdrop sprite (9),dissolve:fade, 40,0,true)
+	wait(50)
 	waitfornewkey()
 	reset game
 end

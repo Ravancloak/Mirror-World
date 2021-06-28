@@ -81,7 +81,7 @@ script, battleAttack, formation,  begin
 		case (enemy:Tentaeye) do ($4="You punch its eye.")
 		else ($4="ERROR")
 	)
-	battle:damage := getHeroStat(me, stat:Atk) -- getEnemyStat(formation, stat:Def)
+	battle:damage := getHeroStat(me, stat:Atk) -- getEnemyStat(formation, stat:Def)/2
 	if (battle:damage<1) then (battle:damage:=1)
 	write(11), shakeslice(sli,30),write(12)
 	setEnemyStat(formation, stat:HP, getEnemyStat (formation, stat:HP)--battle:damage)
@@ -193,12 +193,13 @@ script, enemyattack, formation, begin
 			$4="ERROR"
 		)
 	)
-	battle:damage := getEnemyStat(me, stat:Atk) -- getHeroStat(formation, stat:Def)
+	battle:damage := getEnemyStat(formation, stat:Atk) -- getHeroStat(me, stat:Def)/2
 	if (battle:damage<1) then (battle:damage:=1)
 	set hero stat (me, stat:HP, get herostat(me, stat:HP, currentStat)--battle:damage, currentStat)
 	write(11), shakeslice(sli,30), updateHearts, write(12)
 	if (get herostat(me, stat:HP)<=0) then (
-		$4="You've lost your willpower to keep fighting."
+		$4="You've lost your willpower to keep \nfighting."
+		#expand string(4)
 		write(11)
 		defgameover
 	)
@@ -251,7 +252,10 @@ script, battlewin, begin
 end
 
 script, getspeed, formation, begin
-	if (getHeroStat(me, stat:speed)>=getEnemyStat(formation, stat:speed)) then (exit returning(true))
+	variable (var1, var2)
+	var1 := getHeroStat(me, stat:speed) + random (0, getHeroStat(me, stat:speed)/4)
+	var2 := getEnemyStat(formation, stat:speed) + random (0, getEnemyStat(formation, stat:speed)/4)
+	if (var1>=var2) then (exit returning(true))
 end
 
 script, shakeslice, sli,  time, intensity=20, begin
