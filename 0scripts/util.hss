@@ -60,6 +60,7 @@ end
 script, updatemirrorperson, begin
 	variable (i, sli, sli2, sli3, var)
 	sli2 := lookupslice (sli:mirrorheroes)
+	if (heroZ(me)<>0) then (exit script)
 	for (i, 0, 4) do (
 		if (hero by slot (i)<>-1) then (
 			#find slice

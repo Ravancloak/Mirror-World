@@ -40,6 +40,27 @@ script, eventsattic, which, begin
 				if (checktag(tag:YesNo)==off) then (
 					exit script
 				)
+				setTag(tag:YesNo,off)
+				for (i, 1, 5) do (
+					if (i <= 5) then (set hero frame (me, 1))
+					setHeroZ (me, heroZ (me)+2)
+					if (i > 5) then (set hero frame (me, 0))
+					specwait(2)
+				)
+				specwait(20)
+				set hero picture (me, 4)
+				set hero frame (me, 0)
+				specwait (20)
+				set hero frame (me, 1)
+				set hero picture (me, 1)
+				specwait(20)
+				for (i, 0, 5) do (
+					if (i <= 5) then (set hero frame (me, 1))
+					setHeroZ (me, heroZ (me)--2)
+					if (i > 5) then (set hero frame (me, 0))
+					specwait(2)
+				)
+
 				suspendcontrol
 				specwait(60)
 				sli := load attack sprite(0)
