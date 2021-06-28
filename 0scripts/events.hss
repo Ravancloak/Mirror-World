@@ -41,24 +41,26 @@ script, eventsattic, which, begin
 					exit script
 				)
 				setTag(tag:YesNo,off)
-				for (i, 1, 5) do (
+				for (i, 1, 10) do (
 					if (i <= 5) then (set hero frame (me, 1))
-					setHeroZ (me, heroZ (me)+2)
+					setHeroZ (me, heroZ (me)+1)
 					if (i > 5) then (set hero frame (me, 0))
-					specwait(2)
+					specwait(1)
 				)
 				specwait(20)
 				set hero picture (me, 4)
+				specwait (20)
 				set hero frame (me, 0)
 				specwait (20)
 				set hero frame (me, 1)
+				specwait(20)
 				set hero picture (me, 1)
 				specwait(20)
-				for (i, 0, 5) do (
+				for (i, 1, 10) do (
 					if (i <= 5) then (set hero frame (me, 1))
-					setHeroZ (me, heroZ (me)--2)
+					setHeroZ (me, heroZ (me)--1)
 					if (i > 5) then (set hero frame (me, 0))
-					specwait(2)
+					specwait(1)
 				)
 
 				suspendcontrol

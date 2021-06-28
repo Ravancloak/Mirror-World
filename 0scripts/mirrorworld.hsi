@@ -67,9 +67,11 @@ define constant, begin
 0,menu:Main Menu
 1,menu:Settings
 1,enemy:Birda
-2,enemy:Ufoian
+2,enemy:Statueacle
 3,enemy:Danca
 4,enemy:Tentaeye
+5,enemy:HunnaGunna
+6,enemy:PanicBear
 1,sli:BattleCol
 2,sli:Enemy Sprite
 3,sli:BattleMenu

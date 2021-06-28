@@ -67,7 +67,8 @@ global variable, begin
 end
 
 plotscript, defnewgame, begin
-	var:volume := set music volume (255/50*41)
+	#var:volume := set music volume (255/50*41)
+	set music volume (0)
 	suspendcontrol
 	resetcontrols(false)
 	resumecontrol
@@ -131,9 +132,8 @@ plotscript, defkeypress, begin
 		case (state:slots)		do (keypressSlots)
 		case (state:suspend)	do ()
 		case (state:resume)		do (keypressmain)
-		
+		else (if (battle:turn) then (battlekeypress))
 	)
-	if (battle:turn) then (battlekeypress)
 end
 
 script, keypressmain, begin
@@ -248,9 +248,8 @@ end
 
 script, battlekeypress, begin
 	variable (sli)
-
+	if (state:textbox) then (exit script)
 	sli := lookupslice (sli:battlemenu)
-
 	if (keypress(key:esc)) then (battleEnd())
 
 	if (keypress(key:up)&&battle:selected>0) then (battle:selected -= 1)

@@ -22,24 +22,28 @@ plotscript, battle, formation, begin
 	
 
 	subscript, battleturn, begin
+		if (lookupslice(sli:battleCol)) then () else (exit script)
 		set slice visible (lookupslice (sli:battlemenu), true)
 		
 		battle:turn := true
 		while (battle:turn) do (
 			specWait()
 		)
+		battle:turn := false
 		set slice visible (lookupslice (sli:battlemenu), false)
 	end
 
 	subscript, battleaction, begin
+		if (lookupslice(sli:battleCol)) then () else (exit script)
 		sli := lookupslice(sli:enemySprite)
 		switch(battle:selected) do (
 			case (battle:attack) do(battleAttack(formation))
 			case (battle:insult) do(battleinsult(formation))
 			case (battle:nice) do($4="nice!", write(11))
-			case (battle:def) do(battledefend)
-			case (battle:run) do($4="ran!", write(11))
+			case (battle:def) do(battledefend())
+			case (battle:run) do(battlerun(formation))
 		)
+		if (lookupslice(sli:battleCol)) then () else (exit script)
 		switch (random(0,5)) do (
 			case (0,2) do (enemyattack(formation))
 			case (3,4) do (enemyinsult(formation))
@@ -55,12 +59,18 @@ script, battleAttack, formation,  begin
 	sli := lookupslice(sli:enemySprite)
 	switch (formation) do (
 		case (enemy:Birda) do ($4="You punch her in the tits.")
-		case (enemy:Ufoian) do ($4="ERROR")
+		case (enemy:Statueacle) do ($4="You hit him with all your might.")
 		case (enemy:Danca) do ($4="You slap her.")
-		case (enemy:Tentaeye) do ($4="You attack Tentaeye.")
+		case (enemy:Tentaeye) do ($4="You punch its eye.")
+		else ($4="ERROR")
 	)
 	battle:damage := getHeroStat(me, stat:Atk) -- getEnemyStat(formation, stat:Def)
+	if (battle:damage<1) then (battle:damage:=1)
 	write(11), shakeslice(sli,30),write(12)
+	setEnemyStat(formation, stat:HP, getEnemyStat (formation, stat:HP)--battle:damage)
+	if (getEnemyStat (formation, stat:HP)<=0) then (
+		battleWin()
+	)
 end
 
 script, battleinsult, formation, begin
@@ -68,9 +78,10 @@ variable(sli)
 	sli := lookupslice(sli:enemySprite)
 	switch (formation) do (
 		case (enemy:Birda) do ($4="You begin to grope her boobs.")
-		case (enemy:Ufoian) do ($4="ERROR")
+		case (enemy:Statueacle) do ($4="You say he sucks big time.")
 		case (enemy:Danca) do ($4="You tell her she dances terribly.")
-		case (enemy:Tentaeye) do ($4="You tickle the tentacles")
+		case (enemy:Tentaeye) do ($4="You tickle the tentacles.")
+		else ($4="ERROR")
 	)
 	write(11), shakeslice(sli,30,4)
 end
@@ -79,6 +90,22 @@ script, battledefend, begin
 	$4="You ready yourself."
 	write(11)
 	battle:defend := true
+end
+
+script, battlerun, formation, begin
+	if (formation == 2) then (
+		$4="You can't run from this fight."
+		write(11)
+		exit script
+	)
+	if (random(0,10)<4) then (
+		$4="You ran away."
+		write(11)
+		battleend()
+	) else (
+		$4="Couldn't escape."
+		write(11)
+	)
 end
 
 script, setupslices, formation, begin
@@ -92,6 +119,7 @@ script, setupslices, formation, begin
 		clone slice (first child (sli))
 	)
 	updateHearts
+	setEnemyStat (formation, stat:HP, getEnemyStat (formation, stat:MP))
 
 	#set text
 	switch (formation) do (
@@ -100,15 +128,25 @@ script, setupslices, formation, begin
 			$4="Grope her boobs. Obviously"
 			$5="Attempt to befriend"
 		)
+		case (enemy:Statueacle) do (
+			$3="Attack him."
+			$4="Tell him he sucks."
+			$5="Compliment his bod."
+		)
 		case (enemy:Danca) do (
-			$3="Slap her until she no dance"
-			$4="Insult her moves"
-			$5="Dance with her"
+			$3="Slap her until she no dance."
+			$4="Insult her moves."
+			$5="Dance with her."
 		)
 		case (enemy:Tentaeye) do (
-			$3="Punch it in the fucking eye"
-			$4="Tickle the... *slimy* tentacles"
-			$5="Try to shake hands with it"
+			$3="Punch it in the fucking eye."
+			$4="Tickle the... *slimy* tentacles."
+			$5="Try to shake hands with it."
+		)
+		else (
+			$3="ERROR"
+			$4="ERROR"
+			$5="ERROR"
 		)
 	)
 	$6="Defend, of course"
@@ -124,23 +162,72 @@ end
 script, enemyattack, formation, begin
 	variable(sli)
 	sli := lookupslice(sli:battleCol)
-	$4="She stepped on your toes really hard.", write(11), shakeslice(sli,30), write(12)
+	switch (formation) do (
+		case (enemy:Birda) do (
+			$4="You hit her tits."
+		)
+		case (enemy:Danca) do (
+			$4="She stepped on your toes really hard."
+		)
+		case (enemy:Tentaeye) do (
+			$4="You hit its eye."
+		)
+		else (
+			$4="ERROR"
+		)
+	)
+	write(11), shakeslice(sli,30), write(12)
 end
 
 script, enemyinsult, formation, begin
 	variable(sli)
 	sli := lookupslice(sli:battleCol)
-	$4="She said your mother cannot dance!", write(11), shakeslice(sli,30)
+	switch (formation) do (
+		case (enemy:Birda) do (
+			$4="She said you're ugly."
+		)
+		case (enemy:Danca) do (
+			$4="She said your mother cannot dance!"
+		)
+		case (enemy:Tentaeye) do (
+			$4="A tentacle touches your ass"
+		)
+		else (
+			$4="ERROR"
+		)
+	)
+	write(11), shakeslice(sli,30)
 end
 
 script, enemynice, formation, begin
 	variable(sli)
 	sli := lookupslice(sli:battleCol)
-	$4="She kisses you and you recovererd 1 HP", write(11)
+	switch (formation) do (
+		case (enemy:Birda) do (
+			$4="She jiggles her boobs."
+		)
+		case (enemy:Danca) do (
+			$4="She kisses you and you recovererd 1 HP." 
+		)
+		case (enemy:Tentaeye) do (
+			$4="You get a nice neck message."
+		)
+		else (
+			$4="ERROR"
+		)
+	)
+	write(11)
+end
+
+script, battlewin, begin
+	$4="You defeated your enemy"
+	write(11)
+	battleend
 end
 
 script, shakeslice, sli,  time, intensity=20, begin
 	variable(i, var)
+	if (lookupslice(sli:battleCol)) then () else (exit script)
 	for (i,1,time+1) do (
 		if (i,mod,2) then (var := -1) else (var := 1)
 		set slice x (sli, intensity*var/i)
@@ -165,12 +252,13 @@ script, innitBattle, formation, begin
 end
 
 script, battleend, begin
+	suspendcontrol()
+	battle:turn := false
 	screenfadeout()
 	fademusicout(40)
 	playsong (getAmbientMusic)
 	show no value
 	freeSlice (lookupslice(sli:battleCol))
-	suspendcontrol()
 	screenfadein()
 	resumecontrol()
 end
@@ -225,7 +313,7 @@ script, loadbattleback, formation, begin
 			blend1 := blend:normal
 			blend2 := blend:normal
 		)
-		case (enemy:Ufoian) do (
+		case (enemy:Danca) do (
 			set1 := 5, set2 := 4
 			opacity1 := 60
 			opacity2 := 60
@@ -293,9 +381,7 @@ script, sinedist, begin
 					amplitude := 38, frequency := 20, compression := 2
 					timeScaling := 50, mode := 1
 				)
-				case (enemy:Ufoian) do (
-					amplitude := 2, frequency := 8, compression := 3
-					timeScaling := 30, mode := 1
+				case (enemy:Danca) do (
 				) else (
 					amplitude := 4, frequency := 20, compression := 1
 					timeScaling := 20, mode := 3
@@ -308,7 +394,7 @@ script, sinedist, begin
 					amplitude := -30, frequency := 30, compression := 1
 					timeScaling := 100, mode := 1
 				)
-				case (enemy:Ufoian) do (
+				case (enemy:Danca) do (
 					amplitude := 4, frequency := 20, compression := 1
 					timeScaling := 20, mode := 3
 				) else (
