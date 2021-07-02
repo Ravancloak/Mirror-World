@@ -64,6 +64,7 @@ global variable, begin
 
 	25, battle:damage
 	26, battle:defend
+	27, battle:formation
 end
 
 script, defgameover, begin
@@ -75,8 +76,8 @@ script, defgameover, begin
 end
 
 plotscript, defnewgame, begin
-	#var:volume := set music volume (255/50*41)
-	set music volume (0)
+	var:volume := set music volume (255/50*41)
+	#set music volume (0)
 	suspendcontrol
 	resetcontrols(false)
 	resumecontrol
