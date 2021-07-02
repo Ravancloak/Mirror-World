@@ -67,3 +67,8 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 299.8  msg: M general.reld
 300.0  msg: M ohrrpgce.gen
 300.0  msg: M general.reld
+377.5  msg: M ohrrpgce.hsp
+377.5  msg: M plotscr.lst
+377.5  msg: M plotscr.lst
+377.6  plotscr.hsd version: 3U 
+377.6  msg: M lookup1.bin

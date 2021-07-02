@@ -224,3 +224,7 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 2905.7  xterm -bg black -fg gray90 -e "\"/home/suzuki/.local/games/hspeak\" -y --reuse-ids \"/home/suzuki/.ohrrpgce/scripts.bin\" --include \"0scripts/mirrorworld.hsi\" \"0scripts/0main.hss\"" > "/home/suzuki/.ohrrpgce/temp_stdout.886396.tmp" 2> "/home/suzuki/.ohrrpgce/temp_stderr.660070.tmp"
 3076.5  Saving - been editing for 28m57s
 3076.6  ps -p 2358 -o comm= > "/home/suzuki/.ohrrpgce/temp_stdout.641192.tmp" 2> "/home/suzuki/.ohrrpgce/temp_stderr.570067.tmp"
+3153.4  "/home/suzuki/.local/games/hspeak" -k > "/home/suzuki/.ohrrpgce/temp_stdout.786945.tmp" 2> "/home/suzuki/.ohrrpgce/temp_stderr.122774.tmp"
+3153.5  hspeak version '3Uf'
+3153.5  spawn_and_wait "/home/suzuki/.local/games/hspeak" -y --reuse-ids "/home/suzuki/.ohrrpgce/scripts.bin" --include "0scripts/mirrorworld.hsi" "0scripts/0main.hss"
+3153.5  xterm -bg black -fg gray90 -e "\"/home/suzuki/.local/games/hspeak\" -y --reuse-ids \"/home/suzuki/.ohrrpgce/scripts.bin\" --include \"0scripts/mirrorworld.hsi\" \"0scripts/0main.hss\"" > "/home/suzuki/.ohrrpgce/temp_stdout.547695.tmp" 2> "/home/suzuki/.ohrrpgce/temp_stderr.340120.tmp"
