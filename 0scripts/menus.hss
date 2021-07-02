@@ -17,11 +17,25 @@ script, mm, begin
 		specwait
 	)
 	freeSlice(lookupslice(sli:mm))
+	show no value
 end
 
 script, mmupdate, begin
-	variable (i, sli)
-	if (topmenu <> false) then (exit script)
+	variable (i, sli, sli2)
+	if (mm:openmenu==mm:im) then (
+		if (game:tick,mod,8==0) then (
+			sli2 := first child (first child (first child (lookupslice(sli:im))))
+			sli := slice child (sli2, mm:imsel)
+			if (get slicevisible (sli)) then (
+				set slice visible (sli, false)
+			) else (
+				set slice visible (sli, true)
+			)
+		)
+
+	)
+
+	if (topmenu <> false || mm:openmenu<>0) then (exit script)
 
 	if (game:tick,mod,9==0) then (
 		for (i, 0, 2) do (
@@ -38,28 +52,114 @@ script, mmupdate, begin
 end
 
 script, keypressmm, begin
-	variable (i, sli)
+	variable (i, sli, counter)
+
+	#item menu
+	if (mm:openmenu==mm:im) then (
+
+		for (counter, 0, get inventory size--1) do (
+			if (item in slot (counter)==-1) then (counter -= 1, break)
+		)
+		if (keypress(left key)) then (
+			sli := slice child (first child (first child (first child (lookupslice(sli:im)))), mm:imsel)
+			set slice visible (sli, true)
+			if (mm:imsel>0) then (mm:imsel -= 1)
+			exit script
+		)
+		if (keypress(right key)) then (
+			sli := slice child (first child (first child (first child (lookupslice(sli:im)))), mm:imsel)
+			set slice visible (sli, true)
+			if (mm:imsel<counter) then (mm:imsel += 1)
+			exit script
+		)
+		if (keypress(up key)) then (
+			sli := slice child (first child (first child (first child (lookupslice(sli:im)))), mm:imsel)
+			set slice visible (sli, true)
+			if (mm:imsel>0) then (mm:imsel -= 4)
+			if (mm:imsel<0) then (mm:imsel := 0)
+			exit script
+		)
+		if (keypress(down key)) then (
+			sli := slice child (first child (first child (first child (lookupslice(sli:im)))), mm:imsel)
+			set slice visible (sli, true)
+			if (mm:imsel<counter) then (mm:imsel += 4)
+			if (mm:imsel>counter) then (mm:imsel := counter)
+			exit script
+		)
+		sli := first child (first child (lookupslice(sli:im)))
+		scroll to slice (sli, slice child (first child (first child (first child (lookupslice(sli:im)))), mm:imsel))
+		show value(mm:imsel)
+		if (newkeypressB) then (
+			mm:openmenu:=0
+		)
+		exit script
+	)
+	#status menu
+	if (mm:openmenu==mm:sm) then (
+		if (newkeypressB) then (
+			mm:openmenu:=0
+		)
+		exit script
+	)
 	if (keypress(left key)) then (
 		if (mm:sel>0) then (mm:sel -= 1)
+		exit script
 	)
 	if (keypress(right key)) then (
 		if (mm:sel<2) then (mm:sel += 1)
+		exit script
 	)
-	show value (mm:sel)
-	if (keypressA || keypress(down key)) then (
+	if (newkeypressA || keypress(down key)) then (
+		for (i, 0, 2) do (
+			sli := first child (slice child (first child (lookupslice(sli:mm)), i))
+			set slice visible (sli, true)
+		)
 		switch (mm:sel) do (
-			case (0) do ()
-			case (1) do ()
-			case (2) do (
-				for (i, 0, 2) do (
-					sli := first child (slice child (first child (lookupslice(sli:mm)), i))
-					set slice visible (sli, true)
-				)
-				opensettingsmenu
-			)
+			case (0) do (im)
+			case (1) do (sm)
+			case (2) do (opensettingsmenu)
+		)
+		exit script
+	)
+	if (newkeypressB || newkeypressX) then (
+		resumecontrol(), exit script
+	)
+end
+
+#item menu
+script, im, begin
+	variable (sli, sli2, i)
+	mm:openmenu:=mm:im
+	mm:imsel := 0
+
+	sli := load slice collection(3)
+	updateitemcount
+
+	while (mm:openmenu==mm:im) do (
+		specwait
+	)
+
+	free slice (lookupslice(sli:im))
+end
+
+script, updateitemcount, begin
+	variable (sli, sli2, i)
+	sli := first child (first child (first child (lookupslice(sli:im))))
+	free slice children (sli)
+	for (i, 0, get inventory size--1) do (
+		$5="ERROR"
+		if (item in slot (i)<>-1) then (
+			sli2 := createText
+			getItemName(5,item in slot(i))
+			$5+" x"
+			append number (5, item count in slot (i))
+			set slice text (sli2, 5)
+			set parent (sli2, sli)
 		)
 	)
-	if (keypressB || keypressX) then (
-		resumecontrol(), break
-	)
+end
+
+#status menu
+script, sm, begin
+	mm:openmenu:=mm:im
 end

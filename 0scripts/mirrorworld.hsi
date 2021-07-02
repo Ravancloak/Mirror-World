@@ -26,6 +26,12 @@ define constant, begin
 0,item:Cherries
 1,item:Wtrmelon
 2,item:Banana
+3,item:Telarock
+4,item:HP pill
+5,item:Spd Pill
+6,item:Pwr Pill
+7,item:Shrooms
+8,item:Mnd Gem
 0,stat:HP
 1,stat:MP
 2,stat:Atk
@@ -78,4 +84,5 @@ define constant, begin
 4,sli:slot
 5,sli:playerhearts
 6,sli:mm
+7,sli:im
 end

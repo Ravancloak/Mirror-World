@@ -25,6 +25,9 @@ define constant, begin
 	0, slots:null
 	1, slots:spin
 	2, slots:win
+
+	1, mm:im
+	2, mm:sm
 end
 
 global variable, begin
@@ -67,6 +70,9 @@ global variable, begin
 	
 	28, mm:sel
 	29, mm:openmenu
+	30, mm:imsel
+	31, mm:smsel
+	32, inv:size
 end
 
 script, defgameover, begin
@@ -78,8 +84,15 @@ script, defgameover, begin
 end
 
 plotscript, defnewgame, begin
+	variable (i)
 	var:volume := set music volume (255/50*41)
 	set music volume (0)
+
+	get item(item:Cherries, 2)
+	for (i, 1, 8) do (
+		get item (i)
+	)
+
 	suspendcontrol
 	resetcontrols(false)
 	resumecontrol
