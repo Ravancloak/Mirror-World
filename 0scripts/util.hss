@@ -254,6 +254,7 @@ script, specwait, ticks=1, begin
 		wait, mapeverytick, game:tick += 1
 		if (lookupslice (sli:battlecol)) then (battleupdate)
 		if (lookupslice (sli:slot)) then (spin)
+		if (lookupslice (sli:mm)) then (mmupdate)
 	)
 end
 #------------------------------------------------------------------------------------------------------

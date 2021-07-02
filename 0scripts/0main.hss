@@ -20,6 +20,7 @@ define constant, begin
 	1, state:resume
 	2, state:battle
 	3, state:slots
+	4, state:mm
 
 	0, slots:null
 	1, slots:spin
@@ -49,6 +50,7 @@ global variable, begin
 	16, state:control
 	20, state:battleturn
 	21, state:textbox
+	24, state:slotspin
 
 	17, menu:lastmain 
 
@@ -59,12 +61,12 @@ global variable, begin
 
 	22, battle:selected
 	23, battle:turn
-	
-	24, state:slotspin
-
 	25, battle:damage
 	26, battle:defend
 	27, battle:formation
+	
+	28, mm:sel
+	29, mm:openmenu
 end
 
 script, defgameover, begin
@@ -77,7 +79,7 @@ end
 
 plotscript, defnewgame, begin
 	var:volume := set music volume (255/50*41)
-	#set music volume (0)
+	set music volume (0)
 	suspendcontrol
 	resetcontrols(false)
 	resumecontrol
@@ -141,6 +143,7 @@ plotscript, defkeypress, begin
 		case (state:slots)		do (keypressSlots)
 		case (state:suspend)	do ()
 		case (state:resume)		do (keypressmain)
+		case (state:mm)			do (keypressmm)
 		else (if (battle:turn) then (battlekeypress))
 	)
 end
@@ -173,8 +176,9 @@ script, keypressmain, begin
 	)
 	
 	if (newkeypressX) then (
-		open menu (0)
-		select menu item(menu item by true slot(top menu, menu:lastmain))
+		mm()
+		#open menu (0)
+		#select menu item(menu item by true slot(top menu, menu:lastmain))
 		exitscript
 	)
 	#arrow keys, move character

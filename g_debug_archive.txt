@@ -1,144 +1,3 @@
-3067.4  unlock_resolution(426,240)
-3068.9  unlock_resolution(426,240)
-3068.9  ! Can't find a SliceCollectionContext
-3073.1  ! Can't find a SliceCollectionContext
-3074.0  ! Can't find a SliceCollectionContext
-3075.5  ! Can't find a SliceCollectionContext
-3076.4  ! Can't find a SliceCollectionContext
-3077.1  ! Can't find a SliceCollectionContext
-3077.9  ! Can't find a SliceCollectionContext
-3078.7  ! Can't find a SliceCollectionContext
-3079.6  ! Can't find a SliceCollectionContext
-3080.3  ! Can't find a SliceCollectionContext
-3081.1  ! Can't find a SliceCollectionContext
-3081.7  ! Can't find a SliceCollectionContext
-3082.4  ! Can't find a SliceCollectionContext
-3083.2  ! Can't find a SliceCollectionContext
-3083.9  ! Can't find a SliceCollectionContext
-3084.6  ! Can't find a SliceCollectionContext
-3085.8  ! Can't find a SliceCollectionContext
-3303.6  msg: M slicetree_0_1.reld
-3303.6  msg: M ohrrpgce.gen
-3303.6  msg: M general.reld
-3304.0  msg: M ohrrpgce.gen
-3307.0  msg: M ohrrpgce.hsp
-3307.0  msg: M plotscr.lst
-3307.0  msg: M plotscr.lst
-3307.0  msg: M lookup1.bin
-3307.1  plotscr.hsd version: 3U 
-3307.1  not reloading script slotwincheck because it's in use: refcount=1
-3307.2  unlock_resolution(426,240)
-3309.1  ! Can't find a SliceCollectionContext
-3312.3  set_resolution 426*240
-3312.3  lock_resolution()
-3312.3  ! Scripterr(5): slotmachine -> slotwincheck: getspriteframe: invalid slice handle 0
-3312.3  unlock_resolution(426,240)
-3312.8  set_resolution 426*240
-3312.8  lock_resolution()
-3312.8  ! Scripterr(5): slotmachine -> slotwincheck: getspriteframe: invalid slice handle 0
-3312.8  unlock_resolution(426,240)
-3313.0  set_resolution 426*240
-3313.0  lock_resolution()
-3313.0  did not reload slicetree_0_1.reld
-3316.8  plotscr.hsd version: 3U 
-3333.6  unlock_resolution(426,240)
-3333.6  ! Can't find a SliceCollectionContext
-3346.0  ! Can't find a SliceCollectionContext
-3346.7  ! Can't find a SliceCollectionContext
-3347.4  ! Can't find a SliceCollectionContext
-3348.1  ! Can't find a SliceCollectionContext
-3348.8  ! Can't find a SliceCollectionContext
-3349.5  ! Can't find a SliceCollectionContext
-3350.1  ! Can't find a SliceCollectionContext
-3350.8  ! Can't find a SliceCollectionContext
-3351.4  ! Can't find a SliceCollectionContext
-3352.0  ! Can't find a SliceCollectionContext
-3352.8  ! Can't find a SliceCollectionContext
-3353.7  ! Can't find a SliceCollectionContext
-3354.4  ! Can't find a SliceCollectionContext
-3355.1  ! Can't find a SliceCollectionContext
-3355.8  ! Can't find a SliceCollectionContext
-3357.0  ! Can't find a SliceCollectionContext
-3358.8  ! Can't find a SliceCollectionContext
-3359.5  ! Can't find a SliceCollectionContext
-3360.2  ! Can't find a SliceCollectionContext
-3360.8  ! Can't find a SliceCollectionContext
-3361.5  ! Can't find a SliceCollectionContext
-3362.1  ! Can't find a SliceCollectionContext
-3362.8  ! Can't find a SliceCollectionContext
-3455.3  msg: M ohrrpgce.hsp
-3455.3  msg: M plotscr.lst
-3455.3  msg: M plotscr.lst
-3455.3  msg: M lookup1.bin
-3455.5  plotscr.hsd version: 3U 
-3461.5  set_resolution 426*240
-3461.5  lock_resolution()
-3487.6  msg: M ohrrpgce.gen
-3487.6  msg: M general.reld
-3489.5  msg: M ohrrpgce.gen
-3491.8  msg: P 
-3494.5  msg: Q 
-3494.5  Cleaning up and terminating 0
-3494.5  Closing music backend...
-3494.5  ...done
-3494.5  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210623154703.83.tmp\
-3494.6  Closing gfx backend & allmodex...
-3494.6  ...done
-3494.6  End.
-
-  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
-
-Loading C:\OHRRPGCE\support\CrashRpt1403.dll
- 0.1   ----Starting OHRRPGCE Game----
- 0.1  06-23-2021 16:45:36
- 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
- 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
- 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.1  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
- 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_68730'
- 0.1  Spawned from Custom
- 0.1  Initialising gfx_sdl2...
- 0.2  setvideomode zoom=2 w*h = 640,400
- 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
- 0.2  disable_native_text_input=0
- 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
- 0.3  Setting default window settings...
- 0.3  set_resolution 320*200
- 0.3  Setting graphics scaling to x2 change_windowsize=-1
- 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
- 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
- 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
-end_debug: no debug/error messages during startup (skipping rest of startup)
-
- 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
- 0.3  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210623164536.907.tmp\
- 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
- 0.3  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
- 0.3  Name: 
- 0.5  plotscr.hsd version: 3U 
- 1.0  lock_resolution()
- 1.0  set_resolution 426*240
- 1.0  recenter_window_hint()
- 1.0  get_screen_size: true screen size 1600x900
- 1.0  Desktop resolution: 1600*860
- 1.0  automatic_scale_factor(0.5), screen size: 1600*860
- 1.0  Setting graphics scaling to x2 change_windowsize=-1
- 1.0  Preserving fullscreen/windowed state
- 1.0  genRungameFullscreenIndependent: 0
- 1.5  Joystick 0 GUID 03000000c82d000006500000000000 instance_id 0
- 1.5   Opened as gamecontroller 8BitDo M30 Gamepad
- 1.5  Opened joystick 0 8BitDo M30 gamepad (id 0) -- 15 buttons 6 axes 1 hats 0 balls
-42.2  msg: M ohrrpgce.gen
-42.2  msg: M general.reld
-77.7  msg: M ohrrpgce.gen
-77.7  msg: M general.reld
-80.6  msg: M ohrrpgce.hsp
-80.6  msg: M plotscr.lst
-80.6  msg: M plotscr.lst
-80.6  msg: M lookup1.bin
-80.8  plotscr.hsd version: 3U 
 119.0  msg: M ohrrpgce.hsp
 119.0  msg: M plotscr.lst
 119.0  msg: M plotscr.lst
@@ -3504,3 +3363,279 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 5132.7  Closing gfx backend & allmodex...
 5132.7  ...done
 5132.7  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+ 0.0  setup_exception_handler
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+ 0.0  setup_exception_handler
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+ 0.0  setup_exception_handler
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+ 0.0  setup_exception_handler
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+ 0.0  setup_exception_handler
+ 0.0   ----Starting OHRRPGCE Game----
+ 0.0  07-02-2021 12:52:07
+ 0.0  OHRRPGCE wip 20210614.12284 gfx_sdl2/music_sdl2 FreeBASIC 1.08.0 (2021-06-14) gcc 7.5.0 x86_64 portable  Built on suzuki-robot -gen gcc Linux 64-bit
+ 0.0  exepath: /home/suzuki/.local/games, exe: /home/suzuki/.local/games/ohrrpgce-game
+ 0.0  orig_dir: /media/suzuki/Zuki_Drive/0OHRGames/Mirror-World
+ 0.0  curdir: /media/suzuki/Zuki_Drive/0OHRGames/Mirror-World
+ 0.0  Runtime info:   music_sdl2, SDL 2.0.8, SDL_Mixer 2.0.2  
+ 0.0  Reading commands from master channel '/home/suzuki/.ohrrpgce/.lump_updates.txt'
+ 0.0  Spawned from Custom
+ 0.0  Initialising gfx_sdl2...
+ 0.1  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.8 (0 joysticks) Driver:x11 (Drivers: x11 mir wayland dummy)"
+ 0.2  disable_native_text_input=0
+ 0.3  music_sdl2, SDL_Mixer 2.0.2 (44100Hz, Music decoders:CMD,WAVE,FLAC,OGG,MAD,MODPLUG,FLUIDSYNTH,MOD,MIDI,MP3 Sample decoders:WAVE,AIFF,VOC,MOD,MID,OGG,MP3,FLAC)
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210614
+ 0.3  Received message from Custom: G /media/suzuki/Zuki_Drive/0OHRGames/Mirror-World/mirrorworld.rpg
+ 0.3  Received message from Custom: W /home/suzuki/.ohrrpgce/working0.tmp/
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading /media/suzuki/Zuki_Drive/0OHRGames/Mirror-World/mirrorworld.rpg----
+ 0.3  curdir: /media/suzuki/Zuki_Drive/0OHRGames/Mirror-World
+ 0.3  tmpdir: /home/suzuki/.ohrrpgce/ohrrpgce20210702125207.712.tmp/
+ 0.3  settings_dir: /home/suzuki/.ohrrpgce
+ 0.3  savedir: /media/suzuki/Zuki_Drive/0OHRGames/Mirror-World/mirrorworld.saves
+ 0.3  Name: 
+ 0.3  plotscr.hsd version: 3U 
+ 0.8  lock_resolution()
+ 0.8  setvideomode zoom=2 w*h = 640,400
+ 0.9  set_resolution 426*240
+ 0.9  recenter_window_hint()
+ 0.9  Desktop resolution: 1600*900
+ 0.9  automatic_scale_factor(0.5), screen size: 1600*900
+ 0.9  Setting graphics scaling to x2 change_windowsize=-1
+ 0.9  Preserving fullscreen/windowed state
+ 0.9  genRungameFullscreenIndependent: 0
+ 1.9  Enabling ModPlug looping
+13.0  msg: M ohrrpgce.hsp
+13.0  msg: M plotscr.lst
+13.0  msg: M plotscr.lst
+13.0  msg: M lookup1.bin
+13.1  plotscr.hsd version: 3U 
+23.1  ! Scripterr(2): defkeypress -> keypressmain -> mm: freeslice: invalid slice handle 0
+23.1  unlock_resolution(426,240)
+23.1  setvideomode zoom=2 w*h = 852,480
+24.7  set_resolution 426*240
+24.7  lock_resolution()
+24.7  setvideomode zoom=2 w*h = 852,480
+51.7  msg: M ohrrpgce.hsp
+51.7  msg: M plotscr.lst
+51.7  msg: M plotscr.lst
+51.7  msg: M lookup1.bin
+51.8  plotscr.hsd version: 3U 
+68.6  ! Scripterr(2): defkeypress -> keypressmain -> mm: freeslice: invalid slice handle 0
+68.6  unlock_resolution(426,240)
+68.6  setvideomode zoom=2 w*h = 852,480
+69.9  set_resolution 426*240
+69.9  lock_resolution()
+69.9  setvideomode zoom=2 w*h = 852,480
+175.8  msg: M ohrrpgce.hsp
+175.8  msg: M plotscr.lst
+175.8  msg: M plotscr.lst
+175.8  msg: M lookup1.bin
+175.9  plotscr.hsd version: 3U 
+408.6  msg: M ohrrpgce.hsp
+408.6  msg: M plotscr.lst
+408.6  msg: M plotscr.lst
+408.6  msg: M lookup1.bin
+408.6  plotscr.hsd version: 3U 
+415.2  msg: M ohrrpgce.gen
+415.2  msg: M general.reld
+417.7  msg: M slicetree_0_0.reld
+417.7  did not reload slicetree_0_0.reld
+417.8  msg: M slicetree_0_1.reld
+417.8  did not reload slicetree_0_1.reld
+422.6  msg: M slicelookup.txt
+422.6  did not reload slicelookup.txt
+423.5  msg: M slicetree_0_2.reld
+423.5  msg: M ohrrpgce.gen
+423.5  msg: M general.reld
+423.5  did not reload slicetree_0_2.reld
+426.2  msg: M ohrrpgce.hsp
+426.2  msg: M plotscr.lst
+426.2  msg: M plotscr.lst
+426.2  msg: M lookup1.bin
+426.2  plotscr.hsd version: 3U 
+446.3  msg: M ohrrpgce.hsp
+446.3  msg: M plotscr.lst
+446.3  msg: M plotscr.lst
+446.3  msg: M lookup1.bin
+446.4  plotscr.hsd version: 3U 
+664.0  msg: M ohrrpgce.hsp
+664.0  msg: M plotscr.lst
+664.0  msg: M plotscr.lst
+664.0  msg: M lookup1.bin
+664.1  plotscr.hsd version: 3U 
+682.1  msg: M ohrrpgce.gen
+682.1  msg: M general.reld
+685.2  msg: M slicetree_0_0.reld
+685.2  did not reload slicetree_0_0.reld
+685.5  msg: M slicetree_0_1.reld
+685.5  did not reload slicetree_0_1.reld
+713.6  msg: M slicetree_0_2.reld
+713.6  msg: M ohrrpgce.gen
+713.6  msg: M general.reld
+713.6  did not reload slicetree_0_2.reld
+715.9  msg: M ohrrpgce.hsp
+715.9  msg: M plotscr.lst
+715.9  msg: M plotscr.lst
+715.9  msg: M lookup1.bin
+716.0  plotscr.hsd version: 3U 
+739.3  msg: M ohrrpgce.gen
+739.3  msg: M general.reld
+741.8  msg: M slicetree_0_0.reld
+741.8  did not reload slicetree_0_0.reld
+742.2  msg: M slicetree_0_1.reld
+742.2  did not reload slicetree_0_1.reld
+742.6  msg: M slicetree_0_2.reld
+742.6  did not reload slicetree_0_2.reld
+811.3  msg: M slicetree_0_2.reld
+811.3  did not reload slicetree_0_2.reld
+811.8  msg: M slicetree_0_1.reld
+811.8  did not reload slicetree_0_1.reld
+811.9  msg: M slicetree_0_0.reld
+811.9  did not reload slicetree_0_0.reld
+820.2  msg: M ohrrpgce.gen
+820.2  msg: M general.reld
+824.0  msg: M ohrrpgce.hsp
+824.0  msg: M plotscr.lst
+824.0  msg: M plotscr.lst
+824.0  msg: M lookup1.bin
+824.0  plotscr.hsd version: 3U 
+844.4  msg: M ohrrpgce.hsp
+844.4  msg: M plotscr.lst
+844.4  msg: M plotscr.lst
+844.4  msg: M lookup1.bin
+844.4  plotscr.hsd version: 3U 
+988.8  msg: M ohrrpgce.hsp
+988.8  msg: M plotscr.lst
+988.8  msg: M plotscr.lst
+988.8  msg: M lookup1.bin
+988.8  plotscr.hsd version: 3U 
+1036.5  msg: M ohrrpgce.hsp
+1036.5  msg: M plotscr.lst
+1036.5  msg: M plotscr.lst
+1036.5  msg: M lookup1.bin
+1036.5  plotscr.hsd version: 3U 
+1104.6  msg: M ohrrpgce.hsp
+1104.6  msg: M plotscr.lst
+1104.6  msg: M plotscr.lst
+1104.6  msg: M lookup1.bin
+1104.6  plotscr.hsd version: 3U 
+1105.0  ! Scripterr(5): defkeypress -> keypressmain -> mm -> specwait -> mmupdate: firstchild: invalid slice handle 0
+1105.0  unlock_resolution(426,240)
+1105.0  setvideomode zoom=2 w*h = 852,480
+1105.9  set_resolution 426*240
+1105.9  lock_resolution()
+1105.9  setvideomode zoom=2 w*h = 852,480
+1106.0  ! Scripterr(5): defkeypress -> keypressmain -> mm -> specwait -> mmupdate: getslicevisible: invalid slice handle 0
+1106.0  unlock_resolution(426,240)
+1106.0  setvideomode zoom=2 w*h = 852,480
+1107.3  set_resolution 426*240
+1107.3  lock_resolution()
+1107.3  setvideomode zoom=2 w*h = 852,480
+1107.4  ! Scripterr(5): defkeypress -> keypressmain -> mm -> specwait -> mmupdate: setslicevisible: invalid slice handle 0
+1107.4  unlock_resolution(426,240)
+1107.4  setvideomode zoom=2 w*h = 852,480
+1109.9  set_resolution 426*240
+1109.9  lock_resolution()
+1109.9  setvideomode zoom=2 w*h = 852,480
+1160.3  msg: M ohrrpgce.hsp
+1160.3  msg: M plotscr.lst
+1160.3  msg: M plotscr.lst
+1160.3  msg: M lookup1.bin
+1160.4  plotscr.hsd version: 3U 
+1187.8  msg: M ohrrpgce.hsp
+1187.8  msg: M plotscr.lst
+1187.8  msg: M plotscr.lst
+1187.8  msg: M lookup1.bin
+1187.8  plotscr.hsd version: 3U 
+1227.3  msg: M ohrrpgce.hsp
+1227.3  msg: M plotscr.lst
+1227.3  msg: M plotscr.lst
+1227.3  msg: M lookup1.bin
+1227.3  plotscr.hsd version: 3U 
+1246.8  msg: M ohrrpgce.hsp
+1246.8  msg: M plotscr.lst
+1246.8  msg: M plotscr.lst
+1246.8  msg: M lookup1.bin
+1246.9  plotscr.hsd version: 3U 
+1274.6  msg: M ohrrpgce.hsp
+1274.6  msg: M plotscr.lst
+1274.6  msg: M plotscr.lst
+1274.6  msg: M lookup1.bin
+1274.6  plotscr.hsd version: 3U 
+1307.3  msg: M ohrrpgce.gen
+1307.3  msg: M general.reld
+1311.0  msg: M menus.bin
+1311.0  msg: M menuitem.bin
+1311.0  did not reload menus.bin
+1311.0  did not reload menuitem.bin
+1314.8  msg: M menus.bin
+1314.8  msg: M menuitem.bin
+1314.8  msg: M ohrrpgce.gen
+1314.8  msg: M general.reld
+1314.8  did not reload menus.bin
+1314.8  did not reload menuitem.bin
+1367.0  msg: M menus.bin
+1367.0  msg: M menuitem.bin
+1367.0  msg: M ohrrpgce.gen
+1367.0  msg: M general.reld
+1367.0  did not reload menus.bin
+1367.0  did not reload menuitem.bin
+1376.7  msg: M ohrrpgce.hsp
+1376.7  msg: M plotscr.lst
+1376.7  msg: M plotscr.lst
+1376.7  msg: M lookup1.bin
+1376.7  plotscr.hsd version: 3U 
+1486.0  msg: M ohrrpgce.hsp
+1486.0  msg: M plotscr.lst
+1486.0  msg: M plotscr.lst
+1486.0  msg: M lookup1.bin
+1486.0  plotscr.hsd version: 3U 
+1568.2  msg: M ohrrpgce.hsp
+1568.2  msg: M plotscr.lst
+1568.2  msg: M plotscr.lst
+1568.2  msg: M lookup1.bin
+1568.2  plotscr.hsd version: 3U 
+1568.2  not reloading script mm because it's in use: refcount=1
+1568.2  unlock_resolution(426,240)
+1568.2  setvideomode zoom=2 w*h = 852,480
+1572.3  set_resolution 426*240
+1572.3  lock_resolution()
+1572.3  setvideomode zoom=2 w*h = 852,480
+1576.0  msg: M ohrrpgce.hsp
+1576.0  msg: M plotscr.lst
+1576.0  msg: M plotscr.lst
+1576.0  msg: M lookup1.bin
+1576.1  plotscr.hsd version: 3U 
+1576.1  not reloading script mm because it's in use: refcount=1
+1576.1  unlock_resolution(426,240)
+1576.1  setvideomode zoom=2 w*h = 852,480
+1577.2  set_resolution 426*240
+1577.2  lock_resolution()
+1577.2  setvideomode zoom=2 w*h = 852,480
+1579.2  plotscr.hsd version: 3U 
+1581.3  Cleaning up and terminating 0
+1581.3  Closing music backend...
+1581.4  ...done
+1581.4  Deleting tmpdir /home/suzuki/.ohrrpgce/ohrrpgce20210702125207.712.tmp/
+1581.4  Closing gfx backend & allmodex...
+1581.4  ...done
+1581.4  End.
+ 0.0  setup_exception_handler

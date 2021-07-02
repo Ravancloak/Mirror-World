@@ -5,3 +5,61 @@ plotscript, opensettingsmenu, begin
 	$1+"%"
 	set menu item caption(menu item by true slot(top menu, 2), 1)
 end
+
+
+#main menu script
+script, mm, begin
+	variable (sli)
+	loadSliceCollection(2)
+	mm:openmenu := false
+	state:control := state:mm
+	while (state:control == state:mm) do (
+		specwait
+	)
+	freeSlice(lookupslice(sli:mm))
+end
+
+script, mmupdate, begin
+	variable (i, sli)
+	if (topmenu <> false) then (exit script)
+
+	if (game:tick,mod,9==0) then (
+		for (i, 0, 2) do (
+			sli := first child (slice child (first child (lookupslice(sli:mm)), i))
+			if (i<> mm:sel) then (set slice visible (sli, true))
+		)
+		sli := first child (slice child (first child (lookupslice(sli:mm)), mm:sel))
+		if (get slicevisible (sli)) then (
+			set slice visible (sli, false)
+		) else (
+			set slice visible (sli, true)
+		)
+	)
+end
+
+script, keypressmm, begin
+	variable (i, sli)
+	if (keypress(left key)) then (
+		if (mm:sel>0) then (mm:sel -= 1)
+	)
+	if (keypress(right key)) then (
+		if (mm:sel<2) then (mm:sel += 1)
+	)
+	show value (mm:sel)
+	if (keypressA || keypress(down key)) then (
+		switch (mm:sel) do (
+			case (0) do ()
+			case (1) do ()
+			case (2) do (
+				for (i, 0, 2) do (
+					sli := first child (slice child (first child (lookupslice(sli:mm)), i))
+					set slice visible (sli, true)
+				)
+				opensettingsmenu
+			)
+		)
+	)
+	if (keypressB || keypressX) then (
+		resumecontrol(), break
+	)
+end
