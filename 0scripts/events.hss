@@ -74,6 +74,7 @@ script, eventsattic, which, begin
 				)
 				free slice (sli)
 				fadeMusicOut()
+				play song (11)
 				specwait (240)
 				sli := load attack sprite(1)
 				sli2 := load attack sprite(2)

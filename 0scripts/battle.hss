@@ -10,7 +10,6 @@ plotscript, battle, formation, begin
 	variable (i, sli)
 	specwait (10)
 	#start battle
-	formation := 6
 	battle:formation := formation
 	innitbattle(formation)
 	specwait(20)
@@ -91,7 +90,7 @@ script, battleAttack, formation,  begin
 	)
 	battle:damage := getHeroStat(me, stat:Atk) -- getEnemyStat(formation, stat:Def)/2
 	if (battle:damage<1) then (battle:damage:=1)
-	write(11), shakeslice(sli,30),write(12)
+	write(11), play sound (6), shakeslice(sli,30),write(12)
 	setEnemyStat(formation, stat:HP, getEnemyStat (formation, stat:HP)--battle:damage)
 	if (getEnemyStat (formation, stat:HP)<=0) then (
 		battleWin()
@@ -210,7 +209,7 @@ script, enemyattack, formation, begin
 		battle:defend := false
 	)
 	set hero stat (me, stat:HP, get herostat(me, stat:HP, currentStat)--battle:damage, currentStat)
-	write(11), shakeslice(sli,30), updateHearts, write(12)
+	write(11), play sound (6), shakeslice(sli,30), updateHearts, write(12)
 	if (get herostat(me, stat:HP)<=0) then (
 		$4="You've lost your willpower to keep \nfighting."
 		#expand string(4)
@@ -279,7 +278,7 @@ script, innitBattle, formation, begin
 	suspendControl()
 	screenFadeOut()
 	fadeMusicOut(10)
-	playSong (5)
+	playSong (7)
 	loadSliceCollection(0)
 	loadBattleback(formation)
 	setupslices(formation)
@@ -446,7 +445,7 @@ script, sinedist, formation, begin
 					timeScaling := 20, mode := 2
 				)case (enemy:Danca) do (
 					amplitude := 4, frequency := 20, compression := 1
-					timeScaling := 2, mode := 1
+					timeScaling := 16, mode := 1
 				) case (enemy:Tentaeye) do (
 					amplitude := 4, frequency := 20, compression := 1
 					timeScaling := 20, mode := 3

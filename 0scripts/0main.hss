@@ -48,6 +48,14 @@ global variable, begin
 	13, cont:down
 	14, cont:left
 	15, cont:right
+	33, board:u
+	34, board:d
+	35, board:r
+	36, board:l
+	37, cont:u
+	38, cont:d
+	39, cont:l
+	40, cont:r
 
 	#suspends controls
 	16, state:control
@@ -86,7 +94,8 @@ end
 plotscript, defnewgame, begin
 	variable (i)
 	var:volume := set music volume (255/50*41)
-	set music volume (0)
+	set music volume (100)
+	#set music volume (0)
 
 	get item(item:Cherries, 2)
 	for (i, 1, 8) do (
@@ -278,8 +287,8 @@ script, battlekeypress, begin
 	sli := lookupslice (sli:battlemenu)
 	if (keypress(key:esc)) then (battleEnd())
 
-	if (keypress(key:up)&&battle:selected>0) then (battle:selected -= 1)
-	if (keypress(key:down)&&battle:selected<4) then (battle:selected += 1)
+	if (keypress(up key)&&battle:selected>0) then (battle:selected -= 1)
+	if (keypress(down key)&&battle:selected<4) then (battle:selected += 1)
 	if (keypress(key:1)) then (battle:selected := 0, battle:turn := false)
 	if (keypress(key:2)) then (battle:selected := 1, battle:turn := false)
 	if (keypress(key:3)) then (battle:selected := 2, battle:turn := false)

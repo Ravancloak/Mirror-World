@@ -57,9 +57,8 @@ script, keypressmm, begin
 	#item menu
 	if (mm:openmenu==mm:im) then (
 
-		for (counter, 0, get inventory size--1) do (
-			if (item in slot (counter)==-1) then (counter -= 1, break)
-		)
+		sli := first child (first child (first child (lookupslice(sli:im))))
+		counter := childcount (sli)--1
 		if (keypress(left key)) then (
 			sli := slice child (first child (first child (first child (lookupslice(sli:im)))), mm:imsel)
 			set slice visible (sli, true)
@@ -84,6 +83,11 @@ script, keypressmm, begin
 			set slice visible (sli, true)
 			if (mm:imsel<counter) then (mm:imsel += 4)
 			if (mm:imsel>counter) then (mm:imsel := counter)
+			exit script
+		)
+		if (keypressA) then (
+			imUseItem (mm:imsel)
+			updateitemcount
 			exit script
 		)
 		sli := first child (first child (lookupslice(sli:im)))
@@ -155,7 +159,22 @@ script, updateitemcount, begin
 			append number (5, item count in slot (i))
 			set slice text (sli2, 5)
 			set parent (sli2, sli)
+		) else (sli2 := createContainer, set parent (sli2, sli))
+	)
+end
+
+script, imUseItem, which, begin
+	switch (item in slot(which)) do (
+		case (0,1,2,3) do (
+			map cure (item in slot(which), me, me)
+			$4=""
+			append number(4, item in slot(which)+1)
+			if (which == 3) then (
+				write (16)
+			) else (write (14))
+			delete item(item in slot(which))
 		)
+		else (write (15))
 	)
 end
 

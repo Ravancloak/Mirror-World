@@ -16,17 +16,20 @@ define constant, begin
 7,song:fight it out
 8,song:you done did it
 9,song:unga villiage
+10,song:mind gem melody
+11,song:singing mirror
 0,sfx:talk1
 1,sfx:talk2
 2,sfx:talk3
 3,sfx:breath1
 4,sfx:breath2
 5,sfx:breath3
+6,sfx:hit
 0,hero:Mary Hill
 0,item:Cherries
 1,item:Wtrmelon
 2,item:Banana
-3,item:Telarock
+3,item:Cake
 4,item:HP pill
 5,item:Spd Pill
 6,item:Pwr Pill
@@ -70,6 +73,10 @@ define constant, begin
 2,map:Attic
 3,map:Forest
 4,map:Village
+1,atk:Heal1
+2,atk:Heal2
+3,atk:Heal3
+4,atk:Full Heal
 0,menu:Main Menu
 1,menu:Settings
 1,enemy:Birda
@@ -85,4 +92,5 @@ define constant, begin
 5,sli:playerhearts
 6,sli:mm
 7,sli:im
+8,sli:sm
 end
