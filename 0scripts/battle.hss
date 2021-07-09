@@ -469,9 +469,12 @@ script, sinedist, formation, begin
 				) case (enemy:PanicBear) do (
 					amplitude := 4, frequency := 8, compression := 1
 					timeScaling := 20, mode := 2
+				) case (999) do (
+					amplitude := 2, frequency := 20, compression := 1
+					timeScaling := 10, mode := 3
 				) else (
-					amplitude := 0, frequency := 0, compression := 0
-					timeScaling := 0, mode := 0
+					amplitude := 3, frequency := 5, compression := 0
+					timeScaling := 40, mode := 0
 				)
 			)
 		) else (
@@ -494,9 +497,12 @@ script, sinedist, formation, begin
 				) case (enemy:PanicBear) do (
 					amplitude := 4, frequency := 20, compression := 1
 					timeScaling := 20, mode := 3
+				) case (999) do (
+					amplitude := 1, frequency := -20, compression := 1
+					timeScaling := 20, mode := 1
 				) else (
-					amplitude := 0, frequency := 0, compression := 0
-					timeScaling := 0, mode := 0
+					amplitude := 3, frequency := 7, compression := 0
+					timeScaling := 20, mode := 0
 				)
 			)
 		)

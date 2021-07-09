@@ -2,6 +2,72 @@ defineconstant,begin
 	0, emote:shrug
 end
 
+script, titlescreen, begin
+	variable (height, sli, sli2, i, j, set1, set2, blend1, blend2, opacity1, opacity2)
+	set slice visible (getherosprite(me), false)
+	sli := createContainer(426,240)
+	height := slice height (sli)
+
+	set slice clipping (sli, true)
+	set slice lookup(sli, sli:battleback)
+
+	set1 := 15, set2 := 14
+	opacity1 := 60
+	opacity2 := 60
+	blend1 := blend:normal
+	blend2 := blend:normal
+	for (j, 0, 1) do (
+		sli := create container ()
+		set parent(sli, lookupslice(sli:battleback))
+
+		for (i, 0, height--1) do (
+			sli := create container(500, 1)
+			put slice (sli, 0, i) 
+			set parent (sli, last child (lookupslice(sli:battleback)))
+			set slice clipping (sli, true)
+
+			if (j == 0) then (
+				sli2 := load backdrop sprite (set1)
+				set blend mode (sli2, blend1)
+				set opacity (sli2, opacity1)
+
+			) else (
+				sli2 := load backdrop sprite (set2)
+				set blend mode (sli2, blend2)
+				set opacity (sli2, opacity2)
+			)
+
+			set parent (sli2, sli)
+			put slice (sli2, 0, i * -1)	
+		)
+	)
+	sli := load attack sprite (4)
+	set parent (sli, lookupslice(sl:maplayer3))
+	put slice (sli, 9*20, 11*20)
+	state:control := state:title
+	while (state:control == state:title) do (
+		specwait()
+		mapeverytick
+		game:tick += 1
+		if (game:tick,mod,8==1) then (
+			if (get sprite frame (sli)>=2) then (
+				set sprite frame (sli, 0)
+			) else (set sprite frame (sli, get sprite frame (sli)+1))
+		)
+		sinedist(999)
+	)
+	screenfadeout
+	free slice (sli)
+	free slice (lookupslice(sli:battleback))
+	set slice visible (getherosprite(me), true)
+	set hero position (me, 10, 10)
+	screenfadein
+end
+
+script, titlekeypress, begin
+	if (anyKeyCheck) then (state:control := suspendcontrol)
+end
+
 script, emote, who, which, begin
 	variable (sli, i)
 	suspendControl

@@ -1,487 +1,3 @@
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.4  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.4  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
 3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
 3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
 3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
@@ -1783,3 +1299,1046 @@ Loading C:\OHRRPGCE\support\CrashRpt1403.dll
  3.4  Closing gfx backend & allmodex...
  3.4  ...done
  3.4  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-08-2021 07:37:50
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_80473'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.2  Setting default window settings...
+ 0.2  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210708073750.493.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
+ 0.3  Name: 
+ 0.4  plotscr.hsd version: 3U 
+ 0.9  lock_resolution()
+ 0.9  set_resolution 426*240
+ 0.9  recenter_window_hint()
+ 0.9  get_screen_size: true screen size 1600x900
+ 0.9  Desktop resolution: 1600*860
+ 0.9  automatic_scale_factor(0.5), screen size: 1600*860
+ 0.9  Setting graphics scaling to x2 change_windowsize=-1
+ 0.9  Preserving fullscreen/windowed state
+ 0.9  genRungameFullscreenIndependent: 0
+ 1.5  Joystick 0 GUID 03000000c82d000006500000000000 instance_id 0
+ 1.5   Opened as gamecontroller 8BitDo M30 Gamepad
+ 1.5  Opened joystick 0 8BitDo M30 gamepad (id 0) -- 15 buttons 6 axes 1 hats 0 balls
+100.8  msg: M ohrrpgce.gen
+100.8  msg: M general.reld
+109.5  msg: M ohrrpgce.dt6
+109.5  msg: M attack.bin
+109.5  did not reload ohrrpgce.dt6
+109.5  did not reload attack.bin
+178.4  msg: M ohrrpgce.dt6
+178.4  msg: M attack.bin
+178.4  did not reload ohrrpgce.dt6
+178.4  did not reload attack.bin
+181.0  msg: M ohrrpgce.dt6
+181.0  msg: M attack.bin
+181.0  did not reload ohrrpgce.dt6
+181.0  did not reload attack.bin
+193.3  msg: M ohrrpgce.dt6
+193.3  msg: M attack.bin
+193.3  did not reload ohrrpgce.dt6
+193.3  did not reload attack.bin
+196.6  msg: M ohrrpgce.dt6
+196.6  msg: M attack.bin
+196.6  did not reload ohrrpgce.dt6
+196.6  did not reload attack.bin
+198.4  msg: M ohrrpgce.dt6
+198.4  msg: M attack.bin
+198.4  did not reload ohrrpgce.dt6
+198.4  did not reload attack.bin
+198.9  msg: M ohrrpgce.dt6
+198.9  msg: M attack.bin
+198.9  did not reload ohrrpgce.dt6
+198.9  did not reload attack.bin
+208.1  msg: M ohrrpgce.dt6
+208.1  msg: M attack.bin
+208.1  did not reload ohrrpgce.dt6
+208.1  did not reload attack.bin
+213.3  msg: M ohrrpgce.dt6
+213.3  msg: M attack.bin
+213.3  did not reload ohrrpgce.dt6
+213.3  did not reload attack.bin
+216.7  msg: M ohrrpgce.dt6
+216.7  msg: M attack.bin
+216.7  did not reload ohrrpgce.dt6
+216.7  did not reload attack.bin
+242.6  msg: M ohrrpgce.dt6
+242.6  msg: M attack.bin
+242.7  did not reload ohrrpgce.dt6
+242.7  did not reload attack.bin
+245.6  msg: M ohrrpgce.dt6
+245.6  msg: M attack.bin
+245.6  did not reload ohrrpgce.dt6
+245.6  did not reload attack.bin
+251.7  msg: M ohrrpgce.dt6
+251.7  msg: M attack.bin
+251.7  did not reload ohrrpgce.dt6
+251.7  did not reload attack.bin
+262.0  msg: M ohrrpgce.dt6
+262.0  msg: M attack.bin
+262.0  did not reload ohrrpgce.dt6
+262.0  did not reload attack.bin
+305.8  msg: M ohrrpgce.dt6
+305.8  msg: M attack.bin
+305.8  did not reload ohrrpgce.dt6
+305.8  did not reload attack.bin
+309.7  msg: M ohrrpgce.gen
+309.7  msg: M general.reld
+343.6  msg: M ohrrpgce.itm
+349.0  msg: M ohrrpgce.itm
+352.9  msg: M ohrrpgce.itm
+356.2  msg: M ohrrpgce.itm
+360.5  msg: M ohrrpgce.itm
+361.1  msg: M ohrrpgce.gen
+361.1  msg: M general.reld
+362.4  msg: M ohrrpgce.gen
+370.6  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+370.6  unlock_resolution(426,240)
+372.9  Killing script fibre; last script = keypressmm
+372.9  set_resolution 426*240
+372.9  lock_resolution()
+373.0  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+373.0  unlock_resolution(426,240)
+374.0  Killing script fibre; last script = keypressmm
+374.0  set_resolution 426*240
+374.0  lock_resolution()
+374.0  ! Scripterr(5): defkeypress -> keypressmain -> mm -> specwait -> mmupdate: firstchild: invalid slice handle 0
+374.0  unlock_resolution(426,240)
+375.1  Killing script fibre; last script = mmupdate
+375.1  set_resolution 426*240
+375.1  lock_resolution()
+375.2  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+375.2  unlock_resolution(426,240)
+378.1  Killing script fibre; last script = keypressmm
+378.1  set_resolution 426*240
+378.1  lock_resolution()
+378.1  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+378.1  unlock_resolution(426,240)
+379.1  set_resolution 426*240
+379.1  lock_resolution()
+520.3  msg: M ohrrpgce.hsp
+520.3  msg: M plotscr.lst
+520.4  msg: M plotscr.lst
+520.4  msg: M lookup1.bin
+520.5  plotscr.hsd version: 3U 
+520.5  not reloading script keypressmm because it's in use: refcount=1
+520.5  unlock_resolution(426,240)
+523.4  set_resolution 426*240
+523.4  lock_resolution()
+523.8  plotscr.hsd version: 3U 
+557.3  msg: M ohrrpgce.hsp
+557.3  msg: M plotscr.lst
+557.3  msg: M plotscr.lst
+557.3  msg: M lookup1.bin
+557.4  plotscr.hsd version: 3U 
+566.4  msg: M ohrrpgce.hsp
+566.4  msg: M plotscr.lst
+566.4  msg: M plotscr.lst
+566.4  msg: M lookup1.bin
+566.5  plotscr.hsd version: 3U 
+720.5  msg: M ohrrpgce.hsp
+720.5  msg: M plotscr.lst
+720.5  msg: M plotscr.lst
+720.6  plotscr.hsd version: 3U 
+720.6  msg: M lookup1.bin
+752.1  msg: M ohrrpgce.hsp
+752.1  msg: M plotscr.lst
+752.1  msg: M plotscr.lst
+752.1  msg: M lookup1.bin
+752.2  plotscr.hsd version: 3U 
+766.5  msg: M ohrrpgce.gen
+766.5  msg: M general.reld
+795.5  msg: M ohrrpgce.hsp
+795.5  msg: M plotscr.lst
+795.5  msg: M plotscr.lst
+795.5  msg: M lookup1.bin
+795.6  plotscr.hsd version: 3U 
+872.7  msg: M ohrrpgce.hsp
+872.7  msg: M plotscr.lst
+872.7  msg: M plotscr.lst
+872.7  msg: M lookup1.bin
+872.8  plotscr.hsd version: 3U 
+920.8  msg: M ohrrpgce.hsp
+920.8  msg: M plotscr.lst
+920.8  msg: M plotscr.lst
+920.8  msg: M lookup1.bin
+920.9  plotscr.hsd version: 3U 
+920.9  not reloading script keypressmm because it's in use: refcount=1
+921.0  unlock_resolution(426,240)
+922.2  set_resolution 426*240
+922.2  lock_resolution()
+923.3  plotscr.hsd version: 3U 
+1103.0  msg: M ohrrpgce.gen
+1103.0  msg: M general.reld
+1116.2  msg: M ohrrpgce.say
+1116.2  did not reload ohrrpgce.say
+1142.2  msg: M ohrrpgce.say
+1142.2  did not reload ohrrpgce.say
+1181.9  msg: M ohrrpgce.gen
+1181.9  msg: M general.reld
+1203.1  msg: M ohrrpgce.hsp
+1203.1  msg: M plotscr.lst
+1203.1  msg: M plotscr.lst
+1203.2  msg: M lookup1.bin
+1203.3  plotscr.hsd version: 3U 
+1229.5  msg: M ohrrpgce.hsp
+1229.5  msg: M plotscr.lst
+1229.5  msg: M plotscr.lst
+1229.5  msg: M lookup1.bin
+1229.6  plotscr.hsd version: 3U 
+1247.8  msg: M ohrrpgce.hsp
+1247.8  msg: M plotscr.lst
+1247.8  msg: M plotscr.lst
+1247.8  msg: M lookup1.bin
+1247.9  plotscr.hsd version: 3U 
+1263.5  msg: M ohrrpgce.hsp
+1263.5  msg: M plotscr.lst
+1263.5  msg: M plotscr.lst
+1263.5  msg: M lookup1.bin
+1263.6  plotscr.hsd version: 3U 
+1280.2  msg: M ohrrpgce.hsp
+1280.2  msg: M plotscr.lst
+1280.2  msg: M plotscr.lst
+1280.2  msg: M lookup1.bin
+1280.3  plotscr.hsd version: 3U 
+1371.7  msg: M ohrrpgce.hsp
+1371.7  msg: M plotscr.lst
+1371.8  plotscr.hsd version: 3U 
+1371.8  msg: M plotscr.lst
+1371.8  msg: M lookup1.bin
+1420.8  msg: M ohrrpgce.hsp
+1420.8  msg: M plotscr.lst
+1420.8  msg: M plotscr.lst
+1420.8  msg: M lookup1.bin
+1420.9  plotscr.hsd version: 3U 
+1458.0  msg: M ohrrpgce.gen
+1458.0  msg: M general.reld
+1550.5  msg: M ohrrpgce.itm
+1550.6  msg: M ohrrpgce.gen
+1550.6  msg: M general.reld
+1553.5  msg: M ohrrpgce.hsp
+1553.5  msg: M plotscr.lst
+1553.5  msg: M plotscr.lst
+1553.5  msg: M lookup1.bin
+1553.6  plotscr.hsd version: 3U 
+1798.3  msg: M ohrrpgce.gen
+1798.3  msg: M general.reld
+1804.3  msg: M ohrrpgce.say
+1804.3  did not reload ohrrpgce.say
+1831.8  msg: M ohrrpgce.say
+1831.8  did not reload ohrrpgce.say
+1839.4  msg: M ohrrpgce.gen
+1839.4  msg: M general.reld
+1852.9  msg: M ohrrpgce.hsp
+1852.9  msg: M plotscr.lst
+1852.9  msg: M plotscr.lst
+1852.9  msg: M lookup1.bin
+1853.0  plotscr.hsd version: 3U 
+1871.5  msg: M ohrrpgce.gen
+1871.5  msg: M general.reld
+1879.4  msg: M ohrrpgce.gen
+1899.1  msg: M ohrrpgce.itm
+1925.7  msg: M ohrrpgce.gen
+1925.7  msg: M general.reld
+1932.8  msg: M ohrrpgce.dt6
+1932.8  msg: M attack.bin
+1932.8  did not reload ohrrpgce.dt6
+1932.8  did not reload attack.bin
+1933.5  msg: M ohrrpgce.gen
+1933.5  msg: M general.reld
+1936.9  msg: M ohrrpgce.hsp
+1936.9  msg: M plotscr.lst
+1936.9  msg: M plotscr.lst
+1936.9  msg: M lookup1.bin
+1937.0  plotscr.hsd version: 3U 
+1969.2  msg: M ohrrpgce.gen
+1969.2  msg: M general.reld
+1973.6  msg: M ohrrpgce.say
+1973.6  did not reload ohrrpgce.say
+1981.0  msg: M ohrrpgce.say
+1981.0  did not reload ohrrpgce.say
+1992.2  msg: M ohrrpgce.gen
+1992.2  msg: M general.reld
+1995.1  msg: M ohrrpgce.hsp
+1995.1  msg: M plotscr.lst
+1995.1  msg: M plotscr.lst
+1995.1  msg: M lookup1.bin
+1995.3  plotscr.hsd version: 3U 
+2679.5  msg: M ohrrpgce.gen
+2679.5  msg: M general.reld
+2700.1  msg: M songdata.bin
+2708.2  msg: M song11.it
+2708.3  msg: M songdata.bin
+2738.7  msg: M songdata.bin
+2739.2  msg: M ohrrpgce.gen
+2739.2  msg: M general.reld
+2742.2  msg: M ohrrpgce.hsp
+2742.2  msg: M plotscr.lst
+2742.2  msg: M plotscr.lst
+2742.2  msg: M lookup1.bin
+2742.3  plotscr.hsd version: 3U 
+3068.2  msg: M ohrrpgce.gen
+3068.2  msg: M general.reld
+3078.8  msg: M sfx6.ogg
+3078.8  msg: M sfxdata.bin
+3079.8  msg: M sfxdata.bin
+3131.2  msg: M sfxdata.bin
+3159.5  msg: M ohrrpgce.gen
+3159.5  msg: M general.reld
+3162.7  msg: M ohrrpgce.hsp
+3162.7  msg: M plotscr.lst
+3162.7  msg: M plotscr.lst
+3162.7  msg: M lookup1.bin
+3162.8  plotscr.hsd version: 3U 
+3163.1  msg: M ohrrpgce.gen
+3163.1  msg: M general.reld
+3184.0  Cleaning up and terminating 0
+3184.0  Closing music backend...
+3184.0  ...done
+3184.0  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210708073750.493.tmp\
+3184.2  Closing gfx backend & allmodex...
+3184.2  ...done
+3184.2  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.2   ----Starting OHRRPGCE Game----
+ 0.2  07-09-2021 13:47:52
+ 0.2  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.2  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.2  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.2  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.2  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.2  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_93324'
+ 0.2  Spawned from Custom
+ 0.2  Initialising gfx_sdl2...
+ 0.3  setvideomode zoom=2 w*h = 640,400
+ 0.3  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.3  disable_native_text_input=0
+ 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.4  Setting default window settings...
+ 0.4  set_resolution 320*200
+ 0.4  Setting graphics scaling to x2 change_windowsize=-1
+ 0.4  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.4  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
+ 0.4  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.4   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
+ 0.4  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.4  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210709134752.182.tmp\
+ 0.4  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.4  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
+ 0.4  Name: 
+ 0.6  plotscr.hsd version: 3U 
+ 1.1  lock_resolution()
+ 1.1  set_resolution 426*240
+ 1.1  recenter_window_hint()
+ 1.1  get_screen_size: true screen size 1600x900
+ 1.1  Desktop resolution: 1600*860
+ 1.1  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.1  Setting graphics scaling to x2 change_windowsize=-1
+ 1.1  Preserving fullscreen/windowed state
+ 1.1  genRungameFullscreenIndependent: 0
+ 1.6  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 1.6  unlock_resolution(426,240)
+ 2.4  set_resolution 426*240
+ 2.4  lock_resolution()
+ 2.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 2.4  unlock_resolution(426,240)
+ 2.8  set_resolution 426*240
+ 2.8  lock_resolution()
+ 2.8  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 2.8  unlock_resolution(426,240)
+ 3.0  set_resolution 426*240
+ 3.0  lock_resolution()
+ 3.0  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 3.0  unlock_resolution(426,240)
+ 3.2  set_resolution 426*240
+ 3.2  lock_resolution()
+ 3.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 3.2  unlock_resolution(426,240)
+ 3.8  set_resolution 426*240
+ 3.8  lock_resolution()
+ 3.8  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 3.8  unlock_resolution(426,240)
+ 3.8  set_resolution 426*240
+ 3.8  lock_resolution()
+ 3.9  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 3.9  unlock_resolution(426,240)
+ 3.9  set_resolution 426*240
+ 3.9  lock_resolution()
+ 3.9  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 3.9  unlock_resolution(426,240)
+ 4.0  set_resolution 426*240
+ 4.0  lock_resolution()
+ 4.0  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 4.0  unlock_resolution(426,240)
+ 4.1  set_resolution 426*240
+ 4.1  lock_resolution()
+ 4.1  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 4.1  unlock_resolution(426,240)
+ 4.2  set_resolution 426*240
+ 4.2  lock_resolution()
+ 4.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 4.2  unlock_resolution(426,240)
+ 4.3  set_resolution 426*240
+ 4.3  lock_resolution()
+ 4.3  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 4.3  unlock_resolution(426,240)
+ 4.4  set_resolution 426*240
+ 4.4  lock_resolution()
+ 4.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 4.4  unlock_resolution(426,240)
+ 4.5  set_resolution 426*240
+ 4.5  lock_resolution()
+ 4.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 4.5  unlock_resolution(426,240)
+ 4.6  set_resolution 426*240
+ 4.6  lock_resolution()
+ 4.6  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 4.6  unlock_resolution(426,240)
+ 4.6  set_resolution 426*240
+ 4.6  lock_resolution()
+ 4.6  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 4.6  unlock_resolution(426,240)
+ 4.7  set_resolution 426*240
+ 4.7  lock_resolution()
+ 4.7  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 4.7  unlock_resolution(426,240)
+ 4.8  set_resolution 426*240
+ 4.8  lock_resolution()
+ 4.8  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 4.8  unlock_resolution(426,240)
+ 4.9  set_resolution 426*240
+ 4.9  lock_resolution()
+ 4.9  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 4.9  unlock_resolution(426,240)
+ 5.0  set_resolution 426*240
+ 5.0  lock_resolution()
+ 5.0  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 5.0  unlock_resolution(426,240)
+ 5.1  set_resolution 426*240
+ 5.1  lock_resolution()
+ 5.1  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 5.1  unlock_resolution(426,240)
+ 5.2  set_resolution 426*240
+ 5.2  lock_resolution()
+ 5.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 5.2  unlock_resolution(426,240)
+ 5.3  set_resolution 426*240
+ 5.3  lock_resolution()
+ 5.3  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 5.3  unlock_resolution(426,240)
+ 5.3  set_resolution 426*240
+ 5.3  lock_resolution()
+ 5.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 5.4  unlock_resolution(426,240)
+ 5.4  set_resolution 426*240
+ 5.4  lock_resolution()
+ 5.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 5.4  unlock_resolution(426,240)
+ 5.5  set_resolution 426*240
+ 5.5  lock_resolution()
+ 5.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 5.5  unlock_resolution(426,240)
+ 5.6  set_resolution 426*240
+ 5.6  lock_resolution()
+ 5.6  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 5.6  unlock_resolution(426,240)
+ 5.7  set_resolution 426*240
+ 5.7  lock_resolution()
+ 5.7  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 5.7  unlock_resolution(426,240)
+ 5.8  set_resolution 426*240
+ 5.8  lock_resolution()
+ 5.8  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 5.8  unlock_resolution(426,240)
+ 5.9  set_resolution 426*240
+ 5.9  lock_resolution()
+ 5.9  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 5.9  unlock_resolution(426,240)
+ 6.0  set_resolution 426*240
+ 6.0  lock_resolution()
+ 6.0  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 6.0  unlock_resolution(426,240)
+ 6.1  set_resolution 426*240
+ 6.1  lock_resolution()
+ 6.1  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 6.1  unlock_resolution(426,240)
+ 6.1  set_resolution 426*240
+ 6.1  lock_resolution()
+ 6.1  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 6.1  unlock_resolution(426,240)
+ 6.2  set_resolution 426*240
+ 6.2  lock_resolution()
+ 6.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 6.2  unlock_resolution(426,240)
+ 6.3  set_resolution 426*240
+ 6.3  lock_resolution()
+ 6.3  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 6.3  unlock_resolution(426,240)
+ 6.4  set_resolution 426*240
+ 6.4  lock_resolution()
+ 6.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 6.4  unlock_resolution(426,240)
+ 6.5  set_resolution 426*240
+ 6.5  lock_resolution()
+ 6.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 6.5  unlock_resolution(426,240)
+ 6.6  set_resolution 426*240
+ 6.6  lock_resolution()
+ 6.6  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 6.6  unlock_resolution(426,240)
+ 6.7  set_resolution 426*240
+ 6.7  lock_resolution()
+ 6.7  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 6.7  unlock_resolution(426,240)
+ 6.8  set_resolution 426*240
+ 6.8  lock_resolution()
+ 6.8  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 6.8  unlock_resolution(426,240)
+ 6.9  set_resolution 426*240
+ 6.9  lock_resolution()
+ 6.9  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 6.9  unlock_resolution(426,240)
+ 6.9  set_resolution 426*240
+ 6.9  lock_resolution()
+ 6.9  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 6.9  unlock_resolution(426,240)
+ 7.0  set_resolution 426*240
+ 7.0  lock_resolution()
+ 7.0  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 7.0  unlock_resolution(426,240)
+ 7.1  set_resolution 426*240
+ 7.1  lock_resolution()
+ 7.1  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 7.1  unlock_resolution(426,240)
+ 7.2  set_resolution 426*240
+ 7.2  lock_resolution()
+ 7.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 7.2  unlock_resolution(426,240)
+ 7.3  set_resolution 426*240
+ 7.3  lock_resolution()
+ 7.3  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 7.3  unlock_resolution(426,240)
+ 7.4  set_resolution 426*240
+ 7.4  lock_resolution()
+ 7.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 7.4  unlock_resolution(426,240)
+ 7.5  set_resolution 426*240
+ 7.5  lock_resolution()
+ 7.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 7.5  unlock_resolution(426,240)
+ 7.6  set_resolution 426*240
+ 7.6  lock_resolution()
+ 7.6  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 7.6  unlock_resolution(426,240)
+ 7.6  set_resolution 426*240
+ 7.6  lock_resolution()
+ 7.6  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 7.6  unlock_resolution(426,240)
+ 7.7  set_resolution 426*240
+ 7.7  lock_resolution()
+ 7.7  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 7.7  unlock_resolution(426,240)
+ 7.8  set_resolution 426*240
+ 7.8  lock_resolution()
+ 7.8  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 7.8  unlock_resolution(426,240)
+ 7.9  set_resolution 426*240
+ 7.9  lock_resolution()
+ 7.9  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 7.9  unlock_resolution(426,240)
+ 8.0  set_resolution 426*240
+ 8.0  lock_resolution()
+ 8.0  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 8.0  unlock_resolution(426,240)
+ 8.1  set_resolution 426*240
+ 8.1  lock_resolution()
+ 8.1  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 8.1  unlock_resolution(426,240)
+ 8.2  set_resolution 426*240
+ 8.2  lock_resolution()
+ 8.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 8.2  unlock_resolution(426,240)
+ 8.3  set_resolution 426*240
+ 8.3  lock_resolution()
+ 8.3  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 8.3  unlock_resolution(426,240)
+ 8.3  set_resolution 426*240
+ 8.4  lock_resolution()
+ 8.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 8.4  unlock_resolution(426,240)
+ 8.4  set_resolution 426*240
+ 8.4  lock_resolution()
+ 8.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 8.4  unlock_resolution(426,240)
+ 8.5  set_resolution 426*240
+ 8.5  lock_resolution()
+ 8.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 8.5  unlock_resolution(426,240)
+ 8.6  set_resolution 426*240
+ 8.6  lock_resolution()
+ 8.6  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 8.6  unlock_resolution(426,240)
+ 9.7  Killing script fibre; last script = sinedist
+ 9.7  set_resolution 426*240
+ 9.7  lock_resolution()
+15.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+15.2  unlock_resolution(426,240)
+16.3  set_resolution 426*240
+16.3  lock_resolution()
+16.3  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+16.3  unlock_resolution(426,240)
+16.7  set_resolution 426*240
+16.7  lock_resolution()
+16.7  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+16.7  unlock_resolution(426,240)
+17.2  set_resolution 426*240
+17.2  lock_resolution()
+17.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+17.2  unlock_resolution(426,240)
+17.3  set_resolution 426*240
+17.3  lock_resolution()
+17.3  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+17.3  unlock_resolution(426,240)
+17.4  set_resolution 426*240
+17.4  lock_resolution()
+17.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+17.4  unlock_resolution(426,240)
+17.5  set_resolution 426*240
+17.5  lock_resolution()
+17.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+17.5  unlock_resolution(426,240)
+17.6  set_resolution 426*240
+17.6  lock_resolution()
+17.6  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+17.6  unlock_resolution(426,240)
+17.7  set_resolution 426*240
+17.7  lock_resolution()
+17.7  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+17.7  unlock_resolution(426,240)
+17.8  set_resolution 426*240
+17.8  lock_resolution()
+17.8  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+17.8  unlock_resolution(426,240)
+17.8  set_resolution 426*240
+17.8  lock_resolution()
+17.8  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+17.8  unlock_resolution(426,240)
+17.9  set_resolution 426*240
+17.9  lock_resolution()
+17.9  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+17.9  unlock_resolution(426,240)
+18.0  set_resolution 426*240
+18.0  lock_resolution()
+18.0  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+18.0  unlock_resolution(426,240)
+18.1  set_resolution 426*240
+18.1  lock_resolution()
+18.1  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+18.1  unlock_resolution(426,240)
+18.2  set_resolution 426*240
+18.2  lock_resolution()
+18.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+18.2  unlock_resolution(426,240)
+18.3  set_resolution 426*240
+18.3  lock_resolution()
+18.3  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+18.3  unlock_resolution(426,240)
+18.4  set_resolution 426*240
+18.4  lock_resolution()
+18.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+18.4  unlock_resolution(426,240)
+18.5  set_resolution 426*240
+18.5  lock_resolution()
+18.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+18.5  unlock_resolution(426,240)
+18.5  set_resolution 426*240
+18.5  lock_resolution()
+18.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+18.6  unlock_resolution(426,240)
+18.6  set_resolution 426*240
+18.6  lock_resolution()
+18.6  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+18.6  unlock_resolution(426,240)
+18.7  set_resolution 426*240
+18.7  lock_resolution()
+18.7  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+18.7  unlock_resolution(426,240)
+18.8  set_resolution 426*240
+18.8  lock_resolution()
+18.8  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+18.8  unlock_resolution(426,240)
+18.9  set_resolution 426*240
+18.9  lock_resolution()
+18.9  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+18.9  unlock_resolution(426,240)
+19.0  set_resolution 426*240
+19.0  lock_resolution()
+19.0  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+19.0  unlock_resolution(426,240)
+19.1  set_resolution 426*240
+19.1  lock_resolution()
+19.1  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+19.1  unlock_resolution(426,240)
+19.2  set_resolution 426*240
+19.2  lock_resolution()
+19.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+19.2  unlock_resolution(426,240)
+19.2  set_resolution 426*240
+19.2  lock_resolution()
+19.3  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+19.3  unlock_resolution(426,240)
+19.3  set_resolution 426*240
+19.3  lock_resolution()
+19.3  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+19.3  unlock_resolution(426,240)
+19.4  set_resolution 426*240
+19.4  lock_resolution()
+19.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+19.4  unlock_resolution(426,240)
+19.5  set_resolution 426*240
+19.5  lock_resolution()
+19.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+19.5  unlock_resolution(426,240)
+19.6  set_resolution 426*240
+19.6  lock_resolution()
+19.6  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+19.6  unlock_resolution(426,240)
+19.7  set_resolution 426*240
+19.7  lock_resolution()
+19.7  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+19.7  unlock_resolution(426,240)
+19.8  set_resolution 426*240
+19.8  lock_resolution()
+19.8  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+19.8  unlock_resolution(426,240)
+19.9  set_resolution 426*240
+19.9  lock_resolution()
+19.9  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+19.9  unlock_resolution(426,240)
+20.0  set_resolution 426*240
+20.0  lock_resolution()
+20.0  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+20.0  unlock_resolution(426,240)
+20.0  set_resolution 426*240
+20.0  lock_resolution()
+20.0  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+20.0  unlock_resolution(426,240)
+20.1  set_resolution 426*240
+20.1  lock_resolution()
+20.1  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+20.1  unlock_resolution(426,240)
+20.2  set_resolution 426*240
+20.2  lock_resolution()
+20.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+20.2  unlock_resolution(426,240)
+20.3  set_resolution 426*240
+20.3  lock_resolution()
+20.3  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+20.3  unlock_resolution(426,240)
+20.4  set_resolution 426*240
+20.4  lock_resolution()
+20.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+20.4  unlock_resolution(426,240)
+20.5  set_resolution 426*240
+20.5  lock_resolution()
+20.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+20.5  unlock_resolution(426,240)
+20.6  set_resolution 426*240
+20.6  lock_resolution()
+20.6  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+20.6  unlock_resolution(426,240)
+20.7  set_resolution 426*240
+20.7  lock_resolution()
+20.7  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+20.7  unlock_resolution(426,240)
+20.7  set_resolution 426*240
+20.7  lock_resolution()
+20.7  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+20.8  unlock_resolution(426,240)
+20.8  set_resolution 426*240
+20.8  lock_resolution()
+20.8  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+20.8  unlock_resolution(426,240)
+22.1  Killing script fibre; last script = sinedist
+22.1  set_resolution 426*240
+22.1  lock_resolution()
+27.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+27.5  unlock_resolution(426,240)
+28.4  set_resolution 426*240
+28.4  lock_resolution()
+28.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+28.4  unlock_resolution(426,240)
+28.8  set_resolution 426*240
+28.8  lock_resolution()
+28.8  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+28.8  unlock_resolution(426,240)
+29.3  set_resolution 426*240
+29.3  lock_resolution()
+29.3  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+29.3  unlock_resolution(426,240)
+29.4  set_resolution 426*240
+29.4  lock_resolution()
+29.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+29.4  unlock_resolution(426,240)
+29.5  set_resolution 426*240
+29.5  lock_resolution()
+29.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+29.5  unlock_resolution(426,240)
+29.6  set_resolution 426*240
+29.6  lock_resolution()
+29.6  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+29.6  unlock_resolution(426,240)
+29.7  set_resolution 426*240
+29.7  lock_resolution()
+29.7  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+29.7  unlock_resolution(426,240)
+29.7  set_resolution 426*240
+29.7  lock_resolution()
+29.7  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+29.7  unlock_resolution(426,240)
+29.8  set_resolution 426*240
+29.8  lock_resolution()
+29.8  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+29.8  unlock_resolution(426,240)
+29.9  set_resolution 426*240
+29.9  lock_resolution()
+29.9  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+29.9  unlock_resolution(426,240)
+30.0  set_resolution 426*240
+30.0  lock_resolution()
+30.0  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+30.0  unlock_resolution(426,240)
+30.1  set_resolution 426*240
+30.1  lock_resolution()
+30.1  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+30.1  unlock_resolution(426,240)
+30.2  set_resolution 426*240
+30.2  lock_resolution()
+30.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+30.2  unlock_resolution(426,240)
+30.3  set_resolution 426*240
+30.3  lock_resolution()
+30.3  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+30.3  unlock_resolution(426,240)
+30.4  set_resolution 426*240
+30.4  lock_resolution()
+30.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+30.4  unlock_resolution(426,240)
+30.4  set_resolution 426*240
+30.4  lock_resolution()
+30.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+30.5  unlock_resolution(426,240)
+30.5  set_resolution 426*240
+30.5  lock_resolution()
+30.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+30.5  unlock_resolution(426,240)
+31.1  Cleaning up and terminating 0
+31.1  Closing music backend...
+31.1  ...done
+31.1  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210709134752.182.tmp\
+31.2  Closing gfx backend & allmodex...
+31.2  ...done
+31.2  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-09-2021 13:50:25
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_21359'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.1  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.2  Setting default window settings...
+ 0.2  set_resolution 320*200
+ 0.2  Setting graphics scaling to x2 change_windowsize=-1
+ 0.2  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210709135025.917.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
+ 0.3  Name: 
+ 0.4  plotscr.hsd version: 3U 
+ 0.9  lock_resolution()
+ 0.9  set_resolution 426*240
+ 0.9  recenter_window_hint()
+ 0.9  get_screen_size: true screen size 1600x900
+ 0.9  Desktop resolution: 1600*860
+ 0.9  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.0  Setting graphics scaling to x2 change_windowsize=-1
+ 1.0  Preserving fullscreen/windowed state
+ 1.0  genRungameFullscreenIndependent: 0
+ 1.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 1.5  unlock_resolution(426,240)
+ 3.3  set_resolution 426*240
+ 3.3  lock_resolution()
+ 4.6  ! Script interpreter: received interruption
+ 4.6  ! Script interrupted: defnewgame -> titlescreen -> sinedist
+ 4.6  unlock_resolution(426,240)
+20.2  set_resolution 426*240
+20.2  lock_resolution()
+21.8  Cleaning up and terminating 0
+21.8  Closing music backend...
+21.8  ...done
+21.8  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210709135025.917.tmp\
+22.0  Closing gfx backend & allmodex...
+22.0  ...done
+22.0  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-09-2021 13:51:00
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_38380'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.2  Setting default window settings...
+ 0.2  set_resolution 320*200
+ 0.2  Setting graphics scaling to x2 change_windowsize=-1
+ 0.2  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.2  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
+ 0.2  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.2   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
+ 0.2  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.2  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210709135100.721.tmp\
+ 0.2  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
+ 0.3  Name: 
+ 0.4  plotscr.hsd version: 3U 
+ 0.9  lock_resolution()
+ 0.9  set_resolution 426*240
+ 0.9  recenter_window_hint()
+ 0.9  get_screen_size: true screen size 1600x900
+ 0.9  Desktop resolution: 1600*860
+ 0.9  automatic_scale_factor(0.5), screen size: 1600*860
+ 0.9  Setting graphics scaling to x2 change_windowsize=-1
+ 0.9  Preserving fullscreen/windowed state
+ 0.9  genRungameFullscreenIndependent: 0
+ 1.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 1.5  unlock_resolution(426,240)
+ 2.2  set_resolution 426*240
+ 2.2  lock_resolution()
+ 2.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
+ 2.2  unlock_resolution(426,240)
+ 2.7  set_resolution 426*240
+ 2.7  lock_resolution()
+ 3.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
+ 3.2  unlock_resolution(426,240)
+ 4.5  Killing script fibre; last script = sinedist
+ 4.5  set_resolution 426*240
+ 4.5  lock_resolution()
+ 7.3  Cleaning up and terminating 0
+ 7.3  Closing music backend...
+ 7.4  ...done
+ 7.4  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210709135100.721.tmp\
+ 7.5  Closing gfx backend & allmodex...
+ 7.5  ...done
+ 7.5  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-09-2021 13:52:23
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_51413'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.1  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.2  Setting default window settings...
+ 0.2  set_resolution 320*200
+ 0.2  Setting graphics scaling to x2 change_windowsize=-1
+ 0.2  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.2  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
+ 0.2  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.2   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
+ 0.2  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.2  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210709135223.20.tmp\
+ 0.2  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.2  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
+ 0.3  Name: 
+ 0.4  plotscr.hsd version: 3U 
+ 0.9  lock_resolution()
+ 0.9  set_resolution 426*240
+ 0.9  recenter_window_hint()
+ 0.9  get_screen_size: true screen size 1600x900
+ 0.9  Desktop resolution: 1600*860
+ 0.9  automatic_scale_factor(0.5), screen size: 1600*860
+ 0.9  Setting graphics scaling to x2 change_windowsize=-1
+ 0.9  Preserving fullscreen/windowed state
+ 0.9  genRungameFullscreenIndependent: 0
+ 8.9  unlock_resolution(426,240)
+10.8  set_resolution 426*240
+10.8  lock_resolution()
+12.7  unlock_resolution(426,240)
+12.7  ! Can't find a SliceCollectionContext
+23.3  Cleaning up and terminating 0
+23.3  Closing music backend...
+23.4  ...done
+23.4  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210709135223.20.tmp\
+23.5  Closing gfx backend & allmodex...
+23.5  ...done
+23.5  End.

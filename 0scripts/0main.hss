@@ -21,6 +21,7 @@ define constant, begin
 	2, state:battle
 	3, state:slots
 	4, state:mm
+	5, state:title
 
 	0, slots:null
 	1, slots:spin
@@ -95,15 +96,15 @@ plotscript, defnewgame, begin
 	variable (i)
 	var:volume := set music volume (255/50*41)
 	set music volume (100)
-	#set music volume (0)
+	set music volume (0)
 
 	get item(item:Cherries, 2)
 	for (i, 1, 8) do (
 		get item (i)
 	)
-
 	suspendcontrol
 	resetcontrols(false)
+	titlescreen
 	resumecontrol
 	mainloop
 end
@@ -120,7 +121,6 @@ plotscript, defautorun, begin
 			loadmirrorperson
 		)
 	)
-	
 	exit script
 end
 
@@ -166,6 +166,7 @@ plotscript, defkeypress, begin
 		case (state:suspend)	do ()
 		case (state:resume)		do (keypressmain)
 		case (state:mm)			do (keypressmm)
+		case (state:title)		do (titlekeypress)
 		else (if (battle:turn) then (battlekeypress))
 	)
 end
