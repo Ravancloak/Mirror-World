@@ -93,7 +93,7 @@ script, battleAttack, formation,  begin
 	write(11), play sound (6), shakeslice(sli,30),write(12)
 	setEnemyStat(formation, stat:HP, getEnemyStat (formation, stat:HP)--battle:damage)
 	if (getEnemyStat (formation, stat:HP)<=0) then (
-		battleWin()
+		battleWin(formation)
 	)
 end
 
@@ -127,7 +127,7 @@ script, battlerun, formation, begin
 	if (random(0,10)<4) then (
 		$4="You ran away."
 		write(11)
-		battleend()
+		battleend(formation)
 	) else (
 		$4="Couldn't escape.", write(11)
 	)
@@ -192,9 +192,9 @@ script, enemyattack, formation, begin
 	variable(sli)
 	sli := lookupslice(sli:battleCol)
 	switch (formation) do (
-		case (enemy:Birda) do 		($4="Birda used wing attack!"
-		)
+		case (enemy:Birda) do 		($4="Birda used wing attack!")
 		case (enemy:Danca) do 		($4="She stepped on your toes really hard.")
+		case (enemy:Statueacle) do ($4="He punches you with a powerful hook.")
 		case (enemy:Tentaeye) do 	($4="You're slapped by a tentacle")
 		case (enemy:HunnaGunna) do 	($4="She shoots you in the eye with her water gun.")
 		case (enemy:PanicBear) do 	($4="They trip into you, and that hurts more\nthan it should.")
@@ -224,6 +224,7 @@ script, enemyinsult, formation, begin
 	switch (formation) do (
 		case (enemy:Birda) do ($4="She said you're ugly.")
 		case (enemy:Danca) do ($4="She said your mother cannot dance!")
+		case (enemy:Statueacle) do ($4="He flexes and laughs at you.")
 		case (enemy:Tentaeye) do ($4="A tentacle touches your ass")
 		case (enemy:HunnaGunna) do 	($4="She flips you off.")
 		case (enemy:PanicBear) do 	($4="They tell you that you should be at\nwork right now.")
@@ -239,7 +240,8 @@ script, enemynice, formation, begin
 	sli := lookupslice(sli:battleCol)
 	switch (formation) do (
 		case (enemy:Birda) do ($4="She jiggles her boobs.")
-		case (enemy:Danca) do ($4="She kisses you and you recovererd 1 HP." )
+		case (enemy:Danca) do ($4="She kisses you." )
+		case (enemy:Statueacle) do ($4="He flirtatiously winks at you.")
 		case (enemy:Tentaeye) do ($4="You get a nice neck message.")
 		case (enemy:HunnaGunna) do 	($4="She smiles kindly at you.")
 		case (enemy:PanicBear) do 	($4="They calm down long enough to\ncompliment your hair.")
@@ -250,10 +252,22 @@ script, enemynice, formation, begin
 	write(11)
 end
 
-script, battlewin, begin
+script, battlewin, formation, begin
+	variable (temp)
 	$4="You defeated your enemy"
 	write(11)
-	battleend
+	battleend(formation)
+
+	temp := get hero level (me)
+	#get rewards
+	get money (read enemy data (formation, enemy:gold))
+	give experience(read enemy data (formation, enemy:experience))
+	if (random(1,100) < read enemy data (formation, enemy:itempercent)) then (
+		get item (enemy:item)
+	)
+	if (temp <> get hero level (me)) then (
+		write (17)
+	)
 end
 
 script, getspeed, formation, begin
@@ -289,7 +303,7 @@ script, innitBattle, formation, begin
 	battle:selected := 0
 end
 
-script, battleend, begin
+script, battleend, formation, begin
 	suspendcontrol()
 	battle:turn := false
 	screenfadeout()

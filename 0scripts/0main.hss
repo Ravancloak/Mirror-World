@@ -285,7 +285,7 @@ script, battlekeypress, begin
 	variable (sli)
 	if (state:textbox) then (exit script)
 	sli := lookupslice (sli:battlemenu)
-	if (keypress(key:esc)) then (battleEnd())
+	if (keypress(key:esc)) then (battleEnd(battle:formation))
 
 	if (keypress(up key)&&battle:selected>0) then (battle:selected -= 1)
 	if (keypress(down key)&&battle:selected<4) then (battle:selected += 1)
