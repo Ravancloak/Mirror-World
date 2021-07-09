@@ -398,8 +398,8 @@ script, loadbattleback, formation, begin
 			blend2 := blend:normal
 		) case (enemy:PanicBear) do (
 			set1 := 5, set2 := 11
-			opacity1 := 50
-			opacity2 := 90
+			opacity1 := 30
+			opacity2 := 70
 			blend1 := blend:normal
 			blend2 := blend:normal
 		) else (
@@ -470,7 +470,7 @@ script, sinedist, formation, begin
 					amplitude := 4, frequency := 8, compression := 1
 					timeScaling := 20, mode := 2
 				) case (999) do (
-					amplitude := 2, frequency := 20, compression := 1
+					amplitude := 3, frequency := 80, compression := 1
 					timeScaling := 10, mode := 3
 				) else (
 					amplitude := 3, frequency := 5, compression := 0
@@ -498,8 +498,8 @@ script, sinedist, formation, begin
 					amplitude := 4, frequency := 20, compression := 1
 					timeScaling := 20, mode := 3
 				) case (999) do (
-					amplitude := 1, frequency := -20, compression := 1
-					timeScaling := 20, mode := 1
+					amplitude := 1, frequency := -30, compression := 1
+					timeScaling := 10, mode := 1
 				) else (
 					amplitude := 3, frequency := 7, compression := 0
 					timeScaling := 20, mode := 0

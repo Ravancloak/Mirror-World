@@ -1,1643 +1,3 @@
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.5  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.5  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.6  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.6  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.6  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.6  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.6  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.6  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.6  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.6  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.6  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3100.6  ! Scripterr(4): defkeypress -> keypressmm -> im: getitemname: invalid item ID -1
-3100.6  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 35 is not text
-3102.7  unlock_resolution(426,240)
-3102.7  setvideomode zoom=2 w*h = 852,480
-3102.8  ! Can't find a SliceCollectionContext
-3130.0  ! Can't find a SliceCollectionContext
-3135.4  msg: M ohrrpgce.hsp
-3135.4  msg: M plotscr.lst
-3135.4  msg: M plotscr.lst
-3135.4  msg: M lookup1.bin
-3135.4  plotscr.hsd version: 3U 
-3135.4  not reloading script im because it's in use: refcount=1
-3135.4  unlock_resolution(426,240)
-3135.4  setvideomode zoom=2 w*h = 852,480
-3136.8  ! Can't find a SliceCollectionContext
-3138.1  ! Can't find a SliceCollectionContext
-3138.3  set_resolution 426*240
-3138.3  lock_resolution()
-3138.4  setvideomode zoom=2 w*h = 852,480
-3138.4  msg: M ohrrpgce.gen
-3138.4  msg: M general.reld
-3139.1  plotscr.hsd version: 3U 
-3141.6  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 43 is not text
-3141.6  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 43 is not text
-3141.6  ! Scripterr(5): defkeypress -> keypressmm -> im: setslicetext: slice handle 43 is not text
-3143.4  unlock_resolution(426,240)
-3143.4  setvideomode zoom=2 w*h = 852,480
-3143.5  ! Can't find a SliceCollectionContext
-3158.4  ! Can't find a SliceCollectionContext
-3165.4  ! Can't find a SliceCollectionContext
-3166.5  set_resolution 426*240
-3166.5  lock_resolution()
-3166.5  setvideomode zoom=2 w*h = 852,480
-3166.5  msg: M ohrrpgce.gen
-3169.7  msg: M ohrrpgce.hsp
-3169.7  msg: M plotscr.lst
-3169.7  msg: M plotscr.lst
-3169.7  msg: M lookup1.bin
-3169.7  plotscr.hsd version: 3U 
-3169.7  not reloading script im because it's in use: refcount=1
-3169.7  unlock_resolution(426,240)
-3169.7  setvideomode zoom=2 w*h = 852,480
-3170.5  set_resolution 426*240
-3170.5  lock_resolution()
-3170.5  setvideomode zoom=2 w*h = 852,480
-3171.0  plotscr.hsd version: 3U 
-3287.4  msg: M ohrrpgce.gen
-3287.4  msg: M general.reld
-3289.6  msg: M ohrrpgce.hsp
-3289.6  msg: M plotscr.lst
-3289.6  msg: M plotscr.lst
-3289.6  msg: M lookup1.bin
-3289.6  plotscr.hsd version: 3U 
-3331.8  msg: M ohrrpgce.hsp
-3331.8  msg: M plotscr.lst
-3331.8  msg: M plotscr.lst
-3331.8  msg: M lookup1.bin
-3331.9  plotscr.hsd version: 3U 
-3331.9  not reloading script keypressmm because it's in use: refcount=1
-3331.9  not reloading script mm because it's in use: refcount=1
-3331.9  unlock_resolution(426,240)
-3331.9  setvideomode zoom=2 w*h = 852,480
-3332.8  set_resolution 426*240
-3332.8  lock_resolution()
-3332.8  setvideomode zoom=2 w*h = 852,480
-3333.1  plotscr.hsd version: 3U 
-3401.0  msg: M ohrrpgce.hsp
-3401.0  msg: M plotscr.lst
-3401.0  msg: M plotscr.lst
-3401.0  msg: M lookup1.bin
-3401.0  plotscr.hsd version: 3U 
-3569.8  msg: M ohrrpgce.hsp
-3569.8  msg: M plotscr.lst
-3569.8  msg: M plotscr.lst
-3569.8  msg: M lookup1.bin
-3569.8  plotscr.hsd version: 3U 
-3569.8  not reloading script keypressmm because it's in use: refcount=1
-3569.8  unlock_resolution(426,240)
-3569.8  setvideomode zoom=2 w*h = 852,480
-3569.9  set_resolution 426*240
-3569.9  lock_resolution()
-3569.9  setvideomode zoom=2 w*h = 852,480
-3888.0  msg: M ohrrpgce.hsp
-3888.0  msg: M plotscr.lst
-3888.0  msg: M plotscr.lst
-3888.0  msg: M lookup1.bin
-3888.0  plotscr.hsd version: 3U 
-3888.0  not reloading script keypressmm because it's in use: refcount=1
-3888.0  unlock_resolution(426,240)
-3888.0  setvideomode zoom=2 w*h = 852,480
-3888.1  set_resolution 426*240
-3888.1  lock_resolution()
-3888.1  setvideomode zoom=2 w*h = 852,480
-3913.0  msg: M ohrrpgce.hsp
-3913.0  msg: M plotscr.lst
-3913.0  msg: M plotscr.lst
-3913.0  msg: M lookup1.bin
-3913.0  plotscr.hsd version: 3U 
-3913.0  not reloading script keypressmm because it's in use: refcount=1
-3913.0  unlock_resolution(426,240)
-3913.0  setvideomode zoom=2 w*h = 852,480
-3913.1  set_resolution 426*240
-3913.1  lock_resolution()
-3913.1  setvideomode zoom=2 w*h = 852,480
-3914.4  plotscr.hsd version: 3U 
-3946.3  msg: M ohrrpgce.hsp
-3946.3  msg: M plotscr.lst
-3946.3  msg: M plotscr.lst
-3946.3  msg: M lookup1.bin
-3946.3  plotscr.hsd version: 3U 
-3946.3  not reloading script keypressmm because it's in use: refcount=1
-3946.3  unlock_resolution(426,240)
-3946.3  setvideomode zoom=2 w*h = 852,480
-3946.4  set_resolution 426*240
-3946.4  lock_resolution()
-3946.4  setvideomode zoom=2 w*h = 852,480
-3947.8  plotscr.hsd version: 3U 
-4009.3  msg: M ohrrpgce.gen
-4009.3  msg: M general.reld
-4014.6  msg: M ohrrpgce.itm
-4015.5  msg: M ohrrpgce.itm
-4033.3  msg: M ohrrpgce.itm
-4034.5  msg: M ohrrpgce.itm
-4035.2  msg: M ohrrpgce.itm
-4054.6  msg: M ohrrpgce.itm
-4055.5  msg: M ohrrpgce.itm
-4056.4  msg: M ohrrpgce.itm
-4065.5  msg: M ohrrpgce.itm
-4066.4  msg: M ohrrpgce.itm
-4067.1  msg: M ohrrpgce.itm
-4077.4  msg: M ohrrpgce.itm
-4083.6  msg: M ohrrpgce.itm
-4086.4  msg: M ohrrpgce.itm
-4100.1  msg: M ohrrpgce.itm
-4111.4  msg: M ohrrpgce.itm
-4119.1  msg: M ohrrpgce.itm
-4133.3  msg: M ohrrpgce.itm
-4145.9  msg: M ohrrpgce.gen
-4145.9  msg: M general.reld
-4180.2  msg: M ohrrpgce.gen
-4180.2  msg: M general.reld
-4184.4  msg: M ohrrpgce.hsp
-4184.4  msg: M plotscr.lst
-4184.4  msg: M plotscr.lst
-4184.4  msg: M lookup1.bin
-4184.5  plotscr.hsd version: 3U 
-4184.5  not reloading script defnewgame because it's in use: refcount=1
-4184.5  unlock_resolution(426,240)
-4184.5  setvideomode zoom=2 w*h = 852,480
-4184.6  set_resolution 426*240
-4184.6  lock_resolution()
-4184.6  setvideomode zoom=2 w*h = 852,480
-4186.1  plotscr.hsd version: 3U 
-4212.1  msg: M ohrrpgce.gen
-4212.1  msg: M general.reld
-4314.4  msg: M ohrrpgce.hsp
-4314.4  msg: M plotscr.lst
-4314.4  msg: M plotscr.lst
-4314.4  msg: M lookup1.bin
-4314.5  plotscr.hsd version: 3U 
-4422.5  msg: M ohrrpgce.hsp
-4422.5  msg: M plotscr.lst
-4422.5  msg: M plotscr.lst
-4422.5  msg: M lookup1.bin
-4422.5  plotscr.hsd version: 3U 
-4422.5  not reloading script im because it's in use: refcount=1
-4422.5  unlock_resolution(426,240)
-4422.5  setvideomode zoom=2 w*h = 852,480
-4422.6  set_resolution 426*240
-4422.6  lock_resolution()
-4422.6  setvideomode zoom=2 w*h = 852,480
-4424.3  plotscr.hsd version: 3U 
-4481.7  msg: M ohrrpgce.hsp
-4481.7  msg: M plotscr.lst
-4481.7  msg: M plotscr.lst
-4481.7  msg: M lookup1.bin
-4481.7  plotscr.hsd version: 3U 
-4632.3  msg: M ohrrpgce.hsp
-4632.3  msg: M plotscr.lst
-4632.3  msg: M plotscr.lst
-4632.3  msg: M lookup1.bin
-4632.4  plotscr.hsd version: 3U 
-4632.4  not reloading script keypressmm because it's in use: refcount=1
-4632.4  unlock_resolution(426,240)
-4632.4  setvideomode zoom=2 w*h = 852,480
-4632.5  set_resolution 426*240
-4632.5  lock_resolution()
-4632.5  setvideomode zoom=2 w*h = 852,480
-4633.9  plotscr.hsd version: 3U 
-4835.2  msg: M ohrrpgce.hsp
-4835.2  msg: M plotscr.lst
-4835.2  msg: M plotscr.lst
-4835.2  msg: M lookup1.bin
-4835.3  plotscr.hsd version: 3U 
-4845.2  msg: M ohrrpgce.hsp
-4845.2  msg: M plotscr.lst
-4845.2  msg: M plotscr.lst
-4845.2  msg: M lookup1.bin
-4845.2  plotscr.hsd version: 3U 
-4924.2  msg: M ohrrpgce.hsp
-4924.2  msg: M plotscr.lst
-4924.2  msg: M plotscr.lst
-4924.2  msg: M lookup1.bin
-4924.2  plotscr.hsd version: 3U 
-4924.2  not reloading script keypressmm because it's in use: refcount=1
-4924.2  unlock_resolution(426,240)
-4924.2  setvideomode zoom=2 w*h = 852,480
-4924.3  set_resolution 426*240
-4924.3  lock_resolution()
-4924.3  setvideomode zoom=2 w*h = 852,480
-4937.6  msg: M ohrrpgce.gen
-4937.6  msg: M general.reld
-4940.7  msg: M slicetree_0_0.reld
-4940.7  did not reload slicetree_0_0.reld
-4941.0  msg: M slicetree_0_1.reld
-4941.0  did not reload slicetree_0_1.reld
-4941.4  msg: M slicetree_0_2.reld
-4941.4  did not reload slicetree_0_2.reld
-4952.3  msg: M slicetree_0_3.reld
-4952.3  msg: M ohrrpgce.gen
-4952.3  msg: M general.reld
-4952.3  did not reload slicetree_0_3.reld
-4963.6  msg: M slicetree_0_0.reld
-4963.6  did not reload slicetree_0_0.reld
-4964.8  msg: M slicetree_0_1.reld
-4964.8  did not reload slicetree_0_1.reld
-4965.0  msg: M slicetree_0_2.reld
-4965.0  did not reload slicetree_0_2.reld
-4973.3  msg: M slicetree_0_3.reld
-4973.3  msg: M ohrrpgce.gen
-4973.3  msg: M general.reld
-4973.3  did not reload slicetree_0_3.reld
-4986.5  msg: M slicetree_0_0.reld
-4986.5  did not reload slicetree_0_0.reld
-4986.9  msg: M slicetree_0_1.reld
-4986.9  did not reload slicetree_0_1.reld
-4987.3  msg: M slicetree_0_2.reld
-4987.3  did not reload slicetree_0_2.reld
-4988.1  msg: M slicetree_0_3.reld
-4988.1  did not reload slicetree_0_3.reld
-4988.9  msg: M slicetree_0_2.reld
-4988.9  did not reload slicetree_0_2.reld
-5054.7  msg: M slicetree_0_3.reld
-5054.7  msg: M ohrrpgce.gen
-5054.7  msg: M general.reld
-5054.7  did not reload slicetree_0_3.reld
-5055.1  msg: M ohrrpgce.gen
-5057.3  msg: M ohrrpgce.hsp
-5057.3  msg: M plotscr.lst
-5057.3  msg: M plotscr.lst
-5057.3  msg: M lookup1.bin
-5057.4  plotscr.hsd version: 3U 
-5057.4  not reloading script keypressmm because it's in use: refcount=1
-5057.4  unlock_resolution(426,240)
-5057.4  setvideomode zoom=2 w*h = 852,480
-5058.2  set_resolution 426*240
-5058.2  lock_resolution()
-5058.2  setvideomode zoom=2 w*h = 852,480
-5058.5  plotscr.hsd version: 3U 
-5072.9  msg: M ohrrpgce.hsp
-5072.9  msg: M plotscr.lst
-5072.9  msg: M plotscr.lst
-5072.9  msg: M lookup1.bin
-5072.9  plotscr.hsd version: 3U 
-5073.7  msg: M ohrrpgce.gen
-5073.7  msg: M general.reld
-5084.8  msg: M ohrrpgce.itm
-5097.0  msg: M ohrrpgce.gen
-5097.0  msg: M general.reld
-5101.5  msg: M slicetree_0_0.reld
-5101.5  did not reload slicetree_0_0.reld
-5101.7  msg: M slicetree_0_1.reld
-5101.7  did not reload slicetree_0_1.reld
-5105.4  msg: M slicetree_0_2.reld
-5105.4  did not reload slicetree_0_2.reld
-5118.0  msg: M slicetree_0_3.reld
-5118.0  msg: M ohrrpgce.gen
-5118.0  msg: M general.reld
-5118.0  did not reload slicetree_0_3.reld
-5157.9  msg: M ohrrpgce.itm
-5162.2  msg: M ohrrpgce.itm
-5165.1  msg: M ohrrpgce.itm
-5170.1  msg: M ohrrpgce.itm
-5181.0  msg: M ohrrpgce.itm
-5184.4  msg: M ohrrpgce.itm
-5187.7  msg: M ohrrpgce.itm
-5190.5  msg: M ohrrpgce.itm
-5193.7  msg: M ohrrpgce.itm
-5216.4  msg: M ohrrpgce.itm
-5221.9  msg: M ohrrpgce.itm
-5225.6  msg: M ohrrpgce.itm
-5226.9  msg: M ohrrpgce.itm
-5227.9  msg: M ohrrpgce.gen
-5227.9  msg: M general.reld
-5257.2  msg: M ohrrpgce.dt6
-5257.2  msg: M attack.bin
-5257.2  did not reload ohrrpgce.dt6
-5257.2  did not reload attack.bin
-5257.7  msg: M ohrrpgce.gen
-5257.8  msg: M general.reld
-5274.5  msg: M ohrrpgce.hsp
-5274.5  msg: M plotscr.lst
-5274.5  msg: M plotscr.lst
-5274.5  msg: M lookup1.bin
-5274.5  plotscr.hsd version: 3U 
-5278.3  msg: M ohrrpgce.gen
-5278.3  msg: M general.reld
-5279.0  msg: M ohrrpgce.gen
-5280.3  msg: P 
-5280.7  msg: M ohrrpgce.gen
-5280.7  msg: M general.reld
-5281.1  msg: Q 
-5281.1  Cleaning up and terminating 0
-5281.1  Closing music backend...
-5281.2  ...done
-5281.2  Deleting tmpdir /home/suzuki/.ohrrpgce/ohrrpgce20210702131831.858.tmp/
-5281.2  Closing gfx backend & allmodex...
-5281.2  ...done
-5281.2  End.
-
-  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
-
-Loading C:\OHRRPGCE\support\CrashRpt1403.dll
- 0.2   ----Starting OHRRPGCE Game----
- 0.2  07-03-2021 12:59:21
- 0.2  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
- 0.2  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
- 0.2  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.2  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.2  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
- 0.2  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_28951'
- 0.2  Spawned from Custom
- 0.2  Initialising gfx_sdl2...
- 0.3  setvideomode zoom=2 w*h = 640,400
- 0.3  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
- 0.3  disable_native_text_input=0
- 0.5  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
- 0.5  Setting default window settings...
- 0.5  set_resolution 320*200
- 0.5  Setting graphics scaling to x2 change_windowsize=-1
- 0.5  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
- 0.5  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
- 0.5  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
-end_debug: no debug/error messages during startup (skipping rest of startup)
-
- 0.5   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
- 0.5  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.5  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210703125921.652.tmp\
- 0.5  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
- 0.6  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
- 0.6  Name: 
- 0.8  plotscr.hsd version: 3U 
- 1.3  lock_resolution()
- 1.3  set_resolution 426*240
- 1.3  recenter_window_hint()
- 1.3  get_screen_size: true screen size 1600x900
- 1.3  Desktop resolution: 1600*860
- 1.3  automatic_scale_factor(0.5), screen size: 1600*860
- 1.3  Setting graphics scaling to x2 change_windowsize=-1
- 1.3  Preserving fullscreen/windowed state
- 1.3  genRungameFullscreenIndependent: 0
- 6.1  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
- 6.1  unlock_resolution(426,240)
- 7.1  set_resolution 426*240
- 7.1  lock_resolution()
- 7.1  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
- 7.1  unlock_resolution(426,240)
- 7.9  set_resolution 426*240
- 7.9  lock_resolution()
- 7.9  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
- 7.9  unlock_resolution(426,240)
- 8.2  set_resolution 426*240
- 8.2  lock_resolution()
- 8.2  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
- 8.2  unlock_resolution(426,240)
- 9.0  Killing script fibre; last script = keypressmm
- 9.0  set_resolution 426*240
- 9.0  lock_resolution()
- 9.0  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
- 9.0  unlock_resolution(426,240)
-10.1  Killing script fibre; last script = keypressmm
-10.1  set_resolution 426*240
-10.1  lock_resolution()
-10.2  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-10.2  unlock_resolution(426,240)
-11.2  set_resolution 426*240
-11.2  lock_resolution()
-29.0  msg: M ohrrpgce.gen
-29.0  msg: M general.reld
-42.1  msg: M browse.txt
-42.1  msg: M browse.txt
-42.1  msg: M general.reld
-42.1  msg: M ohrrpgce.gen
-42.1  msg: M general.reld
-44.5  msg: M slicetree_0_0.reld
-44.5  did not reload slicetree_0_0.reld
-44.8  msg: M slicetree_0_1.reld
-44.8  did not reload slicetree_0_1.reld
-45.4  msg: M slicetree_0_2.reld
-45.4  did not reload slicetree_0_2.reld
-54.1  msg: M slicetree_0_3.reld
-54.1  msg: M ohrrpgce.gen
-54.1  msg: M general.reld
-54.1  did not reload slicetree_0_3.reld
-163.7  msg: M slicetree_0_0.reld
-163.7  did not reload slicetree_0_0.reld
-163.8  msg: M ohrrpgce.gen
-163.8  msg: M general.reld
-166.7  msg: M ohrrpgce.gen
-168.0  msg: M ohrrpgce.gen
-170.3  msg: M ohrrpgce.gen
-173.5  msg: M ohrrpgce.gen
-173.5  msg: M general.reld
-175.8  msg: M slicetree_0_0.reld
-175.8  did not reload slicetree_0_0.reld
-176.1  msg: M slicetree_0_1.reld
-176.1  did not reload slicetree_0_1.reld
-176.4  msg: M slicetree_0_2.reld
-176.4  did not reload slicetree_0_2.reld
-176.9  msg: M slicetree_0_3.reld
-176.9  did not reload slicetree_0_3.reld
-185.4  PeekNamedPipe error (closing) : The pipe has been ended.
-185.4  Cleaning up and terminating 0
-185.4  Closing music backend...
-185.4  ...done
-185.4  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210703125921.652.tmp\
-185.6  Closing gfx backend & allmodex...
-185.6  ...done
-185.6  End.
-
-  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
-
-Loading C:\OHRRPGCE\support\CrashRpt1403.dll
- 0.2   ----Starting OHRRPGCE Game----
- 0.2  07-04-2021 14:47:05
- 0.2  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
- 0.2  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
- 0.2  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.2  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.2  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
- 0.2  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_44134'
- 0.2  Spawned from Custom
- 0.2  Initialising gfx_sdl2...
- 0.3  setvideomode zoom=2 w*h = 640,400
- 0.3  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
- 0.3  disable_native_text_input=0
- 0.4  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
- 0.4  Setting default window settings...
- 0.4  set_resolution 320*200
- 0.4  Setting graphics scaling to x2 change_windowsize=-1
- 0.4  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
- 0.4  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
- 0.4  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
-end_debug: no debug/error messages during startup (skipping rest of startup)
-
- 0.4   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
- 0.4  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.4  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210704144705.660.tmp\
- 0.4  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
- 0.5  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
- 0.5  Name: 
- 0.7  plotscr.hsd version: 3U 
- 1.2  lock_resolution()
- 1.2  set_resolution 426*240
- 1.2  recenter_window_hint()
- 1.2  get_screen_size: true screen size 1600x900
- 1.2  Desktop resolution: 1600*860
- 1.2  automatic_scale_factor(0.5), screen size: 1600*860
- 1.2  Setting graphics scaling to x2 change_windowsize=-1
- 1.2  Preserving fullscreen/windowed state
- 1.2  genRungameFullscreenIndependent: 0
- 1.9  Joystick 0 GUID 03000000c82d000006500000000000 instance_id 0
- 1.9   Opened as gamecontroller 8BitDo M30 Gamepad
- 1.9  Opened joystick 0 8BitDo M30 gamepad (id 0) -- 15 buttons 6 axes 1 hats 0 balls
- 1.9  JOYSTICKSTATE.UPDATE_KEYBITS(0) took 11ms
- 7.5  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
- 7.5  unlock_resolution(426,240)
- 8.8  set_resolution 426*240
- 8.8  lock_resolution()
- 8.8  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
- 8.8  unlock_resolution(426,240)
- 9.4  set_resolution 426*240
- 9.4  lock_resolution()
- 9.4  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
- 9.4  unlock_resolution(426,240)
- 9.8  set_resolution 426*240
- 9.8  lock_resolution()
- 9.8  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
- 9.8  unlock_resolution(426,240)
-10.0  set_resolution 426*240
-10.0  lock_resolution()
-10.0  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-10.0  unlock_resolution(426,240)
-10.4  set_resolution 426*240
-10.4  lock_resolution()
-10.4  ! Scripterr(5): defkeypress -> keypressmm: slicechild: invalid slice handle 0
-10.4  unlock_resolution(426,240)
-10.6  set_resolution 426*240
-10.6  lock_resolution()
-10.6  ! Scripterr(5): defkeypress -> keypressmm: scrolltochild: invalid slice handle 0
-10.6  unlock_resolution(426,240)
-10.8  set_resolution 426*240
-10.8  lock_resolution()
-10.8  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-10.8  unlock_resolution(426,240)
-11.0  set_resolution 426*240
-11.0  lock_resolution()
-11.0  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-11.0  unlock_resolution(426,240)
-11.3  set_resolution 426*240
-11.3  lock_resolution()
-11.3  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-11.3  unlock_resolution(426,240)
-11.5  set_resolution 426*240
-11.5  lock_resolution()
-11.5  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-11.5  unlock_resolution(426,240)
-11.7  set_resolution 426*240
-11.7  lock_resolution()
-11.7  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-11.7  unlock_resolution(426,240)
-11.9  set_resolution 426*240
-11.9  lock_resolution()
-11.9  ! Scripterr(5): defkeypress -> keypressmm: slicechild: invalid slice handle 0
-11.9  unlock_resolution(426,240)
-12.1  set_resolution 426*240
-12.1  lock_resolution()
-12.1  ! Scripterr(5): defkeypress -> keypressmm: scrolltochild: invalid slice handle 0
-12.1  unlock_resolution(426,240)
-12.3  set_resolution 426*240
-12.3  lock_resolution()
-12.3  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-12.3  unlock_resolution(426,240)
-13.2  Killing script fibre; last script = keypressmm
-13.2  set_resolution 426*240
-13.2  lock_resolution()
-13.2  ! Scripterr(5): defkeypress -> keypressmain -> mm -> specwait -> mmupdate: firstchild: invalid slice handle 0
-13.2  unlock_resolution(426,240)
-13.7  set_resolution 426*240
-13.7  lock_resolution()
-13.7  ! Scripterr(5): defkeypress -> keypressmain -> mm -> specwait -> mmupdate: firstchild: invalid slice handle 0
-13.7  unlock_resolution(426,240)
-14.9  Killing script fibre; last script = mmupdate
-14.9  set_resolution 426*240
-14.9  lock_resolution()
-15.0  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-15.0  unlock_resolution(426,240)
-15.9  Killing script fibre; last script = keypressmm
-15.9  set_resolution 426*240
-15.9  lock_resolution()
-16.0  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-16.0  unlock_resolution(426,240)
-17.9  Killing script fibre; last script = keypressmm
-17.9  set_resolution 426*240
-17.9  lock_resolution()
-18.0  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-18.0  unlock_resolution(426,240)
-19.2  Killing script fibre; last script = keypressmm
-19.2  set_resolution 426*240
-19.2  lock_resolution()
-19.3  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-19.3  unlock_resolution(426,240)
-19.6  set_resolution 426*240
-19.6  lock_resolution()
-19.6  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-19.6  unlock_resolution(426,240)
-20.2  set_resolution 426*240
-20.2  lock_resolution()
-20.2  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-20.2  unlock_resolution(426,240)
-20.5  set_resolution 426*240
-20.5  lock_resolution()
-20.5  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-20.5  unlock_resolution(426,240)
-21.3  set_resolution 426*240
-21.3  lock_resolution()
-26.9  Cleaning up and terminating 0
-26.9  Closing music backend...
-27.0  ...done
-27.0  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210704144705.660.tmp\
-27.1  Closing gfx backend & allmodex...
-27.2  ...done
-27.2  End.
-
-  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
-
-Loading C:\OHRRPGCE\support\CrashRpt1403.dll
- 0.1   ----Starting OHRRPGCE Game----
- 0.1  07-04-2021 14:47:33
- 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
- 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
- 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.1  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
- 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_48358'
- 0.1  Spawned from Custom
- 0.1  Initialising gfx_sdl2...
- 0.2  setvideomode zoom=2 w*h = 640,400
- 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
- 0.2  disable_native_text_input=0
- 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
- 0.3  Setting default window settings...
- 0.3  set_resolution 320*200
- 0.3  Setting graphics scaling to x2 change_windowsize=-1
- 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
- 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
- 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
-end_debug: no debug/error messages during startup (skipping rest of startup)
-
- 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
- 0.3  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210704144733.714.tmp\
- 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
- 0.3  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
- 0.3  Name: 
- 0.4  plotscr.hsd version: 3U 
- 0.9  lock_resolution()
- 0.9  set_resolution 426*240
- 0.9  recenter_window_hint()
- 0.9  get_screen_size: true screen size 1600x900
- 0.9  Desktop resolution: 1600*860
- 0.9  automatic_scale_factor(0.5), screen size: 1600*860
- 0.9  Setting graphics scaling to x2 change_windowsize=-1
- 0.9  Preserving fullscreen/windowed state
- 0.9  genRungameFullscreenIndependent: 0
- 1.4  Joystick 0 GUID 03000000c82d000006500000000000 instance_id 0
- 1.4   Opened as gamecontroller 8BitDo M30 Gamepad
- 1.4  Opened joystick 0 8BitDo M30 gamepad (id 0) -- 15 buttons 6 axes 1 hats 0 balls
- 1.4  JOYSTICKSTATE.UPDATE_KEYBITS(0) took 11ms
- 3.9  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
- 3.9  unlock_resolution(426,240)
- 4.9  set_resolution 426*240
- 4.9  lock_resolution()
- 4.9  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
- 4.9  unlock_resolution(426,240)
- 5.4  set_resolution 426*240
- 5.4  lock_resolution()
- 5.4  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
- 5.4  unlock_resolution(426,240)
- 5.6  set_resolution 426*240
- 5.6  lock_resolution()
- 5.6  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
- 5.6  unlock_resolution(426,240)
- 5.8  set_resolution 426*240
- 5.8  lock_resolution()
- 5.8  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
- 5.8  unlock_resolution(426,240)
- 6.0  set_resolution 426*240
- 6.0  lock_resolution()
- 6.0  ! Scripterr(5): defkeypress -> keypressmm: slicechild: invalid slice handle 0
- 6.0  unlock_resolution(426,240)
- 6.8  Killing script fibre; last script = keypressmm
- 6.8  set_resolution 426*240
- 6.8  lock_resolution()
- 6.9  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
- 6.9  unlock_resolution(426,240)
- 7.4  set_resolution 426*240
- 7.4  lock_resolution()
- 7.4  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
- 7.4  unlock_resolution(426,240)
- 8.3  Killing script fibre; last script = keypressmm
- 8.3  set_resolution 426*240
- 8.3  lock_resolution()
- 8.4  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
- 8.4  unlock_resolution(426,240)
-10.3  set_resolution 426*240
-10.3  lock_resolution()
-10.3  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-10.3  unlock_resolution(426,240)
-11.3  Killing script fibre; last script = keypressmm
-11.3  set_resolution 426*240
-11.3  lock_resolution()
-11.3  ! Scripterr(5): defkeypress -> keypressmain -> mm -> specwait -> mmupdate: firstchild: invalid slice handle 0
-11.3  unlock_resolution(426,240)
-12.5  Killing script fibre; last script = mmupdate
-12.5  set_resolution 426*240
-12.5  lock_resolution()
-13.4  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-13.4  unlock_resolution(426,240)
-15.0  Killing script fibre; last script = keypressmm
-15.0  set_resolution 426*240
-15.0  lock_resolution()
-15.1  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-15.1  unlock_resolution(426,240)
-16.5  set_resolution 426*240
-16.5  lock_resolution()
-466.2  Cleaning up and terminating 0
-466.2  Closing music backend...
-466.2  ...done
-466.2  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210704144733.714.tmp\
-466.4  Closing gfx backend & allmodex...
-466.4  ...done
-466.4  End.
-
-  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
-
-Loading C:\OHRRPGCE\support\CrashRpt1403.dll
-
- 1.9   ----Starting OHRRPGCE Game----
- 1.9  07-06-2021 11:54:10
- 1.9  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
- 1.9  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
- 1.9  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 1.9  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 1.9  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
- 2.0  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_36347'
- 2.0  Spawned from Custom
- 2.0  Initialising gfx_sdl2...
- 2.0  setvideomode zoom=2 w*h = 640,400
- 2.1  gfx_sdl2 "SDL 2.0.14 (2 joysticks) Driver:windows (Drivers: windows dummy)"
- 2.1  disable_native_text_input=0
- 2.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
- 2.2  Setting default window settings...
- 2.2  set_resolution 320*200
- 2.2  Setting graphics scaling to x2 change_windowsize=-1
- 2.2  handshake_with_master: no message on channel
- 2.2  ! FATAL: Could not communicate with Custom
- 2.2  Joystick 0 GUID 03000000c82d000018900000000000 instance_id 1
- 2.2   Opened as gamecontroller 8BitDo Zero 2
- 2.2  Opened joystick 0 8BitDo Zero 2 gamepad (id 1) -- 15 buttons 4 axes 1 hats 0 balls
- 2.2  Joystick 1 GUID 03000000c82d000006500000000000 instance_id 0
- 2.2   Opened as gamecontroller 8BitDo M30 Gamepad
- 2.2  Opened joystick 1 8BitDo M30 gamepad (id 0) -- 15 buttons 6 axes 1 hats 0 balls
- 3.3  Cleaning up and terminating 1
- 3.3  Closing music backend...
- 3.4  ...done
- 3.4  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210706115410.799.tmp\
- 3.4  Closing gfx backend & allmodex...
- 3.4  ...done
- 3.4  End.
-
-  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
-
-Loading C:\OHRRPGCE\support\CrashRpt1403.dll
- 0.1   ----Starting OHRRPGCE Game----
- 0.1  07-08-2021 07:37:50
- 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
- 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
- 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.1  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
- 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_80473'
- 0.1  Spawned from Custom
- 0.1  Initialising gfx_sdl2...
- 0.2  setvideomode zoom=2 w*h = 640,400
- 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
- 0.2  disable_native_text_input=0
- 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
- 0.2  Setting default window settings...
- 0.2  set_resolution 320*200
- 0.3  Setting graphics scaling to x2 change_windowsize=-1
- 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
- 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
- 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
-end_debug: no debug/error messages during startup (skipping rest of startup)
-
- 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
- 0.3  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210708073750.493.tmp\
- 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
- 0.3  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
- 0.3  Name: 
- 0.4  plotscr.hsd version: 3U 
- 0.9  lock_resolution()
- 0.9  set_resolution 426*240
- 0.9  recenter_window_hint()
- 0.9  get_screen_size: true screen size 1600x900
- 0.9  Desktop resolution: 1600*860
- 0.9  automatic_scale_factor(0.5), screen size: 1600*860
- 0.9  Setting graphics scaling to x2 change_windowsize=-1
- 0.9  Preserving fullscreen/windowed state
- 0.9  genRungameFullscreenIndependent: 0
- 1.5  Joystick 0 GUID 03000000c82d000006500000000000 instance_id 0
- 1.5   Opened as gamecontroller 8BitDo M30 Gamepad
- 1.5  Opened joystick 0 8BitDo M30 gamepad (id 0) -- 15 buttons 6 axes 1 hats 0 balls
-100.8  msg: M ohrrpgce.gen
-100.8  msg: M general.reld
-109.5  msg: M ohrrpgce.dt6
-109.5  msg: M attack.bin
-109.5  did not reload ohrrpgce.dt6
-109.5  did not reload attack.bin
-178.4  msg: M ohrrpgce.dt6
-178.4  msg: M attack.bin
-178.4  did not reload ohrrpgce.dt6
-178.4  did not reload attack.bin
-181.0  msg: M ohrrpgce.dt6
-181.0  msg: M attack.bin
-181.0  did not reload ohrrpgce.dt6
-181.0  did not reload attack.bin
-193.3  msg: M ohrrpgce.dt6
-193.3  msg: M attack.bin
-193.3  did not reload ohrrpgce.dt6
-193.3  did not reload attack.bin
-196.6  msg: M ohrrpgce.dt6
-196.6  msg: M attack.bin
-196.6  did not reload ohrrpgce.dt6
-196.6  did not reload attack.bin
-198.4  msg: M ohrrpgce.dt6
-198.4  msg: M attack.bin
-198.4  did not reload ohrrpgce.dt6
-198.4  did not reload attack.bin
-198.9  msg: M ohrrpgce.dt6
-198.9  msg: M attack.bin
-198.9  did not reload ohrrpgce.dt6
-198.9  did not reload attack.bin
-208.1  msg: M ohrrpgce.dt6
-208.1  msg: M attack.bin
-208.1  did not reload ohrrpgce.dt6
-208.1  did not reload attack.bin
-213.3  msg: M ohrrpgce.dt6
-213.3  msg: M attack.bin
-213.3  did not reload ohrrpgce.dt6
-213.3  did not reload attack.bin
-216.7  msg: M ohrrpgce.dt6
-216.7  msg: M attack.bin
-216.7  did not reload ohrrpgce.dt6
-216.7  did not reload attack.bin
-242.6  msg: M ohrrpgce.dt6
-242.6  msg: M attack.bin
-242.7  did not reload ohrrpgce.dt6
-242.7  did not reload attack.bin
-245.6  msg: M ohrrpgce.dt6
-245.6  msg: M attack.bin
-245.6  did not reload ohrrpgce.dt6
-245.6  did not reload attack.bin
-251.7  msg: M ohrrpgce.dt6
-251.7  msg: M attack.bin
-251.7  did not reload ohrrpgce.dt6
-251.7  did not reload attack.bin
-262.0  msg: M ohrrpgce.dt6
-262.0  msg: M attack.bin
-262.0  did not reload ohrrpgce.dt6
-262.0  did not reload attack.bin
-305.8  msg: M ohrrpgce.dt6
-305.8  msg: M attack.bin
-305.8  did not reload ohrrpgce.dt6
-305.8  did not reload attack.bin
-309.7  msg: M ohrrpgce.gen
-309.7  msg: M general.reld
-343.6  msg: M ohrrpgce.itm
-349.0  msg: M ohrrpgce.itm
-352.9  msg: M ohrrpgce.itm
-356.2  msg: M ohrrpgce.itm
-360.5  msg: M ohrrpgce.itm
-361.1  msg: M ohrrpgce.gen
-361.1  msg: M general.reld
-362.4  msg: M ohrrpgce.gen
-370.6  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-370.6  unlock_resolution(426,240)
-372.9  Killing script fibre; last script = keypressmm
-372.9  set_resolution 426*240
-372.9  lock_resolution()
-373.0  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-373.0  unlock_resolution(426,240)
-374.0  Killing script fibre; last script = keypressmm
-374.0  set_resolution 426*240
-374.0  lock_resolution()
-374.0  ! Scripterr(5): defkeypress -> keypressmain -> mm -> specwait -> mmupdate: firstchild: invalid slice handle 0
-374.0  unlock_resolution(426,240)
-375.1  Killing script fibre; last script = mmupdate
-375.1  set_resolution 426*240
-375.1  lock_resolution()
-375.2  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-375.2  unlock_resolution(426,240)
-378.1  Killing script fibre; last script = keypressmm
-378.1  set_resolution 426*240
-378.1  lock_resolution()
-378.1  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-378.1  unlock_resolution(426,240)
-379.1  set_resolution 426*240
-379.1  lock_resolution()
-520.3  msg: M ohrrpgce.hsp
-520.3  msg: M plotscr.lst
-520.4  msg: M plotscr.lst
-520.4  msg: M lookup1.bin
-520.5  plotscr.hsd version: 3U 
-520.5  not reloading script keypressmm because it's in use: refcount=1
-520.5  unlock_resolution(426,240)
-523.4  set_resolution 426*240
-523.4  lock_resolution()
-523.8  plotscr.hsd version: 3U 
-557.3  msg: M ohrrpgce.hsp
-557.3  msg: M plotscr.lst
-557.3  msg: M plotscr.lst
-557.3  msg: M lookup1.bin
-557.4  plotscr.hsd version: 3U 
-566.4  msg: M ohrrpgce.hsp
-566.4  msg: M plotscr.lst
-566.4  msg: M plotscr.lst
-566.4  msg: M lookup1.bin
-566.5  plotscr.hsd version: 3U 
-720.5  msg: M ohrrpgce.hsp
-720.5  msg: M plotscr.lst
-720.5  msg: M plotscr.lst
-720.6  plotscr.hsd version: 3U 
-720.6  msg: M lookup1.bin
-752.1  msg: M ohrrpgce.hsp
-752.1  msg: M plotscr.lst
-752.1  msg: M plotscr.lst
-752.1  msg: M lookup1.bin
-752.2  plotscr.hsd version: 3U 
-766.5  msg: M ohrrpgce.gen
-766.5  msg: M general.reld
-795.5  msg: M ohrrpgce.hsp
-795.5  msg: M plotscr.lst
-795.5  msg: M plotscr.lst
-795.5  msg: M lookup1.bin
-795.6  plotscr.hsd version: 3U 
-872.7  msg: M ohrrpgce.hsp
-872.7  msg: M plotscr.lst
-872.7  msg: M plotscr.lst
-872.7  msg: M lookup1.bin
-872.8  plotscr.hsd version: 3U 
-920.8  msg: M ohrrpgce.hsp
-920.8  msg: M plotscr.lst
-920.8  msg: M plotscr.lst
-920.8  msg: M lookup1.bin
-920.9  plotscr.hsd version: 3U 
-920.9  not reloading script keypressmm because it's in use: refcount=1
-921.0  unlock_resolution(426,240)
-922.2  set_resolution 426*240
-922.2  lock_resolution()
-923.3  plotscr.hsd version: 3U 
-1103.0  msg: M ohrrpgce.gen
-1103.0  msg: M general.reld
-1116.2  msg: M ohrrpgce.say
-1116.2  did not reload ohrrpgce.say
-1142.2  msg: M ohrrpgce.say
-1142.2  did not reload ohrrpgce.say
-1181.9  msg: M ohrrpgce.gen
-1181.9  msg: M general.reld
-1203.1  msg: M ohrrpgce.hsp
-1203.1  msg: M plotscr.lst
-1203.1  msg: M plotscr.lst
-1203.2  msg: M lookup1.bin
-1203.3  plotscr.hsd version: 3U 
-1229.5  msg: M ohrrpgce.hsp
-1229.5  msg: M plotscr.lst
-1229.5  msg: M plotscr.lst
-1229.5  msg: M lookup1.bin
-1229.6  plotscr.hsd version: 3U 
-1247.8  msg: M ohrrpgce.hsp
-1247.8  msg: M plotscr.lst
-1247.8  msg: M plotscr.lst
-1247.8  msg: M lookup1.bin
-1247.9  plotscr.hsd version: 3U 
-1263.5  msg: M ohrrpgce.hsp
-1263.5  msg: M plotscr.lst
-1263.5  msg: M plotscr.lst
-1263.5  msg: M lookup1.bin
-1263.6  plotscr.hsd version: 3U 
-1280.2  msg: M ohrrpgce.hsp
-1280.2  msg: M plotscr.lst
-1280.2  msg: M plotscr.lst
-1280.2  msg: M lookup1.bin
-1280.3  plotscr.hsd version: 3U 
-1371.7  msg: M ohrrpgce.hsp
-1371.7  msg: M plotscr.lst
-1371.8  plotscr.hsd version: 3U 
-1371.8  msg: M plotscr.lst
-1371.8  msg: M lookup1.bin
-1420.8  msg: M ohrrpgce.hsp
-1420.8  msg: M plotscr.lst
-1420.8  msg: M plotscr.lst
-1420.8  msg: M lookup1.bin
-1420.9  plotscr.hsd version: 3U 
-1458.0  msg: M ohrrpgce.gen
-1458.0  msg: M general.reld
-1550.5  msg: M ohrrpgce.itm
-1550.6  msg: M ohrrpgce.gen
-1550.6  msg: M general.reld
-1553.5  msg: M ohrrpgce.hsp
-1553.5  msg: M plotscr.lst
-1553.5  msg: M plotscr.lst
-1553.5  msg: M lookup1.bin
-1553.6  plotscr.hsd version: 3U 
-1798.3  msg: M ohrrpgce.gen
-1798.3  msg: M general.reld
-1804.3  msg: M ohrrpgce.say
-1804.3  did not reload ohrrpgce.say
-1831.8  msg: M ohrrpgce.say
-1831.8  did not reload ohrrpgce.say
-1839.4  msg: M ohrrpgce.gen
-1839.4  msg: M general.reld
-1852.9  msg: M ohrrpgce.hsp
-1852.9  msg: M plotscr.lst
-1852.9  msg: M plotscr.lst
-1852.9  msg: M lookup1.bin
-1853.0  plotscr.hsd version: 3U 
-1871.5  msg: M ohrrpgce.gen
-1871.5  msg: M general.reld
-1879.4  msg: M ohrrpgce.gen
-1899.1  msg: M ohrrpgce.itm
-1925.7  msg: M ohrrpgce.gen
-1925.7  msg: M general.reld
-1932.8  msg: M ohrrpgce.dt6
-1932.8  msg: M attack.bin
-1932.8  did not reload ohrrpgce.dt6
-1932.8  did not reload attack.bin
-1933.5  msg: M ohrrpgce.gen
-1933.5  msg: M general.reld
-1936.9  msg: M ohrrpgce.hsp
-1936.9  msg: M plotscr.lst
-1936.9  msg: M plotscr.lst
-1936.9  msg: M lookup1.bin
-1937.0  plotscr.hsd version: 3U 
-1969.2  msg: M ohrrpgce.gen
-1969.2  msg: M general.reld
-1973.6  msg: M ohrrpgce.say
-1973.6  did not reload ohrrpgce.say
-1981.0  msg: M ohrrpgce.say
-1981.0  did not reload ohrrpgce.say
-1992.2  msg: M ohrrpgce.gen
-1992.2  msg: M general.reld
-1995.1  msg: M ohrrpgce.hsp
-1995.1  msg: M plotscr.lst
-1995.1  msg: M plotscr.lst
-1995.1  msg: M lookup1.bin
-1995.3  plotscr.hsd version: 3U 
-2679.5  msg: M ohrrpgce.gen
-2679.5  msg: M general.reld
-2700.1  msg: M songdata.bin
-2708.2  msg: M song11.it
-2708.3  msg: M songdata.bin
-2738.7  msg: M songdata.bin
-2739.2  msg: M ohrrpgce.gen
-2739.2  msg: M general.reld
-2742.2  msg: M ohrrpgce.hsp
-2742.2  msg: M plotscr.lst
-2742.2  msg: M plotscr.lst
-2742.2  msg: M lookup1.bin
-2742.3  plotscr.hsd version: 3U 
-3068.2  msg: M ohrrpgce.gen
-3068.2  msg: M general.reld
-3078.8  msg: M sfx6.ogg
-3078.8  msg: M sfxdata.bin
-3079.8  msg: M sfxdata.bin
-3131.2  msg: M sfxdata.bin
-3159.5  msg: M ohrrpgce.gen
-3159.5  msg: M general.reld
-3162.7  msg: M ohrrpgce.hsp
-3162.7  msg: M plotscr.lst
-3162.7  msg: M plotscr.lst
-3162.7  msg: M lookup1.bin
-3162.8  plotscr.hsd version: 3U 
-3163.1  msg: M ohrrpgce.gen
-3163.1  msg: M general.reld
-3184.0  Cleaning up and terminating 0
-3184.0  Closing music backend...
-3184.0  ...done
-3184.0  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210708073750.493.tmp\
-3184.2  Closing gfx backend & allmodex...
-3184.2  ...done
-3184.2  End.
-
-  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
-
-Loading C:\OHRRPGCE\support\CrashRpt1403.dll
- 0.2   ----Starting OHRRPGCE Game----
- 0.2  07-09-2021 13:47:52
- 0.2  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
- 0.2  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
- 0.2  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.2  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.2  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
- 0.2  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_93324'
- 0.2  Spawned from Custom
- 0.2  Initialising gfx_sdl2...
- 0.3  setvideomode zoom=2 w*h = 640,400
  0.3  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
  0.3  disable_native_text_input=0
  0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
@@ -2342,3 +702,2080 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 23.5  Closing gfx backend & allmodex...
 23.5  ...done
 23.5  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-09-2021 16:50:40
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_9768'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210709165040.465.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
+ 0.3  Name: 
+ 0.5  plotscr.hsd version: 3U 
+ 1.0  lock_resolution()
+ 1.0  set_resolution 426*240
+ 1.0  recenter_window_hint()
+ 1.0  get_screen_size: true screen size 1600x900
+ 1.0  Desktop resolution: 1600*860
+ 1.0  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.0  Setting graphics scaling to x2 change_windowsize=-1
+ 1.0  Preserving fullscreen/windowed state
+ 1.0  genRungameFullscreenIndependent: 0
+55.1  msg: M ohrrpgce.gen
+55.1  msg: M general.reld
+57.5  msg: M ohrrpgce.hsp
+57.5  msg: M plotscr.lst
+57.5  msg: M plotscr.lst
+57.5  msg: M lookup1.bin
+57.7  plotscr.hsd version: 3U 
+57.7  not reloading script titlescreen because it's in use: refcount=1
+57.7  unlock_resolution(426,240)
+60.1  set_resolution 426*240
+60.1  lock_resolution()
+60.1  msg: M ohrrpgce.gen
+60.1  msg: M general.reld
+60.7  plotscr.hsd version: 3U 
+225.2  msg: M ohrrpgce.gen
+225.2  msg: M general.reld
+231.0  msg: M ohrrpgce.gen
+231.0  msg: M general.reld
+249.0  msg: M ohrrpgce.gen
+249.0  msg: M general.reld
+251.1  msg: M ohrrpgce.gen
+251.1  msg: M general.reld
+261.9  msg: M backdrops.rgfx
+265.5  msg: M backdrops.rgfx
+266.6  msg: M ohrrpgce.gen
+274.0  msg: M ohrrpgce.gen
+274.0  msg: M general.reld
+342.1  msg: M ohrrpgce.gen
+342.1  msg: M general.reld
+345.1  msg: M ohrrpgce.hsp
+345.1  msg: M plotscr.lst
+345.1  msg: M plotscr.lst
+345.1  msg: M lookup1.bin
+345.3  plotscr.hsd version: 3U 
+345.3  not reloading script titlescreen because it's in use: refcount=1
+345.3  unlock_resolution(426,240)
+348.0  set_resolution 426*240
+348.0  lock_resolution()
+348.0  msg: M ohrrpgce.gen
+348.0  msg: M general.reld
+348.5  plotscr.hsd version: 3U 
+373.7  msg: M ohrrpgce.hsp
+373.7  msg: M plotscr.lst
+373.7  msg: M plotscr.lst
+373.7  msg: M lookup1.bin
+373.8  plotscr.hsd version: 3U 
+373.8  not reloading script defnewgame because it's in use: refcount=1
+373.8  unlock_resolution(426,240)
+375.0  set_resolution 426*240
+375.0  lock_resolution()
+375.3  plotscr.hsd version: 3U 
+541.4  msg: M ohrrpgce.hsp
+541.4  msg: M plotscr.lst
+541.4  msg: M plotscr.lst
+541.4  msg: M lookup1.bin
+541.5  plotscr.hsd version: 3U 
+541.5  not reloading script titlescreen because it's in use: refcount=1
+541.5  unlock_resolution(426,240)
+544.1  set_resolution 426*240
+544.1  lock_resolution()
+544.5  plotscr.hsd version: 3U 
+837.5  msg: M ohrrpgce.hsp
+837.5  msg: M plotscr.lst
+837.5  msg: M plotscr.lst
+837.5  msg: M lookup1.bin
+837.6  plotscr.hsd version: 3U 
+837.6  not reloading script titlescreen because it's in use: refcount=1
+837.6  not reloading script specwait because it's in use: refcount=1
+837.6  unlock_resolution(426,240)
+838.7  set_resolution 426*240
+838.7  lock_resolution()
+839.1  plotscr.hsd version: 3U 
+842.7  ! Scripterr(2): defnewgame -> titlescreen: freeslice: invalid slice handle 0
+842.7  unlock_resolution(426,240)
+843.6  set_resolution 426*240
+843.6  lock_resolution()
+849.6  ! Scripterr(2): defnewgame -> titlescreen: freeslice: invalid slice handle 0
+849.6  unlock_resolution(426,240)
+855.7  set_resolution 426*240
+855.7  lock_resolution()
+889.8  msg: M ohrrpgce.hsp
+890.0  plotscr.hsd version: 3U 
+890.0  not reloading script titlescreen because it's in use: refcount=1
+890.0  unlock_resolution(426,240)
+891.0  set_resolution 426*240
+891.0  lock_resolution()
+891.0  msg: M plotscr.lst
+891.0  msg: M plotscr.lst
+891.0  msg: M lookup1.bin
+892.0  plotscr.hsd version: 3U 
+894.6  ! Scripterr(5): defnewgame -> titlescreen -> waitforanykey -> specwait -> titleupdate -> sinedist: firstchild: invalid slice handle 0
+894.6  unlock_resolution(426,240)
+895.6  set_resolution 426*240
+895.6  lock_resolution()
+895.6  ! Scripterr(5): defnewgame -> titlescreen -> waitforanykey -> specwait -> titleupdate -> sinedist: firstchild: invalid slice handle 0
+895.6  unlock_resolution(426,240)
+896.1  set_resolution 426*240
+896.1  lock_resolution()
+896.1  ! Scripterr(5): defnewgame -> titlescreen -> waitforanykey -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+896.1  unlock_resolution(426,240)
+896.6  set_resolution 426*240
+896.6  lock_resolution()
+896.6  ! Scripterr(5): defnewgame -> titlescreen -> waitforanykey -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+896.6  unlock_resolution(426,240)
+896.9  set_resolution 426*240
+896.9  lock_resolution()
+896.9  ! Scripterr(5): defnewgame -> titlescreen -> waitforanykey -> specwait -> titleupdate -> sinedist: firstchild: invalid slice handle 0
+896.9  unlock_resolution(426,240)
+897.1  set_resolution 426*240
+897.1  lock_resolution()
+897.1  ! Scripterr(5): defnewgame -> titlescreen -> waitforanykey -> specwait -> titleupdate -> sinedist: getsliceextra: invalid slice handle 0
+897.1  unlock_resolution(426,240)
+899.0  set_resolution 426*240
+899.0  lock_resolution()
+913.3  msg: M ohrrpgce.hsp
+913.3  msg: M plotscr.lst
+913.3  msg: M plotscr.lst
+913.3  msg: M lookup1.bin
+913.5  plotscr.hsd version: 3U 
+913.5  not reloading script titlescreen because it's in use: refcount=1
+913.5  unlock_resolution(426,240)
+915.0  set_resolution 426*240
+915.0  lock_resolution()
+915.4  plotscr.hsd version: 3U 
+918.0  Cleaning up and terminating 0
+918.0  Closing music backend...
+918.1  ...done
+918.1  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210709165040.465.tmp\
+918.2  Closing gfx backend & allmodex...
+918.2  ...done
+918.2  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-09-2021 17:06:01
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_16557'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.2  Setting default window settings...
+ 0.2  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210709170601.516.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
+ 0.3  Name: 
+ 0.4  plotscr.hsd version: 3U 
+ 0.9  lock_resolution()
+ 0.9  set_resolution 426*240
+ 0.9  recenter_window_hint()
+ 0.9  get_screen_size: true screen size 1600x900
+ 0.9  Desktop resolution: 1600*860
+ 0.9  automatic_scale_factor(0.5), screen size: 1600*860
+ 0.9  Setting graphics scaling to x2 change_windowsize=-1
+ 0.9  Preserving fullscreen/windowed state
+ 0.9  genRungameFullscreenIndependent: 0
+107.6  msg: M ohrrpgce.gen
+107.6  msg: M general.reld
+109.8  msg: M ohrrpgce.hsp
+109.8  msg: M plotscr.lst
+109.8  msg: M plotscr.lst
+109.8  msg: M lookup1.bin
+110.0  plotscr.hsd version: 3U 
+518.4  msg: M ohrrpgce.gen
+518.4  msg: M general.reld
+526.4  msg: M backdrops.rgfx
+530.5  msg: M backdrops.rgfx
+540.8  msg: M ohrrpgce.gen
+541.5  msg: M ohrrpgce.gen
+541.5  msg: M general.reld
+543.2  msg: M ohrrpgce.gen
+544.5  msg: P 
+544.8  msg: M ohrrpgce.gen
+544.8  msg: M general.reld
+588.8  msg: M ohrrpgce.hsp
+588.8  msg: M plotscr.lst
+588.8  msg: M plotscr.lst
+588.8  msg: M lookup1.bin
+588.9  plotscr.hsd version: 3U 
+588.9  not reloading script titlescreen because it's in use: refcount=1
+588.9  unlock_resolution(426,240)
+589.5  set_resolution 426*240
+589.5  lock_resolution()
+590.0  plotscr.hsd version: 3U 
+592.7  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+592.7  unlock_resolution(426,240)
+593.5  set_resolution 426*240
+593.5  lock_resolution()
+593.5  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+593.5  unlock_resolution(426,240)
+593.9  set_resolution 426*240
+593.9  lock_resolution()
+593.9  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+593.9  unlock_resolution(426,240)
+594.1  set_resolution 426*240
+594.1  lock_resolution()
+594.1  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+594.1  unlock_resolution(426,240)
+594.3  set_resolution 426*240
+594.3  lock_resolution()
+594.3  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+594.3  unlock_resolution(426,240)
+594.5  set_resolution 426*240
+594.5  lock_resolution()
+594.5  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+594.5  unlock_resolution(426,240)
+595.4  Killing script fibre; last script = titlescreen
+595.4  set_resolution 426*240
+595.4  lock_resolution()
+598.7  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+598.7  unlock_resolution(426,240)
+600.3  set_resolution 426*240
+600.3  lock_resolution()
+675.6  msg: M ohrrpgce.hsp
+675.6  msg: M plotscr.lst
+675.6  msg: M plotscr.lst
+675.6  msg: M lookup1.bin
+675.8  plotscr.hsd version: 3U 
+675.8  not reloading script titlescreen because it's in use: refcount=1
+675.8  unlock_resolution(426,240)
+678.4  set_resolution 426*240
+678.4  lock_resolution()
+679.0  plotscr.hsd version: 3U 
+729.3  msg: M ohrrpgce.hsp
+729.3  msg: M plotscr.lst
+729.3  msg: M plotscr.lst
+729.3  msg: M lookup1.bin
+729.4  plotscr.hsd version: 3U 
+729.4  not reloading script titlescreen because it's in use: refcount=1
+729.5  unlock_resolution(426,240)
+730.1  set_resolution 426*240
+730.1  lock_resolution()
+730.5  plotscr.hsd version: 3U 
+745.6  Cleaning up and terminating 0
+745.6  Closing music backend...
+745.7  ...done
+745.7  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210709170601.516.tmp\
+745.8  Closing gfx backend & allmodex...
+745.8  ...done
+745.8  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-09-2021 17:18:29
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_31190'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.2  Setting default window settings...
+ 0.2  set_resolution 320*200
+ 0.2  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210709171829.7.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
+ 0.3  Name: 
+ 0.4  plotscr.hsd version: 3U 
+ 0.9  lock_resolution()
+ 0.9  set_resolution 426*240
+ 0.9  recenter_window_hint()
+ 0.9  get_screen_size: true screen size 1600x900
+ 0.9  Desktop resolution: 1600*860
+ 0.9  automatic_scale_factor(0.5), screen size: 1600*860
+ 0.9  Setting graphics scaling to x2 change_windowsize=-1
+ 0.9  Preserving fullscreen/windowed state
+ 0.9  genRungameFullscreenIndependent: 0
+ 3.6  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+ 3.6  unlock_resolution(426,240)
+ 4.4  set_resolution 426*240
+ 4.4  lock_resolution()
+ 4.4  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+ 4.4  unlock_resolution(426,240)
+ 4.9  set_resolution 426*240
+ 4.9  lock_resolution()
+ 4.9  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+ 4.9  unlock_resolution(426,240)
+ 5.2  set_resolution 426*240
+ 5.2  lock_resolution()
+ 5.2  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+ 5.2  unlock_resolution(426,240)
+ 5.4  set_resolution 426*240
+ 5.4  lock_resolution()
+ 5.4  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+ 5.4  unlock_resolution(426,240)
+ 6.7  set_resolution 426*240
+ 6.7  lock_resolution()
+ 6.7  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+ 6.7  unlock_resolution(426,240)
+ 7.0  set_resolution 426*240
+ 7.0  lock_resolution()
+ 7.1  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+ 7.1  unlock_resolution(426,240)
+11.2  Killing script fibre; last script = titlescreen
+11.2  set_resolution 426*240
+11.2  lock_resolution()
+14.7  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+14.7  unlock_resolution(426,240)
+15.9  Killing script fibre; last script = titlescreen
+15.9  set_resolution 426*240
+15.9  lock_resolution()
+40.6  msg: M ohrrpgce.gen
+40.6  msg: M general.reld
+43.6  msg: M ohrrpgce.hsp
+43.6  msg: M plotscr.lst
+43.6  msg: M plotscr.lst
+43.6  msg: M lookup1.bin
+43.7  plotscr.hsd version: 3U 
+43.7  not reloading script titlescreen because it's in use: refcount=1
+43.7  unlock_resolution(426,240)
+44.3  set_resolution 426*240
+44.3  lock_resolution()
+45.0  plotscr.hsd version: 3U 
+47.2  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+47.2  unlock_resolution(426,240)
+47.8  set_resolution 426*240
+47.8  lock_resolution()
+47.8  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+47.8  unlock_resolution(426,240)
+48.1  set_resolution 426*240
+48.1  lock_resolution()
+48.1  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+48.1  unlock_resolution(426,240)
+48.3  set_resolution 426*240
+48.3  lock_resolution()
+48.3  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+48.3  unlock_resolution(426,240)
+48.8  set_resolution 426*240
+48.8  lock_resolution()
+48.8  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+48.8  unlock_resolution(426,240)
+48.9  set_resolution 426*240
+48.9  lock_resolution()
+48.9  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+48.9  unlock_resolution(426,240)
+49.0  set_resolution 426*240
+49.0  lock_resolution()
+49.0  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+49.0  unlock_resolution(426,240)
+49.1  set_resolution 426*240
+49.1  lock_resolution()
+49.1  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+49.1  unlock_resolution(426,240)
+49.2  set_resolution 426*240
+49.2  lock_resolution()
+49.2  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+49.2  unlock_resolution(426,240)
+49.2  set_resolution 426*240
+49.3  lock_resolution()
+49.3  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+49.3  unlock_resolution(426,240)
+49.3  set_resolution 426*240
+49.3  lock_resolution()
+49.3  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+49.3  unlock_resolution(426,240)
+49.4  set_resolution 426*240
+49.4  lock_resolution()
+49.4  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+49.4  unlock_resolution(426,240)
+49.5  set_resolution 426*240
+49.5  lock_resolution()
+49.5  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+49.5  unlock_resolution(426,240)
+49.6  set_resolution 426*240
+49.6  lock_resolution()
+49.6  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+49.6  unlock_resolution(426,240)
+49.7  set_resolution 426*240
+49.7  lock_resolution()
+49.7  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+49.7  unlock_resolution(426,240)
+49.8  set_resolution 426*240
+49.8  lock_resolution()
+49.8  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+49.8  unlock_resolution(426,240)
+49.9  set_resolution 426*240
+49.9  lock_resolution()
+49.9  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+49.9  unlock_resolution(426,240)
+50.0  set_resolution 426*240
+50.0  lock_resolution()
+50.0  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+50.0  unlock_resolution(426,240)
+50.0  set_resolution 426*240
+50.0  lock_resolution()
+50.0  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+50.0  unlock_resolution(426,240)
+50.1  set_resolution 426*240
+50.1  lock_resolution()
+50.1  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+50.1  unlock_resolution(426,240)
+50.2  set_resolution 426*240
+50.2  lock_resolution()
+50.2  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+50.2  unlock_resolution(426,240)
+50.3  set_resolution 426*240
+50.3  lock_resolution()
+50.3  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+50.3  unlock_resolution(426,240)
+50.4  set_resolution 426*240
+50.4  lock_resolution()
+50.4  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+50.4  unlock_resolution(426,240)
+50.5  set_resolution 426*240
+50.5  lock_resolution()
+50.5  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+50.5  unlock_resolution(426,240)
+50.6  set_resolution 426*240
+50.6  lock_resolution()
+50.6  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+50.6  unlock_resolution(426,240)
+50.7  set_resolution 426*240
+50.7  lock_resolution()
+50.7  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+50.7  unlock_resolution(426,240)
+50.7  set_resolution 426*240
+50.7  lock_resolution()
+50.7  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+50.7  unlock_resolution(426,240)
+79.0  msg: M ohrrpgce.hsp
+79.0  msg: M plotscr.lst
+79.0  msg: M plotscr.lst
+79.0  msg: M lookup1.bin
+79.1  plotscr.hsd version: 3U 
+79.1  not reloading script titlescreen because it's in use: refcount=1
+79.1  unlock_resolution(426,240)
+81.0  set_resolution 426*240
+81.0  lock_resolution()
+81.0  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+81.0  unlock_resolution(426,240)
+81.5  set_resolution 426*240
+81.5  lock_resolution()
+81.5  ! Scripterr(5): defnewgame -> titlescreen: setparent: invalid slice handle 0
+81.5  unlock_resolution(426,240)
+81.9  set_resolution 426*240
+81.9  lock_resolution()
+81.9  ! Scripterr(5): defnewgame -> titlescreen: lastchild: invalid slice handle 0
+81.9  unlock_resolution(426,240)
+82.8  Killing script fibre; last script = titlescreen
+82.8  set_resolution 426*240
+82.8  lock_resolution()
+83.1  plotscr.hsd version: 3U 
+85.4  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+85.4  unlock_resolution(426,240)
+86.3  set_resolution 426*240
+86.3  lock_resolution()
+86.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+86.3  unlock_resolution(426,240)
+86.6  set_resolution 426*240
+86.6  lock_resolution()
+86.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+86.6  unlock_resolution(426,240)
+87.2  set_resolution 426*240
+87.2  lock_resolution()
+87.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+87.3  unlock_resolution(426,240)
+89.6  set_resolution 426*240
+89.6  lock_resolution()
+89.7  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+89.7  unlock_resolution(426,240)
+90.7  set_resolution 426*240
+90.7  lock_resolution()
+93.3  Cleaning up and terminating 0
+93.3  Closing music backend...
+93.4  ...done
+93.4  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210709171829.7.tmp\
+93.5  Closing gfx backend & allmodex...
+93.5  ...done
+93.5  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-09-2021 17:20:05
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_76303'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.2  Setting default window settings...
+ 0.2  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210709172005.853.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
+ 0.3  Name: 
+ 0.4  plotscr.hsd version: 3U 
+ 0.9  lock_resolution()
+ 0.9  set_resolution 426*240
+ 0.9  recenter_window_hint()
+ 0.9  get_screen_size: true screen size 1600x900
+ 0.9  Desktop resolution: 1600*860
+ 0.9  automatic_scale_factor(0.5), screen size: 1600*860
+ 0.9  Setting graphics scaling to x2 change_windowsize=-1
+ 0.9  Preserving fullscreen/windowed state
+ 0.9  genRungameFullscreenIndependent: 0
+ 3.7  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+ 3.7  unlock_resolution(426,240)
+39.1  msg: M ohrrpgce.gen
+39.1  msg: M general.reld
+41.8  msg: M ohrrpgce.hsp
+41.8  msg: M plotscr.lst
+41.8  msg: M plotscr.lst
+41.8  msg: M lookup1.bin
+41.9  plotscr.hsd version: 3U 
+42.0  not reloading script titlescreen because it's in use: refcount=1
+42.0  unlock_resolution(426,240)
+43.5  set_resolution 426*240
+43.5  lock_resolution()
+43.5  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+43.5  unlock_resolution(426,240)
+44.2  Killing script fibre; last script = sinedist
+44.2  set_resolution 426*240
+44.2  lock_resolution()
+44.6  plotscr.hsd version: 3U 
+47.0  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+47.0  unlock_resolution(426,240)
+47.6  set_resolution 426*240
+47.6  lock_resolution()
+47.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+47.6  unlock_resolution(426,240)
+48.2  set_resolution 426*240
+48.2  lock_resolution()
+48.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+48.2  unlock_resolution(426,240)
+48.3  set_resolution 426*240
+48.3  lock_resolution()
+48.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+48.3  unlock_resolution(426,240)
+48.4  set_resolution 426*240
+48.4  lock_resolution()
+48.4  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+48.4  unlock_resolution(426,240)
+48.5  set_resolution 426*240
+48.5  lock_resolution()
+48.5  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+48.5  unlock_resolution(426,240)
+48.6  set_resolution 426*240
+48.6  lock_resolution()
+48.7  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+48.7  unlock_resolution(426,240)
+48.7  set_resolution 426*240
+48.7  lock_resolution()
+48.7  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+48.7  unlock_resolution(426,240)
+48.8  set_resolution 426*240
+48.8  lock_resolution()
+48.9  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+48.9  unlock_resolution(426,240)
+48.9  set_resolution 426*240
+48.9  lock_resolution()
+48.9  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+48.9  unlock_resolution(426,240)
+49.0  set_resolution 426*240
+49.0  lock_resolution()
+49.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+49.1  unlock_resolution(426,240)
+49.2  set_resolution 426*240
+49.2  lock_resolution()
+49.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+49.2  unlock_resolution(426,240)
+49.2  set_resolution 426*240
+49.2  lock_resolution()
+49.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+49.3  unlock_resolution(426,240)
+49.4  set_resolution 426*240
+49.4  lock_resolution()
+49.4  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+49.4  unlock_resolution(426,240)
+49.5  set_resolution 426*240
+49.5  lock_resolution()
+49.5  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+49.5  unlock_resolution(426,240)
+49.6  set_resolution 426*240
+49.6  lock_resolution()
+49.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+49.6  unlock_resolution(426,240)
+49.7  set_resolution 426*240
+49.7  lock_resolution()
+49.7  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+49.7  unlock_resolution(426,240)
+49.8  set_resolution 426*240
+49.8  lock_resolution()
+49.8  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+49.8  unlock_resolution(426,240)
+49.9  set_resolution 426*240
+49.9  lock_resolution()
+49.9  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+49.9  unlock_resolution(426,240)
+50.0  set_resolution 426*240
+50.0  lock_resolution()
+50.0  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+50.0  unlock_resolution(426,240)
+50.1  set_resolution 426*240
+50.1  lock_resolution()
+50.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+50.2  unlock_resolution(426,240)
+50.2  set_resolution 426*240
+50.2  lock_resolution()
+50.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+50.2  unlock_resolution(426,240)
+50.3  set_resolution 426*240
+50.3  lock_resolution()
+50.4  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+50.4  unlock_resolution(426,240)
+50.4  set_resolution 426*240
+50.4  lock_resolution()
+50.4  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+50.4  unlock_resolution(426,240)
+50.5  set_resolution 426*240
+50.5  lock_resolution()
+50.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+50.6  unlock_resolution(426,240)
+50.7  set_resolution 426*240
+50.7  lock_resolution()
+50.7  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+50.7  unlock_resolution(426,240)
+51.1  set_resolution 426*240
+51.1  lock_resolution()
+51.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+51.2  unlock_resolution(426,240)
+51.9  set_resolution 426*240
+51.9  lock_resolution()
+51.9  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+51.9  unlock_resolution(426,240)
+52.3  set_resolution 426*240
+52.3  lock_resolution()
+52.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+52.3  unlock_resolution(426,240)
+52.6  set_resolution 426*240
+52.6  lock_resolution()
+52.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+52.6  unlock_resolution(426,240)
+53.0  set_resolution 426*240
+53.0  lock_resolution()
+53.0  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+53.0  unlock_resolution(426,240)
+53.3  set_resolution 426*240
+53.3  lock_resolution()
+53.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+53.3  unlock_resolution(426,240)
+53.6  set_resolution 426*240
+53.6  lock_resolution()
+53.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+53.6  unlock_resolution(426,240)
+59.4  set_resolution 426*240
+59.4  lock_resolution()
+59.4  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+59.4  unlock_resolution(426,240)
+60.0  set_resolution 426*240
+60.0  lock_resolution()
+60.0  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+60.0  unlock_resolution(426,240)
+60.1  set_resolution 426*240
+60.1  lock_resolution()
+60.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+60.1  unlock_resolution(426,240)
+60.2  set_resolution 426*240
+60.2  lock_resolution()
+60.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+60.2  unlock_resolution(426,240)
+60.3  set_resolution 426*240
+60.3  lock_resolution()
+60.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+60.3  unlock_resolution(426,240)
+60.4  set_resolution 426*240
+60.4  lock_resolution()
+60.5  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+60.5  unlock_resolution(426,240)
+60.5  set_resolution 426*240
+60.5  lock_resolution()
+60.5  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+60.5  unlock_resolution(426,240)
+60.6  set_resolution 426*240
+60.6  lock_resolution()
+60.7  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+60.7  unlock_resolution(426,240)
+60.7  set_resolution 426*240
+60.7  lock_resolution()
+60.7  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+60.7  unlock_resolution(426,240)
+60.8  set_resolution 426*240
+60.8  lock_resolution()
+60.9  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+60.9  unlock_resolution(426,240)
+61.0  set_resolution 426*240
+61.0  lock_resolution()
+61.0  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+61.0  unlock_resolution(426,240)
+61.0  set_resolution 426*240
+61.0  lock_resolution()
+61.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+61.1  unlock_resolution(426,240)
+61.2  set_resolution 426*240
+61.2  lock_resolution()
+61.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+61.2  unlock_resolution(426,240)
+61.3  set_resolution 426*240
+61.3  lock_resolution()
+61.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+61.3  unlock_resolution(426,240)
+61.4  set_resolution 426*240
+61.4  lock_resolution()
+61.4  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+61.4  unlock_resolution(426,240)
+61.5  set_resolution 426*240
+61.5  lock_resolution()
+61.5  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+61.5  unlock_resolution(426,240)
+61.6  set_resolution 426*240
+61.6  lock_resolution()
+61.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+61.6  unlock_resolution(426,240)
+61.7  set_resolution 426*240
+61.7  lock_resolution()
+61.7  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+61.7  unlock_resolution(426,240)
+61.8  set_resolution 426*240
+61.8  lock_resolution()
+61.8  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+61.8  unlock_resolution(426,240)
+61.9  set_resolution 426*240
+61.9  lock_resolution()
+62.0  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+62.0  unlock_resolution(426,240)
+62.0  set_resolution 426*240
+62.0  lock_resolution()
+62.0  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+62.0  unlock_resolution(426,240)
+62.1  set_resolution 426*240
+62.1  lock_resolution()
+62.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+62.2  unlock_resolution(426,240)
+62.2  set_resolution 426*240
+62.2  lock_resolution()
+62.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+62.2  unlock_resolution(426,240)
+62.2  set_resolution 426*240
+62.3  lock_resolution()
+62.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+62.3  unlock_resolution(426,240)
+62.4  set_resolution 426*240
+62.4  lock_resolution()
+62.4  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+62.4  unlock_resolution(426,240)
+62.5  set_resolution 426*240
+62.5  lock_resolution()
+62.5  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+62.5  unlock_resolution(426,240)
+62.6  set_resolution 426*240
+62.6  lock_resolution()
+62.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+62.6  unlock_resolution(426,240)
+62.7  set_resolution 426*240
+62.7  lock_resolution()
+62.8  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+62.8  unlock_resolution(426,240)
+62.8  set_resolution 426*240
+62.8  lock_resolution()
+62.8  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+62.8  unlock_resolution(426,240)
+62.9  set_resolution 426*240
+62.9  lock_resolution()
+63.0  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+63.0  unlock_resolution(426,240)
+63.0  set_resolution 426*240
+63.0  lock_resolution()
+63.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+63.1  unlock_resolution(426,240)
+63.1  set_resolution 426*240
+63.1  lock_resolution()
+63.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+63.2  unlock_resolution(426,240)
+63.3  set_resolution 426*240
+63.3  lock_resolution()
+63.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+63.3  unlock_resolution(426,240)
+63.4  set_resolution 426*240
+63.4  lock_resolution()
+63.4  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+63.4  unlock_resolution(426,240)
+63.5  set_resolution 426*240
+63.5  lock_resolution()
+63.5  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+63.5  unlock_resolution(426,240)
+63.6  set_resolution 426*240
+63.6  lock_resolution()
+63.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+63.6  unlock_resolution(426,240)
+63.6  set_resolution 426*240
+63.6  lock_resolution()
+63.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+63.6  unlock_resolution(426,240)
+63.7  set_resolution 426*240
+63.7  lock_resolution()
+63.8  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+63.8  unlock_resolution(426,240)
+63.8  set_resolution 426*240
+63.8  lock_resolution()
+63.8  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+63.8  unlock_resolution(426,240)
+63.9  set_resolution 426*240
+63.9  lock_resolution()
+64.0  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+64.0  unlock_resolution(426,240)
+64.1  set_resolution 426*240
+64.1  lock_resolution()
+64.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+64.1  unlock_resolution(426,240)
+64.1  set_resolution 426*240
+64.1  lock_resolution()
+64.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+64.2  unlock_resolution(426,240)
+64.3  set_resolution 426*240
+64.3  lock_resolution()
+64.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+64.3  unlock_resolution(426,240)
+64.4  set_resolution 426*240
+64.4  lock_resolution()
+64.4  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+64.4  unlock_resolution(426,240)
+64.5  set_resolution 426*240
+64.5  lock_resolution()
+64.5  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+64.5  unlock_resolution(426,240)
+64.6  set_resolution 426*240
+64.6  lock_resolution()
+64.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+64.6  unlock_resolution(426,240)
+64.7  set_resolution 426*240
+64.7  lock_resolution()
+64.7  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+64.7  unlock_resolution(426,240)
+64.8  set_resolution 426*240
+64.8  lock_resolution()
+64.8  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+64.9  unlock_resolution(426,240)
+64.9  set_resolution 426*240
+64.9  lock_resolution()
+64.9  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+64.9  unlock_resolution(426,240)
+65.0  set_resolution 426*240
+65.0  lock_resolution()
+65.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+65.1  unlock_resolution(426,240)
+65.1  set_resolution 426*240
+65.1  lock_resolution()
+65.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+65.1  unlock_resolution(426,240)
+65.2  set_resolution 426*240
+65.2  lock_resolution()
+65.4  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+65.4  unlock_resolution(426,240)
+65.5  set_resolution 426*240
+65.5  lock_resolution()
+65.5  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+65.5  unlock_resolution(426,240)
+65.6  set_resolution 426*240
+65.6  lock_resolution()
+65.7  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+65.7  unlock_resolution(426,240)
+65.7  set_resolution 426*240
+65.7  lock_resolution()
+65.7  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+65.7  unlock_resolution(426,240)
+65.8  set_resolution 426*240
+65.8  lock_resolution()
+65.9  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+65.9  unlock_resolution(426,240)
+65.9  set_resolution 426*240
+65.9  lock_resolution()
+65.9  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+65.9  unlock_resolution(426,240)
+66.0  set_resolution 426*240
+66.0  lock_resolution()
+66.0  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+66.0  unlock_resolution(426,240)
+66.1  set_resolution 426*240
+66.1  lock_resolution()
+66.1  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+66.1  unlock_resolution(426,240)
+66.2  set_resolution 426*240
+66.2  lock_resolution()
+66.2  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+66.2  unlock_resolution(426,240)
+66.3  set_resolution 426*240
+66.3  lock_resolution()
+66.3  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+66.3  unlock_resolution(426,240)
+66.3  set_resolution 426*240
+66.3  lock_resolution()
+66.4  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+66.4  unlock_resolution(426,240)
+66.5  set_resolution 426*240
+66.5  lock_resolution()
+66.5  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+66.5  unlock_resolution(426,240)
+66.6  set_resolution 426*240
+66.6  lock_resolution()
+66.6  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+66.6  unlock_resolution(426,240)
+66.7  set_resolution 426*240
+66.7  lock_resolution()
+66.7  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+66.7  unlock_resolution(426,240)
+66.8  set_resolution 426*240
+66.8  lock_resolution()
+66.8  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+66.8  unlock_resolution(426,240)
+66.9  set_resolution 426*240
+66.9  lock_resolution()
+66.9  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+66.9  unlock_resolution(426,240)
+67.0  set_resolution 426*240
+67.0  lock_resolution()
+67.0  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+67.0  unlock_resolution(426,240)
+68.4  Killing script fibre; last script = sinedist
+68.4  set_resolution 426*240
+68.4  lock_resolution()
+78.5  msg: M ohrrpgce.hsp
+78.5  msg: M plotscr.lst
+78.5  msg: M plotscr.lst
+78.5  msg: M lookup1.bin
+78.6  plotscr.hsd version: 3U 
+78.6  not reloading script titlescreen because it's in use: refcount=1
+78.6  unlock_resolution(426,240)
+79.2  set_resolution 426*240
+79.2  lock_resolution()
+79.8  plotscr.hsd version: 3U 
+82.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+82.3  unlock_resolution(426,240)
+83.0  set_resolution 426*240
+83.0  lock_resolution()
+83.0  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+83.0  unlock_resolution(426,240)
+83.5  set_resolution 426*240
+83.6  lock_resolution()
+83.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+83.6  unlock_resolution(426,240)
+83.7  set_resolution 426*240
+83.7  lock_resolution()
+83.7  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+83.7  unlock_resolution(426,240)
+83.8  set_resolution 426*240
+83.8  lock_resolution()
+83.8  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+83.8  unlock_resolution(426,240)
+83.9  set_resolution 426*240
+83.9  lock_resolution()
+83.9  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+83.9  unlock_resolution(426,240)
+84.0  set_resolution 426*240
+84.0  lock_resolution()
+84.0  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+84.0  unlock_resolution(426,240)
+84.1  set_resolution 426*240
+84.1  lock_resolution()
+84.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+84.1  unlock_resolution(426,240)
+84.2  set_resolution 426*240
+84.2  lock_resolution()
+84.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+84.3  unlock_resolution(426,240)
+84.3  set_resolution 426*240
+84.3  lock_resolution()
+84.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+84.3  unlock_resolution(426,240)
+84.4  set_resolution 426*240
+84.4  lock_resolution()
+84.5  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+84.5  unlock_resolution(426,240)
+84.5  set_resolution 426*240
+84.5  lock_resolution()
+84.5  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+84.5  unlock_resolution(426,240)
+84.6  set_resolution 426*240
+84.6  lock_resolution()
+84.7  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+84.7  unlock_resolution(426,240)
+84.8  set_resolution 426*240
+84.8  lock_resolution()
+84.8  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+84.8  unlock_resolution(426,240)
+84.8  set_resolution 426*240
+84.8  lock_resolution()
+84.9  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+84.9  unlock_resolution(426,240)
+85.0  set_resolution 426*240
+85.0  lock_resolution()
+85.0  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+85.0  unlock_resolution(426,240)
+85.1  set_resolution 426*240
+85.1  lock_resolution()
+85.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+85.1  unlock_resolution(426,240)
+85.2  set_resolution 426*240
+85.2  lock_resolution()
+85.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+85.2  unlock_resolution(426,240)
+85.3  set_resolution 426*240
+85.3  lock_resolution()
+85.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+85.3  unlock_resolution(426,240)
+85.3  set_resolution 426*240
+85.3  lock_resolution()
+85.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+85.3  unlock_resolution(426,240)
+85.4  set_resolution 426*240
+85.4  lock_resolution()
+85.5  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+85.5  unlock_resolution(426,240)
+85.6  set_resolution 426*240
+85.6  lock_resolution()
+85.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+85.6  unlock_resolution(426,240)
+85.6  set_resolution 426*240
+85.6  lock_resolution()
+85.7  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+85.7  unlock_resolution(426,240)
+85.8  set_resolution 426*240
+85.8  lock_resolution()
+85.8  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+85.8  unlock_resolution(426,240)
+85.9  set_resolution 426*240
+85.9  lock_resolution()
+85.9  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+85.9  unlock_resolution(426,240)
+86.0  set_resolution 426*240
+86.0  lock_resolution()
+86.0  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+86.0  unlock_resolution(426,240)
+86.1  set_resolution 426*240
+86.1  lock_resolution()
+86.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+86.1  unlock_resolution(426,240)
+86.2  set_resolution 426*240
+86.2  lock_resolution()
+86.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+86.2  unlock_resolution(426,240)
+86.3  set_resolution 426*240
+86.3  lock_resolution()
+86.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+86.3  unlock_resolution(426,240)
+86.4  set_resolution 426*240
+86.4  lock_resolution()
+86.4  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+86.4  unlock_resolution(426,240)
+86.5  set_resolution 426*240
+86.5  lock_resolution()
+86.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+86.6  unlock_resolution(426,240)
+86.6  set_resolution 426*240
+86.6  lock_resolution()
+86.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+86.6  unlock_resolution(426,240)
+86.7  set_resolution 426*240
+86.7  lock_resolution()
+86.8  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+86.8  unlock_resolution(426,240)
+86.8  set_resolution 426*240
+86.8  lock_resolution()
+86.8  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+86.8  unlock_resolution(426,240)
+86.9  set_resolution 426*240
+86.9  lock_resolution()
+87.0  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+87.0  unlock_resolution(426,240)
+87.1  set_resolution 426*240
+87.1  lock_resolution()
+87.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+87.1  unlock_resolution(426,240)
+87.1  set_resolution 426*240
+87.1  lock_resolution()
+87.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+87.2  unlock_resolution(426,240)
+87.3  set_resolution 426*240
+87.3  lock_resolution()
+87.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+87.3  unlock_resolution(426,240)
+87.4  set_resolution 426*240
+87.4  lock_resolution()
+87.4  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+87.4  unlock_resolution(426,240)
+87.5  set_resolution 426*240
+87.5  lock_resolution()
+87.5  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+87.5  unlock_resolution(426,240)
+87.6  set_resolution 426*240
+87.6  lock_resolution()
+87.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+87.6  unlock_resolution(426,240)
+87.7  set_resolution 426*240
+87.7  lock_resolution()
+87.7  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+87.7  unlock_resolution(426,240)
+87.8  set_resolution 426*240
+87.8  lock_resolution()
+87.8  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+87.8  unlock_resolution(426,240)
+87.9  set_resolution 426*240
+87.9  lock_resolution()
+87.9  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+87.9  unlock_resolution(426,240)
+88.0  set_resolution 426*240
+88.0  lock_resolution()
+88.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+88.1  unlock_resolution(426,240)
+88.1  set_resolution 426*240
+88.1  lock_resolution()
+88.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+88.1  unlock_resolution(426,240)
+88.2  set_resolution 426*240
+88.2  lock_resolution()
+88.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+88.3  unlock_resolution(426,240)
+88.3  set_resolution 426*240
+88.4  lock_resolution()
+88.4  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+88.4  unlock_resolution(426,240)
+88.4  set_resolution 426*240
+88.4  lock_resolution()
+88.5  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+88.5  unlock_resolution(426,240)
+88.6  set_resolution 426*240
+88.6  lock_resolution()
+88.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+88.6  unlock_resolution(426,240)
+88.7  set_resolution 426*240
+88.7  lock_resolution()
+88.7  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+88.7  unlock_resolution(426,240)
+88.8  set_resolution 426*240
+88.8  lock_resolution()
+88.8  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+88.8  unlock_resolution(426,240)
+89.5  set_resolution 426*240
+89.5  lock_resolution()
+89.5  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+89.5  unlock_resolution(426,240)
+90.0  set_resolution 426*240
+90.0  lock_resolution()
+90.0  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+90.0  unlock_resolution(426,240)
+90.1  set_resolution 426*240
+90.1  lock_resolution()
+90.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+90.1  unlock_resolution(426,240)
+90.2  set_resolution 426*240
+90.2  lock_resolution()
+90.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+90.2  unlock_resolution(426,240)
+90.3  set_resolution 426*240
+90.3  lock_resolution()
+90.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+90.3  unlock_resolution(426,240)
+90.4  set_resolution 426*240
+90.4  lock_resolution()
+90.4  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+90.4  unlock_resolution(426,240)
+90.5  set_resolution 426*240
+90.5  lock_resolution()
+90.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+90.6  unlock_resolution(426,240)
+90.6  set_resolution 426*240
+90.6  lock_resolution()
+90.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+90.6  unlock_resolution(426,240)
+90.7  set_resolution 426*240
+90.7  lock_resolution()
+90.8  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+90.8  unlock_resolution(426,240)
+90.8  set_resolution 426*240
+90.8  lock_resolution()
+90.8  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+90.9  unlock_resolution(426,240)
+90.9  set_resolution 426*240
+90.9  lock_resolution()
+91.0  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+91.0  unlock_resolution(426,240)
+91.1  set_resolution 426*240
+91.1  lock_resolution()
+91.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+91.1  unlock_resolution(426,240)
+91.1  set_resolution 426*240
+91.2  lock_resolution()
+91.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+91.2  unlock_resolution(426,240)
+91.3  set_resolution 426*240
+91.3  lock_resolution()
+91.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+91.3  unlock_resolution(426,240)
+91.4  set_resolution 426*240
+91.4  lock_resolution()
+91.4  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+91.4  unlock_resolution(426,240)
+91.5  set_resolution 426*240
+91.5  lock_resolution()
+91.5  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+91.5  unlock_resolution(426,240)
+91.6  set_resolution 426*240
+91.6  lock_resolution()
+91.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+91.6  unlock_resolution(426,240)
+91.7  set_resolution 426*240
+91.7  lock_resolution()
+91.7  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+91.7  unlock_resolution(426,240)
+91.8  set_resolution 426*240
+91.8  lock_resolution()
+91.9  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+91.9  unlock_resolution(426,240)
+91.9  set_resolution 426*240
+91.9  lock_resolution()
+91.9  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+91.9  unlock_resolution(426,240)
+92.0  set_resolution 426*240
+92.0  lock_resolution()
+92.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+92.1  unlock_resolution(426,240)
+92.1  set_resolution 426*240
+92.1  lock_resolution()
+92.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+92.1  unlock_resolution(426,240)
+92.2  set_resolution 426*240
+92.2  lock_resolution()
+92.3  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+92.3  unlock_resolution(426,240)
+92.4  set_resolution 426*240
+92.4  lock_resolution()
+92.4  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+92.4  unlock_resolution(426,240)
+92.4  set_resolution 426*240
+92.4  lock_resolution()
+92.5  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+92.5  unlock_resolution(426,240)
+92.6  set_resolution 426*240
+92.6  lock_resolution()
+92.6  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+92.6  unlock_resolution(426,240)
+92.7  set_resolution 426*240
+92.7  lock_resolution()
+92.7  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+92.7  unlock_resolution(426,240)
+92.8  set_resolution 426*240
+92.8  lock_resolution()
+92.8  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+92.8  unlock_resolution(426,240)
+92.9  set_resolution 426*240
+92.9  lock_resolution()
+92.9  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+92.9  unlock_resolution(426,240)
+93.0  set_resolution 426*240
+93.0  lock_resolution()
+93.0  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+93.0  unlock_resolution(426,240)
+93.1  set_resolution 426*240
+93.1  lock_resolution()
+93.1  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+93.1  unlock_resolution(426,240)
+93.2  set_resolution 426*240
+93.2  lock_resolution()
+93.2  ! Scripterr(5): defnewgame -> titlescreen -> screenfadein -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+93.2  unlock_resolution(426,240)
+93.3  set_resolution 426*240
+93.3  lock_resolution()
+93.5  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+93.5  unlock_resolution(426,240)
+93.6  set_resolution 426*240
+93.6  lock_resolution()
+93.6  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+93.6  unlock_resolution(426,240)
+93.7  set_resolution 426*240
+93.7  lock_resolution()
+93.7  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+93.7  unlock_resolution(426,240)
+93.8  set_resolution 426*240
+93.8  lock_resolution()
+93.8  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+93.8  unlock_resolution(426,240)
+93.9  set_resolution 426*240
+93.9  lock_resolution()
+94.0  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+94.0  unlock_resolution(426,240)
+94.0  set_resolution 426*240
+94.0  lock_resolution()
+94.0  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+94.0  unlock_resolution(426,240)
+94.1  set_resolution 426*240
+94.1  lock_resolution()
+94.2  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+94.2  unlock_resolution(426,240)
+94.2  set_resolution 426*240
+94.2  lock_resolution()
+94.2  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+94.2  unlock_resolution(426,240)
+94.3  set_resolution 426*240
+94.3  lock_resolution()
+94.4  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+94.4  unlock_resolution(426,240)
+94.5  set_resolution 426*240
+94.5  lock_resolution()
+94.5  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+94.5  unlock_resolution(426,240)
+94.5  set_resolution 426*240
+94.5  lock_resolution()
+94.6  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+94.6  unlock_resolution(426,240)
+94.7  set_resolution 426*240
+94.7  lock_resolution()
+94.7  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+94.7  unlock_resolution(426,240)
+94.8  set_resolution 426*240
+94.8  lock_resolution()
+94.8  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+94.8  unlock_resolution(426,240)
+94.9  set_resolution 426*240
+94.9  lock_resolution()
+94.9  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+94.9  unlock_resolution(426,240)
+95.0  set_resolution 426*240
+95.0  lock_resolution()
+95.0  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+95.0  unlock_resolution(426,240)
+95.1  set_resolution 426*240
+95.1  lock_resolution()
+95.1  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+95.1  unlock_resolution(426,240)
+95.2  set_resolution 426*240
+95.2  lock_resolution()
+95.2  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+95.2  unlock_resolution(426,240)
+95.3  set_resolution 426*240
+95.3  lock_resolution()
+95.3  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+95.3  unlock_resolution(426,240)
+95.4  set_resolution 426*240
+95.4  lock_resolution()
+95.5  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+95.5  unlock_resolution(426,240)
+95.5  set_resolution 426*240
+95.5  lock_resolution()
+95.5  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+95.5  unlock_resolution(426,240)
+95.6  set_resolution 426*240
+95.6  lock_resolution()
+95.7  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+95.7  unlock_resolution(426,240)
+95.7  set_resolution 426*240
+95.7  lock_resolution()
+95.7  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+95.7  unlock_resolution(426,240)
+95.8  set_resolution 426*240
+95.8  lock_resolution()
+95.8  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+95.8  unlock_resolution(426,240)
+95.9  set_resolution 426*240
+95.9  lock_resolution()
+95.9  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+95.9  unlock_resolution(426,240)
+96.0  set_resolution 426*240
+96.0  lock_resolution()
+96.0  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+96.1  unlock_resolution(426,240)
+96.1  set_resolution 426*240
+96.1  lock_resolution()
+96.1  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+96.1  unlock_resolution(426,240)
+96.2  set_resolution 426*240
+96.2  lock_resolution()
+96.3  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+96.3  unlock_resolution(426,240)
+96.3  set_resolution 426*240
+96.3  lock_resolution()
+96.3  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+96.3  unlock_resolution(426,240)
+96.4  set_resolution 426*240
+96.4  lock_resolution()
+96.5  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+96.5  unlock_resolution(426,240)
+96.6  set_resolution 426*240
+96.6  lock_resolution()
+96.6  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+96.6  unlock_resolution(426,240)
+96.6  set_resolution 426*240
+96.6  lock_resolution()
+96.7  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+96.7  unlock_resolution(426,240)
+96.8  set_resolution 426*240
+96.8  lock_resolution()
+96.8  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+96.8  unlock_resolution(426,240)
+96.9  set_resolution 426*240
+96.9  lock_resolution()
+96.9  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+96.9  unlock_resolution(426,240)
+97.0  set_resolution 426*240
+97.0  lock_resolution()
+97.0  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+97.0  unlock_resolution(426,240)
+97.1  set_resolution 426*240
+97.1  lock_resolution()
+97.1  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+97.1  unlock_resolution(426,240)
+97.2  set_resolution 426*240
+97.2  lock_resolution()
+97.2  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+97.2  unlock_resolution(426,240)
+97.3  set_resolution 426*240
+97.3  lock_resolution()
+97.3  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+97.3  unlock_resolution(426,240)
+97.4  set_resolution 426*240
+97.4  lock_resolution()
+97.4  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+97.4  unlock_resolution(426,240)
+97.5  set_resolution 426*240
+97.5  lock_resolution()
+97.6  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+97.6  unlock_resolution(426,240)
+97.6  set_resolution 426*240
+97.6  lock_resolution()
+97.6  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+97.6  unlock_resolution(426,240)
+97.7  set_resolution 426*240
+97.7  lock_resolution()
+97.8  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+97.8  unlock_resolution(426,240)
+97.8  set_resolution 426*240
+97.8  lock_resolution()
+97.8  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+97.8  unlock_resolution(426,240)
+97.9  set_resolution 426*240
+97.9  lock_resolution()
+98.0  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+98.0  unlock_resolution(426,240)
+98.1  set_resolution 426*240
+98.1  lock_resolution()
+98.1  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+98.1  unlock_resolution(426,240)
+98.1  set_resolution 426*240
+98.1  lock_resolution()
+98.2  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+98.2  unlock_resolution(426,240)
+98.3  set_resolution 426*240
+98.3  lock_resolution()
+98.3  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+98.3  unlock_resolution(426,240)
+98.4  set_resolution 426*240
+98.4  lock_resolution()
+98.4  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+98.4  unlock_resolution(426,240)
+98.5  set_resolution 426*240
+98.5  lock_resolution()
+98.5  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+98.5  unlock_resolution(426,240)
+98.6  set_resolution 426*240
+98.6  lock_resolution()
+98.6  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+98.6  unlock_resolution(426,240)
+98.7  set_resolution 426*240
+98.7  lock_resolution()
+98.7  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+98.7  unlock_resolution(426,240)
+98.8  set_resolution 426*240
+98.8  lock_resolution()
+98.8  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: slicechild: invalid slice handle 0
+98.8  unlock_resolution(426,240)
+98.9  set_resolution 426*240
+98.9  lock_resolution()
+98.9  ! Scripterr(5): defnewgame -> titlescreen -> specwait -> titleupdate -> sinedist: sliceheight: invalid slice handle 0
+98.9  unlock_resolution(426,240)
+133.7  Killing script fibre; last script = sinedist
+133.7  set_resolution 426*240
+133.7  lock_resolution()
+137.7  msg: M ohrrpgce.hsp
+137.7  msg: M plotscr.lst
+137.7  msg: M plotscr.lst
+137.7  msg: M lookup1.bin
+137.8  plotscr.hsd version: 3U 
+137.8  not reloading script titlescreen because it's in use: refcount=1
+137.8  unlock_resolution(426,240)
+138.5  set_resolution 426*240
+138.5  lock_resolution()
+138.9  plotscr.hsd version: 3U 
+187.4  msg: M ohrrpgce.hsp
+187.5  plotscr.hsd version: 3U 
+187.5  not reloading script titlescreen because it's in use: refcount=1
+187.6  unlock_resolution(426,240)
+188.2  set_resolution 426*240
+188.2  lock_resolution()
+188.2  msg: M plotscr.lst
+188.2  msg: M plotscr.lst
+188.2  msg: M lookup1.bin
+188.5  plotscr.hsd version: 3U 
+217.0  msg: M ohrrpgce.hsp
+217.0  msg: M plotscr.lst
+217.0  msg: M plotscr.lst
+217.0  msg: M lookup1.bin
+217.2  plotscr.hsd version: 3U 
+217.2  not reloading script titlescreen because it's in use: refcount=1
+217.2  unlock_resolution(426,240)
+217.8  set_resolution 426*240
+217.8  lock_resolution()
+218.1  plotscr.hsd version: 3U 
+256.3  msg: M ohrrpgce.hsp
+256.3  msg: M plotscr.lst
+256.3  msg: M plotscr.lst
+256.3  msg: M lookup1.bin
+256.4  plotscr.hsd version: 3U 
+256.4  not reloading script titlescreen because it's in use: refcount=1
+256.4  unlock_resolution(426,240)
+257.8  set_resolution 426*240
+257.8  lock_resolution()
+258.3  plotscr.hsd version: 3U 
+285.4  msg: M ohrrpgce.hsp
+285.4  msg: M plotscr.lst
+285.5  msg: M plotscr.lst
+285.5  msg: M lookup1.bin
+285.6  plotscr.hsd version: 3U 
+365.2  msg: M ohrrpgce.hsp
+365.2  msg: M plotscr.lst
+365.2  msg: M plotscr.lst
+365.2  msg: M lookup1.bin
+365.3  plotscr.hsd version: 3U 
+408.8  msg: M ohrrpgce.hsp
+408.8  msg: M plotscr.lst
+408.8  msg: M plotscr.lst
+408.8  msg: M lookup1.bin
+408.9  plotscr.hsd version: 3U 
+439.4  msg: M ohrrpgce.hsp
+439.4  msg: M plotscr.lst
+439.4  msg: M plotscr.lst
+439.4  msg: M lookup1.bin
+439.5  plotscr.hsd version: 3U 
+475.7  msg: M ohrrpgce.hsp
+475.7  msg: M plotscr.lst
+475.7  msg: M plotscr.lst
+475.7  msg: M lookup1.bin
+475.9  plotscr.hsd version: 3U 
+597.0  msg: M ohrrpgce.hsp
+597.0  msg: M plotscr.lst
+597.0  msg: M plotscr.lst
+597.0  msg: M lookup1.bin
+597.2  plotscr.hsd version: 3U 
+597.2  not reloading script titlescreen because it's in use: refcount=1
+597.2  unlock_resolution(426,240)
+598.0  set_resolution 426*240
+598.0  lock_resolution()
+598.4  plotscr.hsd version: 3U 
+625.8  msg: M ohrrpgce.hsp
+625.8  msg: M plotscr.lst
+625.8  msg: M plotscr.lst
+625.8  msg: M lookup1.bin
+625.9  plotscr.hsd version: 3U 
+625.9  not reloading script titlescreen because it's in use: refcount=1
+626.0  unlock_resolution(426,240)
+635.8  set_resolution 426*240
+635.8  lock_resolution()
+636.1  plotscr.hsd version: 3U 
+650.3  msg: M ohrrpgce.hsp
+650.3  msg: M plotscr.lst
+650.3  msg: M plotscr.lst
+650.3  msg: M lookup1.bin
+650.4  plotscr.hsd version: 3U 
+650.4  not reloading script titlescreen because it's in use: refcount=1
+650.4  unlock_resolution(426,240)
+651.1  set_resolution 426*240
+651.1  lock_resolution()
+651.4  plotscr.hsd version: 3U 
+698.3  msg: M ohrrpgce.hsp
+698.3  msg: M plotscr.lst
+698.3  msg: M plotscr.lst
+698.3  msg: M lookup1.bin
+698.5  plotscr.hsd version: 3U 
+698.5  not reloading script titlescreen because it's in use: refcount=1
+698.5  unlock_resolution(426,240)
+699.4  set_resolution 426*240
+699.4  lock_resolution()
+701.3  plotscr.hsd version: 3U 
+727.1  msg: M ohrrpgce.hsp
+727.1  msg: M plotscr.lst
+727.1  msg: M plotscr.lst
+727.1  msg: M lookup1.bin
+727.2  plotscr.hsd version: 3U 
+727.2  not reloading script titlescreen because it's in use: refcount=1
+727.2  unlock_resolution(426,240)
+727.7  set_resolution 426*240
+727.7  lock_resolution()
+728.2  plotscr.hsd version: 3U 
+748.0  msg: M ohrrpgce.hsp
+748.0  msg: M plotscr.lst
+748.0  msg: M plotscr.lst
+748.0  msg: M lookup1.bin
+748.1  plotscr.hsd version: 3U 
+862.7  msg: M ohrrpgce.hsp
+862.7  msg: M plotscr.lst
+862.7  msg: M plotscr.lst
+862.7  msg: M lookup1.bin
+862.9  plotscr.hsd version: 3U 
+862.9  not reloading script titlescreen because it's in use: refcount=1
+862.9  unlock_resolution(426,240)
+863.5  set_resolution 426*240
+863.5  lock_resolution()
+863.8  plotscr.hsd version: 3U 
+882.5  msg: M ohrrpgce.hsp
+882.5  msg: M plotscr.lst
+882.5  msg: M plotscr.lst
+882.5  msg: M lookup1.bin
+882.6  plotscr.hsd version: 3U 
+882.6  not reloading script titlescreen because it's in use: refcount=1
+882.6  unlock_resolution(426,240)
+883.5  set_resolution 426*240
+883.5  lock_resolution()
+883.8  plotscr.hsd version: 3U 
+916.8  msg: M ohrrpgce.hsp
+916.8  msg: M plotscr.lst
+916.8  msg: M plotscr.lst
+916.8  msg: M lookup1.bin
+916.9  plotscr.hsd version: 3U 
+916.9  not reloading script titlescreen because it's in use: refcount=1
+916.9  unlock_resolution(426,240)
+918.4  set_resolution 426*240
+918.4  lock_resolution()
+918.7  plotscr.hsd version: 3U 
+973.5  msg: M ohrrpgce.hsp
+973.5  msg: M plotscr.lst
+973.5  msg: M plotscr.lst
+973.5  msg: M lookup1.bin
+973.6  plotscr.hsd version: 3U 
+973.6  not reloading script titlescreen because it's in use: refcount=1
+973.6  unlock_resolution(426,240)
+974.3  set_resolution 426*240
+974.3  lock_resolution()
+974.8  plotscr.hsd version: 3U 
+1063.5  msg: M ohrrpgce.hsp
+1063.5  msg: M plotscr.lst
+1063.5  msg: M plotscr.lst
+1063.5  msg: M lookup1.bin
+1063.6  plotscr.hsd version: 3U 
+1063.6  not reloading script titlescreen because it's in use: refcount=1
+1063.6  unlock_resolution(426,240)
+1064.7  set_resolution 426*240
+1064.7  lock_resolution()
+1065.1  plotscr.hsd version: 3U 
+1101.2  msg: M ohrrpgce.hsp
+1101.2  msg: M plotscr.lst
+1101.2  msg: M plotscr.lst
+1101.2  msg: M lookup1.bin
+1101.4  plotscr.hsd version: 3U 
+1101.4  not reloading script titlescreen because it's in use: refcount=1
+1101.4  unlock_resolution(426,240)
+1102.1  set_resolution 426*240
+1102.1  lock_resolution()
+1102.5  plotscr.hsd version: 3U 
+1170.9  msg: M ohrrpgce.hsp
+1170.9  msg: M plotscr.lst
+1170.9  msg: M plotscr.lst
+1170.9  msg: M lookup1.bin
+1171.0  plotscr.hsd version: 3U 
+1171.0  not reloading script titlescreen because it's in use: refcount=1
+1171.0  unlock_resolution(426,240)
+1171.7  set_resolution 426*240
+1171.7  lock_resolution()
+1172.1  plotscr.hsd version: 3U 
+1189.2  msg: M ohrrpgce.gen
+1189.2  msg: M general.reld
+1193.0  msg: M ohrrpgce.say
+1193.0  did not reload ohrrpgce.say
+1207.9  msg: M ohrrpgce.say
+1207.9  did not reload ohrrpgce.say
+1253.1  msg: M ohrrpgce.say
+1253.1  did not reload ohrrpgce.say
+1254.7  msg: M ohrrpgce.say
+1254.7  did not reload ohrrpgce.say
+1255.8  msg: M ohrrpgce.gen
+1255.8  msg: M general.reld
+1258.4  msg: M ohrrpgce.hsp
+1258.4  msg: M plotscr.lst
+1258.4  msg: M plotscr.lst
+1258.4  msg: M lookup1.bin
+1258.6  plotscr.hsd version: 3U 
+1258.6  not reloading script titlescreen because it's in use: refcount=1
+1258.6  unlock_resolution(426,240)
+1259.4  set_resolution 426*240
+1259.4  lock_resolution()
+1259.7  plotscr.hsd version: 3U 
+1291.4  msg: M ohrrpgce.hsp
+1291.4  msg: M plotscr.lst
+1291.4  msg: M plotscr.lst
+1291.4  msg: M lookup1.bin
+1291.5  plotscr.hsd version: 3U 
+1325.7  msg: M ohrrpgce.gen
+1325.7  msg: M general.reld
+1330.1  msg: M ohrrpgce.say
+1330.1  did not reload ohrrpgce.say
+1350.8  msg: M ohrrpgce.say
+1350.8  did not reload ohrrpgce.say
+1366.6  msg: M ohrrpgce.say
+1366.6  did not reload ohrrpgce.say
+1406.3  msg: M ohrrpgce.say
+1406.3  did not reload ohrrpgce.say
+1430.0  msg: M ohrrpgce.say
+1430.0  did not reload ohrrpgce.say
+1432.8  msg: M ohrrpgce.say
+1432.8  did not reload ohrrpgce.say
+1455.2  msg: M ohrrpgce.say
+1455.2  did not reload ohrrpgce.say
+1457.7  msg: M ohrrpgce.say
+1457.7  did not reload ohrrpgce.say
+1488.2  msg: M ohrrpgce.say
+1488.2  did not reload ohrrpgce.say
+1492.6  msg: M ohrrpgce.say
+1492.6  did not reload ohrrpgce.say
+1506.9  msg: M ohrrpgce.say
+1506.9  did not reload ohrrpgce.say
+1547.2  msg: M ohrrpgce.gen
+1547.2  msg: M general.reld
+1547.4  msg: M ohrrpgce.gen
+1550.6  msg: M ohrrpgce.hsp
+1550.6  msg: M plotscr.lst
+1550.6  msg: M plotscr.lst
+1550.6  msg: M lookup1.bin
+1550.7  plotscr.hsd version: 3U 
+1550.7  not reloading script titlescreen because it's in use: refcount=1
+1550.7  unlock_resolution(426,240)
+1551.3  set_resolution 426*240
+1551.3  lock_resolution()
+1558.9  plotscr.hsd version: 3U 
+1719.1  msg: M ohrrpgce.gen
+1719.1  msg: M general.reld
+1727.6  msg: M backdrops.rgfx
+1730.4  msg: M backdrops.rgfx
+1731.2  msg: M ohrrpgce.gen
+1733.8  msg: M ohrrpgce.gen
+1733.8  msg: M general.reld
+1759.2  msg: M backdrops.rgfx
+1761.6  msg: M backdrops.rgfx
+1762.2  msg: M ohrrpgce.gen
+1762.5  msg: M ohrrpgce.gen
+1762.5  msg: M general.reld
+1837.0  msg: M menus.bin
+1837.0  msg: M menuitem.bin
+1837.0  did not reload menus.bin
+1837.0  did not reload menuitem.bin
+1837.4  msg: M menus.bin
+1837.4  msg: M menuitem.bin
+1837.4  did not reload menus.bin
+1837.4  did not reload menuitem.bin
+1838.0  msg: M menus.bin
+1838.0  msg: M menuitem.bin
+1838.0  did not reload menus.bin
+1838.0  did not reload menuitem.bin
+1838.4  msg: M menus.bin
+1838.4  msg: M menuitem.bin
+1838.4  did not reload menus.bin
+1838.4  did not reload menuitem.bin
+1839.4  msg: M menus.bin
+1839.4  msg: M menuitem.bin
+1839.4  did not reload menus.bin
+1839.4  did not reload menuitem.bin
+1923.3  msg: M menus.bin
+1923.3  msg: M menuitem.bin
+1923.3  msg: M ohrrpgce.gen
+1923.3  msg: M general.reld
+1923.3  did not reload menus.bin
+1923.3  did not reload menuitem.bin
+1926.2  msg: M menus.bin
+1926.2  msg: M menuitem.bin
+1926.2  did not reload menus.bin
+1926.2  did not reload menuitem.bin
+1926.4  msg: M menus.bin
+1926.4  msg: M menuitem.bin
+1926.4  did not reload menus.bin
+1926.4  did not reload menuitem.bin
+1926.6  msg: M menus.bin
+1926.6  msg: M menuitem.bin
+1926.6  did not reload menus.bin
+1926.6  did not reload menuitem.bin
+1943.1  msg: M menus.bin
+1943.1  msg: M menuitem.bin
+1943.1  msg: M ohrrpgce.gen
+1943.1  msg: M general.reld
+1943.1  did not reload menus.bin
+1943.1  did not reload menuitem.bin
+1945.8  msg: M ohrrpgce.hsp
+1945.8  msg: M plotscr.lst
+1945.8  msg: M plotscr.lst
+1945.8  msg: M lookup1.bin
+1946.0  plotscr.hsd version: 3U 
+1946.0  not reloading script titlescreen because it's in use: refcount=1
+1946.0  unlock_resolution(426,240)
+1946.9  set_resolution 426*240
+1946.9  lock_resolution()
+1947.4  plotscr.hsd version: 3U 
+1954.4  msg: M ohrrpgce.gen
+1954.4  msg: M general.reld
+1961.0  msg: M menus.bin
+1961.0  msg: M menuitem.bin
+1961.0  did not reload menus.bin
+1961.0  did not reload menuitem.bin
+1961.3  msg: M menus.bin
+1961.3  msg: M menuitem.bin
+1961.3  did not reload menus.bin
+1961.3  did not reload menuitem.bin
+1961.4  msg: M menus.bin
+1961.4  msg: M menuitem.bin
+1961.4  did not reload menus.bin
+1961.4  did not reload menuitem.bin
+1968.8  msg: M menus.bin
+1968.8  msg: M menuitem.bin
+1968.8  msg: M ohrrpgce.gen
+1968.8  msg: M general.reld
+1968.8  did not reload menus.bin
+1968.8  did not reload menuitem.bin
+2013.9  msg: M ohrrpgce.hsp
+2013.9  msg: M plotscr.lst
+2013.9  msg: M plotscr.lst
+2013.9  msg: M lookup1.bin
+2014.0  plotscr.hsd version: 3U 
+2014.0  not reloading script titlescreen because it's in use: refcount=1
+2014.0  unlock_resolution(426,240)
+2014.6  set_resolution 426*240
+2014.6  lock_resolution()
+2014.9  plotscr.hsd version: 3U 
+2053.1  msg: M ohrrpgce.hsp
+2053.1  msg: M plotscr.lst
+2053.1  msg: M plotscr.lst
+2053.1  msg: M lookup1.bin
+2053.2  plotscr.hsd version: 3U 
+2073.6  msg: M ohrrpgce.hsp
+2073.6  msg: M plotscr.lst
+2073.6  msg: M plotscr.lst
+2073.6  msg: M lookup1.bin
+2073.7  plotscr.hsd version: 3U 
+2097.9  msg: M ohrrpgce.hsp
+2097.9  msg: M plotscr.lst
+2097.9  msg: M plotscr.lst
+2097.9  msg: M lookup1.bin
+2098.0  plotscr.hsd version: 3U 
+2159.8  msg: M ohrrpgce.gen
+2159.8  msg: M general.reld
+2163.3  msg: M menus.bin
+2163.3  msg: M menuitem.bin
+2163.3  did not reload menus.bin
+2163.3  did not reload menuitem.bin
+2163.5  msg: M menus.bin
+2163.5  msg: M menuitem.bin
+2163.5  did not reload menus.bin
+2163.5  did not reload menuitem.bin
+2163.7  msg: M menus.bin
+2163.7  msg: M menuitem.bin
+2163.7  did not reload menus.bin
+2163.7  did not reload menuitem.bin
+2165.2  msg: M menus.bin
+2165.2  msg: M menuitem.bin
+2165.2  did not reload menus.bin
+2165.2  did not reload menuitem.bin
+2166.3  msg: M menus.bin
+2166.3  msg: M menuitem.bin
+2166.3  did not reload menus.bin
+2166.3  did not reload menuitem.bin
+2346.5  msg: M menus.bin
+2346.5  msg: M menuitem.bin
+2346.5  msg: M ohrrpgce.gen
+2346.5  msg: M general.reld
+2346.5  did not reload menus.bin
+2346.5  did not reload menuitem.bin
+2346.7  msg: M ohrrpgce.gen
+2356.6  msg: M menus.bin
+2356.6  msg: M menuitem.bin
+2356.6  did not reload menus.bin
+2356.6  did not reload menuitem.bin
+2356.8  msg: M menus.bin
+2356.8  msg: M menuitem.bin
+2356.8  did not reload menus.bin
+2356.8  did not reload menuitem.bin
+2357.0  msg: M menus.bin
+2357.0  msg: M menuitem.bin
+2357.0  did not reload menus.bin
+2357.0  did not reload menuitem.bin
+2357.7  msg: M menus.bin
+2357.7  msg: M menuitem.bin
+2357.7  did not reload menus.bin
+2357.7  did not reload menuitem.bin
+2363.2  msg: M menus.bin
+2363.2  msg: M menuitem.bin
+2363.2  did not reload menus.bin
+2363.2  did not reload menuitem.bin
+2364.4  msg: M menus.bin
+2364.4  msg: M menuitem.bin
+2364.4  did not reload menus.bin
+2364.4  did not reload menuitem.bin
+2364.6  msg: M menus.bin
+2364.6  msg: M menuitem.bin
+2364.6  did not reload menus.bin
+2364.6  did not reload menuitem.bin
+2364.8  msg: M menus.bin
+2364.8  msg: M menuitem.bin
+2364.8  did not reload menus.bin
+2364.8  did not reload menuitem.bin
+2365.3  msg: M menus.bin
+2365.3  msg: M menuitem.bin
+2365.3  did not reload menus.bin
+2365.3  did not reload menuitem.bin
+2378.5  msg: M menus.bin
+2378.5  msg: M menuitem.bin
+2378.5  did not reload menus.bin
+2378.5  did not reload menuitem.bin
+2378.7  msg: M menus.bin
+2378.7  msg: M menuitem.bin
+2378.7  did not reload menus.bin
+2378.7  did not reload menuitem.bin
+2383.9  msg: M menus.bin
+2383.9  msg: M menuitem.bin
+2383.9  msg: M ohrrpgce.gen
+2383.9  msg: M general.reld
+2383.9  did not reload menus.bin
+2383.9  did not reload menuitem.bin
+2404.1  msg: M menus.bin
+2404.1  msg: M menuitem.bin
+2404.1  did not reload menus.bin
+2404.1  did not reload menuitem.bin
+2404.3  msg: M menus.bin
+2404.3  msg: M menuitem.bin
+2404.3  did not reload menus.bin
+2404.3  did not reload menuitem.bin
+2404.5  msg: M menus.bin
+2404.5  msg: M menuitem.bin
+2404.5  did not reload menus.bin
+2404.5  did not reload menuitem.bin
+2414.2  msg: M menus.bin
+2414.2  msg: M menuitem.bin
+2414.2  msg: M ohrrpgce.gen
+2414.2  msg: M general.reld
+2414.2  did not reload menus.bin
+2414.2  did not reload menuitem.bin
+2442.6  msg: M menus.bin
+2442.6  msg: M menuitem.bin
+2442.6  did not reload menus.bin
+2442.6  did not reload menuitem.bin
+2442.8  msg: M menus.bin
+2442.8  msg: M menuitem.bin
+2442.8  did not reload menus.bin
+2442.8  did not reload menuitem.bin
+2443.0  msg: M menus.bin
+2443.0  msg: M menuitem.bin
+2443.0  did not reload menus.bin
+2443.0  did not reload menuitem.bin
+2478.8  msg: M ohrrpgce.hsp
+2478.8  msg: M plotscr.lst
+2478.8  msg: M plotscr.lst
+2478.8  msg: M lookup1.bin
+2478.9  plotscr.hsd version: 3U 
+2510.9  msg: M menus.bin
+2510.9  msg: M menuitem.bin
+2510.9  msg: M ohrrpgce.gen
+2510.9  msg: M general.reld
+2510.9  did not reload menus.bin
+2510.9  did not reload menuitem.bin
+2513.5  msg: M ohrrpgce.hsp
+2513.5  msg: M plotscr.lst
+2513.5  msg: M plotscr.lst
+2513.5  msg: M lookup1.bin
+2513.6  plotscr.hsd version: 3U 
+2514.1  msg: M ohrrpgce.gen
+2514.1  msg: M general.reld
+2515.6  msg: M menus.bin
+2515.6  msg: M menuitem.bin
+2515.6  did not reload menus.bin
+2515.6  did not reload menuitem.bin
+2526.0  msg: M menus.bin
+2526.0  msg: M menuitem.bin
+2526.0  msg: M ohrrpgce.gen
+2526.0  msg: M general.reld
+2526.0  did not reload menus.bin
+2526.0  did not reload menuitem.bin
+2526.2  msg: M ohrrpgce.gen
+2530.2  ...Quit the game.
+
+2530.2  Ignore ohrrpgce20210709172005.853.tmp because we are using it
+2530.2  Cleaning up and terminating 0
+2530.7  Closing music backend...
+2530.7  ...done
+2530.7  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210709172005.853.tmp\
+2530.8  Closing gfx backend & allmodex...
+2530.8  ...done
+2530.8  End.

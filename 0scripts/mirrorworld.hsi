@@ -6,6 +6,7 @@ define constant, begin
 4,tag:MirrorCheck
 5,tag:Mirror Person
 6,tag:yes no
+7,tag:Nosave
 0,song:mirror world title
 1,song:attic
 2,song:prehistoric beats
@@ -79,6 +80,8 @@ define constant, begin
 4,atk:Full Heal
 0,menu:Main Menu
 1,menu:Settings
+3,menu:Title
+4,menu:Overwrite check
 1,enemy:Birda
 2,enemy:Statueacle
 3,enemy:Danca

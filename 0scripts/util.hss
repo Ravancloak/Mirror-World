@@ -204,8 +204,8 @@ end
 #======================================================================================================
 script, musicpercent, begin
 	variable(var)
-	var := (getmusicvolume*160/408)
-	return (var)
+	var := (getmusicvolume*160/408--1)
+	return (var+1)
 end
 
 
@@ -255,6 +255,7 @@ script, specwait, ticks=1, begin
 		if (lookupslice (sli:battlecol)) then (battleupdate)
 		if (lookupslice (sli:slot)) then (spin)
 		if (lookupslice (sli:mm)) then (mmupdate)
+		if (lookupslice (sli:titlecheck)) then (titleupdate)
 	)
 end
 #------------------------------------------------------------------------------------------------------
