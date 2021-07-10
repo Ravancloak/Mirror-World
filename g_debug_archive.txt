@@ -1,173 +1,3 @@
- 0.3  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
- 0.3  disable_native_text_input=0
- 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
- 0.4  Setting default window settings...
- 0.4  set_resolution 320*200
- 0.4  Setting graphics scaling to x2 change_windowsize=-1
- 0.4  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
- 0.4  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
- 0.4  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
-end_debug: no debug/error messages during startup (skipping rest of startup)
-
- 0.4   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
- 0.4  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.4  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210709134752.182.tmp\
- 0.4  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
- 0.4  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
- 0.4  Name: 
- 0.6  plotscr.hsd version: 3U 
- 1.1  lock_resolution()
- 1.1  set_resolution 426*240
- 1.1  recenter_window_hint()
- 1.1  get_screen_size: true screen size 1600x900
- 1.1  Desktop resolution: 1600*860
- 1.1  automatic_scale_factor(0.5), screen size: 1600*860
- 1.1  Setting graphics scaling to x2 change_windowsize=-1
- 1.1  Preserving fullscreen/windowed state
- 1.1  genRungameFullscreenIndependent: 0
- 1.6  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 1.6  unlock_resolution(426,240)
- 2.4  set_resolution 426*240
- 2.4  lock_resolution()
- 2.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 2.4  unlock_resolution(426,240)
- 2.8  set_resolution 426*240
- 2.8  lock_resolution()
- 2.8  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 2.8  unlock_resolution(426,240)
- 3.0  set_resolution 426*240
- 3.0  lock_resolution()
- 3.0  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 3.0  unlock_resolution(426,240)
- 3.2  set_resolution 426*240
- 3.2  lock_resolution()
- 3.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 3.2  unlock_resolution(426,240)
- 3.8  set_resolution 426*240
- 3.8  lock_resolution()
- 3.8  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 3.8  unlock_resolution(426,240)
- 3.8  set_resolution 426*240
- 3.8  lock_resolution()
- 3.9  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 3.9  unlock_resolution(426,240)
- 3.9  set_resolution 426*240
- 3.9  lock_resolution()
- 3.9  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 3.9  unlock_resolution(426,240)
- 4.0  set_resolution 426*240
- 4.0  lock_resolution()
- 4.0  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 4.0  unlock_resolution(426,240)
- 4.1  set_resolution 426*240
- 4.1  lock_resolution()
- 4.1  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 4.1  unlock_resolution(426,240)
- 4.2  set_resolution 426*240
- 4.2  lock_resolution()
- 4.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 4.2  unlock_resolution(426,240)
- 4.3  set_resolution 426*240
- 4.3  lock_resolution()
- 4.3  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 4.3  unlock_resolution(426,240)
- 4.4  set_resolution 426*240
- 4.4  lock_resolution()
- 4.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 4.4  unlock_resolution(426,240)
- 4.5  set_resolution 426*240
- 4.5  lock_resolution()
- 4.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 4.5  unlock_resolution(426,240)
- 4.6  set_resolution 426*240
- 4.6  lock_resolution()
- 4.6  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 4.6  unlock_resolution(426,240)
- 4.6  set_resolution 426*240
- 4.6  lock_resolution()
- 4.6  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 4.6  unlock_resolution(426,240)
- 4.7  set_resolution 426*240
- 4.7  lock_resolution()
- 4.7  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 4.7  unlock_resolution(426,240)
- 4.8  set_resolution 426*240
- 4.8  lock_resolution()
- 4.8  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 4.8  unlock_resolution(426,240)
- 4.9  set_resolution 426*240
- 4.9  lock_resolution()
- 4.9  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 4.9  unlock_resolution(426,240)
- 5.0  set_resolution 426*240
- 5.0  lock_resolution()
- 5.0  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 5.0  unlock_resolution(426,240)
- 5.1  set_resolution 426*240
- 5.1  lock_resolution()
- 5.1  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 5.1  unlock_resolution(426,240)
- 5.2  set_resolution 426*240
- 5.2  lock_resolution()
- 5.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 5.2  unlock_resolution(426,240)
- 5.3  set_resolution 426*240
- 5.3  lock_resolution()
- 5.3  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 5.3  unlock_resolution(426,240)
- 5.3  set_resolution 426*240
- 5.3  lock_resolution()
- 5.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 5.4  unlock_resolution(426,240)
- 5.4  set_resolution 426*240
- 5.4  lock_resolution()
- 5.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 5.4  unlock_resolution(426,240)
- 5.5  set_resolution 426*240
- 5.5  lock_resolution()
- 5.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 5.5  unlock_resolution(426,240)
- 5.6  set_resolution 426*240
- 5.6  lock_resolution()
- 5.6  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 5.6  unlock_resolution(426,240)
- 5.7  set_resolution 426*240
- 5.7  lock_resolution()
- 5.7  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 5.7  unlock_resolution(426,240)
- 5.8  set_resolution 426*240
- 5.8  lock_resolution()
- 5.8  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 5.8  unlock_resolution(426,240)
- 5.9  set_resolution 426*240
- 5.9  lock_resolution()
- 5.9  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 5.9  unlock_resolution(426,240)
- 6.0  set_resolution 426*240
- 6.0  lock_resolution()
- 6.0  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 6.0  unlock_resolution(426,240)
- 6.1  set_resolution 426*240
- 6.1  lock_resolution()
- 6.1  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 6.1  unlock_resolution(426,240)
- 6.1  set_resolution 426*240
- 6.1  lock_resolution()
- 6.1  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 6.1  unlock_resolution(426,240)
- 6.2  set_resolution 426*240
- 6.2  lock_resolution()
- 6.2  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 6.2  unlock_resolution(426,240)
- 6.3  set_resolution 426*240
- 6.3  lock_resolution()
- 6.3  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
- 6.3  unlock_resolution(426,240)
- 6.4  set_resolution 426*240
- 6.4  lock_resolution()
- 6.4  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: sliceheight: invalid slice handle 0
- 6.4  unlock_resolution(426,240)
- 6.5  set_resolution 426*240
  6.5  lock_resolution()
  6.5  ! Scripterr(5): defnewgame -> titlescreen -> sinedist: slicechild: invalid slice handle 0
  6.5  unlock_resolution(426,240)
@@ -2779,3 +2609,177 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 2530.8  Closing gfx backend & allmodex...
 2530.8  ...done
 2530.8  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.2   ----Starting OHRRPGCE Game----
+ 0.2  07-10-2021 11:28:01
+ 0.2  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.2  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.2  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.2  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.2  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.2  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_74057'
+ 0.2  Spawned from Custom
+ 0.2  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.3  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.3  disable_native_text_input=0
+ 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210710112801.272.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
+ 0.4  Name: 
+ 0.5  plotscr.hsd version: 3U 
+ 1.0  lock_resolution()
+ 1.0  set_resolution 426*240
+ 1.0  recenter_window_hint()
+ 1.0  get_screen_size: true screen size 1600x900
+ 1.0  Desktop resolution: 1600*860
+ 1.0  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.0  Setting graphics scaling to x2 change_windowsize=-1
+ 1.0  Preserving fullscreen/windowed state
+ 1.0  genRungameFullscreenIndependent: 0
+41.3  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+41.3  unlock_resolution(426,240)
+45.3  set_resolution 426*240
+45.3  lock_resolution()
+45.3  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+45.3  unlock_resolution(426,240)
+45.8  set_resolution 426*240
+45.8  lock_resolution()
+45.8  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+45.8  unlock_resolution(426,240)
+46.6  set_resolution 426*240
+46.6  lock_resolution()
+46.6  ! Scripterr(5): defkeypress -> keypressmm: childcount: invalid slice handle 0
+46.6  unlock_resolution(426,240)
+47.1  set_resolution 426*240
+47.1  lock_resolution()
+47.1  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+47.1  unlock_resolution(426,240)
+47.6  set_resolution 426*240
+47.6  lock_resolution()
+47.6  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+47.6  unlock_resolution(426,240)
+47.7  set_resolution 426*240
+47.7  lock_resolution()
+47.7  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+47.7  unlock_resolution(426,240)
+47.8  set_resolution 426*240
+47.8  lock_resolution()
+47.8  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+47.8  unlock_resolution(426,240)
+47.9  set_resolution 426*240
+47.9  lock_resolution()
+47.9  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+47.9  unlock_resolution(426,240)
+48.0  set_resolution 426*240
+48.0  lock_resolution()
+48.0  ! Scripterr(5): defkeypress -> keypressmm: slicechild: invalid slice handle 0
+48.0  unlock_resolution(426,240)
+48.1  set_resolution 426*240
+48.1  lock_resolution()
+48.1  ! Scripterr(5): defkeypress -> keypressmm: scrolltochild: invalid slice handle 0
+48.1  unlock_resolution(426,240)
+49.0  Killing script fibre; last script = keypressmm
+49.0  set_resolution 426*240
+49.0  lock_resolution()
+49.0  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+49.0  unlock_resolution(426,240)
+50.1  Killing script fibre; last script = keypressmm
+50.1  set_resolution 426*240
+50.2  lock_resolution()
+50.2  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+50.2  unlock_resolution(426,240)
+51.8  Killing script fibre; last script = keypressmm
+51.8  set_resolution 426*240
+51.8  lock_resolution()
+51.9  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+51.9  unlock_resolution(426,240)
+56.1  set_resolution 426*240
+56.1  lock_resolution()
+56.1  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+56.1  unlock_resolution(426,240)
+57.3  set_resolution 426*240
+57.3  lock_resolution()
+57.3  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+57.3  unlock_resolution(426,240)
+57.6  set_resolution 426*240
+57.6  lock_resolution()
+57.6  ! Scripterr(5): defkeypress -> keypressmm: childcount: invalid slice handle 0
+57.6  unlock_resolution(426,240)
+57.8  set_resolution 426*240
+57.8  lock_resolution()
+57.8  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+57.8  unlock_resolution(426,240)
+58.0  set_resolution 426*240
+58.0  lock_resolution()
+58.0  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+58.0  unlock_resolution(426,240)
+58.2  set_resolution 426*240
+58.2  lock_resolution()
+58.2  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+58.2  unlock_resolution(426,240)
+58.3  set_resolution 426*240
+58.3  lock_resolution()
+58.3  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+58.3  unlock_resolution(426,240)
+58.5  set_resolution 426*240
+58.5  lock_resolution()
+58.5  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
+58.5  unlock_resolution(426,240)
+58.6  set_resolution 426*240
+58.6  lock_resolution()
+58.6  ! Scripterr(5): defkeypress -> keypressmm: slicechild: invalid slice handle 0
+58.6  unlock_resolution(426,240)
+59.2  set_resolution 426*240
+59.2  lock_resolution()
+59.2  ! Scripterr(5): defkeypress -> keypressmm: scrolltochild: invalid slice handle 0
+59.2  unlock_resolution(426,240)
+59.3  set_resolution 426*240
+59.3  lock_resolution()
+59.3  ! Scripterr(5): defkeypress -> keypressmain -> mm -> specwait -> mmupdate: firstchild: invalid slice handle 0
+59.3  unlock_resolution(426,240)
+59.3  set_resolution 426*240
+59.3  lock_resolution()
+59.3  ! Scripterr(5): defkeypress -> keypressmain -> mm -> specwait -> mmupdate: firstchild: invalid slice handle 0
+59.3  unlock_resolution(426,240)
+59.4  set_resolution 426*240
+59.4  lock_resolution()
+59.4  ! Scripterr(5): defkeypress -> keypressmain -> mm -> specwait -> mmupdate: firstchild: invalid slice handle 0
+59.4  unlock_resolution(426,240)
+59.5  set_resolution 426*240
+59.5  lock_resolution()
+59.5  ! Scripterr(5): defkeypress -> keypressmain -> mm -> specwait -> mmupdate: slicechild: invalid slice handle 0
+59.5  unlock_resolution(426,240)
+59.6  set_resolution 426*240
+59.6  lock_resolution()
+59.6  ! Scripterr(5): defkeypress -> keypressmain -> mm -> specwait -> mmupdate: getslicevisible: invalid slice handle 0
+59.6  unlock_resolution(426,240)
+59.7  set_resolution 426*240
+59.7  lock_resolution()
+59.7  ! Scripterr(5): defkeypress -> keypressmain -> mm -> specwait -> mmupdate: setslicevisible: invalid slice handle 0
+59.7  unlock_resolution(426,240)
+59.8  set_resolution 426*240
+59.8  lock_resolution()
+74.8  msg: M ohrrpgce.gen
+74.8  msg: M general.reld
+160.6  Cleaning up and terminating 0
+160.6  Closing music backend...
+160.6  ...done
+160.6  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210710112801.272.tmp\
+160.8  Closing gfx backend & allmodex...
+160.8  ...done
+160.8  End.

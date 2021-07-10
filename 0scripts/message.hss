@@ -9,7 +9,7 @@ define constant, begin
 	18, font:spacing
 end
 
-plotscript, write, text,blank=0,choice=0,pausenpc=0(
+plotscript, write, text,blank=0,choice=0,pausenpc=0, begin
 	variable(
 	font,
 	cont,
@@ -64,28 +64,29 @@ plotscript, write, text,blank=0,choice=0,pausenpc=0(
            def letter(asciifromstring(1, pos))
 		   if(stlen > stlenmax)then(stlenmax:=stlen)
         )
-		
-	
-	
 	drawabox
 	
 	lx:= 0, lw:= 0, ly:= 0
 	#$2="", append number (2, stlenmax), show string(2)
 	letter:=first container child(msg)
-		specwait (1)
+		specwait (4)
+		play sound (random(0,2))
 		for(pos, 1, string length(string)) do(
 		
 				set slice visible(letter, ON)
 		  	letter:=next sibling(letter)
 		  	
 		  	for (i, 0,1) do (
-		  		if (skip==0) then (specwait)
-		  		if (anyKeyCheck) then (
+		  		if (skip==0) then (
+					specwait
+					sfx += 1
+					if (sfx,mod,2==1) then (play sound (random(0,2), false, true))
+				)
+				if (newKeyCheck) then (
 			  		skip:=1
-			  		play sound (random(0,2),false,true)		  		
-		  		)
-		  		play sound (random(0,2),false,true)	
-		  	)
+			  		play sound (random(0,2))
+		  		) 	
+			)
 		)
 	refresh()
 	state:control := state
@@ -374,48 +375,48 @@ subscript, drawabox, (
 		slice to back(tbox)
 	)
 
-subscript, refresh, (
+	subscript, refresh, begin
 		specwait (3)
 		waitForNewKey
 		if (choice<>0) then (open menu(choice))
 		while (top menu) do (specwait)
 		skip :=0
 		variable(spr)
-		letter:=first container child(msg)		
+		letter:=first container child(msg)
+		play sound (random(3,5),false,true)	
 		for(pos, 1, string length(string)) do(
 			spr:=first child(letter)
-         dissolve sprite(spr, dissolve:phase out, string length(string)*2, 1, 0)
-		   letter:=next sibling(letter)
-		   if (skip==0) then (specwait)
-		  	if (anyKeyCheck) then (
-			  	skip:=1
-			  	if (game:tick,mod,2==1) then (play sound (random(3,5),false,true))	  		
+    	    dissolve sprite(spr, dissolve:phase out, string length(string)*2, 1, 0)
+			letter:=next sibling(letter)
+			if (skip==0) then (
+				specwait
+				play sound (random(3,5), false, true)
+			)
+			if (anyKeyCheck) then (
+				sfx += 1
+				if (sfx,mod,2==1) then (play sound (random(3,5),false,true))  		
 		  	)
-
-		  	play sound (random(3,5),false,true)
-      )
+		)
 		letter:=first container child(msg)
 		for(pos, 1, string length(string)--string length(string)*2/3) do(
 			spr:=first child(letter)
-          free slice(spr), spr:=0
-		   letter:=next sibling(letter)
-		   if (skip==0) then (specwait)
-		  		if (anyKeyCheck) then (
-			  		skip:=1
-			  		play sound (random(3,5),false,true)		  		
-		  		)
-		  		if (game:tick,mod,2==1) then (play sound (random(3,5),false,true))	
-        )
+        	free slice(spr), spr:=0
+			letter:=next sibling(letter)
+			if (skip==0) then (specwait)
+			if (anyKeyCheck) then (
+			  	skip:=1		
+			) 	
+		)
 		
 
 		free slice(msg)
 		specwait(4 )
 		msg:= 0
-	)
+	end
 
-)	
+end
 	
-plotscript, return asci, pos, string, textbox, (
+plotscript, return asci, pos, string, textbox, begin
 	textbox text (string,textbox,0,1)
 	$2=""
 	for(pos, 0, string length(string))do(
@@ -423,4 +424,4 @@ plotscript, return asci, pos, string, textbox, (
 		specwait(1)
 		show string(2)
 	)
-)
+end

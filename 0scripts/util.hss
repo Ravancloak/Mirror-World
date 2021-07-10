@@ -256,6 +256,7 @@ script, specwait, ticks=1, begin
 		if (lookupslice (sli:slot)) then (spin)
 		if (lookupslice (sli:mm)) then (mmupdate)
 		if (lookupslice (sli:titlecheck)) then (titleupdate)
+		if (lookupslice (sli:sm)) then (smUpdate)
 	)
 end
 #------------------------------------------------------------------------------------------------------
@@ -292,7 +293,7 @@ plotscript, resetControls, check=true, begin
 	cont:Y	:= joy:X
 	
 	board:A	:= key:z
-	board:B	:= key:X
+	board:B	:= key:x
 	board:X	:= key:Enter
 	board:Y	:= key:rightShift
 	#test
@@ -301,13 +302,13 @@ plotscript, resetControls, check=true, begin
 end
 
 script, waitForAnyKey, begin
-	while (true) do (specwait, if (anyKeyCheck<>false) then (break))
+	while (anyKeyCheck==false) do (specwait)
 end
 script, waitForNewKey, begin
-	while (true) do (specwait, if (newKeyCheck<>false) then (break))
+	while (newKeyCheck==false) do (specwait)
 end
 script, anyKeyCheck, begin
-	if (keypressA ||keypressB||keypressX||keypressY|| keypress(key:up)|| keypress(key:down)|| keypress(key:left)|| keypress(key:right)) then (return (true))
+	if (keypressA||keypressB||keypressX||keypressY|| keypress(key:up)|| keypress(key:down)|| keypress(key:left)|| keypress(key:right)) then (return (true))
 end
 script, newKeyCheck, begin
 	if (newkeypressA||newkeypressB||newkeypressX||newkeypressY|| newkeypress(key:up)|| newkeypress(key:down)|| newkeypress(key:left)|| newkeypress(key:right)) then (return (true))

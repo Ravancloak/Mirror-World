@@ -4,8 +4,13 @@ plotscript, opensettingsmenu, begin
 	append number (1, musicpercent)
 	$1+"%"
 	set menu item caption(menu item by true slot(top menu, 1), 1)
+	select menu item (menu item by slot(top menu, menu:lastmain))
 end
 
+plotscript, menuclosesettings, begin
+	menu:lastmain := menu item slot (selected menu item(top menu))
+	show value (menu:lastmain)
+end
 
 #main menu script
 script, mm, begin
@@ -38,7 +43,16 @@ script, mmupdate, begin
 				set slice visible (sli, true)
 			)
 		)
-
+	) else if (mm:openmenu==mm:em) then (
+		if (game:tick,mod,8==0) then (
+			sli2 := first child (first child (first child (lookupslice(sli:em))))
+			sli := slice child (sli2, mm:emsel)
+			if (get slicevisible (sli)) then (
+				set slice visible (sli, false)
+			) else (
+				set slice visible (sli, true)
+			)
+		)
 	)
 
 	if (topmenu <> false || mm:openmenu<>0) then (exit script)
@@ -55,85 +69,7 @@ script, mmupdate, begin
 			set slice visible (sli, true)
 		)
 	)
-end
 
-script, keypressmm, begin
-	variable (i, sli, counter)
-
-	#item menu
-	if (mm:openmenu==mm:im) then (
-
-		sli := first child (first child (first child (lookupslice(sli:im))))
-		counter := childcount (sli)--1
-		if (keypress(left key)) then (
-			sli := slice child (first child (first child (first child (lookupslice(sli:im)))), mm:imsel)
-			set slice visible (sli, true)
-			if (mm:imsel>0) then (mm:imsel -= 1)
-			exit script
-		)
-		if (keypress(right key)) then (
-			sli := slice child (first child (first child (first child (lookupslice(sli:im)))), mm:imsel)
-			set slice visible (sli, true)
-			if (mm:imsel<counter) then (mm:imsel += 1)
-			exit script
-		)
-		if (keypress(up key)) then (
-			sli := slice child (first child (first child (first child (lookupslice(sli:im)))), mm:imsel)
-			set slice visible (sli, true)
-			if (mm:imsel>0) then (mm:imsel -= 4)
-			if (mm:imsel<0) then (mm:imsel := 0)
-			exit script
-		)
-		if (keypress(down key)) then (
-			sli := slice child (first child (first child (first child (lookupslice(sli:im)))), mm:imsel)
-			set slice visible (sli, true)
-			if (mm:imsel<counter) then (mm:imsel += 4)
-			if (mm:imsel>counter) then (mm:imsel := counter)
-			exit script
-		)
-		if (keypressA) then (
-			imUseItem (mm:imsel)
-			updateitemcount
-			exit script
-		)
-		sli := first child (first child (lookupslice(sli:im)))
-		scroll to slice (sli, slice child (first child (first child (first child (lookupslice(sli:im)))), mm:imsel))
-		show value(mm:imsel)
-		if (newkeypressB) then (
-			mm:openmenu:=0
-		)
-		exit script
-	)
-	#status menu
-	if (mm:openmenu==mm:sm) then (
-		if (newkeypressB) then (
-			mm:openmenu:=0
-		)
-		exit script
-	)
-	if (keypress(left key)) then (
-		if (mm:sel>0) then (mm:sel -= 1)
-		exit script
-	)
-	if (keypress(right key)) then (
-		if (mm:sel<2) then (mm:sel += 1)
-		exit script
-	)
-	if (newkeypressA || keypress(down key)) then (
-		for (i, 0, 2) do (
-			sli := first child (slice child (first child (lookupslice(sli:mm)), i))
-			set slice visible (sli, true)
-		)
-		switch (mm:sel) do (
-			case (0) do (im)
-			case (1) do (sm)
-			case (2) do (opensettingsmenu)
-		)
-		exit script
-	)
-	if (newkeypressB || newkeypressX) then (
-		resumecontrol(), exit script
-	)
 end
 
 #item menu
@@ -186,5 +122,167 @@ end
 
 #status menu
 script, sm, begin
-	mm:openmenu:=mm:im
+	variable (i, sli, var1, var2)
+	mm:smsel:=0
+	mm:openmenu:=mm:sm
+	sli := load slice collection(4)
+
+	#determine level
+	var1 := getHeroLevel(me)
+	$3="Level "
+	append number (3, var1)
+	set slice text (slice child(lookupslice(sli:statGrid),0), 3)
+
+	#determine HP
+	var1 := getHeroStat(me, stat:HP, currentStat)
+	var2 := getHeroStat(me, stat:HP, maximumStat)
+	$3=""
+	append number (3, var1)
+	$3+"/"
+	append number(3, var2)
+	$3+" HP"
+	set slice text (slice child(lookupslice(sli:statGrid),1), 3)
+
+	#determine atk
+	var1 := getHeroStat(me, stat:ATK)
+	$3=""
+	append number (3, var1)
+	$3+" Attack"
+	set slice text (slice child(lookupslice(sli:statGrid),2), 3)
+
+	#determine def
+	var1 := getHeroStat(me, stat:DEF)
+	$3=""
+	append number (3, var1)
+	$3+" Defense"
+	set slice text (slice child(lookupslice(sli:statGrid),3), 3)
+
+	#determine Speed
+	var1 := getHeroStat(me, stat:Speed)
+	$3=""
+	append number (3, var1)
+	$3+" Speed"
+	set slice text (slice child(lookupslice(sli:statGrid),4), 3)
+
+	#determine r hand
+	if (check equipment (me, slot:R Hand)<>-1) then (
+		var1 := check equipment (me, slot:R Hand)
+		$3="R Hand: "
+		getItemName (4, var1)
+		3 $+ 4
+		set slice text (slice child(lookupslice(sli:equipGrid),0), 3)
+	)
+	#determine L hand
+	if (check equipment (me, slot:L Hand)<>-1) then (
+		var1 := check equipment (me, slot:L Hand)
+		$3="L Hand: "
+		getItemName (4, var1)
+		3 $+ 4
+		set slice text (slice child(lookupslice(sli:equipGrid),1), 3)
+	)
+	#determine Head
+	if (check equipment (me, slot:Head)<>-1) then (
+		var1 := check equipment (me, slot:Head)
+		$3="Head: "
+		getItemName (4, var1)
+		3 $+ 4
+		set slice text (slice child(lookupslice(sli:equipGrid),2), 3)
+	)
+	#determine Body
+	if (check equipment (me, slot:Body)<>-1) then (
+		var1 := check equipment (me, slot:Body)
+		$3="Body: "
+		getItemName (4, var1)
+		3 $+ 4
+		set slice text (slice child(lookupslice(sli:equipGrid),3), 3)
+	)
+	#determine Accessory
+	if (check equipment (me, slot:Accessory)<>-1) then (
+		var1 := check equipment (me, slot:Accessory)
+		$3="Body: "
+		getItemName (4, var1)
+		3 $+ 4
+		set slice text (slice child(lookupslice(sli:equipGrid),4), 3)
+	)
+
+	while (mm:openmenu==mm:sm || mm:openmenu==mm:em) do (
+		specwait
+	)
+	free slice (lookupslice(sli:sm))
 end
+
+script, smUpdate, begin
+	variable (sli)
+	sli := lookupslice(sli:portrait)
+	if (game:tick,mod,30==1) then (
+		if (get sprite frame (sli)>=2) then (
+			set sprite frame (sli, 0)
+		) else (set sprite frame (sli, get sprite frame (sli)+1))
+	)
+end
+
+script, openem, begin
+	load slice collection (5)
+	mm:openmenu:=mm:em
+	mm:emsel := 0
+
+	switch (mm:smsel) do (
+		case (0) do (rHandEquip)
+		case (1) do (lHandEquip)
+		case (2) do (headEquip)
+		case (3) do (bodyEquip)
+		case (4) do (accessoryEquip)
+	)
+
+	while (mm:openmenu==mm:em) do (
+		specwait
+	)
+	free slice (lookupslice(sli:em))
+end
+
+script, rHandEquip, begin
+	variable (sli, i, var1, var2)
+	$3="Right Hand"
+	set slice text (lookupslice(sli:equipText), 3)
+	setequiptext(slot:R Hand)
+end
+
+script, lHandEquip, begin
+	variable (sli, i, var1, var2)
+	$3="Left Hand"
+	set slice text (lookupslice(sli:equipText), 3)
+	setequiptext(slot:R Hand)
+end
+
+script, headEquip, begin
+	variable (sli, i, var1, var2)
+	$3="Head"
+	set slice text (lookupslice(sli:equipText), 3)
+	setequiptext(slot:Head)
+end
+
+script, bodyEquip, begin
+	variable (sli, i, var1, var2)
+	$3="Body"
+	set slice text (lookupslice(sli:equipText), 3)
+	setequiptext(slot:Body)
+end
+
+script, accessoryEquip, begin
+	variable (sli, i, var1, var2)
+	$3="Accessory"
+	set slice text (lookupslice(sli:equipText), 3)
+	setequiptext(slot:Accessory)
+end
+
+script, setequiptext, which, begin
+	variable (sli, i, var1, var2)
+
+	sli := create text()
+	set parent(sli, lookupslice(sli:equipItemGrid))
+	$3="Nothing"
+	set slice extra (sli, 0)
+	set slice text (sli, 3)
+end
+
+#TODO: add a script that gets the names of all the equipable items

@@ -30,6 +30,7 @@ define constant, begin
 
 	1, mm:im
 	2, mm:sm
+	3, mm:em
 end
 
 global variable, begin
@@ -83,6 +84,7 @@ global variable, begin
 	30, mm:imsel
 	31, mm:smsel
 	32, inv:size
+	41, mm:emsel
 end
 
 script, defgameover, begin
@@ -104,23 +106,35 @@ plotscript, defexitgame, begin
 end
 
 plotscript, defnewgame, begin
+	init
+	mainloop
+end
+
+script, init, begin
 	variable (i)
 	if (save slot used (1)) then (set tag(tag:nosave, on))
-	var:volume := set music volume (255/50*41)
+	var:volume := set music volume (255)
 	#set music volume (0--1)
 
-	get item(item:Cherries, 2)
-	for (i, 1, 8) do (
-		get item (i)
-	)
+	set hero level (me, 1)
+	#get item(item:Cherries, 2)
+	#for (i, 1, 8) do (
+	#	get item (i)
+	#)
+
+	force equip (me, slot:R Hand, item:Pen)
+	force equip (me, slot:Body, item:Dress)
+	force equip (me, slot:Head, item:Flwr Pin)
+	
+
 	suspendcontrol
 	resetcontrols(false)
 	titlescreen
 	resumecontrol
-	mainloop
 end
 
 plotscript, defloadgame, begin
+	play sound (7)
 	resumecontrol
 	mainloop
 end
@@ -299,19 +313,19 @@ script, battlekeypress, begin
 	sli := lookupslice (sli:battlemenu)
 	if (keypress(key:esc)) then (battleEnd(battle:formation))
 
-	if (keypress(up key)&&battle:selected>0) then (battle:selected -= 1)
-	if (keypress(down key)&&battle:selected<4) then (battle:selected += 1)
-	if (keypress(key:1)) then (battle:selected := 0, battle:turn := false)
-	if (keypress(key:2)) then (battle:selected := 1, battle:turn := false)
-	if (keypress(key:3)) then (battle:selected := 2, battle:turn := false)
-	if (keypress(key:4)) then (battle:selected := 3, battle:turn := false)
-	if (keypress(key:5)) then (battle:selected := 4, battle:turn := false)
-	if (keypressA) then (battle:turn := false)
+	if (keypress(up key)&&battle:selected>0) then (battle:selected -= 1, playsound(8, false, true))
+	if (keypress(down key)&&battle:selected<4) then (battle:selected += 1, playsound(8, false, true))
+	if (keypress(key:1)) then (battle:selected := 0, battle:turn := false, playsound(10, false, true))
+	if (keypress(key:2)) then (battle:selected := 1, battle:turn := false, playsound(10, false, true))
+	if (keypress(key:3)) then (battle:selected := 2, battle:turn := false, playsound(10, false, true))
+	if (keypress(key:4)) then (battle:selected := 3, battle:turn := false, playsound(10, false, true))
+	if (keypress(key:5)) then (battle:selected := 4, battle:turn := false, playsound(10, false, true))
+	if (keypressA) then (battle:turn := false, playsound(10, false, true))
 end
 
 script, menukeypress, begin
 	variable (var)
-	if (keypressA) then (if (topmenu) then (use menu item(selected menu item)) exit script)
+	if (keypressA) then (if (topmenu) then (use menu item(selected menu item)), playsound(10, false, true), exit script)
 
 	if (get menu bit(topmenu, menubit:no close) <> true) then (
 		if (keypressX && get menu ID(topmenu)==0) then (
@@ -325,6 +339,7 @@ script, menukeypress, begin
 			if (get menu cancel button menu(topmenu)<>-1) then (open menu (get menu cancel button menu(topmenu)))
 			if (get menu ID(topmenu)==0) then (menu:lastmain := menu item true slot(selected menu item(topmenu)))
 			close menu(var)
+			playsound(9, false, true)
 			exit script
 		)
 	)
@@ -357,17 +372,156 @@ script, menukeypress, begin
 	if (keypress(up key)) then (
 		if (selected menu item(top menu) <> first menu item(top menu)) then (
 			select menu item(previous menu item(selected menu item(topmenu)))
+			menu:lastmain := menu item slot (selected menu item(topmenu))
 		) else if (selected menu item(top menu) == first menu item(top menu)) then (
 			select menu item(last menu item(top menu))
+			menu:lastmain := menu item slot (selected menu item(topmenu))
 		)
+		play sound (8, false, true)
 	)
 
 	if (keypress(down key)) then (
 		if (selected menu item(top menu) <> last menu item(top menu)) then (
 			select menu item(next menu item(selected menu item(topmenu)))
+			menu:lastmain := menu item slot (selected menu item(topmenu))
 		) else if (selected menu item(top menu) == last menu item(top menu)) then (
 			select menu item(first menu item(top menu))
+			menu:lastmain := menu item slot (selected menu item(topmenu))
 		)
+		play sound (8, false, true)
 	)
 end
 
+script, keypressmm, begin
+	variable (i, sli, counter)
+
+	#status menu
+	if (mm:openmenu==mm:em) then (
+		if (keypressB) then (
+			mm:openmenu:=mm:sm
+			playsound(9, false, true)
+		)
+		if (keypress(up key)) then (
+			sli := slice child (first child (first child (first child (lookupslice(sli:em)))), mm:emsel)
+			set slice visible (sli, true)
+			if (mm:emsel>0) then (mm:emsel -= 1, play sound (8, false, true))
+			exit script
+		)
+		if (keypress(down key)) then (
+			sli := slice child (first child (first child (first child (lookupslice(sli:em)))), mm:emsel)
+			set slice visible (sli, true)
+			if (mm:emsel<counter) then (mm:emsel += 1, play sound (8, false, true))
+			exit script
+		)
+		exit script
+	) elseif (mm:openmenu==mm:sm) then (
+		if (keypressA) then (
+			mm:openmenu:=mm:sm
+			play sound (10, false, true)
+			openem
+			exit script
+		)
+		if (keypressB) then (
+			mm:openmenu:=0
+			playsound(9, false, true)
+			exit script
+		)
+		if (keypress(up key)) then (
+			if (mm:smsel>0) then (mm:smsel -= 1, play sound (8, false, true))
+			set parent (lookupslice(sli:selequip), slice child (lookupslice(sli:equip grid), mm:smsel))
+			exit script
+		)
+		if (keypress(down key)) then (
+			if (mm:smsel<4) then (mm:smsel += 1, play sound (8, false, true))
+			set parent (lookupslice(sli:selequip), slice child (lookupslice(sli:equip grid), mm:smsel))
+			exit script
+		)
+		exit script
+	)else if (mm:openmenu==mm:im) then ( #item menu
+
+		sli := first child (first child (first child (lookupslice(sli:im))))
+		counter := childcount (sli)--1
+		if (keypress(left key)) then (
+			sli := slice child (first child (first child (first child (lookupslice(sli:im)))), mm:imsel)
+			set slice visible (sli, true)
+			if (mm:imsel>0) then (mm:imsel -= 1)
+			play sound (8, false, true)
+			exit script
+		)
+		if (keypress(right key)) then (
+			sli := slice child (first child (first child (first child (lookupslice(sli:im)))), mm:imsel)
+			set slice visible (sli, true)
+			if (mm:imsel<counter) then (mm:imsel += 1)
+			play sound (8, false, true)
+			exit script
+		)
+		if (keypress(up key)) then (
+			sli := slice child (first child (first child (first child (lookupslice(sli:im)))), mm:imsel)
+			set slice visible (sli, true)
+			if (mm:imsel>0) then (mm:imsel -= 4)
+			if (mm:imsel<0) then (mm:imsel := 0)
+			play sound (8, false, true)
+			exit script
+		)
+		if (keypress(down key)) then (
+			sli := slice child (first child (first child (first child (lookupslice(sli:im)))), mm:imsel)
+			set slice visible (sli, true)
+			if (mm:imsel<counter) then (mm:imsel += 4)
+			if (mm:imsel>counter) then (mm:imsel := counter)
+			play sound (8, false, true)
+			exit script
+		)
+		if (keypressA) then (
+			playsound(10, false, true)
+			imUseItem (mm:imsel)
+			updateitemcount
+			exit script
+		)
+		sli := first child (first child (lookupslice(sli:im)))
+		scroll to slice (sli, slice child (first child (first child (first child (lookupslice(sli:im)))), mm:imsel))
+		show value(mm:imsel)
+		if (newkeypressB) then (
+			mm:openmenu:=0
+			playsound(9, false, true)
+		)
+		exit script
+	)
+	#status menu
+	if (mm:openmenu==mm:sm) then (
+		if (newkeypressB) then (
+			mm:openmenu:=0
+			playsound(9, false, true)
+		)
+		exit script
+	)
+	if (keypress(left key)) then (
+		if (mm:sel>0) then (mm:sel -= 1)
+		play sound (8, false, true)
+		exit script
+	)
+	if (keypress(right key)) then (
+		if (mm:sel<2) then (mm:sel += 1)
+		play sound (8, false, true)
+		exit script
+	)
+	if (newkeypressA || keypress(down key)) then (
+		for (i, 0, 2) do (
+			playsound(10, false, true)
+			sli := first child (slice child (first child (lookupslice(sli:mm)), i))
+			set slice visible (sli, true)
+		)
+		switch (mm:sel) do (
+			case (0) do (im)
+			case (1) do (sm)
+			case (2) do (opensettingsmenu)
+		)
+		exit script
+	)
+	if (newkeypressB || newkeypressX) then (
+		resumecontrol(),playsound(9, false, true), exit script
+	)
+end
+
+script, titlekeypress, begin
+	if (newkeypress(anykey)) then (state:control := suspendcontrol)
+end

@@ -135,9 +135,7 @@ script, titleupdate, begin
 	)
 	sinedist(999)
 end
-script, titlekeypress, begin
-	if (newkeypress(anykey)) then (state:control := suspendcontrol)
-end
+
 
 plotscript, loadgame, begin
 	load from slot(1)
@@ -149,10 +147,11 @@ end
 plotscript, savegame, begin
 	if (save slot used (1)) then (
 		open menu(4)
-	) else (save in slot(1))
+	) else (save in slot(1), play sound (7))
 end
 plotscript, savegameconfirm, begin
 	save in slot(1)
+	play sound (7)
 end
 
 script, emote, who, which, begin
@@ -247,13 +246,13 @@ script, eventsattic, which, begin
 				dissolve sprite (sli, dissolve:shrink to center, 100, 10, true)
 				dissolve sprite (sli2, dissolve:shrink to center, 100, 10, true)
 
-				for (i, 1, 40) do (
+				for (i, 1, 80) do (
 					if (game:tick,mod,4==1) then (wildpal(4))
 					set sprite frame (sli, (i/2),mod,2)
 					set sprite frame (sli2, (i/2),mod,2)
 					specwait(2)
 				)
-				for (i, 1,40) do (
+				for (i, 1,80) do (
 
 					if (game:tick,mod,4==1) then (wildpal(4))
 					specwait (2)
