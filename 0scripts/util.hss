@@ -143,7 +143,12 @@ script, three frame walking update, slice, begin
 
   # If you want to exclude some walkabouts from three-frame animations, you can
   # add a check like the following here:
-  if (current spriteset ==4|| current spriteset ==5) then (exit script)
+  if (
+  	current spriteset ==4 || current spriteset ==5 ||  current spriteset ==10 || current spriteset ==11
+  ) then (exit script)
+  if (
+  	current spriteset ==11
+  ) then (exit script)
 
   variable (extradata, previous frame, current frame, previous spriteset, base spriteset)
   current frame := get sprite frame(slice), and, 1
@@ -244,8 +249,27 @@ plotscript, totitle, begin
 	reset game
 end
 
-plotscript, doors, which, begin
-	usedoor(which)
+
+plotscript, doorscript, begin
+	variable (x, y, who, door)
+	x := hero x (me)
+	y := hero y (me)
+	door := door at spot (x,y)
+	switch (hero direction (0)) do (
+		case (up) do	(y -= 1)
+		case (down) do	(y += 1)
+		case (right) do (x += 1)
+		case (left) do	(x -= 1)
+	)
+	wait (2)
+	if (npc at spot (x, y)) then (
+		who := npc at spot (x, y)
+		set NPC frame (who, npc frame (who)+1)
+	)
+	wait (6)
+	screenfadeout
+	use door (door, false)
+	screenfadein
 end
 
 script, specwait, ticks=1, begin

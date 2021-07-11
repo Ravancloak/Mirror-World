@@ -378,7 +378,8 @@ subscript, drawabox, (
 	subscript, refresh, begin
 		specwait (3)
 		waitForNewKey
-		if (choice<>0) then (open menu(choice))
+
+		if (choice<>0) then (set tag (tag:yesno, off), open menu(choice))
 		while (top menu) do (specwait)
 		skip :=0
 		variable(spr)
@@ -391,11 +392,12 @@ subscript, drawabox, (
 			if (skip==0) then (
 				specwait
 				play sound (random(3,5), false, true)
-			)
-			if (anyKeyCheck) then (
 				sfx += 1
-				if (sfx,mod,2==1) then (play sound (random(3,5),false,true))  		
-		  	)
+			)
+			if (newKeyCheck) then (
+			  	skip:=1
+			  	play sound (random(0,2))
+		  	) 	
 		)
 		letter:=first container child(msg)
 		for(pos, 1, string length(string)--string length(string)*2/3) do(

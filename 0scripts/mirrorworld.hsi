@@ -7,6 +7,8 @@ define constant, begin
 5,tag:Mirror Person
 6,tag:yes no
 7,tag:Nosave
+8,tag:got food
+9,tag:SaveGame
 0,song:mirror world title
 1,song:attic
 2,song:prehistoric beats
@@ -39,10 +41,11 @@ define constant, begin
 5,item:Spd Pill
 6,item:Pwr Pill
 7,item:Shrooms
-8,item:Mnd Gem
+8,item:Soul Gem
 9,item:Flwr Pin
 10,item:Dress
 11,item:Pen
+12,item:Fry Pan
 0,stat:HP
 1,stat:MP
 2,stat:Atk
@@ -72,9 +75,9 @@ define constant, begin
 14,element:Other 11
 15,element:Other 12
 1,slot:Weapon
-1,slot:R Hand
+1,slot:Head
 2,slot:L Hand
-3,slot:Head
+3,slot:R Hand
 4,slot:Body
 5,slot:Accessory
 0,map:Blank
@@ -91,6 +94,7 @@ define constant, begin
 3,menu:Title
 4,menu:Overwrite check
 5,menu:Quit confirm
+6,menu:Overwrite Check2
 1,enemy:Birda
 2,enemy:Statueacle
 3,enemy:Danca

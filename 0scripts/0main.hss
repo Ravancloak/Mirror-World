@@ -83,8 +83,8 @@ global variable, begin
 	29, mm:openmenu
 	30, mm:imsel
 	31, mm:smsel
-	32, inv:size
 	41, mm:emsel
+	32, inv:size
 end
 
 script, defgameover, begin
@@ -113,20 +113,16 @@ end
 script, init, begin
 	variable (i)
 	if (save slot used (1)) then (set tag(tag:nosave, on))
+	if (save slot used (2)) then (set tag(tag:savegame, on))
 	var:volume := set music volume (255)
-	#set music volume (0--1)
-
-	set hero level (me, 1)
-	#get item(item:Cherries, 2)
-	#for (i, 1, 8) do (
-	#	get item (i)
-	#)
+	set music volume (0--1)
 
 	force equip (me, slot:R Hand, item:Pen)
 	force equip (me, slot:Body, item:Dress)
 	force equip (me, slot:Head, item:Flwr Pin)
-	
+	set hero level (me, 1)
 
+	suspendDoors
 	suspendcontrol
 	resetcontrols(false)
 	titlescreen
@@ -135,7 +131,10 @@ end
 
 plotscript, defloadgame, begin
 	play sound (7)
+	suspendDoors
+	suspendcontrol
 	resumecontrol
+	mm:sel :=0
 	mainloop
 end
 
@@ -144,6 +143,7 @@ plotscript, defautorun, begin
 	switch (currentmap) do (
 		case (2) do (
 			loadmirrorperson
+			if (checktag(tag:MirrorCheck)) then (set npc direction(NPC reference (0),3))
 		)
 	)
 	exit script
@@ -274,7 +274,7 @@ script, keypressmain, begin
 		if (NPC at spot (x,y)) then (
 			who := npc at spot (x,y)
 			if (activatableNPC(who) && read NPC (who, NPCstat:activation)==NPCactivation:touch) then (
-				set hero direction (me, left)
+				set hero direction (me, right)
 				usenpcatspot
 				exit script
 			)
@@ -325,7 +325,7 @@ end
 
 script, menukeypress, begin
 	variable (var)
-	if (keypressA) then (if (topmenu) then (use menu item(selected menu item)), playsound(10, false, true), exit script)
+	if (keypressA) then (if (topmenu) then (playsound(10, false, true),use menu item(selected menu item)), exit script)
 
 	if (get menu bit(topmenu, menubit:no close) <> true) then (
 		if (keypressX && get menu ID(topmenu)==0) then (
@@ -395,28 +395,39 @@ end
 script, keypressmm, begin
 	variable (i, sli, counter)
 
-	#status menu
+	#equip menu
 	if (mm:openmenu==mm:em) then (
 		if (keypressB) then (
 			mm:openmenu:=mm:sm
 			playsound(9, false, true)
 		)
 		if (keypress(up key)) then (
-			sli := slice child (first child (first child (first child (lookupslice(sli:em)))), mm:emsel)
-			set slice visible (sli, true)
-			if (mm:emsel>0) then (mm:emsel -= 1, play sound (8, false, true))
+			sli := slice child (lookupslice(sli:equipItemGrid), mm:emsel)
+			if (mm:emsel>0) then (set slice visible (sli, true)
+				mm:emsel -= 1
+				play sound (8, false, true))
 			exit script
 		)
 		if (keypress(down key)) then (
-			sli := slice child (first child (first child (first child (lookupslice(sli:em)))), mm:emsel)
-			set slice visible (sli, true)
-			if (mm:emsel<counter) then (mm:emsel += 1, play sound (8, false, true))
+			sli := slice child (lookupslice(sli:equipItemGrid), mm:emsel)
+			counter := childcount (lookupslice(sli:equipItemGrid))--1
+			if (mm:emsel<counter) then (
+				set slice visible (sli, true)
+				mm:emsel += 1
+				play sound (8, false, true)
+			)
+			exit script
+		)
+		if (keypressA) then (
+			mm:openmenu:=mm:sm
+			play sound (10, false, true)
+			sli := slice child (lookupslice(sli:equipItemGrid), mm:emsel)
+			menuequip(get slice extra (sli, 0), get slice extra (sli, 1))
 			exit script
 		)
 		exit script
 	) elseif (mm:openmenu==mm:sm) then (
 		if (keypressA) then (
-			mm:openmenu:=mm:sm
 			play sound (10, false, true)
 			openem
 			exit script

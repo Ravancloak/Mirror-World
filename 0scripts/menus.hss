@@ -45,8 +45,7 @@ script, mmupdate, begin
 		)
 	) else if (mm:openmenu==mm:em) then (
 		if (game:tick,mod,8==0) then (
-			sli2 := first child (first child (first child (lookupslice(sli:em))))
-			sli := slice child (sli2, mm:emsel)
+			sli := slice child (lookupslice(sli:equipItemGrid), mm:emsel)
 			if (get slicevisible (sli)) then (
 				set slice visible (sli, false)
 			) else (
@@ -127,83 +126,7 @@ script, sm, begin
 	mm:openmenu:=mm:sm
 	sli := load slice collection(4)
 
-	#determine level
-	var1 := getHeroLevel(me)
-	$3="Level "
-	append number (3, var1)
-	set slice text (slice child(lookupslice(sli:statGrid),0), 3)
-
-	#determine HP
-	var1 := getHeroStat(me, stat:HP, currentStat)
-	var2 := getHeroStat(me, stat:HP, maximumStat)
-	$3=""
-	append number (3, var1)
-	$3+"/"
-	append number(3, var2)
-	$3+" HP"
-	set slice text (slice child(lookupslice(sli:statGrid),1), 3)
-
-	#determine atk
-	var1 := getHeroStat(me, stat:ATK)
-	$3=""
-	append number (3, var1)
-	$3+" Attack"
-	set slice text (slice child(lookupslice(sli:statGrid),2), 3)
-
-	#determine def
-	var1 := getHeroStat(me, stat:DEF)
-	$3=""
-	append number (3, var1)
-	$3+" Defense"
-	set slice text (slice child(lookupslice(sli:statGrid),3), 3)
-
-	#determine Speed
-	var1 := getHeroStat(me, stat:Speed)
-	$3=""
-	append number (3, var1)
-	$3+" Speed"
-	set slice text (slice child(lookupslice(sli:statGrid),4), 3)
-
-	#determine r hand
-	if (check equipment (me, slot:R Hand)<>-1) then (
-		var1 := check equipment (me, slot:R Hand)
-		$3="R Hand: "
-		getItemName (4, var1)
-		3 $+ 4
-		set slice text (slice child(lookupslice(sli:equipGrid),0), 3)
-	)
-	#determine L hand
-	if (check equipment (me, slot:L Hand)<>-1) then (
-		var1 := check equipment (me, slot:L Hand)
-		$3="L Hand: "
-		getItemName (4, var1)
-		3 $+ 4
-		set slice text (slice child(lookupslice(sli:equipGrid),1), 3)
-	)
-	#determine Head
-	if (check equipment (me, slot:Head)<>-1) then (
-		var1 := check equipment (me, slot:Head)
-		$3="Head: "
-		getItemName (4, var1)
-		3 $+ 4
-		set slice text (slice child(lookupslice(sli:equipGrid),2), 3)
-	)
-	#determine Body
-	if (check equipment (me, slot:Body)<>-1) then (
-		var1 := check equipment (me, slot:Body)
-		$3="Body: "
-		getItemName (4, var1)
-		3 $+ 4
-		set slice text (slice child(lookupslice(sli:equipGrid),3), 3)
-	)
-	#determine Accessory
-	if (check equipment (me, slot:Accessory)<>-1) then (
-		var1 := check equipment (me, slot:Accessory)
-		$3="Body: "
-		getItemName (4, var1)
-		3 $+ 4
-		set slice text (slice child(lookupslice(sli:equipGrid),4), 3)
-	)
+	updateequip
 
 	while (mm:openmenu==mm:sm || mm:openmenu==mm:em) do (
 		specwait
@@ -251,7 +174,7 @@ script, lHandEquip, begin
 	variable (sli, i, var1, var2)
 	$3="Left Hand"
 	set slice text (lookupslice(sli:equipText), 3)
-	setequiptext(slot:R Hand)
+	setequiptext(slot:L Hand)
 end
 
 script, headEquip, begin
@@ -276,13 +199,331 @@ script, accessoryEquip, begin
 end
 
 script, setequiptext, which, begin
-	variable (sli, i, var1, var2)
+	variable (sli, sli2, i, var1, var2)
+	var1 := which
+	if (which == slot:R Hand) then (var1 := slot:L Hand)
+	sli := lookupslice(sli:equipItemGrid)
+	for (i, 0, get inventory size--1) do (
+		if (item in slot (i)<>-1) then (
+			if (equip where (me, item in slot (i)) == var1) then (
+				sli2 := createText
+				getItemName(5,item in slot(i))
+				
+				set slice text (sli2, 5)
+				set parent (sli2, sli)
+				set slice extra (sli2, 0, item in slot (i))
+				set slice extra (sli2, 1, which)
+			)
+		)
+	)
 
-	sli := create text()
-	set parent(sli, lookupslice(sli:equipItemGrid))
-	$3="Nothing"
-	set slice extra (sli, 0)
-	set slice text (sli, 3)
+	sli2 := create text()
+	set parent(sli2, sli)
+	$5="Nothing"
+	set slice extra (sli2, 0, 0)
+	set slice extra (sli2, 1, which)
+	set slice text (sli2, 5)
 end
 
-#TODO: add a script that gets the names of all the equipable items
+script, menuequip, which, which2, begin
+	if (which==0) then (unequip(me, which2)) else (force equip (me, which2, which))
+	updateequip
+
+	show value (which2)
+end
+
+script, updateequip, begin
+	variable (i, sli, var1, var2)
+	#determine level
+	var1 := getHeroLevel(me)
+	$3="Level "
+	append number (3, var1)
+	set slice text (slice child(lookupslice(sli:statGrid),0), 3)
+
+	#determine HP
+	var1 := getHeroStat(me, stat:HP, currentStat)
+	var2 := getHeroStat(me, stat:HP, maximumStat)
+	$3=""
+	append number (3, var1)
+	$3+"/"
+	append number(3, var2)
+	$3+" HP"
+	set slice text (slice child(lookupslice(sli:statGrid),1), 3)
+
+	#determine atk
+	var1 := getHeroStat(me, stat:ATK)
+	$3=""
+	append number (3, var1)
+	$3+" Attack"
+	set slice text (slice child(lookupslice(sli:statGrid),2), 3)
+
+	#determine def
+	var1 := getHeroStat(me, stat:DEF)
+	$3=""
+	append number (3, var1)
+	$3+" Defense"
+	set slice text (slice child(lookupslice(sli:statGrid),3), 3)
+
+	#determine Speed
+	var1 := getHeroStat(me, stat:Speed)
+	$3=""
+	append number (3, var1)
+	$3+" Speed"
+	set slice text (slice child(lookupslice(sli:statGrid),4), 3)
+
+	#determine r hand
+	if (check equipment (me, slot:R Hand)<>-1) then (
+		var1 := check equipment (me, slot:R Hand)
+		$3="R Hand: "
+		getItemName (4, var1)
+		3 $+ 4
+		set slice text (slice child(lookupslice(sli:equipGrid),0), 3)
+	) else (
+		$3="R Hand: Nothing"
+		set slice text (slice child(lookupslice(sli:equipGrid),0), 3)
+	)
+	#determine L hand
+	if (check equipment (me, slot:L Hand)<>-1) then (
+		var1 := check equipment (me, slot:L Hand)
+		$3="L Hand: "
+		getItemName (4, var1)
+		3 $+ 4
+		set slice text (slice child(lookupslice(sli:equipGrid),1), 3)
+	) else (
+		$3="L Hand: Nothing"
+		set slice text (slice child(lookupslice(sli:equipGrid),1), 3)
+	)
+	#determine Head
+	if (check equipment (me, slot:Head)<>-1&&check equipment (me, slot:Head)<>13) then (
+		var1 := check equipment (me, slot:Head)
+		$3="Head: "
+		getItemName (4, var1)
+		3 $+ 4
+		set slice text (slice child(lookupslice(sli:equipGrid),2), 3)
+	) else (
+		$3="Head: Nothing"
+		set slice text (slice child(lookupslice(sli:equipGrid),2), 3)
+	)
+	#determine Body
+	if (check equipment (me, slot:Body)<>-1) then (
+		var1 := check equipment (me, slot:Body)
+		$3="Body: "
+		getItemName (4, var1)
+		3 $+ 4
+		set slice text (slice child(lookupslice(sli:equipGrid),3), 3)
+	) else (
+		$3="Body: Nothing"
+		set slice text (slice child(lookupslice(sli:equipGrid),3), 3)
+	)
+	#determine Accessory
+	if (check equipment (me, slot:Accessory)<>-1) then (
+		var1 := check equipment (me, slot:Accessory)
+		$3="Accessory: "
+		getItemName (4, var1)
+		3 $+ 4
+		set slice text (slice child(lookupslice(sli:equipGrid),4), 3)
+	) else (
+		$3="Accessory: Nothing"
+		set slice text (slice child(lookupslice(sli:equipGrid),4), 3)
+	)
+end
+
+
+
+
+
+script, titlescreen, begin
+	variable (height, sli, sli2, i, j, set1, set2, blend1, blend2, opacity1, opacity2)
+	play song (0)
+
+	set slice visible (getherosprite(me), false)
+	sli := createContainer(426,240)
+	height := slice height (sli)
+
+	set slice clipping (sli, true)
+	set slice lookup(sli, sli:battleback)
+
+	set1 := 15, set2 := 14
+	opacity1 := 60
+	opacity2 := 60
+	blend1 := blend:normal
+	blend2 := blend:normal
+	for (j, 0, 1) do (
+		sli := create container ()
+		set parent(sli, lookupslice(sli:battleback))
+
+		for (i, 0, height--1) do (
+			sli := create container(500, 1)
+			put slice (sli, 0, i) 
+			set parent (sli, last child (lookupslice(sli:battleback)))
+			set slice clipping (sli, true)
+
+			if (j == 0) then (
+				sli2 := load backdrop sprite (set1)
+				set blend mode (sli2, blend1)
+				set opacity (sli2, opacity1)
+
+			) else (
+				sli2 := load backdrop sprite (set2)
+				set blend mode (sli2, blend2)
+				set opacity (sli2, opacity2)
+			)
+
+			set parent (sli2, sli)
+			put slice (sli2, 0, i * -1)	
+		)
+	)
+	sli := load attack sprite (4)
+	set parent (sli, lookupslice(sl:maplayer3))
+	set slice lookup (sli, sli:titlecheck)
+
+	put slice (sli, 9*20, 11*20)
+	open menu (3)
+	state:control := state:title
+	while (state:control == state:title) do (
+		specwait()
+	)
+	screenfadeout
+	sli := loadbackdropsprite(16)
+	dissolveSprite (sli, dissolve:fade, 30, 0, true)
+	specwait(20)
+	state:control := state:title
+	while (state:control == state:title) do (
+		specwait()
+	)
+	dissolveSprite (sli, dissolve:fade, 30, 0)
+	specwait(20)
+	free slice (sli)
+	free slice (lookupslice (sli:titlecheck))
+	free slice (lookupslice(sli:battleback))
+	suspendcontrol
+
+	sli := createContainer(426,240)
+	height := slice height (sli)
+
+	set slice clipping (sli, true)
+	set slice lookup(sli, sli:battleback)
+	slice to back (sli)
+
+	set1 := 17, set2 := 18
+	opacity1 := 60
+	opacity2 := 60
+	blend1 := blend:normal
+	blend2 := blend:normal
+	for (j, 0, 1) do (
+		sli := create container ()
+		set parent(sli, lookupslice(sli:battleback))
+
+		for (i, 0, height--1) do (
+			sli := create container(500, 1)
+			put slice (sli, 0, i) 
+			set parent (sli, last child (lookupslice(sli:battleback)))
+			set slice clipping (sli, true)
+
+			if (j == 0) then (
+				sli2 := load backdrop sprite (set1)
+				set blend mode (sli2, blend1)
+				set opacity (sli2, opacity1)
+
+			) else (
+				sli2 := load backdrop sprite (set2)
+				set blend mode (sli2, blend2)
+				set opacity (sli2, opacity2)
+			)
+
+			set parent (sli2, sli)
+			put slice (sli2, 0, i * -1)	
+		)
+	)
+	sli := load attack sprite (4)
+	set parent (sli, lookupslice(sl:maplayer3))
+	set slice lookup (sli, sli:titlecheck)
+
+	put slice (sli, 9*20, 11*20)
+	screenfadein()
+	for (i, 18, 23) do (write(i))
+	specwait(20)
+	suspendcontrol
+	screenfadeout()
+	fadeMusicOut
+	free slice (lookupslice (sli:titlecheck))
+	free slice (lookupslice(sli:battleback))
+	set slice visible (getherosprite(me), true)
+	set hero position (me, 10, 10)
+	screenfadein()
+	suspendcontrol
+
+	play song (get ambient music)
+end
+
+script, titleupdate, begin
+	variable (sli)
+	sli := lookupslice (sli:titlecheck)
+	if (game:tick,mod,20==1) then (
+		if (get sprite frame (sli)>=2) then (
+			set sprite frame (sli, 0)
+		) else (set sprite frame (sli, get sprite frame (sli)+1))
+	)
+	sinedist(999)
+end
+
+plotscript, newgame, begin
+	suspendcontrol
+end
+
+plotscript, loadgame, begin
+	load from slot(2)
+end
+
+plotscript, continuegame, begin
+	load from slot(1)
+end
+
+plotscript, savegame, begin
+	suspendcontrol
+	fade music out
+	play song(3)
+	screenfadeout
+	suspendcontrol
+	write (36,0,2)
+	suspendcontrol
+	if (checktag(tag:yesno)) then (
+		if (save slot used (2)) then (
+			open menu(6)
+			exit script
+		) else (
+			save in slot(2)
+			play sound (7)
+			write (37)
+			suspendcontrol
+		)
+	)
+	fade music out
+	screenfadein
+	suspendcontrol
+	play song(get ambient music)
+	resumecontrol
+end
+
+plotscript, savegameconfirm, begin
+	save in slot(2)
+	write (37)
+	suspendcontrol
+	fade music out
+	screenfadein
+	suspendcontrol
+	play song(get ambient music)
+	resumecontrol
+end
+
+plotscript, quicksave, begin
+	if (save slot used (1)) then (
+		open menu(4)
+	) else (save in slot(1), play sound (7))
+end
+
+plotscript, quicksavegameconfirm, begin
+	save in slot(1)
+	play sound (7)
+end
+
