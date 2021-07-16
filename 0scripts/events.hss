@@ -26,8 +26,22 @@ plotscript, events, which, begin
 	suspendcontrol
 	switch (currentmap) do (
 		case (2) do (eventsattic(which))
+		case (map:Forest) do (eventsForest(which))
 	)
 	resumecontrol
+end
+
+script, eventsForest, which, begin
+	variable (i, var, who, sli, sli2, sli3, sli4)
+	switch (which) do (
+		case (1) do (
+			for (i,38,43) do (write (i))
+			who := npcReference(which)
+			dissolveSprite(getnpcsprite (who), dissolve:ghostly fade, 80)
+			specwait(70)
+			set tag(tag:smilecatgone,on)
+		)
+	)
 end
 
 script, eventsattic, which, begin

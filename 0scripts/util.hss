@@ -147,7 +147,7 @@ script, three frame walking update, slice, begin
   	current spriteset ==4 || current spriteset ==5 ||  current spriteset ==10 || current spriteset ==11
   ) then (exit script)
   if (
-  	current spriteset ==11
+  	current spriteset ==12 
   ) then (exit script)
 
   variable (extradata, previous frame, current frame, previous spriteset, base spriteset)
@@ -252,6 +252,7 @@ end
 
 plotscript, doorscript, begin
 	variable (x, y, who, door)
+	suspendcontrol
 	x := hero x (me)
 	y := hero y (me)
 	door := door at spot (x,y)
@@ -270,6 +271,7 @@ plotscript, doorscript, begin
 	screenfadeout
 	use door (door, false)
 	screenfadein
+	resumecontrol
 end
 
 script, specwait, ticks=1, begin
