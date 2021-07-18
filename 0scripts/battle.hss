@@ -62,8 +62,8 @@ plotscript, battle, formation, begin
 		switch(battle:selected) do (
 			case (battle:attack) do(battleAttack(formation))
 			case (battle:insult) do(battleinsult(formation))
-			case (battle:nice) do($4="nice!", write(11))
-			case (battle:def) do()
+			case (battle:nice) do(battlenice(formation))
+			case (battle:def) do(battledefend)
 			case (battle:run) do(battlerun(formation))
 		)
 	end
@@ -110,6 +110,19 @@ variable(sli)
 		else ($4="ERROR")
 	)
 	write(11), shakeslice(sli,30,4)
+end
+
+script, battlenice, formation, begin
+	switch (formation) do (
+		case (enemy:Birda) do ($4="You sweet talk her some")
+		case (enemy:Statueacle) do ($4="You tell him how nice and toned his body is")
+		case (enemy:Danca) do ($4="You pull some sick moves.")
+		case (enemy:Tentaeye) do ($4="You give it a nice firm handshake")
+		case (enemy:HunnaGunna) do 	($4="You headpat her disarmingly.")
+		case (enemy:PanicBear) do 	($4="You pull out a bottle of tea and hand it to them")
+		else ($4="ERROR")
+	)
+	write(11)
 end
 
 script, battledefend, begin
