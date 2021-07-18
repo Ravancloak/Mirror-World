@@ -109,15 +109,15 @@ script, eventsattic, which, begin
 				dissolve sprite (sli2, dissolve:shrink to center, 100, 10, true)
 
 				for (i, 1, 80) do (
-					if (game:tick,mod,4==1) then (wildpal(4))
+					if (i,mod,4==1) then (wildpal(4))
 					set sprite frame (sli, (i/2),mod,2)
 					set sprite frame (sli2, (i/2),mod,2)
-					specwait(2)
+					specwait(1)
 				)
 				for (i, 1,80) do (
 
-					if (game:tick,mod,4==1) then (wildpal(4))
-					specwait (2)
+					if (i,mod,4==1) then (wildpal(4))
+					specwait (1)
 					set sprite frame (sli3,4)
 					setSlicey (sli3, i * -2)
 					set sprite frame (sli, (i/2),mod,2)
@@ -128,7 +128,7 @@ script, eventsattic, which, begin
 				dissolve sprite (sli, dissolve:shrink to center, 30, 0)
 				dissolve sprite (sli2, dissolve:shrink to center, 30, 0)
 				for (i, 1, 10) do (
-					if (game:tick,mod,4==1) then (wildpal(4))
+					if (i,mod,4==1) then (wildpal(4))
 					set sprite frame (sli, (i/2),mod,2)
 					set sprite frame (sli2, (i/2),mod,2)
 					specwait(2)
@@ -136,7 +136,7 @@ script, eventsattic, which, begin
 				free slice (sli)
 				free slice (sli2)
 				for (i,0,30) do (
-					if (game:tick,mod,4==1) then (wildpal(4))
+					if (i,mod,4==1) then (wildpal(4))
 					specwait
 				)
 				reset palette
@@ -151,7 +151,7 @@ script, eventsattic, which, begin
 				specwait(100)
 				set slice visible (sli, true)
 				dissolveSprite (sli, dissolve:ghostly fade, 140, 0, true)
-				specwait(300)
+				specwait(200)
 				set slice visible (slice child (lookupslice(sli:mirrorheroes), 0), false)
 				set NPC ignores walls (who, true)
 				set NPC obstructs (who, false)
@@ -166,7 +166,7 @@ script, eventsattic, which, begin
 				set NPCDirection(who, left)
 				specwait(60)
 				set NPCDirection(who, down)
-				specwait(120)
+				specwait(60)
 				set NPC ignores walls (who, false)
 				set NPC obstructs (who, true)
 				pathfind NPC to (who,15,15)
@@ -174,12 +174,32 @@ script, eventsattic, which, begin
 				while(NPC is walking (who)) do (specwait)
 
 				screenfadeout
-				fade music out(20)
 				set slice visible (getherosprite(me), true)
+				set hero direction (me, down)
+				suspend map music
 				teleporttomap(3, 20, 75)
 				specwait(40)
+				resume map music
 				screenfadein
 				write(35)
+				specwait(40)
+				write(41)
+				specwait(40)
+				#npc talking
+				set tag (tag:celest1, on)
+				who := NPC reference (2)
+				sli := getNpcSprite(who)
+				dissolveSprite (sli, dissolve:fade, 100, 0, true)
+				specwait (180)
+				pathfind NPC to (who, heroX+1,heroY)
+				while(NPC is walking (who)) do (specwait)
+				set hero direction (me, right)
+				for (i, 46, 54) do (write (i))
+				dissolveSprite (sli, dissolve:fade, 100)
+				specwait (90)
+				set tag (tag:celest1, off)
+				fade music out()
+				play song (get ambient music)
 			)else (
 				who := NPC reference (0)
 				set NPC frame(who, 1), specwait(5)

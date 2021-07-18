@@ -10,6 +10,7 @@ define constant, begin
 8,tag:got food
 9,tag:SaveGame
 10,tag:smilecatgone
+11,tag:Celest1
 0,song:mirror world title
 1,song:attic
 2,song:prehistoric beats
@@ -86,10 +87,11 @@ define constant, begin
 2,map:Attic
 3,map:Forest
 4,map:Village
-1,atk:Heal1
-2,atk:Heal2
-3,atk:Heal3
-4,atk:Full Heal
+1,atk:Blank
+2,atk:Heal1
+3,atk:Heal2
+4,atk:Heal 3
+5,atk:Full Heal
 0,menu:Main Menu
 1,menu:Settings
 3,menu:Title
@@ -102,6 +104,7 @@ define constant, begin
 4,enemy:Tentaeye
 5,enemy:HunnaGunna
 6,enemy:PanicBear
+7,enemy:Mirror
 1,sli:BattleCol
 2,sli:Enemy Sprite
 3,sli:BattleMenu

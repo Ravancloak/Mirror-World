@@ -1,197 +1,1481 @@
 Loading C:\OHRRPGCE\support\CrashRpt1403.dll
  0.1   ----Starting OHRRPGCE Game----
- 0.1  07-18-2021 11:03:18
+ 0.1  07-18-2021 14:21:06
  0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
  0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
  0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
  0.1  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
  0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
- 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_76185'
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_20836'
  0.1  Spawned from Custom
  0.1  Initialising gfx_sdl2...
  0.2  setvideomode zoom=2 w*h = 640,400
- 0.4  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
- 0.4  disable_native_text_input=0
- 0.4  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
- 0.4  Setting default window settings...
- 0.4  set_resolution 320*200
- 0.4  Setting graphics scaling to x2 change_windowsize=-1
- 0.4  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
- 0.4  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
- 0.4  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+ 0.3  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.3  disable_native_text_input=0
+ 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
 end_debug: no debug/error messages during startup (skipping rest of startup)
 
- 0.5   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
- 0.5  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
- 0.5  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210718110318.854.tmp\
- 0.5  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
- 0.5  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
- 0.5  Name: 
- 1.5  plotscr.hsd version: 3U 
- 2.0  lock_resolution()
- 2.0  set_resolution 426*240
- 2.0  recenter_window_hint()
- 2.0  get_screen_size: true screen size 1600x900
- 2.0  Desktop resolution: 1600*860
- 2.0  automatic_scale_factor(0.5), screen size: 1600*860
- 2.0  Setting graphics scaling to x2 change_windowsize=-1
- 2.0  Preserving fullscreen/windowed state
- 2.0  genRungameFullscreenIndependent: 0
- 2.5  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
- 2.5   Opened as gamecontroller Xbox 360 Controller
- 2.5  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
- 6.1    Loadgame requested; resetgame
-16.3  Loading save slot 0
-16.3  loadgame: 0 is a valid normal slot, updating lastsaveslot
-16.3  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-16.3  unlock_resolution(426,240)
-18.6  set_resolution 426*240
-18.6  lock_resolution()
-18.6  ! Scripterr(5): defkeypress -> keypressmm: slicechild: invalid slice handle 0
-18.6  unlock_resolution(426,240)
-19.0  set_resolution 426*240
-19.0  lock_resolution()
-19.0  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-19.0  unlock_resolution(426,240)
-19.3  set_resolution 426*240
-19.3  lock_resolution()
-19.3  ! Scripterr(5): defkeypress -> keypressmm: setslicevisible: invalid slice handle 0
-19.3  unlock_resolution(426,240)
-19.5  set_resolution 426*240
-19.5  lock_resolution()
-19.5  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-19.5  unlock_resolution(426,240)
-20.1  set_resolution 426*240
-20.1  lock_resolution()
-20.1  ! Scripterr(5): defkeypress -> keypressmm: slicechild: invalid slice handle 0
-20.1  unlock_resolution(426,240)
-20.1  set_resolution 426*240
-20.1  lock_resolution()
-20.1  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-20.1  unlock_resolution(426,240)
-20.2  set_resolution 426*240
-20.2  lock_resolution()
-20.2  ! Scripterr(5): defkeypress -> keypressmm: setslicevisible: invalid slice handle 0
-20.2  unlock_resolution(426,240)
-20.3  set_resolution 426*240
-20.3  lock_resolution()
-20.3  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-20.3  unlock_resolution(426,240)
-20.4  set_resolution 426*240
-20.4  lock_resolution()
-20.4  ! Scripterr(5): defkeypress -> keypressmm: slicechild: invalid slice handle 0
-20.4  unlock_resolution(426,240)
-20.5  set_resolution 426*240
-20.5  lock_resolution()
-20.5  ! Scripterr(5): defkeypress -> keypressmm: firstchild: invalid slice handle 0
-20.5  unlock_resolution(426,240)
-20.6  set_resolution 426*240
-20.6  lock_resolution()
-20.6  ! Scripterr(5): defkeypress -> keypressmm: setslicevisible: invalid slice handle 0
-20.6  unlock_resolution(426,240)
-20.7  set_resolution 426*240
-20.7  lock_resolution()
-52.2  msg: M ohrrpgce.gen
-52.2  msg: M general.reld
-53.7  msg: M ohrrpgce.gen
-53.7  msg: M general.reld
-83.4  msg: M ohrrpgce.gen
-83.4  msg: M general.reld
-99.3  msg: M ohrrpgce.map
-99.3  msg: M ohrrpgce.t03
-99.3  msg: M ohrrpgce.p03
-99.3  msg: M ohrrpgce.e03
-99.3  msg: M ohrrpgce.z03
-99.3  msg: M ohrrpgce.l03
-99.3  msg: M ohrrpgce.n03
-99.3  msg: M ohrrpgce.dox
-99.3  msg: M ohrrpgce.d03
-99.3  msg: M ohrrpgce.mn
-99.3  did not reload ohrrpgce.d03
-99.5  msg: M ohrrpgce.map
-99.5  msg: M ohrrpgce.t03
-99.5  msg: M ohrrpgce.p03
-99.5  msg: M ohrrpgce.e03
-99.5  msg: M ohrrpgce.z03
-99.5  msg: M ohrrpgce.l03
-99.5  msg: M ohrrpgce.n03
-99.5  msg: M ohrrpgce.dox
-99.5  msg: M ohrrpgce.d03
-99.5  did not reload ohrrpgce.d03
-99.5  msg: M ohrrpgce.mn
-100.0  msg: M ohrrpgce.gen
-100.0  msg: M general.reld
-100.3  msg: M ohrrpgce.gen
-106.7  msg: M ohrrpgce.map
-106.7  msg: M ohrrpgce.t01
-106.7  msg: M ohrrpgce.p01
-106.7  msg: M ohrrpgce.e01
-106.7  msg: M ohrrpgce.z01
-106.7  msg: M ohrrpgce.l01
-106.7  msg: M ohrrpgce.n01
-106.7  msg: M ohrrpgce.dox
-106.7  msg: M ohrrpgce.d01
-106.7  msg: M ohrrpgce.mn
-106.7  did not reload ohrrpgce.d01
-109.9  msg: M ohrrpgce.map
-109.9  msg: M ohrrpgce.t01
-109.9  msg: M ohrrpgce.p01
-109.9  msg: M ohrrpgce.e01
-109.9  msg: M ohrrpgce.z01
-109.9  msg: M ohrrpgce.l01
-109.9  msg: M ohrrpgce.n01
-109.9  msg: M ohrrpgce.dox
-109.9  msg: M ohrrpgce.d01
-109.9  msg: M ohrrpgce.mn
-109.9  did not reload ohrrpgce.d01
-114.9  msg: M ohrrpgce.map
-114.9  msg: M ohrrpgce.t01
-114.9  msg: M ohrrpgce.p01
-114.9  msg: M ohrrpgce.e01
-114.9  msg: M ohrrpgce.z01
-114.9  msg: M ohrrpgce.l01
-114.9  msg: M ohrrpgce.n01
-114.9  msg: M ohrrpgce.dox
-114.9  msg: M ohrrpgce.d01
-114.9  msg: M ohrrpgce.mn
-114.9  did not reload ohrrpgce.d01
-115.3  msg: M ohrrpgce.gen
-115.3  msg: M general.reld
-120.1  msg: M ohrrpgce.gen
-132.2  msg: M ohrrpgce.til
-133.0  msg: M ohrrpgce.til
-134.2  msg: M ohrrpgce.til
-137.2  msg: M ohrrpgce.til
-138.3  msg: M ohrrpgce.til
-140.2  msg: M ohrrpgce.til
-148.4  msg: M ohrrpgce.til
-148.4  msg: M defpass.bin
-148.4  did not reload defpass.bin
-149.0  msg: M ohrrpgce.gen
-150.0  msg: M ohrrpgce.gen
-150.0  msg: M general.reld
-159.1  msg: M ohrrpgce.hsp
-159.1  msg: M plotscr.lst
-159.1  msg: M plotscr.lst
-159.1  msg: M lookup1.bin
-159.5  plotscr.hsd version: 3U 
-494.0  msg: M ohrrpgce.hsp
-494.1  msg: M plotscr.lst
-494.1  msg: M plotscr.lst
-494.1  msg: M lookup1.bin
-494.8  plotscr.hsd version: 3U 
-594.7  msg: M ohrrpgce.hsp
-594.7  msg: M plotscr.lst
-594.7  msg: M plotscr.lst
-594.9  plotscr.hsd version: 3U 
-594.9  msg: M lookup1.bin
-6911.4    Loadgame requested; resetgame
-6911.9  Loading save slot 0
-6911.9  loadgame: 0 is a valid normal slot, updating lastsaveslot
-8188.4  Cleaning up and terminating 0
-8188.4  Closing music backend...
-8188.4  ...done
-8188.4  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210718110318.854.tmp\
-8188.6  Closing gfx backend & allmodex...
-8188.6  ...done
-8188.6  End.
+ 0.4   ----Loading C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg----
+ 0.4  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 0.4  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210718142106.60.tmp\
+ 0.4  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.4  savedir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.saves
+ 0.4  Name: 
+ 0.7  plotscr.hsd version: 3U 
+ 1.2  lock_resolution()
+ 1.2  set_resolution 426*240
+ 1.2  recenter_window_hint()
+ 1.2  get_screen_size: true screen size 1600x900
+ 1.2  Desktop resolution: 1600*860
+ 1.2  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.2  Setting graphics scaling to x2 change_windowsize=-1
+ 1.2  Preserving fullscreen/windowed state
+ 1.2  genRungameFullscreenIndependent: 0
+ 1.7  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
+ 1.7   Opened as gamecontroller Xbox 360 Controller
+ 1.7  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
+ 2.7    Loadgame requested; resetgame
+ 3.2  Loading save slot 0
+ 3.2  loadgame: 0 is a valid normal slot, updating lastsaveslot
+56.5  msg: M ohrrpgce.gen
+56.5  msg: M general.reld
+105.7  msg: M ohrrpgce.hsp
+105.7  msg: M plotscr.lst
+105.7  msg: M plotscr.lst
+105.7  msg: M lookup1.bin
+105.9  plotscr.hsd version: 3U 
+110.3    Loadgame requested; resetgame
+110.8  Loading save slot 0
+110.8  loadgame: 0 is a valid normal slot, updating lastsaveslot
+157.3  ! Scripterr(4): defkeypress -> keypressmm -> imuseitem: mapcure: invalid attack ID 0
+157.3  unlock_resolution(426,240)
+159.5  set_resolution 426*240
+159.5  lock_resolution()
+165.0  msg: M ohrrpgce.gen
+165.0  msg: M general.reld
+230.5  msg: M ohrrpgce.dt6
+230.5  msg: M attack.bin
+230.5  did not reload ohrrpgce.dt6
+230.5  did not reload attack.bin
+231.6  msg: M ohrrpgce.dt6
+231.6  msg: M attack.bin
+231.6  did not reload ohrrpgce.dt6
+231.6  did not reload attack.bin
+234.8  msg: M ohrrpgce.dt6
+234.8  msg: M attack.bin
+234.8  did not reload ohrrpgce.dt6
+234.8  did not reload attack.bin
+238.3  msg: M ohrrpgce.dt6
+238.3  msg: M attack.bin
+238.3  did not reload ohrrpgce.dt6
+238.3  did not reload attack.bin
+241.5  msg: M ohrrpgce.dt6
+241.5  msg: M attack.bin
+241.5  did not reload ohrrpgce.dt6
+241.5  did not reload attack.bin
+242.8  msg: M ohrrpgce.dt6
+242.8  msg: M attack.bin
+242.8  did not reload ohrrpgce.dt6
+242.8  did not reload attack.bin
+245.3  msg: M ohrrpgce.dt6
+245.3  msg: M attack.bin
+245.3  did not reload ohrrpgce.dt6
+245.3  did not reload attack.bin
+248.1  msg: M ohrrpgce.dt6
+248.1  msg: M attack.bin
+248.1  did not reload ohrrpgce.dt6
+248.1  did not reload attack.bin
+252.8  msg: M ohrrpgce.dt6
+252.8  msg: M attack.bin
+252.8  did not reload ohrrpgce.dt6
+252.8  did not reload attack.bin
+254.3  msg: M ohrrpgce.dt6
+254.3  msg: M attack.bin
+254.3  did not reload ohrrpgce.dt6
+254.3  did not reload attack.bin
+255.5  msg: M ohrrpgce.dt6
+255.5  msg: M attack.bin
+255.5  did not reload ohrrpgce.dt6
+255.5  did not reload attack.bin
+259.8  msg: M ohrrpgce.dt6
+259.8  msg: M attack.bin
+259.8  did not reload ohrrpgce.dt6
+259.8  did not reload attack.bin
+264.0  msg: M ohrrpgce.dt6
+264.0  msg: M attack.bin
+264.0  did not reload ohrrpgce.dt6
+264.0  did not reload attack.bin
+267.3  msg: M ohrrpgce.dt6
+267.3  msg: M attack.bin
+267.3  did not reload ohrrpgce.dt6
+267.3  did not reload attack.bin
+271.9  msg: M ohrrpgce.dt6
+271.9  msg: M attack.bin
+271.9  did not reload ohrrpgce.dt6
+271.9  did not reload attack.bin
+276.7  JOYSTICKSTATE.UPDATE_KEYBITS(0) took 53ms
+278.8  msg: M ohrrpgce.dt6
+278.8  msg: M attack.bin
+278.8  did not reload ohrrpgce.dt6
+278.8  did not reload attack.bin
+312.4  msg: M ohrrpgce.dt6
+312.4  msg: M attack.bin
+312.4  did not reload ohrrpgce.dt6
+312.4  did not reload attack.bin
+316.7  msg: M ohrrpgce.dt6
+316.7  msg: M attack.bin
+316.7  did not reload ohrrpgce.dt6
+316.7  did not reload attack.bin
+323.4  msg: M ohrrpgce.dt6
+323.4  msg: M attack.bin
+323.4  did not reload ohrrpgce.dt6
+323.4  did not reload attack.bin
+363.8  msg: M ohrrpgce.dt6
+363.8  msg: M attack.bin
+363.8  did not reload ohrrpgce.dt6
+363.8  did not reload attack.bin
+367.3  msg: M ohrrpgce.gen
+367.3  msg: M general.reld
+379.0  msg: M ohrrpgce.itm
+381.8  msg: M ohrrpgce.itm
+433.5  msg: M ohrrpgce.itm
+436.9  msg: M ohrrpgce.itm
+441.1  msg: M ohrrpgce.gen
+441.1  msg: M general.reld
+442.4  msg: M ohrrpgce.gen
+549.4  msg: M ohrrpgce.dt6
+549.4  msg: M attack.bin
+549.5  did not reload ohrrpgce.dt6
+549.5  did not reload attack.bin
+557.4  msg: M ohrrpgce.dt6
+557.4  msg: M attack.bin
+557.4  did not reload ohrrpgce.dt6
+557.4  did not reload attack.bin
+560.4  msg: M ohrrpgce.dt6
+560.4  msg: M attack.bin
+560.4  did not reload ohrrpgce.dt6
+560.4  did not reload attack.bin
+561.4  msg: M ohrrpgce.gen
+561.4  msg: M general.reld
+567.1  msg: M ohrrpgce.gen
+578.4  msg: M ohrrpgce.dt0
+578.4  msg: M heroes.reld
+581.0  msg: M ohrrpgce.dt0
+581.0  msg: M heroes.reld
+583.6  msg: M ohrrpgce.dt0
+583.6  msg: M heroes.reld
+585.0  msg: M ohrrpgce.dt0
+585.0  msg: M heroes.reld
+585.5  msg: M ohrrpgce.gen
+585.5  msg: M general.reld
+589.6  msg: M browse.txt
+589.6  msg: M browse.txt
+589.6  msg: M general.reld
+589.6  msg: M ohrrpgce.gen
+589.6  msg: M general.reld
+597.1  msg: M browse.txt
+597.1  msg: M browse.txt
+597.1  msg: M general.reld
+597.1  msg: M ohrrpgce.gen
+597.1  msg: M general.reld
+657.4  msg: M ohrrpgce.gen
+658.9  msg: M browse.txt
+658.9  msg: M browse.txt
+658.9  msg: M general.reld
+658.9  msg: M ohrrpgce.gen
+658.9  msg: M general.reld
+659.3  msg: M ohrrpgce.gen
+661.7  msg: M ohrrpgce.hsp
+661.7  msg: M plotscr.lst
+661.7  msg: M plotscr.lst
+661.7  msg: M lookup1.bin
+661.9  plotscr.hsd version: 3U 
+661.9  not reloading script defloadgame because it's in use: refcount=1
+661.9  unlock_resolution(426,240)
+663.8  set_resolution 426*240
+663.8  lock_resolution()
+663.8  msg: M ohrrpgce.gen
+663.8  msg: M general.reld
+664.2  plotscr.hsd version: 3U 
+666.0    Loadgame requested; resetgame
+666.5  Loading save slot 0
+666.5  loadgame: 0 is a valid normal slot, updating lastsaveslot
+839.4  msg: M ohrrpgce.map
+839.4  msg: M ohrrpgce.t04
+839.4  msg: M ohrrpgce.p04
+839.4  msg: M ohrrpgce.e04
+839.4  msg: M ohrrpgce.z04
+839.4  msg: M ohrrpgce.l04
+839.4  msg: M ohrrpgce.n04
+839.4  msg: M ohrrpgce.dox
+839.4  msg: M ohrrpgce.d04
+839.4  msg: M ohrrpgce.mn
+839.5  did not reload ohrrpgce.d04
+839.8  msg: M ohrrpgce.map
+839.8  msg: M ohrrpgce.t04
+839.8  msg: M ohrrpgce.p04
+839.8  msg: M ohrrpgce.e04
+839.8  msg: M ohrrpgce.z04
+839.8  msg: M ohrrpgce.l04
+839.8  msg: M ohrrpgce.n04
+839.8  msg: M ohrrpgce.dox
+839.8  msg: M ohrrpgce.d04
+839.8  did not reload ohrrpgce.d04
+839.8  msg: M ohrrpgce.mn
+857.9  msg: M ohrrpgce.map
+857.9  msg: M ohrrpgce.t03
+857.9  msg: M ohrrpgce.p03
+857.9  msg: M ohrrpgce.e03
+857.9  msg: M ohrrpgce.z03
+857.9  msg: M ohrrpgce.l03
+857.9  msg: M ohrrpgce.n03
+857.9  msg: M ohrrpgce.dox
+857.9  msg: M ohrrpgce.d03
+857.9  msg: M ohrrpgce.mn
+858.0  did not reload ohrrpgce.d03
+866.0  msg: M ohrrpgce.n03
+894.8  msg: M ohrrpgce.n03
+897.2  msg: M ohrrpgce.tmn
+897.4  msg: M ohrrpgce.tmn
+897.6  msg: M ohrrpgce.tmn
+898.0  msg: M ohrrpgce.tmn
+899.0  msg: M ohrrpgce.tmn
+899.2  msg: M ohrrpgce.tmn
+899.4  msg: M ohrrpgce.tmn
+899.5  msg: M ohrrpgce.tmn
+899.6  msg: M ohrrpgce.tmn
+899.7  msg: M ohrrpgce.tmn
+899.8  msg: M ohrrpgce.tmn
+900.2  msg: M ohrrpgce.tmn
+903.4  msg: M ohrrpgce.tmn
+903.5  msg: M ohrrpgce.tmn
+903.7  msg: M ohrrpgce.tmn
+903.9  msg: M ohrrpgce.tmn
+904.1  msg: M ohrrpgce.tmn
+912.7  msg: M ohrrpgce.map
+912.7  msg: M ohrrpgce.t03
+912.7  msg: M ohrrpgce.p03
+912.7  msg: M ohrrpgce.e03
+912.8  msg: M ohrrpgce.z03
+912.8  msg: M ohrrpgce.l03
+912.8  msg: M ohrrpgce.n03
+912.8  msg: M ohrrpgce.dox
+912.8  msg: M ohrrpgce.d03
+912.8  msg: M ohrrpgce.mn
+912.8  did not reload ohrrpgce.d03
+918.9  msg: M ohrrpgce.map
+918.9  msg: M ohrrpgce.t03
+918.9  msg: M ohrrpgce.p03
+918.9  msg: M ohrrpgce.e03
+918.9  msg: M ohrrpgce.z03
+918.9  msg: M ohrrpgce.l03
+918.9  msg: M ohrrpgce.n03
+918.9  msg: M ohrrpgce.dox
+918.9  msg: M ohrrpgce.d03
+918.9  msg: M ohrrpgce.mn
+918.9  did not reload ohrrpgce.d03
+923.8    Loadgame requested; resetgame
+924.3  Loading save slot 0
+924.3  loadgame: 0 is a valid normal slot, updating lastsaveslot
+927.2    Loadgame requested; resetgame
+927.7  Loading save slot 1
+927.7  loadgame: 1 is a valid normal slot, updating lastsaveslot
+1023.0  msg: M ohrrpgce.map
+1023.0  msg: M ohrrpgce.t03
+1023.0  msg: M ohrrpgce.p03
+1023.0  msg: M ohrrpgce.e03
+1023.0  msg: M ohrrpgce.z03
+1023.0  msg: M ohrrpgce.l03
+1023.0  msg: M ohrrpgce.n03
+1023.0  msg: M ohrrpgce.dox
+1023.0  msg: M ohrrpgce.d03
+1023.0  msg: M ohrrpgce.mn
+1023.0  did not reload ohrrpgce.d03
+1027.3  msg: M ohrrpgce.n03
+1028.6  msg: M ohrrpgce.map
+1028.6  msg: M ohrrpgce.t03
+1028.6  msg: M ohrrpgce.p03
+1028.6  msg: M ohrrpgce.e03
+1028.6  msg: M ohrrpgce.z03
+1028.6  msg: M ohrrpgce.l03
+1028.6  msg: M ohrrpgce.n03
+1028.6  msg: M ohrrpgce.dox
+1028.6  msg: M ohrrpgce.d03
+1028.6  msg: M ohrrpgce.mn
+1028.6  did not reload ohrrpgce.d03
+1032.1  msg: M ohrrpgce.n03
+1038.5  msg: M ohrrpgce.map
+1038.5  msg: M ohrrpgce.t03
+1038.5  msg: M ohrrpgce.p03
+1038.5  msg: M ohrrpgce.e03
+1038.5  msg: M ohrrpgce.z03
+1038.5  msg: M ohrrpgce.l03
+1038.5  msg: M ohrrpgce.n03
+1038.5  msg: M ohrrpgce.dox
+1038.5  msg: M ohrrpgce.d03
+1038.5  msg: M ohrrpgce.mn
+1038.5  did not reload ohrrpgce.d03
+1044.1  msg: M ohrrpgce.map
+1044.1  msg: M ohrrpgce.t03
+1044.1  msg: M ohrrpgce.p03
+1044.1  msg: M ohrrpgce.e03
+1044.1  msg: M ohrrpgce.z03
+1044.1  msg: M ohrrpgce.l03
+1044.1  msg: M ohrrpgce.n03
+1044.1  msg: M ohrrpgce.dox
+1044.1  msg: M ohrrpgce.d03
+1044.1  msg: M ohrrpgce.mn
+1044.1  did not reload ohrrpgce.d03
+1044.5  msg: M ohrrpgce.gen
+1044.5  msg: M general.reld
+1155.1  msg: M ohrrpgce.gen
+1155.1  msg: M general.reld
+1238.7  msg: M ohrrpgce.map
+1238.7  msg: M ohrrpgce.t03
+1238.7  msg: M ohrrpgce.p03
+1238.7  msg: M ohrrpgce.e03
+1238.7  msg: M ohrrpgce.z03
+1238.7  msg: M ohrrpgce.l03
+1238.7  msg: M ohrrpgce.n03
+1238.7  msg: M ohrrpgce.dox
+1238.7  msg: M ohrrpgce.d03
+1238.7  msg: M ohrrpgce.mn
+1238.7  did not reload ohrrpgce.d03
+1240.7  msg: M ohrrpgce.map
+1240.7  msg: M ohrrpgce.t03
+1240.7  msg: M ohrrpgce.p03
+1240.7  msg: M ohrrpgce.e03
+1240.8  msg: M ohrrpgce.z03
+1240.8  msg: M ohrrpgce.l03
+1240.8  msg: M ohrrpgce.n03
+1240.8  msg: M ohrrpgce.dox
+1240.8  msg: M ohrrpgce.d03
+1240.8  msg: M ohrrpgce.mn
+1240.8  did not reload ohrrpgce.d03
+1241.4  msg: M ohrrpgce.gen
+1241.4  msg: M general.reld
+1245.7  msg: M ohrrpgce.say
+1245.7  did not reload ohrrpgce.say
+1266.2  msg: M ohrrpgce.say
+1266.2  did not reload ohrrpgce.say
+1269.2  msg: M ohrrpgce.say
+1269.2  did not reload ohrrpgce.say
+1285.5  msg: M ohrrpgce.say
+1285.5  did not reload ohrrpgce.say
+1364.4  msg: M ohrrpgce.say
+1364.4  did not reload ohrrpgce.say
+1367.1  msg: M ohrrpgce.say
+1367.1  did not reload ohrrpgce.say
+1412.0  msg: M ohrrpgce.say
+1412.0  did not reload ohrrpgce.say
+1418.4  msg: M ohrrpgce.say
+1418.4  did not reload ohrrpgce.say
+1422.7  msg: M ohrrpgce.say
+1422.7  did not reload ohrrpgce.say
+1425.4  msg: M ohrrpgce.say
+1425.4  did not reload ohrrpgce.say
+1458.5  msg: M ohrrpgce.say
+1458.5  did not reload ohrrpgce.say
+1460.4  msg: M ohrrpgce.say
+1460.4  did not reload ohrrpgce.say
+1524.9  msg: M ohrrpgce.say
+1524.9  did not reload ohrrpgce.say
+1528.0  msg: M ohrrpgce.say
+1528.0  did not reload ohrrpgce.say
+1532.4  msg: M ohrrpgce.say
+1532.4  did not reload ohrrpgce.say
+1535.1  msg: M ohrrpgce.say
+1535.1  did not reload ohrrpgce.say
+1559.8  msg: M ohrrpgce.say
+1559.8  did not reload ohrrpgce.say
+1561.7  msg: M ohrrpgce.say
+1561.7  did not reload ohrrpgce.say
+1571.7  msg: M ohrrpgce.say
+1571.7  did not reload ohrrpgce.say
+1590.1  msg: M ohrrpgce.say
+1590.1  did not reload ohrrpgce.say
+1626.9  msg: M ohrrpgce.gen
+1626.9  msg: M general.reld
+1630.3  msg: M ohrrpgce.gen
+1630.3  msg: M general.reld
+1630.6  msg: M ohrrpgce.gen
+1634.1  msg: M ohrrpgce.hsp
+1634.1  msg: M plotscr.lst
+1634.1  msg: M plotscr.lst
+1634.1  msg: M lookup1.bin
+1634.3  plotscr.hsd version: 3U 
+1637.5    Loadgame requested; resetgame
+1638.0  Loading save slot 1
+1638.0  loadgame: 1 is a valid normal slot, updating lastsaveslot
+1707.6  msg: M ohrrpgce.hsp
+1707.6  msg: M plotscr.lst
+1707.6  msg: M plotscr.lst
+1707.6  msg: M lookup1.bin
+1707.8  plotscr.hsd version: 3U 
+1707.8  not reloading script eventsattic because it's in use: refcount=1
+1707.8  unlock_resolution(426,240)
+1708.5  set_resolution 426*240
+1708.5  lock_resolution()
+1718.2  msg: M ohrrpgce.gen
+1718.2  msg: M general.reld
+1725.0  msg: M ohrrpgce.n03
+1729.9  msg: M ohrrpgce.map
+1729.9  msg: M ohrrpgce.t03
+1729.9  msg: M ohrrpgce.p03
+1729.9  msg: M ohrrpgce.e03
+1729.9  msg: M ohrrpgce.z03
+1729.9  msg: M ohrrpgce.l03
+1729.9  msg: M ohrrpgce.n03
+1729.9  msg: M ohrrpgce.dox
+1729.9  msg: M ohrrpgce.d03
+1729.9  msg: M ohrrpgce.mn
+1729.9  did not reload ohrrpgce.d03
+1783.0  msg: M ohrrpgce.map
+1783.0  msg: M ohrrpgce.t03
+1783.0  msg: M ohrrpgce.p03
+1783.0  msg: M ohrrpgce.e03
+1783.0  msg: M ohrrpgce.z03
+1783.0  msg: M ohrrpgce.l03
+1783.0  msg: M ohrrpgce.n03
+1783.0  msg: M ohrrpgce.dox
+1783.0  msg: M ohrrpgce.d03
+1783.0  did not reload ohrrpgce.d03
+1783.0  msg: M ohrrpgce.mn
+1783.4  msg: M ohrrpgce.gen
+1783.4  msg: M general.reld
+1786.2  msg: M ohrrpgce.hsp
+1786.2  msg: M plotscr.lst
+1786.2  msg: M plotscr.lst
+1786.2  msg: M lookup1.bin
+1786.3  plotscr.hsd version: 3U 
+1789.0    Loadgame requested; resetgame
+1789.5  Loading save slot 1
+1789.5  loadgame: 1 is a valid normal slot, updating lastsaveslot
+1815.3  msg: M ohrrpgce.hsp
+1815.3  msg: M plotscr.lst
+1815.3  msg: M plotscr.lst
+1815.3  msg: M lookup1.bin
+1815.5  plotscr.hsd version: 3U 
+1815.6  not reloading script eventsattic because it's in use: refcount=1
+1815.6  unlock_resolution(426,240)
+1816.4  set_resolution 426*240
+1816.4  lock_resolution()
+1817.0  plotscr.hsd version: 3U 
+1818.5    Loadgame requested; resetgame
+1819.0  Loading save slot 1
+1819.0  loadgame: 1 is a valid normal slot, updating lastsaveslot
+1878.2  msg: M ohrrpgce.hsp
+1878.2  msg: M plotscr.lst
+1878.2  msg: M plotscr.lst
+1878.2  msg: M lookup1.bin
+1878.4  plotscr.hsd version: 3U 
+1878.4  not reloading script eventsattic because it's in use: refcount=1
+1878.5  unlock_resolution(426,240)
+1880.4  set_resolution 426*240
+1880.4  lock_resolution()
+1880.8  plotscr.hsd version: 3U 
+1882.0    Loadgame requested; resetgame
+1882.6  Loading save slot 0
+1882.6  loadgame: 0 is a valid normal slot, updating lastsaveslot
+1884.6    Loadgame requested; resetgame
+1885.1  Loading save slot 1
+1885.1  loadgame: 1 is a valid normal slot, updating lastsaveslot
+1939.1  msg: M ohrrpgce.gen
+1939.1  msg: M general.reld
+1946.3  msg: M ohrrpgce.n03
+1948.5  msg: M ohrrpgce.map
+1948.5  msg: M ohrrpgce.t03
+1948.5  msg: M ohrrpgce.p03
+1948.5  msg: M ohrrpgce.e03
+1948.5  msg: M ohrrpgce.z03
+1948.5  msg: M ohrrpgce.l03
+1948.5  msg: M ohrrpgce.n03
+1948.5  msg: M ohrrpgce.dox
+1948.5  msg: M ohrrpgce.d03
+1948.5  msg: M ohrrpgce.mn
+1948.5  did not reload ohrrpgce.d03
+2053.8  msg: M ohrrpgce.map
+2053.8  msg: M ohrrpgce.t03
+2053.8  msg: M ohrrpgce.p03
+2053.8  msg: M ohrrpgce.e03
+2053.8  msg: M ohrrpgce.z03
+2053.8  msg: M ohrrpgce.l03
+2053.8  msg: M ohrrpgce.n03
+2053.8  msg: M ohrrpgce.dox
+2053.8  msg: M ohrrpgce.d03
+2053.8  msg: M ohrrpgce.mn
+2053.8  did not reload ohrrpgce.d03
+2054.3  msg: M ohrrpgce.gen
+2054.3  msg: M general.reld
+2057.1  msg: M ohrrpgce.hsp
+2057.1  msg: M plotscr.lst
+2057.1  msg: M plotscr.lst
+2057.1  msg: M lookup1.bin
+2057.3  plotscr.hsd version: 3U 
+2059.2    Loadgame requested; resetgame
+2059.7  Loading save slot 1
+2059.7  loadgame: 1 is a valid normal slot, updating lastsaveslot
+2108.2    Loadgame requested; resetgame
+2108.7  Loading save slot 1
+2108.7  loadgame: 1 is a valid normal slot, updating lastsaveslot
+2216.9  msg: M ohrrpgce.hsp
+2216.9  msg: M plotscr.lst
+2216.9  msg: M plotscr.lst
+2216.9  msg: M lookup1.bin
+2217.1  plotscr.hsd version: 3U 
+2218.5    Loadgame requested; resetgame
+2219.0  Loading save slot 1
+2219.0  loadgame: 1 is a valid normal slot, updating lastsaveslot
+2312.0    Loadgame requested; resetgame
+2312.5  Loading save slot 1
+2312.5  loadgame: 1 is a valid normal slot, updating lastsaveslot
+2505.1  msg: M ohrrpgce.gen
+2505.1  msg: M general.reld
+2528.1  msg: M ohrrpgce.dt1
+2539.5  msg: M ohrrpgce.dt1
+2543.9  msg: M ohrrpgce.dt1
+2544.1  msg: M ohrrpgce.gen
+2544.1  msg: M general.reld
+2553.4  msg: M heroform.reld
+2553.4  did not reload heroform.reld
+2559.0  msg: M ohrrpgce.efs
+2561.7  msg: M ohrrpgce.efs
+2563.9  msg: M ohrrpgce.efs
+2575.3  msg: M ohrrpgce.efs
+2580.0  msg: M ohrrpgce.for
+2580.8  msg: M ohrrpgce.for
+2581.0  msg: M ohrrpgce.for
+2582.7  msg: M ohrrpgce.for
+2584.3  msg: M ohrrpgce.for
+2585.1  msg: M ohrrpgce.for
+2587.8  msg: M ohrrpgce.for
+2591.1  msg: M ohrrpgce.efs
+2597.0  msg: M ohrrpgce.for
+2600.6  msg: M ohrrpgce.for
+2603.6  msg: M ohrrpgce.for
+2606.8  msg: M ohrrpgce.for
+2611.5  msg: M ohrrpgce.for
+2616.0  msg: M ohrrpgce.for
+2619.9  msg: M ohrrpgce.for
+2623.7  msg: M ohrrpgce.for
+2628.2  msg: M ohrrpgce.for
+2632.9  msg: M ohrrpgce.for
+2636.3  msg: M ohrrpgce.for
+2640.5  msg: M ohrrpgce.for
+2649.3  msg: M ohrrpgce.efs
+2674.7  msg: M ohrrpgce.efs
+2675.3  msg: M ohrrpgce.gen
+2675.3  msg: M general.reld
+2891.6  msg: M ohrrpgce.map
+2891.6  msg: M ohrrpgce.t03
+2891.6  msg: M ohrrpgce.p03
+2891.6  msg: M ohrrpgce.e03
+2891.6  msg: M ohrrpgce.z03
+2891.6  msg: M ohrrpgce.l03
+2891.6  msg: M ohrrpgce.n03
+2891.6  msg: M ohrrpgce.dox
+2891.6  msg: M ohrrpgce.d03
+2891.6  msg: M ohrrpgce.mn
+2891.6  RELOADMAP_FOEMAP foemap.dirty=0 foemap.changed=-1 foemap.mode=1
+2891.6  did not reload ohrrpgce.d03
+2911.3  msg: M ohrrpgce.map
+2911.3  msg: M ohrrpgce.t03
+2911.3  msg: M ohrrpgce.p03
+2911.3  msg: M ohrrpgce.e03
+2911.3  msg: M ohrrpgce.z03
+2911.3  msg: M ohrrpgce.l03
+2911.3  msg: M ohrrpgce.n03
+2911.3  msg: M ohrrpgce.dox
+2911.3  msg: M ohrrpgce.d03
+2911.3  msg: M ohrrpgce.mn
+2911.3  did not reload ohrrpgce.d03
+2911.5  msg: M ohrrpgce.map
+2911.5  msg: M ohrrpgce.t03
+2911.5  msg: M ohrrpgce.p03
+2911.5  msg: M ohrrpgce.e03
+2911.5  msg: M ohrrpgce.z03
+2911.5  msg: M ohrrpgce.l03
+2911.5  msg: M ohrrpgce.n03
+2911.5  msg: M ohrrpgce.dox
+2911.5  msg: M ohrrpgce.d03
+2911.5  msg: M ohrrpgce.mn
+2911.5  did not reload ohrrpgce.d03
+2940.4  msg: M ohrrpgce.map
+2940.4  msg: M ohrrpgce.t03
+2940.4  msg: M ohrrpgce.p03
+2940.4  msg: M ohrrpgce.e03
+2940.4  msg: M ohrrpgce.z03
+2940.4  msg: M ohrrpgce.l03
+2940.4  msg: M ohrrpgce.n03
+2940.4  msg: M ohrrpgce.dox
+2940.4  msg: M ohrrpgce.d03
+2940.4  msg: M ohrrpgce.mn
+2940.4  did not reload ohrrpgce.d03
+2941.4  msg: M ohrrpgce.gen
+2941.4  msg: M general.reld
+2957.2  msg: M ohrrpgce.dt1
+2960.7  msg: M ohrrpgce.dt1
+2966.7  msg: M ohrrpgce.dt1
+3329.5  msg: M ohrrpgce.dt1
+3330.5  msg: M ohrrpgce.gen
+3330.5  msg: M general.reld
+3335.0  msg: M ohrrpgce.dt0
+3335.0  msg: M heroes.reld
+3335.2  msg: M ohrrpgce.dt0
+3335.3  msg: M heroes.reld
+3335.7  msg: M ohrrpgce.gen
+3335.8  msg: M general.reld
+3434.8  msg: M ohrrpgce.dt1
+3443.9  msg: M ohrrpgce.dt1
+3446.6  msg: M ohrrpgce.dt1
+3447.1  msg: M ohrrpgce.dt1
+3447.4  msg: M ohrrpgce.dt1
+3447.6  msg: M ohrrpgce.dt1
+3447.9  msg: M ohrrpgce.dt1
+3448.1  msg: M ohrrpgce.dt1
+3448.9  msg: M ohrrpgce.dt1
+3449.1  msg: M ohrrpgce.dt1
+3449.2  msg: M ohrrpgce.dt1
+3449.4  msg: M ohrrpgce.dt1
+3449.6  msg: M ohrrpgce.dt1
+3449.8  msg: M ohrrpgce.dt1
+3455.0  msg: M ohrrpgce.dt1
+3459.7  msg: M ohrrpgce.dt1
+3468.8  msg: M ohrrpgce.dt1
+3469.1  msg: M ohrrpgce.gen
+3469.1  msg: M general.reld
+3469.5  msg: M ohrrpgce.gen
+3470.4  msg: M ohrrpgce.gen
+3471.2  msg: M ohrrpgce.gen
+3471.2  msg: M general.reld
+3518.3  msg: M ohrrpgce.dt1
+3541.5  msg: M ohrrpgce.dt1
+3544.4  msg: M ohrrpgce.dt1
+3571.0  ! Scripterr(4): battle -> battleaction -> playerlogic -> battleattack -> battlewin: getitem: invalid item ID 58
+3586.1    Loadgame requested; resetgame
+3586.6  Loading save slot 0
+3586.6  loadgame: 0 is a valid normal slot, updating lastsaveslot
+3600.3  msg: M ohrrpgce.dt1
+3600.7  msg: M ohrrpgce.gen
+3600.7  msg: M general.reld
+3642.7  msg: M ohrrpgce.gen
+3642.7  msg: M general.reld
+3648.1  msg: M ohrrpgce.hsp
+3648.1  msg: M plotscr.lst
+3648.1  msg: M plotscr.lst
+3648.1  msg: M lookup1.bin
+3648.3  plotscr.hsd version: 3U 
+3648.3    Loadgame requested; resetgame
+3648.8  Loading save slot 0
+3648.8  loadgame: 0 is a valid normal slot, updating lastsaveslot
+3714.5  msg: M ohrrpgce.gen
+3714.5  msg: M general.reld
+3728.5  msg: M ohrrpgce.hsp
+3728.5  msg: M plotscr.lst
+3728.5  msg: M plotscr.lst
+3728.5  msg: M lookup1.bin
+3728.7  plotscr.hsd version: 3U 
+3732.2  msg: M ohrrpgce.gen
+3732.2  msg: M general.reld
+3746.4  msg: M ohrrpgce.dt1
+3761.6  msg: M ohrrpgce.dt1
+3762.5  msg: M ohrrpgce.gen
+3762.5  msg: M general.reld
+3823.8  msg: M ohrrpgce.gen
+3823.8  msg: M general.reld
+3877.1  msg: M ohrrpgce.dt6
+3877.1  msg: M attack.bin
+3877.1  did not reload ohrrpgce.dt6
+3877.1  did not reload attack.bin
+3877.5  msg: M ohrrpgce.gen
+3877.5  msg: M general.reld
+3888.1  msg: M ohrrpgce.hsp
+3888.1  msg: M plotscr.lst
+3888.1  msg: M plotscr.lst
+3888.1  msg: M lookup1.bin
+3888.3  plotscr.hsd version: 3U 
+3892.0    Loadgame requested; resetgame
+3892.5  Loading save slot 0
+3892.5  loadgame: 0 is a valid normal slot, updating lastsaveslot
+4109.3  msg: M ohrrpgce.hsp
+4109.3  msg: M plotscr.lst
+4109.3  msg: M plotscr.lst
+4109.3  msg: M lookup1.bin
+4109.5  plotscr.hsd version: 3U 
+4109.5  not reloading script enemyattack because it's in use: refcount=1
+4109.5  unlock_resolution(426,240)
+4111.1  set_resolution 426*240
+4111.1  lock_resolution()
+4111.5  plotscr.hsd version: 3U 
+4128.5  msg: M ohrrpgce.hsp
+4128.5  msg: M plotscr.lst
+4128.5  msg: M plotscr.lst
+4128.5  msg: M lookup1.bin
+4128.7  plotscr.hsd version: 3U 
+4128.7  not reloading script init because it's in use: refcount=1
+4128.7  unlock_resolution(426,240)
+4130.3  set_resolution 426*240
+4130.3  lock_resolution()
+4130.7  plotscr.hsd version: 3U 
+4133.2    Loadgame requested; resetgame
+4133.7  Loading save slot 0
+4133.7  loadgame: 0 is a valid normal slot, updating lastsaveslot
+4138.9    Loadgame requested; resetgame
+4139.5  Loading save slot 0
+4139.5  loadgame: 0 is a valid normal slot, updating lastsaveslot
+4188.6    Loadgame requested; resetgame
+4189.1  Loading save slot 0
+4189.1  loadgame: 0 is a valid normal slot, updating lastsaveslot
+4194.6    Loadgame requested; resetgame
+4195.1  Loading save slot 0
+4195.1  loadgame: 0 is a valid normal slot, updating lastsaveslot
+4252.8  msg: M ohrrpgce.hsp
+4252.8  msg: M plotscr.lst
+4252.8  msg: M plotscr.lst
+4252.8  msg: M lookup1.bin
+4253.0  plotscr.hsd version: 3U 
+4253.0  not reloading script defloadgame because it's in use: refcount=1
+4253.0  unlock_resolution(426,240)
+4255.0  set_resolution 426*240
+4255.0  lock_resolution()
+4255.4  plotscr.hsd version: 3U 
+4256.6    Loadgame requested; resetgame
+4257.2  Loading save slot 0
+4257.2  loadgame: 0 is a valid normal slot, updating lastsaveslot
+4260.9    Loadgame requested; resetgame
+4261.4  Loading save slot 0
+4261.4  loadgame: 0 is a valid normal slot, updating lastsaveslot
+4296.3  savegame: 1 is a valid normal slot, updating lastsaveslot
+4296.3  Saving in slot 1
+4475.9  msg: M ohrrpgce.hsp
+4475.9  msg: M plotscr.lst
+4475.9  msg: M plotscr.lst
+4475.9  msg: M lookup1.bin
+4476.1  plotscr.hsd version: 3U 
+4476.1  not reloading script battledefend because it's in use: refcount=1
+4476.1  unlock_resolution(426,240)
+4476.8  set_resolution 426*240
+4476.8  lock_resolution()
+4477.9  plotscr.hsd version: 3U 
+4479.6    Loadgame requested; resetgame
+4480.1  Loading save slot 0
+4480.1  loadgame: 0 is a valid normal slot, updating lastsaveslot
+4485.3    Loadgame requested; resetgame
+4485.8  Loading save slot 1
+4485.8  loadgame: 1 is a valid normal slot, updating lastsaveslot
+4594.9  msg: M ohrrpgce.hsp
+4594.9  msg: M plotscr.lst
+4594.9  msg: M plotscr.lst
+4594.9  msg: M lookup1.bin
+4595.1  plotscr.hsd version: 3U 
+4596.6    Loadgame requested; resetgame
+4597.1  Loading save slot 1
+4597.1  loadgame: 1 is a valid normal slot, updating lastsaveslot
+4621.1  savegame: 1 is a valid normal slot, updating lastsaveslot
+4621.1  Saving in slot 1
+4635.5    Loadgame requested; resetgame
+4636.0  Loading save slot 1
+4636.0  loadgame: 1 is a valid normal slot, updating lastsaveslot
+4705.0  savegame: 1 is a valid normal slot, updating lastsaveslot
+4705.1  Saving in slot 1
+4713.1    Loadgame requested; resetgame
+4713.6  Loading save slot 1
+4713.6  loadgame: 1 is a valid normal slot, updating lastsaveslot
+4741.2  msg: M ohrrpgce.hsp
+4741.2  msg: M plotscr.lst
+4741.2  msg: M plotscr.lst
+4741.2  msg: M lookup1.bin
+4741.4  plotscr.hsd version: 3U 
+4741.4  not reloading script defloadgame because it's in use: refcount=1
+4741.4  unlock_resolution(426,240)
+4742.3  set_resolution 426*240
+4742.3  lock_resolution()
+4742.8  plotscr.hsd version: 3U 
+4744.5    Loadgame requested; resetgame
+4745.0  Loading save slot 1
+4745.0  loadgame: 1 is a valid normal slot, updating lastsaveslot
+4757.4  savegame: 1 is a valid normal slot, updating lastsaveslot
+4757.4  Saving in slot 1
+4764.4    Loadgame requested; resetgame
+4764.9  Loading save slot 1
+4764.9  loadgame: 1 is a valid normal slot, updating lastsaveslot
+4772.5    Loadgame requested; resetgame
+4773.0  Loading save slot 1
+4773.0  loadgame: 1 is a valid normal slot, updating lastsaveslot
+4785.9  savegame: 1 is a valid normal slot, updating lastsaveslot
+4785.9  Saving in slot 1
+4790.8    Loadgame requested; resetgame
+4791.3  Loading save slot 1
+4791.3  loadgame: 1 is a valid normal slot, updating lastsaveslot
+4904.9  msg: M ohrrpgce.hsp
+4904.9  msg: M plotscr.lst
+4904.9  msg: M plotscr.lst
+4904.9  msg: M lookup1.bin
+4905.0  plotscr.hsd version: 3U 
+4905.0  not reloading script defloadgame because it's in use: refcount=1
+4905.0  unlock_resolution(426,240)
+4905.7  set_resolution 426*240
+4905.7  lock_resolution()
+4906.1  plotscr.hsd version: 3U 
+4907.4    Loadgame requested; resetgame
+4907.9  Loading save slot 0
+4907.9  loadgame: 0 is a valid normal slot, updating lastsaveslot
+4910.8    Loadgame requested; resetgame
+4911.3  Loading save slot 1
+4911.3  loadgame: 1 is a valid normal slot, updating lastsaveslot
+4947.8  savegame: 1 is a valid normal slot, updating lastsaveslot
+4947.8  Saving in slot 1
+4957.4    Loadgame requested; resetgame
+4957.9  Loading save slot 1
+4957.9  loadgame: 1 is a valid normal slot, updating lastsaveslot
+5094.0  savegame: 1 is a valid normal slot, updating lastsaveslot
+5094.0  Saving in slot 1
+5106.1  savegame: 1 is a valid normal slot, updating lastsaveslot
+5106.1  Saving in slot 1
+5218.8  msg: M ohrrpgce.gen
+5218.8  msg: M general.reld
+5882.6  ! Scripterr(4): battle -> battleaction -> playerlogic -> battleattack -> battlewin: getitem: invalid item ID 58
+5967.7  msg: M ohrrpgce.gen
+5967.7  msg: M general.reld
+5986.7  msg: M defpal0.bin
+5986.7  msg: M heroes.rgfx
+5986.7  msg: M ohrrpgce.pal
+5986.7  did not reload defpal0.bin
+5986.7  msg: PAL 0
+6021.6  msg: M ohrrpgce.gen
+6030.7  msg: M defpal3.bin
+6030.7  did not reload defpal3.bin
+6030.7  msg: M enemies.rgfx
+6030.7  msg: M ohrrpgce.pal
+6030.7  msg: PAL 0
+6030.7  did not reload enemies.rgfx
+6034.5  msg: M ohrrpgce.gen
+6036.4  msg: M ohrrpgce.gen
+6036.4  msg: M general.reld
+6039.2  msg: M ohrrpgce.gen
+6039.2  msg: M general.reld
+6042.4  msg: M ohrrpgce.dt1
+6049.0  msg: M ohrrpgce.dt1
+6065.0  msg: M ohrrpgce.dt1
+6065.5  msg: M ohrrpgce.gen
+6065.5  msg: M general.reld
+6070.1  msg: M ohrrpgce.hsp
+6070.1  msg: M plotscr.lst
+6070.1  msg: M plotscr.lst
+6070.1  msg: M lookup1.bin
+6070.3  plotscr.hsd version: 3U 
+6071.3  msg: M ohrrpgce.gen
+6071.3  msg: M general.reld
+6079.1  msg: M ohrrpgce.gen
+6079.1  msg: M general.reld
+6157.0  msg: M ohrrpgce.hsp
+6157.0  msg: M plotscr.lst
+6157.0  msg: M plotscr.lst
+6157.0  msg: M lookup1.bin
+6157.1  plotscr.hsd version: 3U 
+6216.3  msg: M ohrrpgce.gen
+6216.3  msg: M general.reld
+6265.2  msg: M ohrrpgce.gen
+6276.1  msg: M ohrrpgce.say
+6276.1  did not reload ohrrpgce.say
+6278.9  msg: M ohrrpgce.gen
+6278.9  msg: M general.reld
+6291.0  msg: M ohrrpgce.gen
+6291.0  msg: M general.reld
+6391.6  msg: M ohrrpgce.hsp
+6391.6  msg: M plotscr.lst
+6391.6  msg: M plotscr.lst
+6391.6  msg: M lookup1.bin
+6391.8  plotscr.hsd version: 3U 
+6418.3  msg: M ohrrpgce.gen
+6418.3  msg: M general.reld
+6435.9  msg: M ohrrpgce.hsp
+6435.9  msg: M plotscr.lst
+6435.9  msg: M plotscr.lst
+6435.9  msg: M lookup1.bin
+6436.1  plotscr.hsd version: 3U 
+6467.7  msg: M ohrrpgce.hsp
+6467.7  msg: M plotscr.lst
+6467.7  msg: M plotscr.lst
+6467.7  msg: M lookup1.bin
+6467.9  plotscr.hsd version: 3U 
+6470.5    Loadgame requested; resetgame
+6471.0  Loading save slot 0
+6471.0  loadgame: 0 is a valid normal slot, updating lastsaveslot
+6490.2  msg: M ohrrpgce.gen
+6490.2  msg: M general.reld
+6505.3  msg: M ohrrpgce.dt1
+6507.7  msg: M ohrrpgce.gen
+6507.7  msg: M general.reld
+6648.7  msg: M ohrrpgce.hsp
+6648.7  msg: M plotscr.lst
+6648.7  msg: M plotscr.lst
+6648.7  msg: M lookup1.bin
+6648.8  plotscr.hsd version: 3U 
+6666.8  msg: M ohrrpgce.gen
+6666.8  msg: M general.reld
+6787.7  msg: M ohrrpgce.dt0
+6787.7  msg: M heroes.reld
+6788.8  msg: M ohrrpgce.dt0
+6788.8  msg: M heroes.reld
+6789.4  msg: M ohrrpgce.gen
+6789.4  msg: M general.reld
+6907.2  msg: M ohrrpgce.dt0
+6907.2  msg: M heroes.reld
+6909.8  msg: M ohrrpgce.dt0
+6909.8  msg: M heroes.reld
+6911.0  msg: M ohrrpgce.gen
+6911.0  msg: M general.reld
+6942.4  savegame: 1 is a valid normal slot, updating lastsaveslot
+6942.4  Saving in slot 1
+7057.8  savegame: 0 is a valid normal slot, updating lastsaveslot
+7057.8  Saving in slot 0
+7177.7  ! Scripterr(4): battle -> battleaction -> playerlogic -> battleattack -> battlewin: getitem: invalid item ID 58
+7238.0  msg: M ohrrpgce.dt0
+7238.0  msg: M heroes.reld
+7240.2  msg: M ohrrpgce.dt0
+7240.2  msg: M heroes.reld
+7240.5  msg: M ohrrpgce.dt0
+7240.5  msg: M heroes.reld
+7241.3  msg: M ohrrpgce.gen
+7241.3  msg: M general.reld
+7262.1  msg: M ohrrpgce.dt1
+7264.3  msg: M ohrrpgce.dt1
+7269.1  msg: M ohrrpgce.dt1
+7295.7  savegame: 1 is a valid normal slot, updating lastsaveslot
+7295.7  Saving in slot 1
+7381.6  msg: M ohrrpgce.gen
+7381.6  msg: M general.reld
+7381.9  msg: M ohrrpgce.gen
+7387.4  msg: M ohrrpgce.map
+7387.4  msg: M ohrrpgce.t03
+7387.4  msg: M ohrrpgce.p03
+7387.4  msg: M ohrrpgce.e03
+7387.4  msg: M ohrrpgce.z03
+7387.4  msg: M ohrrpgce.l03
+7387.4  msg: M ohrrpgce.n03
+7387.4  msg: M ohrrpgce.dox
+7387.4  msg: M ohrrpgce.d03
+7387.4  msg: M ohrrpgce.mn
+7387.4  did not reload ohrrpgce.d03
+7387.9  msg: M ohrrpgce.gen
+7387.9  msg: M general.reld
+7392.2  msg: M heroform.reld
+7392.2  did not reload heroform.reld
+7404.6  msg: M ohrrpgce.for
+7416.6  msg: M heroform.reld
+7416.6  did not reload heroform.reld
+7420.2  msg: M ohrrpgce.efs
+7423.0  msg: M ohrrpgce.gen
+7423.0  msg: M general.reld
+7423.2  msg: M ohrrpgce.gen
+7544.9  ! Scripterr(4): battle -> battleaction -> playerlogic -> battleattack -> battlewin: getitem: invalid item ID 58
+7563.3  msg: M ohrrpgce.hsp
+7563.3  msg: M plotscr.lst
+7563.3  msg: M plotscr.lst
+7563.3  msg: M lookup1.bin
+7563.4  plotscr.hsd version: 3U 
+7566.9    Loadgame requested; resetgame
+7567.4  Loading save slot 0
+7567.4  loadgame: 0 is a valid normal slot, updating lastsaveslot
+7613.4  ! Scripterr(4): battle -> battleaction -> playerlogic -> battleattack -> battlewin: getitem: invalid item ID 58
+7648.1  ! Scripterr(4): battle -> battleaction -> playerlogic -> battleattack -> battlewin: getitem: invalid item ID 58
+7838.6  msg: M ohrrpgce.gen
+7838.6  msg: M general.reld
+7850.9  msg: M ohrrpgce.map
+7850.9  msg: M ohrrpgce.t01
+7850.9  msg: M ohrrpgce.p01
+7850.9  msg: M ohrrpgce.e01
+7850.9  msg: M ohrrpgce.z01
+7850.9  msg: M ohrrpgce.l01
+7850.9  msg: M ohrrpgce.n01
+7850.9  msg: M ohrrpgce.dox
+7850.9  msg: M ohrrpgce.d01
+7850.9  msg: M ohrrpgce.mn
+7850.9  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+7850.9  did not reload ohrrpgce.d01
+7851.4  msg: M ohrrpgce.map
+7851.4  msg: M ohrrpgce.t01
+7851.4  msg: M ohrrpgce.p01
+7851.4  msg: M ohrrpgce.e01
+7851.4  msg: M ohrrpgce.z01
+7851.4  msg: M ohrrpgce.l01
+7851.4  msg: M ohrrpgce.n01
+7851.4  msg: M ohrrpgce.dox
+7851.4  msg: M ohrrpgce.d01
+7851.4  msg: M ohrrpgce.mn
+7851.4  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+7851.4  did not reload ohrrpgce.d01
+7852.1  msg: M ohrrpgce.gen
+7852.1  msg: M general.reld
+7859.3  msg: M ohrrpgce.map
+7859.3  msg: M ohrrpgce.t01
+7859.3  msg: M ohrrpgce.p01
+7859.3  msg: M ohrrpgce.e01
+7859.3  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+7859.3  msg: M ohrrpgce.z01
+7859.3  msg: M ohrrpgce.l01
+7859.3  msg: M ohrrpgce.n01
+7859.3  msg: M ohrrpgce.dox
+7859.3  msg: M ohrrpgce.d01
+7859.3  msg: M ohrrpgce.mn
+7859.3  did not reload ohrrpgce.d01
+7859.9  msg: M ohrrpgce.map
+7859.9  msg: M ohrrpgce.t01
+7859.9  msg: M ohrrpgce.p01
+7859.9  msg: M ohrrpgce.e01
+7859.9  msg: M ohrrpgce.z01
+7859.9  msg: M ohrrpgce.l01
+7859.9  msg: M ohrrpgce.n01
+7859.9  msg: M ohrrpgce.dox
+7859.9  msg: M ohrrpgce.d01
+7859.9  msg: M ohrrpgce.mn
+7859.9  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+7859.9  did not reload ohrrpgce.d01
+7869.3  msg: M ohrrpgce.map
+7869.3  msg: M ohrrpgce.t01
+7869.3  msg: M ohrrpgce.p01
+7869.3  msg: M ohrrpgce.e01
+7869.3  msg: M ohrrpgce.z01
+7869.3  msg: M ohrrpgce.l01
+7869.3  msg: M ohrrpgce.n01
+7869.3  msg: M ohrrpgce.dox
+7869.3  msg: M ohrrpgce.d01
+7869.3  msg: M ohrrpgce.mn
+7869.3  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+7869.3  did not reload ohrrpgce.d01
+7874.6  msg: M ohrrpgce.map
+7874.6  msg: M ohrrpgce.t01
+7874.6  msg: M ohrrpgce.p01
+7874.6  msg: M ohrrpgce.e01
+7874.6  msg: M ohrrpgce.z01
+7874.6  msg: M ohrrpgce.l01
+7874.6  msg: M ohrrpgce.n01
+7874.6  msg: M ohrrpgce.dox
+7874.6  msg: M ohrrpgce.d01
+7874.6  msg: M ohrrpgce.mn
+7874.6  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+7874.6  did not reload ohrrpgce.d01
+7876.0  msg: M ohrrpgce.map
+7876.0  msg: M ohrrpgce.t01
+7876.0  msg: M ohrrpgce.p01
+7876.0  msg: M ohrrpgce.e01
+7876.0  msg: M ohrrpgce.z01
+7876.0  msg: M ohrrpgce.l01
+7876.0  msg: M ohrrpgce.n01
+7876.0  msg: M ohrrpgce.dox
+7876.0  msg: M ohrrpgce.d01
+7876.0  msg: M ohrrpgce.mn
+7876.0  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+7876.0  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+7876.0  did not reload ohrrpgce.d01
+7902.5  msg: M ohrrpgce.map
+7902.5  msg: M ohrrpgce.t01
+7902.5  msg: M ohrrpgce.p01
+7902.5  msg: M ohrrpgce.e01
+7902.5  msg: M ohrrpgce.z01
+7902.5  msg: M ohrrpgce.l01
+7902.5  msg: M ohrrpgce.n01
+7902.5  msg: M ohrrpgce.dox
+7902.5  msg: M ohrrpgce.d01
+7902.5  msg: M ohrrpgce.mn
+7902.5  did not reload ohrrpgce.d01
+7922.6  msg: M ohrrpgce.map
+7922.6  msg: M ohrrpgce.t03
+7922.6  msg: M ohrrpgce.p03
+7922.6  msg: M ohrrpgce.e03
+7922.6  msg: M ohrrpgce.z03
+7922.6  msg: M ohrrpgce.l03
+7922.6  msg: M ohrrpgce.n03
+7922.6  msg: M ohrrpgce.dox
+7922.6  msg: M ohrrpgce.d03
+7922.6  msg: M ohrrpgce.mn
+7922.6  did not reload ohrrpgce.d03
+7922.9  msg: M ohrrpgce.map
+7922.9  msg: M ohrrpgce.t03
+7922.9  msg: M ohrrpgce.p03
+7922.9  msg: M ohrrpgce.e03
+7922.9  msg: M ohrrpgce.z03
+7922.9  msg: M ohrrpgce.l03
+7922.9  msg: M ohrrpgce.n03
+7922.9  msg: M ohrrpgce.dox
+7922.9  msg: M ohrrpgce.d03
+7922.9  msg: M ohrrpgce.mn
+7922.9  did not reload ohrrpgce.d03
+7930.2  msg: M ohrrpgce.map
+7930.2  msg: M ohrrpgce.t03
+7930.2  msg: M ohrrpgce.p03
+7930.2  msg: M ohrrpgce.e03
+7930.2  msg: M ohrrpgce.z03
+7930.2  msg: M ohrrpgce.l03
+7930.2  msg: M ohrrpgce.n03
+7930.2  msg: M ohrrpgce.dox
+7930.2  msg: M ohrrpgce.d03
+7930.2  msg: M ohrrpgce.mn
+7930.2  did not reload ohrrpgce.d03
+7933.0  msg: M ohrrpgce.map
+7933.0  msg: M ohrrpgce.t03
+7933.0  msg: M ohrrpgce.p03
+7933.0  msg: M ohrrpgce.e03
+7933.0  msg: M ohrrpgce.z03
+7933.0  msg: M ohrrpgce.l03
+7933.0  msg: M ohrrpgce.n03
+7933.0  msg: M ohrrpgce.dox
+7933.0  msg: M ohrrpgce.d03
+7933.0  msg: M ohrrpgce.mn
+7933.0  did not reload ohrrpgce.d03
+7934.4  msg: M ohrrpgce.map
+7934.4  msg: M ohrrpgce.t03
+7934.4  msg: M ohrrpgce.p03
+7934.4  msg: M ohrrpgce.e03
+7934.4  msg: M ohrrpgce.z03
+7934.4  msg: M ohrrpgce.l03
+7934.4  msg: M ohrrpgce.n03
+7934.4  msg: M ohrrpgce.dox
+7934.4  msg: M ohrrpgce.d03
+7934.4  msg: M ohrrpgce.mn
+7934.4  did not reload ohrrpgce.d03
+7935.0  msg: M ohrrpgce.map
+7935.0  msg: M ohrrpgce.t03
+7935.0  msg: M ohrrpgce.p03
+7935.0  msg: M ohrrpgce.e03
+7935.0  msg: M ohrrpgce.z03
+7935.0  msg: M ohrrpgce.l03
+7935.0  msg: M ohrrpgce.n03
+7935.0  msg: M ohrrpgce.dox
+7935.0  msg: M ohrrpgce.d03
+7935.0  msg: M ohrrpgce.mn
+7935.0  did not reload ohrrpgce.d03
+7940.8  msg: M ohrrpgce.gen
+7940.8  msg: M general.reld
+7944.5  msg: M ohrrpgce.gen
+7944.5  msg: M general.reld
+7954.4  msg: M ohrrpgce.til
+7954.4  msg: M defpass.bin
+7954.4  did not reload defpass.bin
+7958.1  msg: M ohrrpgce.til
+7958.5  msg: M ohrrpgce.til
+7958.9  msg: M ohrrpgce.til
+7959.4  msg: M ohrrpgce.til
+7959.9  msg: M ohrrpgce.til
+7960.5  msg: M ohrrpgce.til
+7960.9  msg: M ohrrpgce.til
+7961.2  msg: M ohrrpgce.til
+7961.7  msg: M ohrrpgce.til
+7962.0  msg: M ohrrpgce.til
+7962.4  msg: M ohrrpgce.til
+7962.8  msg: M ohrrpgce.til
+7963.2  msg: M ohrrpgce.til
+7963.6  msg: M ohrrpgce.til
+7963.8  msg: M ohrrpgce.til
+7963.8  msg: M defpass.bin
+7963.8  did not reload defpass.bin
+7964.4  msg: M ohrrpgce.gen
+7964.9  msg: M ohrrpgce.gen
+7964.9  msg: M general.reld
+7969.0  msg: M ohrrpgce.hsp
+7969.0  msg: M plotscr.lst
+7969.0  msg: M plotscr.lst
+7969.0  msg: M lookup1.bin
+7969.1  plotscr.hsd version: 3U 
+7976.9  msg: M ohrrpgce.gen
+7976.9  msg: M general.reld
+7983.5  msg: M ohrrpgce.map
+7983.5  msg: M ohrrpgce.t04
+7983.5  msg: M ohrrpgce.p04
+7983.5  msg: M ohrrpgce.e04
+7983.5  msg: M ohrrpgce.z04
+7983.5  msg: M ohrrpgce.l04
+7983.5  msg: M ohrrpgce.n04
+7983.5  msg: M ohrrpgce.dox
+7983.5  msg: M ohrrpgce.d04
+7983.5  msg: M ohrrpgce.mn
+7983.5  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+7983.6  did not reload ohrrpgce.d04
+7987.1  msg: M ohrrpgce.map
+7987.1  msg: M ohrrpgce.t04
+7987.1  msg: M ohrrpgce.p04
+7987.1  msg: M ohrrpgce.e04
+7987.1  msg: M ohrrpgce.z04
+7987.1  msg: M ohrrpgce.l04
+7987.1  msg: M ohrrpgce.n04
+7987.1  msg: M ohrrpgce.dox
+7987.1  msg: M ohrrpgce.d04
+7987.1  did not reload ohrrpgce.d04
+7987.1  msg: M ohrrpgce.mn
+7990.2  msg: M ohrrpgce.map
+7990.2  msg: M ohrrpgce.t03
+7990.2  msg: M ohrrpgce.p03
+7990.2  msg: M ohrrpgce.e03
+7990.2  msg: M ohrrpgce.z03
+7990.2  msg: M ohrrpgce.l03
+7990.2  msg: M ohrrpgce.n03
+7990.2  msg: M ohrrpgce.dox
+7990.2  msg: M ohrrpgce.d03
+7990.2  msg: M ohrrpgce.mn
+7990.2  did not reload ohrrpgce.d03
+8003.0  msg: M ohrrpgce.map
+8003.0  msg: M ohrrpgce.t03
+8003.0  msg: M ohrrpgce.p03
+8003.0  msg: M ohrrpgce.e03
+8003.0  msg: M ohrrpgce.z03
+8003.0  msg: M ohrrpgce.l03
+8003.0  msg: M ohrrpgce.n03
+8003.0  msg: M ohrrpgce.dox
+8003.0  msg: M ohrrpgce.d03
+8003.0  msg: M ohrrpgce.mn
+8003.0  did not reload ohrrpgce.d03
+8004.2  msg: M ohrrpgce.gen
+8004.2  msg: M general.reld
+8011.4  msg: M ohrrpgce.til
+8011.9  msg: M ohrrpgce.til
+8012.2  msg: M ohrrpgce.til
+8012.6  msg: M ohrrpgce.til
+8012.6  msg: M defpass.bin
+8012.6  did not reload defpass.bin
+8013.1  msg: M ohrrpgce.gen
+8013.8  msg: M ohrrpgce.gen
+8013.8  msg: M general.reld
+8017.0  msg: M ohrrpgce.map
+8017.0  msg: M ohrrpgce.t04
+8017.0  msg: M ohrrpgce.p04
+8017.0  msg: M ohrrpgce.e04
+8017.0  msg: M ohrrpgce.z04
+8017.0  msg: M ohrrpgce.l04
+8017.0  msg: M ohrrpgce.n04
+8017.0  msg: M ohrrpgce.dox
+8017.0  msg: M ohrrpgce.d04
+8017.0  msg: M ohrrpgce.mn
+8017.0  did not reload ohrrpgce.d04
+8021.5  msg: M ohrrpgce.map
+8021.5  msg: M ohrrpgce.t01
+8021.5  msg: M ohrrpgce.p01
+8021.5  msg: M ohrrpgce.e01
+8021.5  msg: M ohrrpgce.z01
+8021.5  msg: M ohrrpgce.l01
+8021.5  msg: M ohrrpgce.n01
+8021.5  msg: M ohrrpgce.dox
+8021.5  msg: M ohrrpgce.d01
+8021.5  msg: M ohrrpgce.mn
+8021.5  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+8021.5  did not reload ohrrpgce.d01
+8055.6  msg: M ohrrpgce.map
+8055.6  msg: M ohrrpgce.t01
+8055.6  msg: M ohrrpgce.p01
+8055.6  msg: M ohrrpgce.e01
+8055.6  msg: M ohrrpgce.z01
+8055.6  msg: M ohrrpgce.l01
+8055.6  msg: M ohrrpgce.n01
+8055.6  msg: M ohrrpgce.dox
+8055.6  msg: M ohrrpgce.d01
+8055.6  msg: M ohrrpgce.mn
+8055.6  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+8055.6  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+8055.6  did not reload ohrrpgce.d01
+8055.9  msg: M ohrrpgce.map
+8055.9  msg: M ohrrpgce.t01
+8055.9  msg: M ohrrpgce.p01
+8055.9  msg: M ohrrpgce.e01
+8055.9  msg: M ohrrpgce.z01
+8055.9  msg: M ohrrpgce.l01
+8055.9  msg: M ohrrpgce.n01
+8055.9  msg: M ohrrpgce.dox
+8055.9  msg: M ohrrpgce.d01
+8055.9  msg: M ohrrpgce.mn
+8055.9  did not reload ohrrpgce.d01
+8083.2  msg: M ohrrpgce.map
+8083.2  msg: M ohrrpgce.t01
+8083.2  msg: M ohrrpgce.p01
+8083.2  msg: M ohrrpgce.e01
+8083.2  msg: M ohrrpgce.z01
+8083.2  msg: M ohrrpgce.l01
+8083.2  msg: M ohrrpgce.n01
+8083.2  msg: M ohrrpgce.dox
+8083.2  msg: M ohrrpgce.d01
+8083.2  msg: M ohrrpgce.mn
+8083.2  did not reload ohrrpgce.d01
+8089.0  msg: M ohrrpgce.map
+8089.0  msg: M ohrrpgce.t01
+8089.0  msg: M ohrrpgce.p01
+8089.0  msg: M ohrrpgce.e01
+8089.0  msg: M ohrrpgce.z01
+8089.0  msg: M ohrrpgce.l01
+8089.0  msg: M ohrrpgce.n01
+8089.0  msg: M ohrrpgce.dox
+8089.0  msg: M ohrrpgce.d01
+8089.0  msg: M ohrrpgce.mn
+8089.0  did not reload ohrrpgce.d01
+8124.1  msg: M ohrrpgce.map
+8124.1  msg: M ohrrpgce.t01
+8124.1  msg: M ohrrpgce.p01
+8124.1  msg: M ohrrpgce.e01
+8124.1  msg: M ohrrpgce.z01
+8124.1  msg: M ohrrpgce.l01
+8124.1  msg: M ohrrpgce.n01
+8124.1  msg: M ohrrpgce.dox
+8124.1  msg: M ohrrpgce.d01
+8124.1  msg: M ohrrpgce.mn
+8124.1  did not reload ohrrpgce.d01
+8124.9  msg: M ohrrpgce.map
+8124.9  msg: M ohrrpgce.t01
+8124.9  msg: M ohrrpgce.p01
+8124.9  msg: M ohrrpgce.e01
+8124.9  msg: M ohrrpgce.z01
+8124.9  msg: M ohrrpgce.l01
+8124.9  msg: M ohrrpgce.n01
+8124.9  msg: M ohrrpgce.dox
+8124.9  msg: M ohrrpgce.d01
+8124.9  msg: M ohrrpgce.mn
+8124.9  did not reload ohrrpgce.d01
+8128.2  msg: M ohrrpgce.map
+8128.2  msg: M ohrrpgce.t01
+8128.2  msg: M ohrrpgce.p01
+8128.2  msg: M ohrrpgce.e01
+8128.2  msg: M ohrrpgce.z01
+8128.2  msg: M ohrrpgce.l01
+8128.2  msg: M ohrrpgce.n01
+8128.2  msg: M ohrrpgce.dox
+8128.2  msg: M ohrrpgce.d01
+8128.2  msg: M ohrrpgce.mn
+8128.2  did not reload ohrrpgce.d01
+8196.0  msg: M ohrrpgce.d01
+8196.0  msg: M ohrrpgce.map
+8196.0  msg: M ohrrpgce.t01
+8196.0  msg: M ohrrpgce.p01
+8196.0  msg: M ohrrpgce.e01
+8196.0  msg: M ohrrpgce.z01
+8196.0  msg: M ohrrpgce.l01
+8196.0  msg: M ohrrpgce.n01
+8196.0  msg: M ohrrpgce.dox
+8196.0  did not reload ohrrpgce.d01
+8196.0  msg: M ohrrpgce.d01
+8196.0  msg: M ohrrpgce.mn
+8196.0  did not reload ohrrpgce.d01
+8197.3  msg: M ohrrpgce.map
+8197.3  msg: M ohrrpgce.t01
+8197.3  msg: M ohrrpgce.p01
+8197.3  msg: M ohrrpgce.e01
+8197.3  msg: M ohrrpgce.z01
+8197.3  msg: M ohrrpgce.l01
+8197.3  msg: M ohrrpgce.n01
+8197.3  msg: M ohrrpgce.dox
+8197.3  msg: M ohrrpgce.d01
+8197.3  msg: M ohrrpgce.mn
+8197.3  did not reload ohrrpgce.d01
+8199.8  msg: M ohrrpgce.map
+8199.8  msg: M ohrrpgce.t04
+8199.8  msg: M ohrrpgce.p04
+8199.8  msg: M ohrrpgce.e04
+8199.9  msg: M ohrrpgce.z04
+8199.9  msg: M ohrrpgce.l04
+8199.9  msg: M ohrrpgce.n04
+8199.9  msg: M ohrrpgce.dox
+8199.9  msg: M ohrrpgce.d04
+8199.9  msg: M ohrrpgce.mn
+8199.9  did not reload ohrrpgce.d04
+8253.6  msg: M ohrrpgce.d04
+8253.6  msg: M ohrrpgce.map
+8253.6  msg: M ohrrpgce.t04
+8253.6  msg: M ohrrpgce.p04
+8253.6  msg: M ohrrpgce.e04
+8253.6  did not reload ohrrpgce.d04
+8253.6  msg: M ohrrpgce.z04
+8253.6  msg: M ohrrpgce.l04
+8253.6  msg: M ohrrpgce.n04
+8253.6  msg: M ohrrpgce.dox
+8253.6  msg: M ohrrpgce.d04
+8253.6  msg: M ohrrpgce.mn
+8253.6  did not reload ohrrpgce.d04
+8289.5  msg: M ohrrpgce.map
+8289.5  msg: M ohrrpgce.t04
+8289.5  msg: M ohrrpgce.p04
+8289.5  msg: M ohrrpgce.e04
+8289.5  msg: M ohrrpgce.z04
+8289.5  msg: M ohrrpgce.l04
+8289.5  msg: M ohrrpgce.n04
+8289.5  msg: M ohrrpgce.dox
+8289.5  msg: M ohrrpgce.d04
+8289.5  msg: M ohrrpgce.mn
+8289.5  did not reload ohrrpgce.d04
+8290.7  msg: M ohrrpgce.gen
+8290.7  msg: M general.reld
+8297.8  msg: M ohrrpgce.gen
+8302.4  msg: M ohrrpgce.til
+8302.7  msg: M ohrrpgce.til
+8303.3  msg: M ohrrpgce.til
+8303.5  msg: M ohrrpgce.til
+8303.8  msg: M ohrrpgce.til
+8303.8  msg: M defpass.bin
+8303.8  did not reload defpass.bin
+8304.4  msg: M ohrrpgce.gen
+8305.2  msg: M ohrrpgce.gen
+8305.2  msg: M general.reld
+8312.0  msg: M ohrrpgce.map
+8312.0  msg: M ohrrpgce.t01
+8312.0  msg: M ohrrpgce.p01
+8312.0  msg: M ohrrpgce.e01
+8312.0  msg: M ohrrpgce.z01
+8312.0  msg: M ohrrpgce.l01
+8312.0  msg: M ohrrpgce.n01
+8312.0  msg: M ohrrpgce.dox
+8312.0  msg: M ohrrpgce.d01
+8312.0  msg: M ohrrpgce.mn
+8312.0  did not reload ohrrpgce.d01
+8314.6  msg: M ohrrpgce.map
+8314.6  msg: M ohrrpgce.t01
+8314.6  msg: M ohrrpgce.p01
+8314.6  msg: M ohrrpgce.e01
+8314.6  msg: M ohrrpgce.z01
+8314.6  msg: M ohrrpgce.l01
+8314.6  msg: M ohrrpgce.n01
+8314.6  msg: M ohrrpgce.dox
+8314.6  msg: M ohrrpgce.d01
+8314.6  msg: M ohrrpgce.mn
+8314.6  did not reload ohrrpgce.d01
+8317.9  msg: M ohrrpgce.map
+8317.9  msg: M ohrrpgce.t01
+8317.9  msg: M ohrrpgce.p01
+8317.9  msg: M ohrrpgce.e01
+8317.9  msg: M ohrrpgce.z01
+8317.9  msg: M ohrrpgce.l01
+8317.9  msg: M ohrrpgce.n01
+8317.9  msg: M ohrrpgce.dox
+8317.9  msg: M ohrrpgce.d01
+8317.9  msg: M ohrrpgce.mn
+8317.9  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+8317.9  did not reload ohrrpgce.d01
+8318.3  msg: M ohrrpgce.map
+8318.3  msg: M ohrrpgce.t01
+8318.3  msg: M ohrrpgce.p01
+8318.3  msg: M ohrrpgce.e01
+8318.3  msg: M ohrrpgce.z01
+8318.3  msg: M ohrrpgce.l01
+8318.3  msg: M ohrrpgce.n01
+8318.3  msg: M ohrrpgce.dox
+8318.3  msg: M ohrrpgce.d01
+8318.3  msg: M ohrrpgce.mn
+8318.3  did not reload ohrrpgce.d01
+8318.7  msg: M ohrrpgce.gen
+8318.7  msg: M general.reld
+8323.1  msg: M ohrrpgce.gen
+8325.0  msg: M ohrrpgce.gen
+8325.0  msg: M general.reld
+8325.4  msg: M ohrrpgce.gen
+8327.6  msg: M ohrrpgce.gen
+8327.6  msg: M general.reld
+8328.3  msg: M ohrrpgce.gen
+8468.7  savegame: 0 is a valid normal slot, updating lastsaveslot
+8468.7  Saving in slot 0
+8492.1  Cleaning up and terminating 0
+8492.1  Closing music backend...
+8492.1  ...done
+8492.1  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210718142106.60.tmp\
+8492.3  Closing gfx backend & allmodex...
+8492.3  ...done
+8492.3  End.

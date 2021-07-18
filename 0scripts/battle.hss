@@ -126,8 +126,10 @@ script, battlenice, formation, begin
 end
 
 script, battledefend, begin
-	$4="You ready yourself."
+	$4="You ready yourself and heal 2 damage."
+	map cure(3, me, me)
 	write(11)
+	updateHearts
 	battle:defend := true
 end
 
@@ -209,7 +211,7 @@ script, enemyattack, formation, begin
 		case (enemy:Danca) do 		($4="She stepped on your toes really hard.")
 		case (enemy:Statueacle) do ($4="He punches you with a powerful hook.")
 		case (enemy:Tentaeye) do 	($4="You're slapped by a tentacle")
-		case (enemy:HunnaGunna) do 	($4="She shoots you in the eye with her water gun.")
+		case (enemy:HunnaGunna) do 	($4="She shoots you in the eye with her\nwater gun.")
 		case (enemy:PanicBear) do 	($4="They trip into you, and that hurts more\nthan it should.")
 		else ($4="ERROR")
 	)
@@ -224,7 +226,7 @@ script, enemyattack, formation, begin
 	set hero stat (me, stat:HP, get herostat(me, stat:HP, currentStat)--battle:damage, currentStat)
 	write(11), play sound (6), shakeslice(sli,30), updateHearts, write(12)
 	if (get herostat(me, stat:HP)<=0) then (
-		$4="You've lost your willpower to keep \nfighting."
+		$4="You've lost your willpower to keep\nfighting."
 		#expand string(4)
 		write(11)
 		defgameover
@@ -266,21 +268,34 @@ script, enemynice, formation, begin
 end
 
 script, battlewin, formation, begin
-	variable (temp)
+	variable (temp, sli)
 	$4="You defeated your enemy"
 	write(11)
-	battleend(formation)
+	
+	sli := lookupslice(sli:enemySprite)
+	dissolve sprite (sli, dissolve:shrink, 80)
+	spec wait (70)
+	setSliceVisible(sli, false)
 
 	temp := get hero level (me)
 	#get rewards
 	get money (read enemy data (formation, enemy:gold))
-	give experience(read enemy data (formation, enemy:experience))
-	if (random(1,100) < read enemy data (formation, enemy:itempercent)) then (
-		get item (enemy:item)
-	)
+	$4="You got $"
+	append number (4, read enemy data (formation, enemy:gold))
+	$4+"!"
+	write(11)
+	give experience(me,read enemy data (formation, enemy:experience))
+	$4="You got "
+	append number (4, read enemy data (formation, enemy:experience))
+	$4+" exp!"
+	write(11)
 	if (temp <> get hero level (me)) then (
 		write (17)
 	)
+	if (random(1,100) > read enemy data (formation, enemy:itempercent)) then (
+		get item (enemy:item)
+	)
+	battleend(formation)
 end
 
 script, getspeed, formation, begin
@@ -305,7 +320,8 @@ script, innitBattle, formation, begin
 	suspendControl()
 	screenFadeOut()
 	fadeMusicOut(10)
-	playSong (7)
+	if (formation == 2) then (playSong (7)) else (play song (5))
+	
 	loadSliceCollection(0)
 	loadBattleback(formation)
 	setupslices(formation)

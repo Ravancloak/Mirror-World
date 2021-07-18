@@ -114,13 +114,15 @@ script, init, begin
 	variable (i)
 	if (save slot used (1)) then (set tag(tag:nosave, on))
 	if (save slot used (2)) then (set tag(tag:savegame, on))
-	var:volume := set music volume (255)
-	set music volume (0--1)
+	set music volume (255)
+	var:volume := getmusicvolume
+	#set music volume (0--1)
 
 	force equip (me, slot:R Hand, item:Pen)
 	force equip (me, slot:Body, item:Dress)
 	force equip (me, slot:Head, item:Flwr Pin)
 	set hero level (me, 1)
+	set level cap (25)
 
 	suspendDoors
 	suspendcontrol
@@ -134,6 +136,8 @@ plotscript, defloadgame, begin
 	suspendDoors
 	suspendcontrol
 	resumecontrol
+	set music volume (var:volume)
+	set level cap (25)
 	mm:sel :=0
 	mainloop
 end
@@ -346,7 +350,8 @@ script, menukeypress, begin
 	if (keypress(right key)) then (
 		if (find menu ID(1)) then(
 			if (selected menu item(top menu)==menu item by true slot(top menu, 1)) then (
-				var:volume := set music volume (getmusicvolume+255/50)
+				set music volume (getmusicvolume+255/50)
+				var:volume := getmusicvolume
 			)
 
 			$1="Music "
@@ -360,7 +365,8 @@ script, menukeypress, begin
 		if (find menu ID(1)) then(
 
 			if (selected menu item(top menu)==menu item by true slot(top menu, 1)) then (
-				var:volume := set music volume (getmusicvolume--255/50)
+				set music volume (getmusicvolume--255/50)
+				var:volume := getmusicvolume
 			)
 			$1="Music "
 			append number (1, musicpercent)

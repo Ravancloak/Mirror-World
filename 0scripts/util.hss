@@ -147,7 +147,7 @@ script, three frame walking update, slice, begin
   	current spriteset ==4 || current spriteset ==5 ||  current spriteset ==10 || current spriteset ==11
   ) then (exit script)
   if (
-  	current spriteset ==12 
+  	current spriteset ==12 || current spriteset ==15
   ) then (exit script)
 
   variable (extradata, previous frame, current frame, previous spriteset, base spriteset)
@@ -233,6 +233,7 @@ end
 script,fademusicout,time=20,begin
 	variable(i, volume)
 	volume := get music volume
+	var:volume := getmusicvolume
 	for(i,1,time,1) do(
 		set music volume(volume --(volume/time)*i)
 		specwait

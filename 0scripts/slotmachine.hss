@@ -84,6 +84,7 @@ script, slotwincheck, begin
 		# make sure there are enough valid items
 		# ID range: 0-2
 		get item name (3,a)
+		get item (a)
 	)
 	
 	free slice (sli2)

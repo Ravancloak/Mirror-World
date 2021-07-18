@@ -107,7 +107,7 @@ end
 script, imUseItem, which, begin
 	switch (item in slot(which)) do (
 		case (0,1,2,3) do (
-			map cure (item in slot(which), me, me)
+			map cure (item in slot(which)+1, me, me)
 			$4=""
 			append number(4, item in slot(which)+1)
 			if (which == 3) then (
