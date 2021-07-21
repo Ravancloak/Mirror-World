@@ -10,8 +10,10 @@ plotscript, slotmachine, begin
 	variable (i, sli, check)
 	
 # init
+	suspendcontrol
 	screenfadeout()
-	loadSliceCollection(1)
+	sli := loadSliceCollection(1)
+	slice to back (sli)
 	for (i,0,2) do (
 		sli := firstchild (slicechild (firstchild (lookupslice (sli:slot)), i))
 		set slice y (sli, random (1,17)*-60 + slotcenter)
@@ -28,9 +30,9 @@ plotscript, slotmachine, begin
 		specwait
 	)
 	suspendcontrol
-	specwait (50)
+	specwait (20)
 	slotwincheck
-	specwait (50)
+	specwait (20)
 	if (string length(3) == 0) then (specwait(90))
 # finish
 	screenfadeout()
