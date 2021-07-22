@@ -25,10 +25,33 @@ end
 plotscript, events, which, begin
 	suspendcontrol
 	switch (currentmap) do (
-		case (2) do (eventsattic(which))
+		case (map:Village House) do (eventsVillageHouse(which))
+		case (map:Attic) do (eventsattic(which))
 		case (map:Forest) do (eventsForest(which))
 	)
 	resumecontrol
+end
+
+script, eventsVillageHouse, which, begin
+	variable (i, var, who, sli, sli2, sli3, sli4)
+	switch (which) do (
+		case (3) do (
+			who := npcReference(4)
+			set npc direction (who, up)
+			specwait(8)
+			set herodirection (me, down)
+			specwait(8)
+			for (i,60,63) do (write (i))
+			settag(tag:heard from elder,true)
+		)
+		case (4) do (
+			if (checktag(tag:heard from elder)==false) then (
+				for (i,60,63) do (write (i))
+				settag(tag:heard from elder,true)
+			) else (write (63))
+
+		)
+	)
 end
 
 script, eventsForest, which, begin
@@ -40,6 +63,14 @@ script, eventsForest, which, begin
 			dissolveSprite(getnpcsprite (who), dissolve:ghostly fade, 80)
 			specwait(70)
 			set tag(tag:smilecatgone,on)
+		)
+		case (3) do (
+			for (i, 64, 66) do (write (i))
+			battle (2)
+		)
+		case (4) do (
+			pathfind hero to(me, 22, 15)
+			use npc (3)
 		)
 	)
 end

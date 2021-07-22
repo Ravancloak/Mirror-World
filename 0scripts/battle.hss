@@ -73,6 +73,7 @@ plotscript, battle, formation, begin
 			case (10,11,12) do (enemyinsult(formation))
 			else (enemynice(formation))
 		)
+		battle:defend := false
 	end
 end
 
@@ -221,7 +222,6 @@ script, enemyattack, formation, begin
 		if (battle:damage == 1) then (battle:damage:=0) else (
 			battle:damage := battle: damage/2
 		)
-		battle:defend := false
 	)
 	set hero stat (me, stat:HP, get herostat(me, stat:HP, currentStat)--battle:damage, currentStat)
 	write(11), play sound (6), shakeslice(sli,30), updateHearts, write(12)
@@ -268,7 +268,7 @@ script, enemynice, formation, begin
 end
 
 script, battlewin, formation, begin
-	variable (temp, sli)
+	variable (temp, sli, var)
 	$4="You defeated your enemy"
 	write(11)
 	
@@ -289,12 +289,16 @@ script, battlewin, formation, begin
 	append number (4, read enemy data (formation, enemy:experience))
 	$4+" exp!"
 	write(11)
+	if (random(1,100) > read enemy data (formation, enemy:itempercent)) then (
+		var := read enemy data (formation, enemy:item)
+		get item name (3, var)
+		write (8)
+		get item (var)
+	)
 	if (temp <> get hero level (me)) then (
 		write (17)
 	)
-	if (random(1,100) > read enemy data (formation, enemy:itempercent)) then (
-		get item (enemy:item)
-	)
+	if (formation==2) then (set tag (tag:statueboss, on))
 	battleend(formation)
 end
 

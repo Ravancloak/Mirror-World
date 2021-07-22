@@ -205,7 +205,7 @@ script, keypressmain, begin
 	if (state:control==false) then (exitScript)
 	#checks to see if player should stop for npc event
 	cur map := current map
-	if (npc at spot (hero x, hero y)) then (exit script)
+	if (npc at spot (hero x, hero y)) then (suspend control, usenpc (npc at spot (hero x, hero y)), specwait, resume control)
 
 	if(hero is walking(0)==false && hero is walking(1)==false && hero is walking(2)==false && hero is walking(3)==false) then (
 		set hero speed(me, 1)
@@ -225,6 +225,7 @@ script, keypressmain, begin
 				exit script
 			)
 		)
+		exit script
 	)
 	
 	if (newkeypressX) then (
@@ -244,8 +245,8 @@ script, keypressmain, begin
 			if (activatableNPC(who) && read NPC (who, NPCstat:activation)==NPCactivation:touch) then (
 				set hero direction (me, up)
 				usenpcatspot
-				exit script
 			)
+			exit script
 		)
 	)
 	if (keypress(down key)) then (
@@ -256,8 +257,8 @@ script, keypressmain, begin
 			if (activatableNPC(who) && read NPC (who, NPCstat:activation)==NPCactivation:touch) then (
 				set hero direction (me, down)
 				usenpcatspot
-				exit script
 			)
+			exit script
 		)
 	)
 	if (keypress(left key)) then (
@@ -268,8 +269,8 @@ script, keypressmain, begin
 			if (activatableNPC(who) && read NPC (who, NPCstat:activation)==NPCactivation:touch) then (
 				set hero direction (me, left)
 				usenpcatspot
-				exit script
 			)
+			exit script
 		)
 	)
 	if (keypress(right key)) then (
@@ -280,8 +281,8 @@ script, keypressmain, begin
 			if (activatableNPC(who) && read NPC (who, NPCstat:activation)==NPCactivation:touch) then (
 				set hero direction (me, right)
 				usenpcatspot
-				exit script
 			)
+			exit script
 		)
 	)
 	)
@@ -295,8 +296,8 @@ script, keypressmain, begin
 
 	subscript, usenpcatspot, begin
 		who := (NPC at spot(x,y))
+		suspendcontrol
 		if (NPC is walking (who) == false) then (
-			suspendcontrol
 			if (read NPC (who,NPCstat:when activated) <> NPCwhenactivated:donotfaceplayer) then (
 				switch(hero direction(me)) do, (
 					case (up) do (set NPC direction (who, down))
@@ -307,7 +308,7 @@ script, keypressmain, begin
 			)
 		)
 		use npc (who)
-		waitmode(1)
+		resumecontrol
 	end
 end
 
