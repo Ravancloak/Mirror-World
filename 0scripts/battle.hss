@@ -87,6 +87,7 @@ script, battleAttack, formation,  begin
 		case (enemy:Tentaeye) do 	($4="You punch its eye.")
 		case (enemy:HunnaGunna) do 	($4="You steal her gun and chuck it at her \nface.")
 		case (enemy:PanicBear) do 	($4="You suplex them into a tree.")
+		case (enemy:Mirror) do 		($4="You kick her and break off part of the \nmirror.")
 		else ($4="ERROR")
 	)
 	battle:damage := getHeroStat(me, stat:Atk) -- getEnemyStat(formation, stat:Def)/2
@@ -102,12 +103,13 @@ script, battleinsult, formation, begin
 variable(sli)
 	sli := lookupslice(sli:enemySprite)
 	switch (formation) do (
-		case (enemy:Birda) do ($4="You begin to grope her boobs.")
-		case (enemy:Statueacle) do ($4="You say he sucks big time.")
-		case (enemy:Danca) do ($4="You tell her she dances terribly.")
-		case (enemy:Tentaeye) do ($4="You tickle the tentacles.")
+		case (enemy:Birda) do 		($4="You begin to grope her boobs.")
+		case (enemy:Statueacle) do 	($4="You say he sucks big time.")
+		case (enemy:Danca) do 		($4="You tell her she dances terribly.")
+		case (enemy:Tentaeye) do 	($4="You tickle the tentacles.")
 		case (enemy:HunnaGunna) do 	($4="You tell her she is flat....\nAnd she cries.")
 		case (enemy:PanicBear) do 	($4="You tell them there's a bomb on their back.")
+		case (enemy:Mirror) do 		($4="You call her fat, but she doesn't\nseem to care.")
 		else ($4="ERROR")
 	)
 	write(11), shakeslice(sli,30,4)
@@ -115,12 +117,13 @@ end
 
 script, battlenice, formation, begin
 	switch (formation) do (
-		case (enemy:Birda) do ($4="You sweet talk her some")
-		case (enemy:Statueacle) do ($4="You tell him how nice and toned his body is")
-		case (enemy:Danca) do ($4="You pull some sick moves.")
-		case (enemy:Tentaeye) do ($4="You give it a nice firm handshake")
+		case (enemy:Birda) do 		($4="You sweet talk her some")
+		case (enemy:Statueacle) do 	($4="You tell him how nice and toned his body is")
+		case (enemy:Danca) do 		($4="You pull some sick moves.")
+		case (enemy:Tentaeye) do 	($4="You give it a nice firm handshake")
 		case (enemy:HunnaGunna) do 	($4="You headpat her disarmingly.")
 		case (enemy:PanicBear) do 	($4="You pull out a bottle of tea and hand it to them")
+		case (enemy:Mirror) do 		($4="You smile at her. She laughs at you.")
 		else ($4="ERROR")
 	)
 	write(11)
@@ -188,6 +191,10 @@ script, setupslices, formation, begin
 			$3="Suplex them."
 			$4="Tell them you have a bomb."
 			$5="Offer them some calming tea."
+		)case (enemy:Mirror) do (
+			$3="Kick her very hard."
+			$4="Call her fat."
+			$5="Smile disarmingly at her."
 		) else (
 			$3="ERROR"
 			$4="ERROR"
@@ -210,10 +217,11 @@ script, enemyattack, formation, begin
 	switch (formation) do (
 		case (enemy:Birda) do 		($4="Birda used wing attack!")
 		case (enemy:Danca) do 		($4="She stepped on your toes really hard.")
-		case (enemy:Statueacle) do ($4="He punches you with a powerful hook.")
+		case (enemy:Statueacle) do 	($4="He punches you with a powerful hook.")
 		case (enemy:Tentaeye) do 	($4="You're slapped by a tentacle")
 		case (enemy:HunnaGunna) do 	($4="She shoots you in the eye with her\nwater gun.")
 		case (enemy:PanicBear) do 	($4="They trip into you, and that hurts more\nthan it should.")
+		case (enemy:Mirror) do 		($4="She attacks you with a whirlwind of\nglass shards.")
 		else ($4="ERROR")
 	)
 	battle:damage := getEnemyStat(formation, stat:Atk) -- getHeroStat(me, stat:Def)/2
@@ -237,12 +245,13 @@ script, enemyinsult, formation, begin
 	variable(sli)
 	sli := lookupslice(sli:battleCol)
 	switch (formation) do (
-		case (enemy:Birda) do ($4="She said you're ugly.")
-		case (enemy:Danca) do ($4="She said your mother cannot dance!")
-		case (enemy:Statueacle) do ($4="He flexes and laughs at you.")
-		case (enemy:Tentaeye) do ($4="A tentacle touches your ass")
+		case (enemy:Birda) do 		($4="She said you're ugly.")
+		case (enemy:Danca) do 		($4="She said your mother cannot dance!")
+		case (enemy:Statueacle) do 	($4="He flexes and laughs at you.")
+		case (enemy:Tentaeye) do 	($4="A tentacle touches your ass")
 		case (enemy:HunnaGunna) do 	($4="She flips you off.")
 		case (enemy:PanicBear) do 	($4="They tell you that you should be at\nwork right now.")
+		case (enemy:Mirror) do 		($4="She calls you ugly.")
 		else (
 			$4="ERROR"
 		)
@@ -254,12 +263,13 @@ script, enemynice, formation, begin
 	variable(sli)
 	sli := lookupslice(sli:battleCol)
 	switch (formation) do (
-		case (enemy:Birda) do ($4="She jiggles her boobs.")
-		case (enemy:Danca) do ($4="She kisses you." )
-		case (enemy:Statueacle) do ($4="He flirtatiously winks at you.")
-		case (enemy:Tentaeye) do ($4="You get a nice neck message.")
+		case (enemy:Birda) do 		($4="She jiggles her boobs.")
+		case (enemy:Danca) do 		($4="She kisses you." )
+		case (enemy:Statueacle) do 	($4="He flirtatiously winks at you.")
+		case (enemy:Tentaeye) do 	($4="You get a nice neck message.")
 		case (enemy:HunnaGunna) do 	($4="She smiles kindly at you.")
 		case (enemy:PanicBear) do 	($4="They calm down long enough to\ncompliment your hair.")
+		case (enemy:Mirror) do 		($4="She laughs maniacally.")
 		else (
 			$4="ERROR"
 		)
@@ -289,7 +299,7 @@ script, battlewin, formation, begin
 	append number (4, read enemy data (formation, enemy:experience))
 	$4+" exp!"
 	write(11)
-	if (random(1,100) > read enemy data (formation, enemy:itempercent)) then (
+	if (random(1,100) < read enemy data (formation, enemy:itempercent)) then (
 		var := read enemy data (formation, enemy:item)
 		get item name (3, var)
 		write (8)
@@ -324,7 +334,7 @@ script, innitBattle, formation, begin
 	suspendControl()
 	screenFadeOut()
 	fadeMusicOut(10)
-	if (formation == 2) then (playSong (7)) else (play song (5))
+	if (formation == 2||formation == 7) then (playSong (7)) else (play song (5))
 	
 	loadSliceCollection(0)
 	loadBattleback(formation)
@@ -435,6 +445,12 @@ script, loadbattleback, formation, begin
 			opacity2 := 70
 			blend1 := blend:normal
 			blend2 := blend:normal
+		)case (enemy:Mirror) do (
+			set1 := 12, set2 := 13
+			opacity1 := 50
+			opacity2 := 50
+			blend1 := blend:normal
+			blend2 := blend:normal
 		) else (
 			set1 := 1, set2 := 1
 			opacity1 := 100
@@ -502,6 +518,9 @@ script, sinedist, formation, begin
 				) case (enemy:PanicBear) do (
 					amplitude := 4, frequency := 8, compression := 1
 					timeScaling := 20, mode := 2
+				)case (enemy:Mirror) do (
+					amplitude := 4, frequency := 20, compression := 1
+					timeScaling := 20, mode := 3
 				) case (999) do (
 					amplitude := 3, frequency := 80, compression := 1
 					timeScaling := 10, mode := 3
@@ -528,6 +547,9 @@ script, sinedist, formation, begin
 					amplitude := 4, frequency := 20, compression := 1
 					timeScaling := 40, mode := 3
 				) case (enemy:PanicBear) do (
+					amplitude := 4, frequency := 20, compression := 1
+					timeScaling := 20, mode := 3
+				)case (enemy:Mirror) do (
 					amplitude := 4, frequency := 20, compression := 1
 					timeScaling := 20, mode := 3
 				) case (999) do (

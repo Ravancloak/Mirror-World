@@ -115,6 +115,7 @@ script, imUseItem, which, begin
 			) else (write (14))
 			delete item(item in slot(which))
 		)
+		case (-1) do ()
 		else (write (15))
 	)
 end

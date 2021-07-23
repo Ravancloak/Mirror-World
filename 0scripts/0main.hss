@@ -185,7 +185,7 @@ script, mapeverytick, begin
 end
 
 plotscript, defkeypress, begin
-	if (keyispressed(key:leftshift)&&keyispressed(key:r)) then (reset game)
+	#if (keyispressed(key:leftshift)&&keyispressed(key:r)) then (reset game)
 	if (topmenu) then (menu keypress, exit script)
 	if (state:textbox) then (exit script)
 	if (newkeypress (key:9)) then (resetcontrols)
@@ -205,7 +205,9 @@ script, keypressmain, begin
 	if (state:control==false) then (exitScript)
 	#checks to see if player should stop for npc event
 	cur map := current map
-	if (npc at spot (hero x, hero y)) then (suspend control, usenpc (npc at spot (hero x, hero y)), specwait, resume control)
+	x := heroX
+	y := heroY
+	if (npc at spot (x,y)) then (suspend control, usenpcatspot(), specwait, resume control)
 
 	if(hero is walking(0)==false && hero is walking(1)==false && hero is walking(2)==false && hero is walking(3)==false) then (
 		set hero speed(me, 1)

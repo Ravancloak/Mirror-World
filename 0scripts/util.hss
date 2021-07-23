@@ -147,7 +147,7 @@ script, three frame walking update, slice, begin
   	current spriteset ==4 || current spriteset ==5 ||  current spriteset ==10 || current spriteset ==11
   ) then (exit script)
   if (
-  	current spriteset ==12 || current spriteset ==15
+  	current spriteset ==12 || current spriteset ==15 || current spriteset ==20 
   ) then (exit script)
 
   variable (extradata, previous frame, current frame, previous spriteset, base spriteset)

@@ -1,33 +1,3 @@
-3008.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\animations\warp hole.bmp twice! Probably a mistake
-3008.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\animations\warp hole.bmp twice! Probably a mistake
-3009.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\animations\warp holefront.bmp twice! Probably a mistake
-3009.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\animations\warp holefront.bmp twice! Probably a mistake
-3009.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\animations\warp hole.bmp twice! Probably a mistake
-3009.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\animations\warp hole.bmp twice! Probably a mistake
-3010.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\animations\star flash thing.bmp twice! Probably a mistake
-3010.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\animations\star flash thing.bmp twice! Probably a mistake
-3010.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\animations\sleeping bed.bmp twice! Probably a mistake
-3010.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\animations\sleeping bed.bmp twice! Probably a mistake
-3010.4  C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\animations\sleeping bed.bmp contains 10 colors
-3101.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.287450.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.111013.tmp"
-3101.9  hspeak version '3Uf'
-3101.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
-3144.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.337546.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.769226.tmp"
-3144.1  hspeak version '3Uf'
-3144.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
-3161.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.896453.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.666337.tmp"
-3161.3  hspeak version '3Uf'
-3161.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
-3176.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.513090.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.29909.tmp"
-3176.2  hspeak version '3Uf'
-3176.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
-3218.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.833173.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.974368.tmp"
-3218.2  hspeak version '3Uf'
-3218.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
-3226.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.878661.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.806155.tmp"
-3227.0  hspeak version '3Uf'
-3227.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "0scripts\mirrorworld.hsi" "0scripts\0main.hss"
-3257.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\backrops\title2.bmp twice! Probably a mistake
 3257.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0-mirrorworld\Art\backrops\title2.bmp twice! Probably a mistake
 3326.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.294775.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.966214.tmp"
 3326.5  hspeak version '3Uf'
@@ -1237,3 +1207,71 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 9207.0  Closing gfx backend & allmodex...
 9207.0  ...done
 9207.0  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Custom----
+ 0.1  07-23-2021 12:55:51
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\custom.exe
+ 0.1  orig_dir: C:\OHRRPGCE
+ 0.1  curdir: C:\OHRRPGCE
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  documents_dir: C:\Users\Dell\Documents
+ 0.1  prefer_gfx_backend: gfx backend sdl isn't available
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  unlock_resolution(320,200)
+ 0.2  music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5
+ 0.4  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.4  Working in C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+ 0.5  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
+ 0.5   Opened as gamecontroller Xbox 360 Controller
+ 0.5  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
+ 4.5  check_ok_to_open...
+ 4.5  pid_current_exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe
+ 4.5  prev_session.workingdir = C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+ 4.5  prev_session.info_file_exists = YES
+ 4.5  prev_session.pid = 6992 (exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe)
+ 4.5  prev_session.running = YES
+ 4.5  prev_session.partial_rpg = NO
+ 4.5  prev_session.fresh_danger_tmp = NO
+ 4.5  prev_session.sourcerpg = 
+ 4.5  prev_session.sourcerpg_old_mtime = 0
+ 4.5  prev_session.sourcerpg_current_mtime = 0
+ 4.5  prev_session.session_start_time = 2021 Jul 23 12:55:51
+ 4.5  prev_session.last_lump_mtime = 0
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 4.5   ----Loading a game----
+ 4.5  07-23-2021 12:55:55
+ 4.5  curdir: C:\OHRRPGCE\0_ohrgames\0-mirrorworld
+ 4.5  tmpdir: C:\Users\Dell\AppData\Roaming\OHRRPGCE\
+ 4.5  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 4.5  Editing game C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.rpg ( )
+ 4.7  Full game data upgrade...
+ 4.7  Last edited by: [[OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell  -g -gen gcc Win32 32-bit]] branch_rev 12220
+ 4.7  archinym creation info: OHRRPGCE wip 20210417
+10.6  distrib doc not found, create it
+69.1  Saving - been editing for 1m05s
+69.5  C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.ico does not exist
+69.6  spawn_and_wait "C:\OHRRPGCE\support\zip.exe" -r -j "C:\OHRRPGCE\0_ohrgames\0-mirrorworld\mirrorworld.zip" "C:\OHRRPGCE\0_ohrgames\0-mirrorworld\zip.tmp"
+70.8  Successfully created mirrorworld.zip
+73.5  Saving - been editing for 4s
+73.6  Rename mac game player
+76.4  ! ERROR: OHRRPGCE-Game.app for x86_64 is not available
+78.2  Saving - been editing for 5s
+78.3  Rename mac game player
+79.5  ! ERROR: OHRRPGCE-Game.app for x86_64 is not available
+195.7  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_26188
+195.8  Channel connection received (after 130ms)
+714.3  channel_write error (closing) (wrote 0 of 15): The pipe is being closed.
+716.1  Cleaning up and terminating 0
+716.1  Closing music backend...
+716.1  ...done
+716.6  Closing gfx backend & allmodex...
+716.6  ...done
+716.6  End.
